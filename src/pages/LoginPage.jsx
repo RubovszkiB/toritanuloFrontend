@@ -2,6 +2,12 @@ import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { clearAuth, getMe, login, saveAuth } from '../services/authService'
 
+const highlights = [
+  'Tételolvasó egy helyen',
+  'Mobilbarát felület',
+  'Később bővíthető admin résszel',
+]
+
 export default function LoginPage() {
   const navigate = useNavigate()
   const [username, setUsername] = useState('')
@@ -18,8 +24,8 @@ export default function LoginPage() {
       .catch(() => clearAuth())
   }, [navigate])
 
-  async function handleSubmit(e) {
-    e.preventDefault()
+  async function handleSubmit(event) {
+    event.preventDefault()
     setError('')
     setLoading(true)
 
@@ -39,44 +45,94 @@ export default function LoginPage() {
   }
 
   return (
-    <div className="app-bg d-flex align-items-center justify-content-center min-vh-100 p-3">
-      <div className="login-shell card border-0 shadow-lg">
-        <div className="card-body p-4 p-md-5">
-          <div className="text-center mb-4">
-            <div className="brand-pill mb-3">TöriTanuló</div>
-            <h1 className="display-6 fw-semibold mb-2">Bejelentkezés</h1>
+    <div className="login-page min-vh-100 d-flex align-items-center py-4 py-md-5">
+      <div className="container">
+        <div className="row g-4 g-lg-5 align-items-center">
+          <div className="col-12 col-lg-6 order-2 order-lg-1">
+            <div className="login-showcase text-white">
+              <span className="badge rounded-pill hero-badge px-3 py-2 mb-3">
+                Történelem tanulóplatform
+              </span>
+              <h1 className="display-5 fw-bold mb-3">
+                Tanulj gyorsabban, átláthatóbban és telefonon is kényelmesen.
+              </h1>
+              <p className="lead text-white-50 mb-4">
+                A belépés után egy új, modern főoldal fogad, ahol helyet kapnak a
+                tételek, gyakorló modulok és később az admin funkciók is.
+              </p>
+
+              <div className="row g-3">
+                {highlights.map((item) => (
+                  <div className="col-12 col-sm-6" key={item}>
+                    <div className="glass-card h-100 p-3 rounded-4">
+                      <div className="small text-uppercase text-white-50 mb-2">Előny</div>
+                      <div className="fw-semibold">{item}</div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
 
-          {error && <div className="alert alert-danger">{error}</div>}
+          <div className="col-12 col-lg-6 order-1 order-lg-2">
+            <div className="card border-0 shadow-lg login-card mx-auto">
+              <div className="card-body p-4 p-md-5">
+                <div className="d-flex align-items-center gap-3 mb-4">
+                  <div className="brand-icon">T</div>
+                  <div>
+                    <div className="text-muted small">Üdv újra</div>
+                    <h2 className="h3 fw-bold mb-0">Bejelentkezés</h2>
+                  </div>
+                </div>
 
-          <form onSubmit={handleSubmit}>
-            <div className="mb-3">
-              <input
-                className="form-control form-control-lg rounded-4"
-                placeholder="Felhasználónév"
-                value={username}
-                onChange={(e) => setUsername(e.target.value)}
-                autoComplete="username"
-                required
-              />
+                <p className="text-muted mb-4">
+                  Lépj be a fiókodba, és folytasd a tanulást a megújult főoldalon.
+                </p>
+
+                {error && (
+                  <div className="alert alert-danger rounded-4" role="alert">
+                    {error}
+                  </div>
+                )}
+
+                <form onSubmit={handleSubmit} className="d-grid gap-3">
+                  <div>
+                    <label className="form-label fw-semibold">Felhasználónév</label>
+                    <input
+                      type="text"
+                      className="form-control form-control-lg rounded-4"
+                      value={username}
+                      onChange={(e) => setUsername(e.target.value)}
+                      autoComplete="username"
+                      placeholder="Add meg a felhasználóneved"
+                      required
+                    />
+                  </div>
+
+                  <div>
+                    <label className="form-label fw-semibold">Jelszó</label>
+                    <input
+                      type="password"
+                      className="form-control form-control-lg rounded-4"
+                      value={password}
+                      onChange={(e) => setPassword(e.target.value)}
+                      autoComplete="current-password"
+                      placeholder="Add meg a jelszavad"
+                      required
+                    />
+                  </div>
+
+                  <button
+                    type="submit"
+                    className="btn btn-primary btn-lg rounded-4 fw-semibold py-3 mt-2"
+                    disabled={loading}
+                  >
+                    {loading ? 'Belépés...' : 'Belépés'}
+                  </button>
+                </form>
+              </div>
             </div>
-
-            <div className="mb-4">
-              <input
-                type="password"
-                className="form-control form-control-lg rounded-4"
-                placeholder="Jelszó"
-                value={password}
-                onChange={(e) => setPassword(e.target.value)}
-                autoComplete="current-password"
-                required
-              />
-            </div>
-
-            <button className="btn btn-primary btn-lg w-100 rounded-4 py-3" disabled={loading}>
-              {loading ? 'Belépés...' : 'Belépés'}
-            </button>
-          </form>
+          </div>
         </div>
       </div>
     </div>

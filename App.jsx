@@ -4,8 +4,6 @@ import AdminRoute from './components/AdminRoute'
 import LoginPage from './pages/LoginPage'
 import HomePage from './pages/HomePage'
 import AdminPage from './pages/AdminPage'
-import TetelekPage from './pages/TetelekPage'
-import TetelReaderPage from './pages/TetelReaderPage'
 
 export default function App() {
   const hasToken = Boolean(localStorage.getItem('token'))
@@ -19,24 +17,6 @@ export default function App() {
         element={
           <ProtectedRoute>
             <HomePage />
-          </ProtectedRoute>
-        }
-      />
-
-      <Route
-        path="/tetelek"
-        element={
-          <ProtectedRoute>
-            <TetelekPage />
-          </ProtectedRoute>
-        }
-      />
-
-      <Route
-        path="/tetelek/:id"
-        element={
-          <ProtectedRoute>
-            <TetelReaderPage />
           </ProtectedRoute>
         }
       />
