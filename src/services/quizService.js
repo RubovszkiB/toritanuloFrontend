@@ -63,9 +63,17 @@ function normalizeTopics(rawTopics) {
 }
 
 function normalizeQuestion(rawQuestion, index = 0) {
-  const rawOptions = rawQuestion?.options || rawQuestion?.valaszopciok || rawQuestion?.opciok || []
+  const rawOptions =
+    rawQuestion?.options ||
+    rawQuestion?.valaszOpcioK ||
+    rawQuestion?.valaszopciok ||
+    rawQuestion?.opciok ||
+    []
   const rawAcceptedAnswers =
-    rawQuestion?.acceptedAnswers || rawQuestion?.helyesValaszok || rawQuestion?.answers || []
+    rawQuestion?.acceptedAnswers ||
+    rawQuestion?.helyesValaszok ||
+    rawQuestion?.answers ||
+    []
   const rawPairs = rawQuestion?.pairs || rawQuestion?.parok || []
 
   return {
@@ -111,6 +119,7 @@ function normalizeTests(rawTests) {
   return list.map((item, index) => ({
     id: pick(item, ['id', 'tesztId'], index + 1),
     topicId: pick(item, ['topicId', 'temakorId'], null),
+    topicTitle: pick(item, ['topicTitle', 'temakorNev'], ''),
     slug: pick(item, ['slug', 'kod'], `teszt-${index + 1}`),
     title: pick(item, ['title', 'cim', 'name'], `Teszt ${index + 1}`),
     description: pick(item, ['description', 'leiras'], ''),
@@ -122,8 +131,8 @@ function normalizeTests(rawTests) {
   }))
 }
 
-function filterYearOnlyTests(tests = []) {
-  return tests.filter((test) => test.type === 'evszam')
+function filterTestsByType(tests = [], quizType = 'evszam') {
+  return tests.filter((test) => test.type === quizType)
 }
 
 function findFallbackTopicById(topicId) {
@@ -237,31 +246,33 @@ export async function getQuizTopics() {
   }
 }
 
-export async function getQuizTests(topicId = null) {
+export async function getQuizTests(topicId = null, quizType = 'evszam') {
   try {
+    const typeQuery = `type=${encodeURIComponent(quizType)}`
+    const separator = topicId ? '&' : '?'
     const rawData = await fetchJsonCandidate([
-      topicId ? `/api/Tesztek?temakorId=${topicId}` : '/api/Tesztek',
-      topicId ? `/api/tesztek?temakorId=${topicId}` : '/api/tesztek',
-      topicId ? `/api/Quiz/tests?topicId=${topicId}` : '/api/Quiz/tests',
-      topicId ? `/api/quiz/tests?topicId=${topicId}` : '/api/quiz/tests',
+      topicId ? `/api/Tesztek?temakorId=${topicId}${separator}${typeQuery}` : `/api/Tesztek?${typeQuery}`,
+      topicId ? `/api/tesztek?temakorId=${topicId}${separator}${typeQuery}` : `/api/tesztek?${typeQuery}`,
+      topicId ? `/api/Quiz/tests?topicId=${topicId}${separator}${typeQuery}` : `/api/Quiz/tests?${typeQuery}`,
+      topicId ? `/api/quiz/tests?topicId=${topicId}${separator}${typeQuery}` : `/api/quiz/tests?${typeQuery}`,
     ])
 
     const apiTests = normalizeTests(rawData)
-    let tests = filterYearOnlyTests(mergeTests(apiTests))
+    let tests = filterTestsByType(mergeTests(apiTests), quizType)
 
     if (topicId) {
       tests = tests.filter((test) => String(test.topicId) === String(topicId))
     }
 
     return {
-      source: getSourceLabel(filterYearOnlyTests(apiTests).length, tests.length),
+      source: getSourceLabel(filterTestsByType(apiTests, quizType).length, tests.length),
       items: tests.map((test) => ({
         ...test,
         questions: [],
       })),
     }
   } catch {
-    let tests = filterYearOnlyTests([...fallbackQuizData.tests])
+    let tests = filterTestsByType([...fallbackQuizData.tests], quizType)
     if (topicId) {
       tests = tests.filter((test) => String(test.topicId) === String(topicId))
     }
@@ -276,7 +287,7 @@ export async function getQuizTests(topicId = null) {
   }
 }
 
-export async function getQuizBySlug(slug) {
+export async function getQuizBySlug(slug, quizType = null) {
   const fallbackTest = findFallbackTestBySlug(slug)
 
   try {
@@ -290,7 +301,7 @@ export async function getQuizBySlug(slug) {
     ])
 
     const test = normalizeTests(rawData)[0] || normalizeTests([rawData])[0]
-    if (!test || test.type !== 'evszam') {
+    if (!test || (quizType && test.type !== quizType)) {
       throw new Error('Hiányos tesztadat')
     }
 
@@ -310,7 +321,7 @@ export async function getQuizBySlug(slug) {
       item: mergedTest,
     }
   } catch {
-    if (!fallbackTest || fallbackTest.type !== 'evszam') {
+    if (!fallbackTest || (quizType && fallbackTest.type !== quizType)) {
       throw new Error('A teszt nem található.')
     }
 

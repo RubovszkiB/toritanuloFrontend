@@ -336,8 +336,10 @@ function QuestionRenderer({ question, answer, onAnswerChange, submitted, evaluat
   )
 }
 
-export default function QuizPlayPage() {
+export default function QuizPlayPage({ quizType = null }) {
   const { slug } = useParams()
+  const hubPath = quizType === 'szemely' ? '/szemely-kviz' : '/tesztek'
+  const hubLabel = quizType === 'szemely' ? 'személykvízekhez' : 'évszám kvízekhez'
   const [quizState, setQuizState] = useState({ source: 'loading', item: null })
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
@@ -352,7 +354,7 @@ export default function QuizPlayPage() {
     setLoading(true)
     setError('')
 
-    getQuizBySlug(slug)
+    getQuizBySlug(slug, quizType)
       .then((state) => {
         if (cancelled) {
           return
@@ -379,7 +381,7 @@ export default function QuizPlayPage() {
     return () => {
       cancelled = true
     }
-  }, [slug])
+  }, [quizType, slug])
 
   const questions = quizState.item?.questions || []
   const activeQuestion = questions[currentIndex] || null
@@ -458,8 +460,8 @@ export default function QuizPlayPage() {
           <div className="container">
             <div className="row g-4 align-items-center">
               <div className="col-12 col-lg-8">
-                <Link to="/tesztek" className="btn btn-outline-light rounded-4 mb-3">
-                  ← Vissza a kvízekhez
+                <Link to={hubPath} className="btn btn-outline-light rounded-4 mb-3">
+                  Vissza a {hubLabel}
                 </Link>
                 <span className="badge rounded-pill section-badge px-3 py-2 mb-3 d-inline-block">
                   {quizState.item?.type || 'teszt'} · {quizState.item?.difficulty || 'vegyes'}

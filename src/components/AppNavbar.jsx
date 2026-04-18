@@ -49,6 +49,11 @@ export default function AppNavbar() {
                 Évszám kvízek
               </NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink to="/szemely-kviz" className="nav-link px-3">
+                Személy kvíz
+              </NavLink>
+            </li>
             {isAdmin && (
               <li className="nav-item">
                 <NavLink to="/admin" className="nav-link px-3 admin-link">

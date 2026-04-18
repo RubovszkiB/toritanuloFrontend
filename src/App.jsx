@@ -47,7 +47,7 @@ export default function App() {
         path="/tesztek"
         element={
           <ProtectedRoute>
-            <QuizHubPage />
+            <QuizHubPage quizType="evszam" />
           </ProtectedRoute>
         }
       />
@@ -56,7 +56,25 @@ export default function App() {
         path="/tesztek/:slug"
         element={
           <ProtectedRoute>
-            <QuizPlayPage />
+            <QuizPlayPage quizType="evszam" />
+          </ProtectedRoute>
+        }
+      />
+
+      <Route
+        path="/szemely-kviz"
+        element={
+          <ProtectedRoute>
+            <QuizHubPage quizType="szemely" />
+          </ProtectedRoute>
+        }
+      />
+
+      <Route
+        path="/szemely-kviz/:slug"
+        element={
+          <ProtectedRoute>
+            <QuizPlayPage quizType="szemely" />
           </ProtectedRoute>
         }
       />

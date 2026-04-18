@@ -16,8 +16,44 @@ const difficultyLabel = {
   nehez: 'Nehéz',
 }
 
+const quizCopy = {
+  evszam: {
+    badge: 'Évszám kvízközpont',
+    navLabel: 'évszám',
+    title: 'Évszám kvízek külön, egyértelműen: itt minden feladat dátumokra és időrendre épül.',
+    lead: 'Válassz témakört, utána csak az ahhoz tartozó évszámteszteket látod. Személy- és fogalomkérdések nem keverednek ide.',
+    stepTwoTitle: 'Évszámtesztek',
+    empty: 'Nincs évszámteszt ehhez a szűréshez.',
+    playPath: '/tesztek',
+  },
+  szemely: {
+    badge: 'Személy kvízközpont',
+    navLabel: 'személy',
+    title: 'Személy kvíz emelt történelemhez: szereplők, fogalmak és történelmi kapcsolatok.',
+    lead: 'A kérdések a csatolt tételek és az emelt követelmény személy-fogalom azonosítására épülő logikája szerint készültek.',
+    stepTwoTitle: 'Személykvízek',
+    empty: 'Nincs személykvíz ehhez a szűréshez.',
+    playPath: '/szemely-kviz',
+  },
+}
+
 function getTopicStats(topics, tests) {
-  return topics
+  const topicMap = new Map(topics.map((topic) => [String(topic.id), { ...topic }]))
+
+  tests.forEach((test) => {
+    const key = String(test.topicId)
+    if (!topicMap.has(key)) {
+      topicMap.set(key, {
+        id: test.topicId,
+        code: test.topicCode || `temakor-${test.topicId}`,
+        title: test.topicTitle || test.topicName || test.temakorNev || 'Szemely kviz temakor',
+        description: test.topicDescription || '',
+        order: 999,
+      })
+    }
+  })
+
+  return [...topicMap.values()]
     .map((topic) => {
       const topicTests = tests.filter((test) => String(test.topicId) === String(topic.id))
       return {
@@ -27,9 +63,18 @@ function getTopicStats(topics, tests) {
       }
     })
     .filter((topic) => topic.testCount > 0)
+    .sort((first, second) => {
+      const orderDelta = (first.order || 999) - (second.order || 999)
+      if (orderDelta !== 0) {
+        return orderDelta
+      }
+
+      return first.title.localeCompare(second.title, 'hu')
+    })
 }
 
-export default function QuizHubPage() {
+export default function QuizHubPage({ quizType = 'evszam' }) {
+  const copy = quizCopy[quizType] || quizCopy.evszam
   const [topicsState, setTopicsState] = useState({ source: 'loading', items: [] })
   const [testsState, setTestsState] = useState({ source: 'loading', items: [] })
   const [selectedTopic, setSelectedTopic] = useState('all')
@@ -39,7 +84,7 @@ export default function QuizHubPage() {
   useEffect(() => {
     let cancelled = false
 
-    Promise.all([getQuizTopics(), getQuizTests()]).then(([topics, tests]) => {
+    Promise.all([getQuizTopics(), getQuizTests(null, quizType)]).then(([topics, tests]) => {
       if (cancelled) {
         return
       }
@@ -51,7 +96,7 @@ export default function QuizHubPage() {
     return () => {
       cancelled = true
     }
-  }, [])
+  }, [quizType])
 
   const topicStats = useMemo(
     () => getTopicStats(topicsState.items, testsState.items),
@@ -106,12 +151,12 @@ export default function QuizHubPage() {
           <div className="container">
             <div className="row g-4 align-items-center">
               <div className="col-12 col-lg-7">
-                <span className="badge rounded-pill section-badge px-3 py-2 mb-3">Évszám kvízközpont</span>
+                <span className="badge rounded-pill section-badge px-3 py-2 mb-3">{copy.badge}</span>
                 <h1 className="display-6 fw-bold text-white mb-3">
-                  Mostantól a társadalmi, állampolgári, pénzügyi és munkavállalói ismeretek blokkja is külön, csak évszámokra épülő tesztekkel jelenik meg.
+                  {copy.title}
                 </h1>
                 <p className="lead text-white-50 mb-0">
-                  Először válassz témakört, utána a hozzá tartozó évszámteszteket látod külön blokkban.
+                  {copy.lead}
                 </p>
               </div>
 
@@ -140,8 +185,7 @@ export default function QuizHubPage() {
 
                   {sourceIsFallback && (
                     <div className="alert alert-warning rounded-4 mt-4 mb-0 small">
-                      A felület most már csak évszámteszteket mutat. Ha a backendben még ott vannak a régi vegyes tesztek,
-                      azokat ez a nézet automatikusan kiszűri.
+                      Ez a nézet csak a(z) {copy.navLabel} típusú teszteket mutatja. A többi kvíztípus külön modulban marad.
                     </div>
                   )}
                 </div>
@@ -162,7 +206,7 @@ export default function QuizHubPage() {
                   </p>
                 </div>
                 <div className="stage-badges d-flex flex-wrap gap-2 align-items-start">
-                  <span className="badge text-bg-light rounded-pill px-3 py-2">Csak évszám</span>
+                  <span className="badge text-bg-light rounded-pill px-3 py-2">Csak {copy.navLabel}</span>
                   <span className="badge text-bg-primary rounded-pill px-3 py-2">{topicStats.length} témakör</span>
                 </div>
               </div>
@@ -195,10 +239,10 @@ export default function QuizHubPage() {
               <div className="stage-header d-flex flex-column flex-xl-row justify-content-between gap-3 mb-4">
                 <div>
                   <div className="step-kicker">2. lépés</div>
-                  <h2 className="h3 fw-bold mb-2">Évszámtesztek</h2>
+                  <h2 className="h3 fw-bold mb-2">{copy.stepTwoTitle}</h2>
                   <p className="text-muted mb-0">
                     {selectedTopicMeta
-                      ? `${selectedTopicMeta.title} témakörhöz tartozó évszámtesztek.`
+                      ? `${selectedTopicMeta.title} témakörhöz tartozó ${copy.navLabel} kvízek.`
                       : 'Válassz témakört a tesztek megjelenítéséhez.'}
                   </p>
                 </div>
@@ -260,7 +304,7 @@ export default function QuizHubPage() {
                     <div className="card border-0 shadow-sm rounded-5 h-100 module-card test-card-emphasis">
                       <div className="card-body p-4 d-flex flex-column">
                         <div className="d-flex flex-wrap gap-2 mb-3">
-                          <span className="badge text-bg-light rounded-pill px-3 py-2 text-uppercase">évszám</span>
+                          <span className="badge text-bg-light rounded-pill px-3 py-2 text-uppercase">{copy.navLabel}</span>
                           <span className="badge text-bg-warning rounded-pill px-3 py-2 text-uppercase">
                             {difficultyLabel[test.difficulty] || test.difficulty}
                           </span>
@@ -271,7 +315,7 @@ export default function QuizHubPage() {
                           <span>{test.questionCount} kérdés</span>
                           <span>{Math.round((test.timeLimitSec || 0) / 60)} perc</span>
                         </div>
-                        <Link to={`/tesztek/${test.slug}`} className="btn btn-primary rounded-4 fw-semibold mt-auto">
+                        <Link to={`${copy.playPath}/${test.slug}`} className="btn btn-primary rounded-4 fw-semibold mt-auto">
                           Teszt indítása
                         </Link>
                       </div>
@@ -283,7 +327,7 @@ export default function QuizHubPage() {
               {!filteredTests.length && (
                 <div className="empty-state-card rounded-5 p-5 mt-4 text-center">
                   <h3 className="h4 fw-bold mb-2">Nincs találat</h3>
-                  <p className="text-muted mb-0">Próbálj másik témakört vagy nehézséget választani.</p>
+                  <p className="text-muted mb-0">{copy.empty}</p>
                 </div>
               )}
             </div>
