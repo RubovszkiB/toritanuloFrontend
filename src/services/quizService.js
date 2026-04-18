@@ -46,6 +46,36 @@ function pick(obj, keys, fallback = null) {
   return fallback
 }
 
+const windows1252Controls = new Map([
+  [0x2018, 0x91],
+  [0x2019, 0x92],
+  [0x201c, 0x93],
+  [0x201d, 0x94],
+  [0x2013, 0x96],
+  [0x2014, 0x97],
+])
+
+function fixMojibake(value) {
+  if (typeof value !== 'string' || !/[ÃÂÅ]/.test(value)) {
+    return value
+  }
+
+  try {
+    const bytes = Uint8Array.from([...value].map((char) => {
+      const code = char.charCodeAt(0)
+      return windows1252Controls.get(code) ?? code
+    }))
+
+    return new TextDecoder('utf-8', { fatal: true }).decode(bytes)
+  } catch {
+    return value
+  }
+}
+
+function pickText(obj, keys, fallback = '') {
+  return fixMojibake(pick(obj, keys, fallback))
+}
+
 function normalizeTopics(rawTopics) {
   const list = Array.isArray(rawTopics)
     ? rawTopics
@@ -54,8 +84,8 @@ function normalizeTopics(rawTopics) {
   return list.map((item, index) => ({
     id: pick(item, ['id', 'temakorId', 'topicId'], index + 1),
     code: pick(item, ['kod', 'code', 'slug'], `temakor-${index + 1}`),
-    title: pick(item, ['nev', 'title', 'name'], `Témakör ${index + 1}`),
-    description: pick(item, ['leiras', 'description'], ''),
+    title: pickText(item, ['nev', 'title', 'name'], `Témakör ${index + 1}`),
+    description: pickText(item, ['leiras', 'description'], ''),
     order: pick(item, ['sorszam', 'order'], index + 1),
     testCount: pick(item, ['testCount', 'tesztDb'], 0),
     questionCount: pick(item, ['questionCount', 'kerdesDb'], 0),
@@ -80,32 +110,32 @@ function normalizeQuestion(rawQuestion, index = 0) {
     id: pick(rawQuestion, ['id', 'kerdesId'], index + 1),
     typeId: pick(rawQuestion, ['typeId', 'kerdesTipusId'], null),
     type: pick(rawQuestion, ['type', 'tipusKod', 'kerdesTipusKod'], 'single_choice'),
-    typeLabel: pick(rawQuestion, ['typeLabel', 'tipusNev', 'kerdesTipusNev'], 'Kérdés'),
-    text: pick(rawQuestion, ['text', 'kerdesSzoveg', 'questionText'], 'Kérdés'),
-    instruction: pick(rawQuestion, ['instruction', 'instrukcio'], ''),
-    explanation: pick(rawQuestion, ['explanation', 'magyarazat'], ''),
+    typeLabel: pickText(rawQuestion, ['typeLabel', 'tipusNev', 'kerdesTipusNev'], 'Kérdés'),
+    text: pickText(rawQuestion, ['text', 'kerdesSzoveg', 'questionText'], 'Kérdés'),
+    instruction: pickText(rawQuestion, ['instruction', 'instrukcio'], ''),
+    explanation: pickText(rawQuestion, ['explanation', 'magyarazat'], ''),
     difficulty: pick(rawQuestion, ['difficulty', 'nehezseg'], 2),
     points: pick(rawQuestion, ['points', 'pontszam'], 1),
     order: pick(rawQuestion, ['order', 'sorszam'], index + 1),
     chronologyEvent: pick(rawQuestion, ['chronologyEvent', 'kronologiaEsemeny'], null),
     options: rawOptions.map((option, optionIndex) => ({
       id: pick(option, ['id', 'valaszId'], optionIndex + 1),
-      text: pick(option, ['text', 'valaszSzoveg'], `Opció ${optionIndex + 1}`),
+      text: pickText(option, ['text', 'valaszSzoveg'], `Opció ${optionIndex + 1}`),
       isCorrect: Boolean(pick(option, ['isCorrect', 'helyes'], false)),
       correctOrder: pick(option, ['correctOrder', 'helyesSorrend'], null),
       order: pick(option, ['order', 'sorszam'], optionIndex + 1),
     })),
     acceptedAnswers: rawAcceptedAnswers.map((answer, answerIndex) => ({
       id: pick(answer, ['id'], answerIndex + 1),
-      text: pick(answer, ['text', 'valaszSzoveg'], ''),
+      text: pickText(answer, ['text', 'valaszSzoveg'], ''),
       number: pick(answer, ['number', 'valaszSzam'], null),
       era: pick(answer, ['era'], 'NONE'),
       normalized: pick(answer, ['normalized', 'normalizaltValasz'], ''),
     })),
     pairs: rawPairs.map((pair, pairIndex) => ({
       id: pick(pair, ['id'], pairIndex + 1),
-      left: pick(pair, ['left', 'balOldal'], `Bal oldal ${pairIndex + 1}`),
-      right: pick(pair, ['right', 'jobbOldal'], `Jobb oldal ${pairIndex + 1}`),
+      left: pickText(pair, ['left', 'balOldal'], `Bal oldal ${pairIndex + 1}`),
+      right: pickText(pair, ['right', 'jobbOldal'], `Jobb oldal ${pairIndex + 1}`),
       order: pick(pair, ['order', 'sorszam'], pairIndex + 1),
     })),
   }
@@ -119,10 +149,10 @@ function normalizeTests(rawTests) {
   return list.map((item, index) => ({
     id: pick(item, ['id', 'tesztId'], index + 1),
     topicId: pick(item, ['topicId', 'temakorId'], null),
-    topicTitle: pick(item, ['topicTitle', 'temakorNev'], ''),
+    topicTitle: pickText(item, ['topicTitle', 'temakorNev'], ''),
     slug: pick(item, ['slug', 'kod'], `teszt-${index + 1}`),
-    title: pick(item, ['title', 'cim', 'name'], `Teszt ${index + 1}`),
-    description: pick(item, ['description', 'leiras'], ''),
+    title: pickText(item, ['title', 'cim', 'name'], `Teszt ${index + 1}`),
+    description: pickText(item, ['description', 'leiras'], ''),
     type: pick(item, ['type', 'tesztTipus'], 'evszam'),
     difficulty: pick(item, ['difficulty', 'nehezseg'], 'konnyu'),
     timeLimitSec: pick(item, ['timeLimitSec', 'idokeretMp'], null),
