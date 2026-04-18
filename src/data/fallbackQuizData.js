@@ -44,6 +44,33 @@ export const fallbackQuizData = {
       "order": 5,
       "testCount": 3,
       "questionCount": 26
+    },
+    {
+      "id": 1006,
+      "code": "polgari-atalakulas",
+      "title": "A polgári átalakulás, a nemzetállamok és az imperializmus kora",
+      "description": "1789 és 1914 közötti egyetemes évszámtesztek a francia forradalomtól az ipari forradalmakig.",
+      "order": 6,
+      "testCount": 3,
+      "questionCount": 24
+    },
+    {
+      "id": 1007,
+      "code": "magyar-polgarosodas",
+      "title": "A polgárosodás kezdetei és kibontakozása Magyarországon",
+      "description": "A reformkor, 1848-49 és a dualizmus évszámai kizárólag évszámkérdésekkel.",
+      "order": 7,
+      "testCount": 3,
+      "questionCount": 24
+    },
+    {
+      "id": 1008,
+      "code": "vilaghaboruk-kora",
+      "title": "A világháborúk kora",
+      "description": "1914 és 1945 közötti egyetemes évszámtesztek az első világháborútól a második világháború végéig.",
+      "order": 8,
+      "testCount": 3,
+      "questionCount": 24
     }
   ],
   "tests": [
@@ -5158,6 +5185,2977 @@ export const fallbackQuizData = {
             }
           ],
           "topicId": 1005
+        }
+      ],
+      "questionCount": 8
+    },
+    {
+      "id": 1223,
+      "topicId": 1006,
+      "slug": "polgari-atalakulas-francia-forradalom-es-napoleon",
+      "title": "Polgári átalakulás - francia forradalom és Napóleon",
+      "description": "A francia forradalom, Napóleon és a bécsi rendezés alapévszámai.",
+      "type": "evszam",
+      "difficulty": "konnyu",
+      "timeLimitSec": 900,
+      "questions": [
+        {
+          "id": 2160,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be az Emberi és polgári jogok nyilatkozatának évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "A francia forradalom egyik alapdokumentuma 1789-ben született.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 1,
+          "chronologyEvent": 1300,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4100,
+              "text": "1789",
+              "number": 1789,
+              "era": "CE",
+              "normalized": "1789"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1006
+        },
+        {
+          "id": 2161,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik évben fogadták el az első francia alkotmányt?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "Az 1791-es alkotmány Franciaországot alkotmányos monarchiává tette.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 2,
+          "chronologyEvent": 1301,
+          "options": [
+            {
+              "id": 3400,
+              "text": "1789",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3401,
+              "text": "1791",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3402,
+              "text": "1793",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3403,
+              "text": "1804",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1006
+        },
+        {
+          "id": 2162,
+          "typeId": 3,
+          "type": "true_false",
+          "typeLabel": "Igaz/Hamis",
+          "text": "Igaz vagy hamis? Napóleon 1799-ben került hatalomra.",
+          "instruction": "",
+          "explanation": "Igaz: a brumaire 18-i államcsíny 1799-ben történt.",
+          "difficulty": 1,
+          "points": 1,
+          "order": 3,
+          "chronologyEvent": 1302,
+          "options": [
+            {
+              "id": 3404,
+              "text": "Igaz",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3405,
+              "text": "Hamis",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1006
+        },
+        {
+          "id": 2163,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Mikor koronázták császárrá Napóleont?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "Napóleon 1804-ben lett császár.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 4,
+          "chronologyEvent": 1303,
+          "options": [
+            {
+              "id": 3406,
+              "text": "1799",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3407,
+              "text": "1804",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3408,
+              "text": "1812",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3409,
+              "text": "1815",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1006
+        },
+        {
+          "id": 2164,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik év kapcsolódik a waterlooi csatához?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "Napóleon végső vereségét 1815-ben szenvedte el Waterloo mellett.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 5,
+          "chronologyEvent": 1304,
+          "options": [
+            {
+              "id": 3410,
+              "text": "1804",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3411,
+              "text": "1815",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3412,
+              "text": "1812",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3413,
+              "text": "1848",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1006
+        },
+        {
+          "id": 2165,
+          "typeId": 5,
+          "type": "chronology_order",
+          "typeLabel": "Időrendi sorrend",
+          "text": "Tedd időrendbe a francia forradalom és Napóleon korszakának eseményeit!",
+          "instruction": "",
+          "explanation": "Helyes sorrend: 1789 → 1791 → 1799 → 1804 → 1815.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 6,
+          "chronologyEvent": null,
+          "options": [
+            {
+              "id": 3414,
+              "text": "Az Emberi és polgári jogok nyilatkozata",
+              "isCorrect": false,
+              "correctOrder": 1,
+              "order": 1
+            },
+            {
+              "id": 3415,
+              "text": "Az első francia alkotmány",
+              "isCorrect": false,
+              "correctOrder": 2,
+              "order": 2
+            },
+            {
+              "id": 3416,
+              "text": "Napóleon hatalomátvétele",
+              "isCorrect": false,
+              "correctOrder": 3,
+              "order": 3
+            },
+            {
+              "id": 3417,
+              "text": "Napóleon császárrá koronázása",
+              "isCorrect": false,
+              "correctOrder": 4,
+              "order": 4
+            },
+            {
+              "id": 3418,
+              "text": "A waterlooi csata",
+              "isCorrect": false,
+              "correctOrder": 5,
+              "order": 5
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1006
+        },
+        {
+          "id": 2166,
+          "typeId": 6,
+          "type": "matching",
+          "typeLabel": "Párosítás",
+          "text": "Párosítsd az eseményeket az évszámokkal!",
+          "instruction": "",
+          "explanation": "A forradalmi és napóleoni korszak kulcsévei: 1789, 1791, 1799, 1804, 1815.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 7,
+          "chronologyEvent": null,
+          "options": [],
+          "acceptedAnswers": [],
+          "pairs": [
+            {
+              "id": 5100,
+              "left": "Az Emberi és polgári jogok nyilatkozata",
+              "right": "1789",
+              "order": 1
+            },
+            {
+              "id": 5101,
+              "left": "Az első francia alkotmány",
+              "right": "1791",
+              "order": 2
+            },
+            {
+              "id": 5102,
+              "left": "Napóleon hatalomátvétele",
+              "right": "1799",
+              "order": 3
+            },
+            {
+              "id": 5103,
+              "left": "Napóleon császárrá koronázása",
+              "right": "1804",
+              "order": 4
+            },
+            {
+              "id": 5104,
+              "left": "A waterlooi csata",
+              "right": "1815",
+              "order": 5
+            }
+          ],
+          "topicId": 1006
+        },
+        {
+          "id": 2167,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik évben zárult le a napóleoni korszak a bécsi rendezés idején?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A bécsi kongresszus korszaka 1814–1815, a lezáró fordulópont 1815.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 8,
+          "chronologyEvent": 1304,
+          "options": [
+            {
+              "id": 3419,
+              "text": "1814",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3420,
+              "text": "1815",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3421,
+              "text": "1804",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3422,
+              "text": "1848",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1006
+        }
+      ],
+      "questionCount": 8
+    },
+    {
+      "id": 1224,
+      "topicId": 1006,
+      "slug": "polgari-atalakulas-eszmek-es-nemzetallamok",
+      "title": "Polgári átalakulás - eszmék és nemzetállamok",
+      "description": "Az 1815 utáni Európa, a forradalmi hullám és a nemzetállamok alapévszámai.",
+      "type": "evszam",
+      "difficulty": "kozepes",
+      "timeLimitSec": 900,
+      "questions": [
+        {
+          "id": 2168,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be a bécsi kongresszus lezárásának évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "A napóleoni háborúk utáni rendezés kulcséve 1815.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 1,
+          "chronologyEvent": 1305,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4101,
+              "text": "1815",
+              "number": 1815,
+              "era": "CE",
+              "normalized": "1815"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1006
+        },
+        {
+          "id": 2169,
+          "typeId": 3,
+          "type": "true_false",
+          "typeLabel": "Igaz/Hamis",
+          "text": "Igaz vagy hamis? Az 1848-as forradalmi hullám több európai államot is érintett.",
+          "instruction": "",
+          "explanation": "Igaz: 1848 egész Európára kiterjedő forradalmi hullám volt.",
+          "difficulty": 1,
+          "points": 1,
+          "order": 2,
+          "chronologyEvent": 1306,
+          "options": [
+            {
+              "id": 3423,
+              "text": "Igaz",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3424,
+              "text": "Hamis",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1006
+        },
+        {
+          "id": 2170,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik évben kiáltották ki az Olasz Királyságot?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "Az olasz egység fontos fordulópontja 1861.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 3,
+          "chronologyEvent": 1307,
+          "options": [
+            {
+              "id": 3425,
+              "text": "1848",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3426,
+              "text": "1861",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3427,
+              "text": "1866",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3428,
+              "text": "1871",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1006
+        },
+        {
+          "id": 2171,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Mikor volt a königgrätzi csata?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A porosz–osztrák háború döntő ütközete 1866-ban zajlott.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 4,
+          "chronologyEvent": 1308,
+          "options": [
+            {
+              "id": 3429,
+              "text": "1861",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3430,
+              "text": "1866",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3431,
+              "text": "1867",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3432,
+              "text": "1871",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1006
+        },
+        {
+          "id": 2172,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik évben jött létre a Német Császárság?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A német egység megvalósulása 1871-hez kötődik.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 5,
+          "chronologyEvent": 1309,
+          "options": [
+            {
+              "id": 3433,
+              "text": "1866",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3434,
+              "text": "1871",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3435,
+              "text": "1870",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3436,
+              "text": "1873",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1006
+        },
+        {
+          "id": 2173,
+          "typeId": 5,
+          "type": "chronology_order",
+          "typeLabel": "Időrendi sorrend",
+          "text": "Tedd időrendbe az 1815 utáni európai fordulópontokat!",
+          "instruction": "",
+          "explanation": "Helyes sorrend: 1815 → 1848 → 1861 → 1866 → 1871.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 6,
+          "chronologyEvent": null,
+          "options": [
+            {
+              "id": 3437,
+              "text": "A bécsi kongresszus lezárása",
+              "isCorrect": false,
+              "correctOrder": 1,
+              "order": 1
+            },
+            {
+              "id": 3438,
+              "text": "Az 1848-as forradalmi hullám",
+              "isCorrect": false,
+              "correctOrder": 2,
+              "order": 2
+            },
+            {
+              "id": 3439,
+              "text": "Az Olasz Királyság kikiáltása",
+              "isCorrect": false,
+              "correctOrder": 3,
+              "order": 3
+            },
+            {
+              "id": 3440,
+              "text": "A königgrätzi csata",
+              "isCorrect": false,
+              "correctOrder": 4,
+              "order": 4
+            },
+            {
+              "id": 3441,
+              "text": "A Német Császárság létrejötte",
+              "isCorrect": false,
+              "correctOrder": 5,
+              "order": 5
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1006
+        },
+        {
+          "id": 2174,
+          "typeId": 6,
+          "type": "matching",
+          "typeLabel": "Párosítás",
+          "text": "Párosítsd az eseményeket és az évszámokat!",
+          "instruction": "",
+          "explanation": "Az európai nemzetállami fejlődés kulcspontjai: 1815, 1848, 1861, 1866, 1871.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 7,
+          "chronologyEvent": null,
+          "options": [],
+          "acceptedAnswers": [],
+          "pairs": [
+            {
+              "id": 5105,
+              "left": "A bécsi kongresszus lezárása",
+              "right": "1815",
+              "order": 1
+            },
+            {
+              "id": 5106,
+              "left": "Az 1848-as forradalmi hullám",
+              "right": "1848",
+              "order": 2
+            },
+            {
+              "id": 5107,
+              "left": "Az Olasz Királyság kikiáltása",
+              "right": "1861",
+              "order": 3
+            },
+            {
+              "id": 5108,
+              "left": "A königgrätzi csata",
+              "right": "1866",
+              "order": 4
+            },
+            {
+              "id": 5109,
+              "left": "A Német Császárság létrejötte",
+              "right": "1871",
+              "order": 5
+            }
+          ],
+          "topicId": 1006
+        },
+        {
+          "id": 2175,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be a német egység megvalósulásának évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "A Német Császárságot 1871-ben kiáltották ki Versailles-ban.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 8,
+          "chronologyEvent": 1309,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4102,
+              "text": "1871",
+              "number": 1871,
+              "era": "CE",
+              "normalized": "1871"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1006
+        }
+      ],
+      "questionCount": 8
+    },
+    {
+      "id": 1225,
+      "topicId": 1006,
+      "slug": "polgari-atalakulas-ipari-forradalom-es-imperializmus",
+      "title": "Polgári átalakulás - ipari forradalom és imperializmus",
+      "description": "Találmányok, közlekedés, szövetségi rendszerek és az imperializmus fontosabb évszámai.",
+      "type": "evszam",
+      "difficulty": "kozepes",
+      "timeLimitSec": 900,
+      "questions": [
+        {
+          "id": 2176,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be James Watt gőzgépének szabadalmi évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "A klasszikus ipari forradalom ikonikus évszáma 1769.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 1,
+          "chronologyEvent": 1310,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4103,
+              "text": "1769",
+              "number": 1769,
+              "era": "CE",
+              "normalized": "1769"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1006
+        },
+        {
+          "id": 2177,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik évben indult el Fulton híres gőzhajója?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A gőzhajózás áttörése 1807-hez köthető.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 2,
+          "chronologyEvent": 1311,
+          "options": [
+            {
+              "id": 3442,
+              "text": "1769",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3443,
+              "text": "1807",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3444,
+              "text": "1825",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3445,
+              "text": "1879",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1006
+        },
+        {
+          "id": 2178,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Mikor nyílt meg a Stockton–Darlington vasútvonal?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A nyilvános vasútvonal megnyitásának tanult évszáma 1825.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 3,
+          "chronologyEvent": 1312,
+          "options": [
+            {
+              "id": 3446,
+              "text": "1825",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3447,
+              "text": "1804",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3448,
+              "text": "1830",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1006
+        },
+        {
+          "id": 2179,
+          "typeId": 3,
+          "type": "true_false",
+          "typeLabel": "Igaz/Hamis",
+          "text": "Igaz vagy hamis? Edison villanykörtéje 1879-hez köthető.",
+          "instruction": "",
+          "explanation": "Igaz: a villanykörte elterjedésének jelképes évszáma 1879.",
+          "difficulty": 1,
+          "points": 1,
+          "order": 4,
+          "chronologyEvent": 1313,
+          "options": [
+            {
+              "id": 3449,
+              "text": "Igaz",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3450,
+              "text": "Hamis",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1006
+        },
+        {
+          "id": 2180,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik év kapcsolódik Benz automobiljához?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "Az automobil születésének klasszikus évszáma 1885.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 5,
+          "chronologyEvent": 1315,
+          "options": [
+            {
+              "id": 3451,
+              "text": "1876",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3452,
+              "text": "1885",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3453,
+              "text": "1879",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3454,
+              "text": "1884",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1006
+        },
+        {
+          "id": 2181,
+          "typeId": 5,
+          "type": "chronology_order",
+          "typeLabel": "Időrendi sorrend",
+          "text": "Tedd időrendbe az ipari forradalom és a szövetségi rendszerek eseményeit!",
+          "instruction": "",
+          "explanation": "Helyes sorrend: 1769 → 1807 → 1825 → 1882 → 1907.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 6,
+          "chronologyEvent": null,
+          "options": [
+            {
+              "id": 3455,
+              "text": "James Watt gőzgépe",
+              "isCorrect": false,
+              "correctOrder": 1,
+              "order": 1
+            },
+            {
+              "id": 3456,
+              "text": "Fulton gőzhajója",
+              "isCorrect": false,
+              "correctOrder": 2,
+              "order": 2
+            },
+            {
+              "id": 3457,
+              "text": "Az első nyilvános vasútvonal",
+              "isCorrect": false,
+              "correctOrder": 3,
+              "order": 3
+            },
+            {
+              "id": 3458,
+              "text": "A hármas szövetség létrejötte",
+              "isCorrect": false,
+              "correctOrder": 4,
+              "order": 4
+            },
+            {
+              "id": 3459,
+              "text": "A hármas antant kialakulása",
+              "isCorrect": false,
+              "correctOrder": 5,
+              "order": 5
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1006
+        },
+        {
+          "id": 2182,
+          "typeId": 6,
+          "type": "matching",
+          "typeLabel": "Párosítás",
+          "text": "Párosítsd a találmányokat és eseményeket az évszámokkal!",
+          "instruction": "",
+          "explanation": "A technikai fejlődés fontos dátumai: 1769, 1807, 1825, 1879, 1885.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 7,
+          "chronologyEvent": null,
+          "options": [],
+          "acceptedAnswers": [],
+          "pairs": [
+            {
+              "id": 5110,
+              "left": "James Watt gőzgépe",
+              "right": "1769",
+              "order": 1
+            },
+            {
+              "id": 5111,
+              "left": "Fulton gőzhajója",
+              "right": "1807",
+              "order": 2
+            },
+            {
+              "id": 5112,
+              "left": "Az első nyilvános vasútvonal",
+              "right": "1825",
+              "order": 3
+            },
+            {
+              "id": 5113,
+              "left": "Edison villanykörtéje",
+              "right": "1879",
+              "order": 4
+            },
+            {
+              "id": 5114,
+              "left": "Benz automobilja",
+              "right": "1885",
+              "order": 5
+            }
+          ],
+          "topicId": 1006
+        },
+        {
+          "id": 2183,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik évben alakult ki a hármas antant?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A brit–francia–orosz együttműködés 1907-re vált teljessé.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 8,
+          "chronologyEvent": 1316,
+          "options": [
+            {
+              "id": 3460,
+              "text": "1882",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3461,
+              "text": "1907",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3462,
+              "text": "1898",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3463,
+              "text": "1914",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1006
+        }
+      ],
+      "questionCount": 8
+    },
+    {
+      "id": 1226,
+      "topicId": 1007,
+      "slug": "magyar-polgarosodas-reformkor",
+      "title": "Magyar polgárosodás - reformkor",
+      "description": "A reformkor fő állomásai 1825 és 1844 között.",
+      "type": "evszam",
+      "difficulty": "konnyu",
+      "timeLimitSec": 900,
+      "questions": [
+        {
+          "id": 2184,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be a reformkor kezdetének tekintett országgyűlés évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "A reformkor kezdetét hagyományosan az 1825-ös országgyűléshez kötjük.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 1,
+          "chronologyEvent": 1317,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4104,
+              "text": "1825",
+              "number": 1825,
+              "era": "CE",
+              "normalized": "1825"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1007
+        },
+        {
+          "id": 2185,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik évben jelent meg Széchenyi Hitel című műve?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A Hitel 1830-ban jelent meg.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 2,
+          "chronologyEvent": 1318,
+          "options": [
+            {
+              "id": 3464,
+              "text": "1825",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3465,
+              "text": "1830",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3466,
+              "text": "1832",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3467,
+              "text": "1844",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1007
+        },
+        {
+          "id": 2186,
+          "typeId": 3,
+          "type": "true_false",
+          "typeLabel": "Igaz/Hamis",
+          "text": "Igaz vagy hamis? A koleralázadás 1831-ben tört ki.",
+          "instruction": "",
+          "explanation": "Igaz: a koleralázadás 1831-ben zajlott.",
+          "difficulty": 1,
+          "points": 1,
+          "order": 3,
+          "chronologyEvent": 1319,
+          "options": [
+            {
+              "id": 3468,
+              "text": "Igaz",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3469,
+              "text": "Hamis",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1007
+        },
+        {
+          "id": 2187,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Mikor kezdődött az 1832–36-os reformországgyűlés?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A hosszú reformországgyűlés 1832-ben indult.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 4,
+          "chronologyEvent": 1320,
+          "options": [
+            {
+              "id": 3470,
+              "text": "1830",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3471,
+              "text": "1832",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3472,
+              "text": "1831",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3473,
+              "text": "1840",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1007
+        },
+        {
+          "id": 2188,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik évben tették a magyart államnyelvvé?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A magyar nyelv 1844-ben lett államnyelv.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 5,
+          "chronologyEvent": 1321,
+          "options": [
+            {
+              "id": 3474,
+              "text": "1844",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3475,
+              "text": "1843",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3476,
+              "text": "1848",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1007
+        },
+        {
+          "id": 2189,
+          "typeId": 5,
+          "type": "chronology_order",
+          "typeLabel": "Időrendi sorrend",
+          "text": "Tedd időrendbe a reformkor fontosabb eseményeit!",
+          "instruction": "",
+          "explanation": "Helyes sorrend: 1825 → 1830 → 1831 → 1832 → 1844.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 6,
+          "chronologyEvent": null,
+          "options": [
+            {
+              "id": 3477,
+              "text": "A reformkor kezdete",
+              "isCorrect": false,
+              "correctOrder": 1,
+              "order": 1
+            },
+            {
+              "id": 3478,
+              "text": "A Hitel megjelenése",
+              "isCorrect": false,
+              "correctOrder": 2,
+              "order": 2
+            },
+            {
+              "id": 3479,
+              "text": "A koleralázadás",
+              "isCorrect": false,
+              "correctOrder": 3,
+              "order": 3
+            },
+            {
+              "id": 3480,
+              "text": "A reformországgyűlés kezdete",
+              "isCorrect": false,
+              "correctOrder": 4,
+              "order": 4
+            },
+            {
+              "id": 3481,
+              "text": "A magyar államnyelvvé tétele",
+              "isCorrect": false,
+              "correctOrder": 5,
+              "order": 5
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1007
+        },
+        {
+          "id": 2190,
+          "typeId": 6,
+          "type": "matching",
+          "typeLabel": "Párosítás",
+          "text": "Párosítsd a reformkori eseményeket az évszámokkal!",
+          "instruction": "",
+          "explanation": "A reformkor legfontosabb dátumai: 1825, 1830, 1831, 1832, 1844.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 7,
+          "chronologyEvent": null,
+          "options": [],
+          "acceptedAnswers": [],
+          "pairs": [
+            {
+              "id": 5115,
+              "left": "A reformkor kezdete",
+              "right": "1825",
+              "order": 1
+            },
+            {
+              "id": 5116,
+              "left": "A Hitel megjelenése",
+              "right": "1830",
+              "order": 2
+            },
+            {
+              "id": 5117,
+              "left": "A koleralázadás",
+              "right": "1831",
+              "order": 3
+            },
+            {
+              "id": 5118,
+              "left": "A reformországgyűlés kezdete",
+              "right": "1832",
+              "order": 4
+            },
+            {
+              "id": 5119,
+              "left": "A magyar államnyelvvé tétele",
+              "right": "1844",
+              "order": 5
+            }
+          ],
+          "topicId": 1007
+        },
+        {
+          "id": 2191,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be a magyar államnyelvvé tételének évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "Az 1844-es nyelvtörvény a reformkor egyik kulcspontja.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 8,
+          "chronologyEvent": 1321,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4105,
+              "text": "1844",
+              "number": 1844,
+              "era": "CE",
+              "normalized": "1844"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1007
+        }
+      ],
+      "questionCount": 8
+    },
+    {
+      "id": 1227,
+      "topicId": 1007,
+      "slug": "magyar-polgarosodas-forradalom-es-szabadsagharc",
+      "title": "Magyar polgárosodás - forradalom és szabadságharc",
+      "description": "Az 1848-as forradalom és az 1849-es szabadságharc kulcsévszámai.",
+      "type": "evszam",
+      "difficulty": "kozepes",
+      "timeLimitSec": 900,
+      "questions": [
+        {
+          "id": 2192,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be a pesti forradalom évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "A márciusi forradalom 1848-ban zajlott.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 1,
+          "chronologyEvent": 1322,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4106,
+              "text": "1848",
+              "number": 1848,
+              "era": "CE",
+              "normalized": "1848"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1007
+        },
+        {
+          "id": 2193,
+          "typeId": 3,
+          "type": "true_false",
+          "typeLabel": "Igaz/Hamis",
+          "text": "Igaz vagy hamis? Az áprilisi törvények 1848-hoz kapcsolódnak.",
+          "instruction": "",
+          "explanation": "Igaz: az áprilisi törvényeket 1848-ban szentesítették.",
+          "difficulty": 1,
+          "points": 1,
+          "order": 2,
+          "chronologyEvent": 1323,
+          "options": [
+            {
+              "id": 3482,
+              "text": "Igaz",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3483,
+              "text": "Hamis",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1007
+        },
+        {
+          "id": 2194,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik évben fogadták el a Függetlenségi Nyilatkozatot?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A trónfosztás és a Függetlenségi Nyilatkozat 1849-ben történt.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 3,
+          "chronologyEvent": 1324,
+          "options": [
+            {
+              "id": 3484,
+              "text": "1848",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3485,
+              "text": "1849",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3486,
+              "text": "1850",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3487,
+              "text": "1867",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1007
+        },
+        {
+          "id": 2195,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik évben volt a világosi fegyverletétel?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A szabadságharc 1849-ben ért véget Világosnál.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 4,
+          "chronologyEvent": 1325,
+          "options": [
+            {
+              "id": 3488,
+              "text": "1849",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3489,
+              "text": "1848",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3490,
+              "text": "1861",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1007
+        },
+        {
+          "id": 2196,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Mikor végezték ki az aradi vértanúkat?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "Az aradi kivégzések 1849. október 6-án voltak.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 5,
+          "chronologyEvent": 1326,
+          "options": [
+            {
+              "id": 3491,
+              "text": "1849",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3492,
+              "text": "1848",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3493,
+              "text": "1851",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1007
+        },
+        {
+          "id": 2197,
+          "typeId": 5,
+          "type": "chronology_order",
+          "typeLabel": "Időrendi sorrend",
+          "text": "Tedd időrendbe az 1848–49-es eseményeket!",
+          "instruction": "",
+          "explanation": "Helyes sorrend: 1848 → 1848 → 1849 → 1849 → 1849.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 6,
+          "chronologyEvent": null,
+          "options": [
+            {
+              "id": 3494,
+              "text": "A pesti forradalom",
+              "isCorrect": false,
+              "correctOrder": 1,
+              "order": 1
+            },
+            {
+              "id": 3495,
+              "text": "Az áprilisi törvények",
+              "isCorrect": false,
+              "correctOrder": 2,
+              "order": 2
+            },
+            {
+              "id": 3496,
+              "text": "A Függetlenségi Nyilatkozat",
+              "isCorrect": false,
+              "correctOrder": 3,
+              "order": 3
+            },
+            {
+              "id": 3497,
+              "text": "A világosi fegyverletétel",
+              "isCorrect": false,
+              "correctOrder": 4,
+              "order": 4
+            },
+            {
+              "id": 3498,
+              "text": "Az aradi vértanúk kivégzése",
+              "isCorrect": false,
+              "correctOrder": 5,
+              "order": 5
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1007
+        },
+        {
+          "id": 2198,
+          "typeId": 6,
+          "type": "matching",
+          "typeLabel": "Párosítás",
+          "text": "Párosítsd az eseményeket az évszámokkal!",
+          "instruction": "",
+          "explanation": "A forradalom és szabadságharc alapévei: 1848 és 1849.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 7,
+          "chronologyEvent": null,
+          "options": [],
+          "acceptedAnswers": [],
+          "pairs": [
+            {
+              "id": 5120,
+              "left": "A pesti forradalom",
+              "right": "1848",
+              "order": 1
+            },
+            {
+              "id": 5121,
+              "left": "Az áprilisi törvények",
+              "right": "1848",
+              "order": 2
+            },
+            {
+              "id": 5122,
+              "left": "A Függetlenségi Nyilatkozat",
+              "right": "1849",
+              "order": 3
+            },
+            {
+              "id": 5123,
+              "left": "A világosi fegyverletétel",
+              "right": "1849",
+              "order": 4
+            },
+            {
+              "id": 5124,
+              "left": "Az aradi vértanúk kivégzése",
+              "right": "1849",
+              "order": 5
+            }
+          ],
+          "topicId": 1007
+        },
+        {
+          "id": 2199,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be a világosi fegyverletétel évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "A szabadságharc katonai lezárása 1849-ben történt.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 8,
+          "chronologyEvent": 1325,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4107,
+              "text": "1849",
+              "number": 1849,
+              "era": "CE",
+              "normalized": "1849"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1007
+        }
+      ],
+      "questionCount": 8
+    },
+    {
+      "id": 1228,
+      "topicId": 1007,
+      "slug": "magyar-polgarosodas-dualizmus",
+      "title": "Magyar polgárosodás - kiegyezés és dualizmus",
+      "description": "A kiegyezés, a polgári állam kiépülése és a dualizmus fontosabb évszámai.",
+      "type": "evszam",
+      "difficulty": "kozepes",
+      "timeLimitSec": 900,
+      "questions": [
+        {
+          "id": 2200,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be a kiegyezés évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "A dualizmus korszakának kezdőéve 1867.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 1,
+          "chronologyEvent": 1327,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4108,
+              "text": "1867",
+              "number": 1867,
+              "era": "CE",
+              "normalized": "1867"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1007
+        },
+        {
+          "id": 2201,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik évben született a nemzetiségi törvény?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A nemzetiségi törvény 1868-ban született.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 2,
+          "chronologyEvent": 1328,
+          "options": [
+            {
+              "id": 3499,
+              "text": "1867",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3500,
+              "text": "1868",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3501,
+              "text": "1869",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3502,
+              "text": "1873",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1007
+        },
+        {
+          "id": 2202,
+          "typeId": 3,
+          "type": "true_false",
+          "typeLabel": "Igaz/Hamis",
+          "text": "Igaz vagy hamis? A közigazgatás és a bíráskodás szétválasztása 1869-hez kötődik.",
+          "instruction": "",
+          "explanation": "Igaz: 1869-ben választották el egymástól a két területet.",
+          "difficulty": 1,
+          "points": 1,
+          "order": 3,
+          "chronologyEvent": 1329,
+          "options": [
+            {
+              "id": 3503,
+              "text": "Igaz",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3504,
+              "text": "Hamis",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1007
+        },
+        {
+          "id": 2203,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Mikor egyesítették Pestet, Budát és Óbudát?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "Budapest 1873-ban jött létre.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 4,
+          "chronologyEvent": 1330,
+          "options": [
+            {
+              "id": 3505,
+              "text": "1873",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3506,
+              "text": "1867",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3507,
+              "text": "1896",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1007
+        },
+        {
+          "id": 2204,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik év kapcsolódik az állami anyakönyvezés bevezetéséhez?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "Az egyházpolitikai reformok egyik kulcséve 1894.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 5,
+          "chronologyEvent": 1331,
+          "options": [
+            {
+              "id": 3508,
+              "text": "1894",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3509,
+              "text": "1892",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3510,
+              "text": "1896",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1007
+        },
+        {
+          "id": 2205,
+          "typeId": 5,
+          "type": "chronology_order",
+          "typeLabel": "Időrendi sorrend",
+          "text": "Tedd időrendbe a dualizmus korszakának eseményeit!",
+          "instruction": "",
+          "explanation": "Helyes sorrend: 1867 → 1868 → 1873 → 1894 → 1896.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 6,
+          "chronologyEvent": null,
+          "options": [
+            {
+              "id": 3511,
+              "text": "A kiegyezés",
+              "isCorrect": false,
+              "correctOrder": 1,
+              "order": 1
+            },
+            {
+              "id": 3512,
+              "text": "A nemzetiségi törvény",
+              "isCorrect": false,
+              "correctOrder": 2,
+              "order": 2
+            },
+            {
+              "id": 3513,
+              "text": "Budapest egyesítése",
+              "isCorrect": false,
+              "correctOrder": 3,
+              "order": 3
+            },
+            {
+              "id": 3514,
+              "text": "Az állami anyakönyvezés bevezetése",
+              "isCorrect": false,
+              "correctOrder": 4,
+              "order": 4
+            },
+            {
+              "id": 3515,
+              "text": "A millennium",
+              "isCorrect": false,
+              "correctOrder": 5,
+              "order": 5
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1007
+        },
+        {
+          "id": 2206,
+          "typeId": 6,
+          "type": "matching",
+          "typeLabel": "Párosítás",
+          "text": "Párosítsd az eseményeket az évszámokkal!",
+          "instruction": "",
+          "explanation": "A dualizmus korszakának alapévei: 1867, 1868, 1873, 1894, 1896.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 7,
+          "chronologyEvent": null,
+          "options": [],
+          "acceptedAnswers": [],
+          "pairs": [
+            {
+              "id": 5125,
+              "left": "A kiegyezés",
+              "right": "1867",
+              "order": 1
+            },
+            {
+              "id": 5126,
+              "left": "A nemzetiségi törvény",
+              "right": "1868",
+              "order": 2
+            },
+            {
+              "id": 5127,
+              "left": "Budapest egyesítése",
+              "right": "1873",
+              "order": 3
+            },
+            {
+              "id": 5128,
+              "left": "Az állami anyakönyvezés bevezetése",
+              "right": "1894",
+              "order": 4
+            },
+            {
+              "id": 5129,
+              "left": "A millennium",
+              "right": "1896",
+              "order": 5
+            }
+          ],
+          "topicId": 1007
+        },
+        {
+          "id": 2207,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik évben robbant ki a nagy belpolitikai válság a dualizmus korában?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A dualizmus utolsó szakaszának fontos politikai fordulópontja 1905.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 8,
+          "chronologyEvent": 1333,
+          "options": [
+            {
+              "id": 3516,
+              "text": "1905",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3517,
+              "text": "1896",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3518,
+              "text": "1903",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1007
+        }
+      ],
+      "questionCount": 8
+    },
+    {
+      "id": 1229,
+      "topicId": 1008,
+      "slug": "vilaghaboruk-kora-elso-vh-es-bekerendszer",
+      "title": "Világháborúk kora - első világháború és békerendszer",
+      "description": "Az első világháború előzményei, fő fordulópontjai és a békerendszer alapévszámai.",
+      "type": "evszam",
+      "difficulty": "konnyu",
+      "timeLimitSec": 900,
+      "questions": [
+        {
+          "id": 2208,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be az első világháború kitörésének évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "Az első világháború 1914-ben tört ki.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 1,
+          "chronologyEvent": 1336,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4109,
+              "text": "1914",
+              "number": 1914,
+              "era": "CE",
+              "normalized": "1914"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1008
+        },
+        {
+          "id": 2209,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik évben lépett be az Egyesült Államok az első világháborúba?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "Az Egyesült Államok 1917-ben avatkozott be közvetlenül.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 2,
+          "chronologyEvent": 1337,
+          "options": [
+            {
+              "id": 3519,
+              "text": "1914",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3520,
+              "text": "1917",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3521,
+              "text": "1916",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3522,
+              "text": "1918",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1008
+        },
+        {
+          "id": 2210,
+          "typeId": 3,
+          "type": "true_false",
+          "typeLabel": "Igaz/Hamis",
+          "text": "Igaz vagy hamis? A compiègne-i fegyverszünet 1918-ban született meg.",
+          "instruction": "",
+          "explanation": "Igaz: a nyugati fronton 1918-ban ért véget a háború.",
+          "difficulty": 1,
+          "points": 1,
+          "order": 3,
+          "chronologyEvent": 1338,
+          "options": [
+            {
+              "id": 3523,
+              "text": "Igaz",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3524,
+              "text": "Hamis",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1008
+        },
+        {
+          "id": 2211,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik év kapcsolódik a versailles-i békéhez?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A versailles-i békeszerződést 1919-ben írták alá.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 4,
+          "chronologyEvent": 1339,
+          "options": [
+            {
+              "id": 3525,
+              "text": "1919",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3526,
+              "text": "1918",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3527,
+              "text": "1920",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1008
+        },
+        {
+          "id": 2212,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Mikor írták alá a trianoni békét?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A trianoni békét 1920-ban írták alá.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 5,
+          "chronologyEvent": 1340,
+          "options": [
+            {
+              "id": 3528,
+              "text": "1920",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3529,
+              "text": "1919",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3530,
+              "text": "1921",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1008
+        },
+        {
+          "id": 2213,
+          "typeId": 5,
+          "type": "chronology_order",
+          "typeLabel": "Időrendi sorrend",
+          "text": "Tedd időrendbe az első világháborúhoz kapcsolódó eseményeket!",
+          "instruction": "",
+          "explanation": "Helyes sorrend: 1882 → 1907 → 1914 → 1917 → 1920.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 6,
+          "chronologyEvent": null,
+          "options": [
+            {
+              "id": 3531,
+              "text": "A hármas szövetség létrejötte",
+              "isCorrect": false,
+              "correctOrder": 1,
+              "order": 1
+            },
+            {
+              "id": 3532,
+              "text": "A hármas antant kialakulása",
+              "isCorrect": false,
+              "correctOrder": 2,
+              "order": 2
+            },
+            {
+              "id": 3533,
+              "text": "Az első világháború kitörése",
+              "isCorrect": false,
+              "correctOrder": 3,
+              "order": 3
+            },
+            {
+              "id": 3534,
+              "text": "Az USA belépése",
+              "isCorrect": false,
+              "correctOrder": 4,
+              "order": 4
+            },
+            {
+              "id": 3535,
+              "text": "A trianoni béke",
+              "isCorrect": false,
+              "correctOrder": 5,
+              "order": 5
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1008
+        },
+        {
+          "id": 2214,
+          "typeId": 6,
+          "type": "matching",
+          "typeLabel": "Párosítás",
+          "text": "Párosítsd az eseményeket az évszámokkal!",
+          "instruction": "",
+          "explanation": "Az első világháború előzményei és következményei: 1882, 1907, 1914, 1919, 1920.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 7,
+          "chronologyEvent": null,
+          "options": [],
+          "acceptedAnswers": [],
+          "pairs": [
+            {
+              "id": 5130,
+              "left": "A hármas szövetség létrejötte",
+              "right": "1882",
+              "order": 1
+            },
+            {
+              "id": 5131,
+              "left": "A hármas antant kialakulása",
+              "right": "1907",
+              "order": 2
+            },
+            {
+              "id": 5132,
+              "left": "Az első világháború kitörése",
+              "right": "1914",
+              "order": 3
+            },
+            {
+              "id": 5133,
+              "left": "A versailles-i béke",
+              "right": "1919",
+              "order": 4
+            },
+            {
+              "id": 5134,
+              "left": "A trianoni béke",
+              "right": "1920",
+              "order": 5
+            }
+          ],
+          "topicId": 1008
+        },
+        {
+          "id": 2215,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be a compiègne-i fegyverszünet évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "A fegyverszünet 1918 novemberében zárta le a harcokat.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 8,
+          "chronologyEvent": 1338,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4110,
+              "text": "1918",
+              "number": 1918,
+              "era": "CE",
+              "normalized": "1918"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1008
+        }
+      ],
+      "questionCount": 8
+    },
+    {
+      "id": 1230,
+      "topicId": 1008,
+      "slug": "vilaghaboruk-kora-diktaturak-es-valsag",
+      "title": "Világháborúk kora - diktatúrák és válság",
+      "description": "A két világháború közötti diktatúrák, a gazdasági világválság és a terjeszkedés alapévszámai.",
+      "type": "evszam",
+      "difficulty": "kozepes",
+      "timeLimitSec": 900,
+      "questions": [
+        {
+          "id": 2216,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be a menetelés Rómába évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "Mussolini 1922-ben jutott hatalomra.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 1,
+          "chronologyEvent": 1342,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4111,
+              "text": "1922",
+              "number": 1922,
+              "era": "CE",
+              "normalized": "1922"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1008
+        },
+        {
+          "id": 2217,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik évben robbant ki a világgazdasági válság?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A New York-i tőzsdekrach 1929-ben történt.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 2,
+          "chronologyEvent": 1343,
+          "options": [
+            {
+              "id": 3536,
+              "text": "1929",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3537,
+              "text": "1922",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3538,
+              "text": "1933",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1008
+        },
+        {
+          "id": 2218,
+          "typeId": 3,
+          "type": "true_false",
+          "typeLabel": "Igaz/Hamis",
+          "text": "Igaz vagy hamis? Hitler 1933-ban lett kancellár.",
+          "instruction": "",
+          "explanation": "Igaz: Hitler 1933-ban jutott hatalomra Németországban.",
+          "difficulty": 1,
+          "points": 1,
+          "order": 3,
+          "chronologyEvent": 1344,
+          "options": [
+            {
+              "id": 3539,
+              "text": "Igaz",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3540,
+              "text": "Hamis",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1008
+        },
+        {
+          "id": 2219,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Mikor fogadták el a nürnbergi törvényeket?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A zsidóellenes faji törvények 1935-ben születtek.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 4,
+          "chronologyEvent": 1345,
+          "options": [
+            {
+              "id": 3541,
+              "text": "1935",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3542,
+              "text": "1933",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3543,
+              "text": "1938",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1008
+        },
+        {
+          "id": 2220,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik év kapcsolódik az Anschlusshoz?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "Ausztria bekebelezése 1938-ban történt.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 5,
+          "chronologyEvent": 1347,
+          "options": [
+            {
+              "id": 3544,
+              "text": "1938",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3545,
+              "text": "1936",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3546,
+              "text": "1937",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1008
+        },
+        {
+          "id": 2221,
+          "typeId": 5,
+          "type": "chronology_order",
+          "typeLabel": "Időrendi sorrend",
+          "text": "Tedd időrendbe a két világháború közti diktatúrákhoz kapcsolódó eseményeket!",
+          "instruction": "",
+          "explanation": "Helyes sorrend: 1922 → 1929 → 1933 → 1936 → 1938.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 6,
+          "chronologyEvent": null,
+          "options": [
+            {
+              "id": 3547,
+              "text": "A menetelés Rómába",
+              "isCorrect": false,
+              "correctOrder": 1,
+              "order": 1
+            },
+            {
+              "id": 3548,
+              "text": "A világgazdasági válság",
+              "isCorrect": false,
+              "correctOrder": 2,
+              "order": 2
+            },
+            {
+              "id": 3549,
+              "text": "Hitler hatalomra jutása",
+              "isCorrect": false,
+              "correctOrder": 3,
+              "order": 3
+            },
+            {
+              "id": 3550,
+              "text": "A Berlin–Róma-tengely",
+              "isCorrect": false,
+              "correctOrder": 4,
+              "order": 4
+            },
+            {
+              "id": 3551,
+              "text": "Az Anschluss",
+              "isCorrect": false,
+              "correctOrder": 5,
+              "order": 5
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1008
+        },
+        {
+          "id": 2222,
+          "typeId": 6,
+          "type": "matching",
+          "typeLabel": "Párosítás",
+          "text": "Párosítsd az eseményeket az évszámokkal!",
+          "instruction": "",
+          "explanation": "A korszak diktatúráinak és válságának kulcsévei: 1922, 1929, 1933, 1935, 1938.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 7,
+          "chronologyEvent": null,
+          "options": [],
+          "acceptedAnswers": [],
+          "pairs": [
+            {
+              "id": 5135,
+              "left": "A menetelés Rómába",
+              "right": "1922",
+              "order": 1
+            },
+            {
+              "id": 5136,
+              "left": "A világgazdasági válság",
+              "right": "1929",
+              "order": 2
+            },
+            {
+              "id": 5137,
+              "left": "Hitler hatalomra jutása",
+              "right": "1933",
+              "order": 3
+            },
+            {
+              "id": 5138,
+              "left": "A nürnbergi törvények",
+              "right": "1935",
+              "order": 4
+            },
+            {
+              "id": 5139,
+              "left": "Az Anschluss",
+              "right": "1938",
+              "order": 5
+            }
+          ],
+          "topicId": 1008
+        },
+        {
+          "id": 2223,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be Hitler hatalomra jutásának évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "A náci diktatúra kiépülése 1933-ban kezdődött meg.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 8,
+          "chronologyEvent": 1344,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4112,
+              "text": "1933",
+              "number": 1933,
+              "era": "CE",
+              "normalized": "1933"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1008
+        }
+      ],
+      "questionCount": 8
+    },
+    {
+      "id": 1231,
+      "topicId": 1008,
+      "slug": "vilaghaboruk-kora-masodik-vh",
+      "title": "Világháborúk kora - második világháború",
+      "description": "A második világháború főbb hadieseményei és lezárása.",
+      "type": "evszam",
+      "difficulty": "kozepes",
+      "timeLimitSec": 900,
+      "questions": [
+        {
+          "id": 2224,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be a második világháború kitörésének évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "A második világháború 1939 szeptemberében kezdődött.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 1,
+          "chronologyEvent": 1348,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4113,
+              "text": "1939",
+              "number": 1939,
+              "era": "CE",
+              "normalized": "1939"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1008
+        },
+        {
+          "id": 2225,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik évben indult meg a Barbarossa-hadművelet?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A Szovjetunió elleni német támadás 1941-ben indult.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 2,
+          "chronologyEvent": 1349,
+          "options": [
+            {
+              "id": 3552,
+              "text": "1941",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3553,
+              "text": "1939",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3554,
+              "text": "1943",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1008
+        },
+        {
+          "id": 2226,
+          "typeId": 3,
+          "type": "true_false",
+          "typeLabel": "Igaz/Hamis",
+          "text": "Igaz vagy hamis? Pearl Harbor megtámadása 1941-ben történt.",
+          "instruction": "",
+          "explanation": "Igaz: a japán támadás 1941-ben vonta be az USA-t a világháborúba.",
+          "difficulty": 1,
+          "points": 1,
+          "order": 3,
+          "chronologyEvent": 1350,
+          "options": [
+            {
+              "id": 3555,
+              "text": "Igaz",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3556,
+              "text": "Hamis",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1008
+        },
+        {
+          "id": 2227,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik év tekinthető a sztálingrádi fordulat évének?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A sztálingrádi csata lezárása 1943 elejére esik.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 4,
+          "chronologyEvent": 1351,
+          "options": [
+            {
+              "id": 3557,
+              "text": "1943",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3558,
+              "text": "1941",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3559,
+              "text": "1942",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1008
+        },
+        {
+          "id": 2228,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Mikor volt a normandiai partraszállás?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A második front 1944-ben nyílt meg Nyugat-Európában.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 5,
+          "chronologyEvent": 1352,
+          "options": [
+            {
+              "id": 3560,
+              "text": "1944",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3561,
+              "text": "1943",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3562,
+              "text": "1945",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1008
+        },
+        {
+          "id": 2229,
+          "typeId": 5,
+          "type": "chronology_order",
+          "typeLabel": "Időrendi sorrend",
+          "text": "Tedd időrendbe a második világháború főbb eseményeit!",
+          "instruction": "",
+          "explanation": "Helyes sorrend: 1939 → 1941 → 1941 → 1943 → 1944 → 1945.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 6,
+          "chronologyEvent": null,
+          "options": [
+            {
+              "id": 3563,
+              "text": "A második világháború kitörése",
+              "isCorrect": false,
+              "correctOrder": 1,
+              "order": 1
+            },
+            {
+              "id": 3564,
+              "text": "A Barbarossa-hadművelet",
+              "isCorrect": false,
+              "correctOrder": 2,
+              "order": 2
+            },
+            {
+              "id": 3565,
+              "text": "Pearl Harbor megtámadása",
+              "isCorrect": false,
+              "correctOrder": 3,
+              "order": 3
+            },
+            {
+              "id": 3566,
+              "text": "A sztálingrádi fordulat éve",
+              "isCorrect": false,
+              "correctOrder": 4,
+              "order": 4
+            },
+            {
+              "id": 3567,
+              "text": "A normandiai partraszállás",
+              "isCorrect": false,
+              "correctOrder": 5,
+              "order": 5
+            },
+            {
+              "id": 3568,
+              "text": "A háború vége Európában",
+              "isCorrect": false,
+              "correctOrder": 6,
+              "order": 6
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1008
+        },
+        {
+          "id": 2230,
+          "typeId": 6,
+          "type": "matching",
+          "typeLabel": "Párosítás",
+          "text": "Párosítsd az eseményeket az évszámokkal!",
+          "instruction": "",
+          "explanation": "A második világháború fontos évszámai: 1939, 1941, 1944, 1945.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 7,
+          "chronologyEvent": null,
+          "options": [],
+          "acceptedAnswers": [],
+          "pairs": [
+            {
+              "id": 5140,
+              "left": "A második világháború kitörése",
+              "right": "1939",
+              "order": 1
+            },
+            {
+              "id": 5141,
+              "left": "A Barbarossa-hadművelet",
+              "right": "1941",
+              "order": 2
+            },
+            {
+              "id": 5142,
+              "left": "Pearl Harbor megtámadása",
+              "right": "1941",
+              "order": 3
+            },
+            {
+              "id": 5143,
+              "left": "A normandiai partraszállás",
+              "right": "1944",
+              "order": 4
+            },
+            {
+              "id": 5144,
+              "left": "A háború vége Európában",
+              "right": "1945",
+              "order": 5
+            }
+          ],
+          "topicId": 1008
+        },
+        {
+          "id": 2231,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be a második világháború európai befejezésének évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "Európában 1945-ben ért véget a háború.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 8,
+          "chronologyEvent": 1353,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4114,
+              "text": "1945",
+              "number": 1945,
+              "era": "CE",
+              "normalized": "1945"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1008
         }
       ],
       "questionCount": 8
