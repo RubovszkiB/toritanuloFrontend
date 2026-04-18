@@ -1,0 +1,4 @@
+// Példa route-bővítés
+import EvszamTemakorokPage from './pages/EvszamTemakorokPage';
+
+<Route path='/evszam-temakorok' element={<EvszamTemakorokPage />} />
