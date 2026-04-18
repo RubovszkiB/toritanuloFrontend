@@ -6,6 +6,8 @@ import HomePage from './pages/HomePage'
 import AdminPage from './pages/AdminPage'
 import TetelekPage from './pages/TetelekPage'
 import TetelReaderPage from './pages/TetelReaderPage'
+import QuizHubPage from './pages/QuizHubPage'
+import QuizPlayPage from './pages/QuizPlayPage'
 
 export default function App() {
   const hasToken = Boolean(localStorage.getItem('token'))
@@ -42,6 +44,24 @@ export default function App() {
       />
 
       <Route
+        path="/tesztek"
+        element={
+          <ProtectedRoute>
+            <QuizHubPage />
+          </ProtectedRoute>
+        }
+      />
+
+      <Route
+        path="/tesztek/:slug"
+        element={
+          <ProtectedRoute>
+            <QuizPlayPage />
+          </ProtectedRoute>
+        }
+      />
+
+      <Route
         path="/admin"
         element={
           <AdminRoute>
@@ -50,10 +70,7 @@ export default function App() {
         }
       />
 
-      <Route
-        path="*"
-        element={<Navigate to={hasToken ? '/home' : '/'} replace />}
-      />
+      <Route path="*" element={<Navigate to={hasToken ? '/home' : '/'} replace />} />
     </Routes>
   )
 }

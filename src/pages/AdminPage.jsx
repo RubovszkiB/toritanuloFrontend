@@ -3,32 +3,31 @@ import AppFooter from '../components/AppFooter'
 
 const adminCards = [
   {
-    title: 'Felhasználók kezelése',
-    text: 'Később itt lehet listázni, szerkeszteni és jogosultság szerint kezelni a felhasználókat.',
+    title: 'Kvízek kezelése',
+    text: 'Később itt lehet majd témaköröket, teszteket és kérdéseket létrehozni vagy módosítani.',
   },
   {
-    title: 'Tartalomkezelés',
-    text: 'Tételek, feladatok, évszámok és személyek feltöltése vagy módosítása kerülhet ide.',
+    title: 'Feladattípusok',
+    text: 'Egyválasztós, többválasztós, évszám beírása, sorrend és párosítás nézetek adminoldali karbantartása.',
   },
   {
     title: 'Statisztikák',
-    text: 'Tanulói aktivitás, gyakorlási adatok és későbbi áttekintések számára fenntartott blokk.',
+    text: 'A későbbiekben ide kerülhetnek a próbálkozások, eredmények és tanulói teljesítmények.',
   },
 ]
 
 export default function AdminPage() {
   return (
-    <div className="app-shell">
+    <div className="app-shell d-flex flex-column">
       <AppNavbar />
 
       <main className="py-5">
         <div className="container">
           <div className="admin-header rounded-5 p-4 p-md-5 mb-4">
             <span className="badge text-bg-warning rounded-pill px-3 py-2 mb-3">Csak admin</span>
-            <h1 className="fw-bold text-white mb-3">Admin felület előkészítve</h1>
+            <h1 className="fw-bold text-white mb-3">Admin nézet előkészítve a tesztekhez</h1>
             <p className="text-white-50 mb-0">
-              Ez most még egy esztétikus alapoldal, de már külön útvonalon van,
-              és csak admin szerepkörrel érhető el.
+              A felületet úgy készítettem el, hogy később a kérdéskezelő és tartalomfeltöltő részek is kényelmesen ráépíthetők legyenek.
             </p>
           </div>
 

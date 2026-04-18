@@ -3,9 +3,9 @@ import { useNavigate } from 'react-router-dom'
 import { clearAuth, getMe, login, saveAuth } from '../services/authService'
 
 const highlights = [
-  'Tételolvasó egy helyen',
-  'Mobilbarát felület',
-  'Később bővíthető admin résszel',
+  'Évszám kvízek több feladattípussal',
+  'Mobilbarát, gyorsan használható kezelőfelület',
+  'Később könnyen bővíthető admin nézet',
 ]
 
 export default function LoginPage() {
@@ -17,7 +17,9 @@ export default function LoginPage() {
 
   useEffect(() => {
     const token = localStorage.getItem('token')
-    if (!token) return
+    if (!token) {
+      return
+    }
 
     getMe(token)
       .then(() => navigate('/home', { replace: true }))
@@ -51,21 +53,20 @@ export default function LoginPage() {
           <div className="col-12 col-lg-6 order-2 order-lg-1">
             <div className="login-showcase text-white">
               <span className="badge rounded-pill hero-badge px-3 py-2 mb-3">
-                Történelem tanulóplatform
+                Történelem gyakorlóplatform
               </span>
               <h1 className="display-5 fw-bold mb-3">
-                Tanulj gyorsabban, átláthatóbban és telefonon is kényelmesen.
+                Egy helyen olvashatod a tételeket és rögtön gyakorolhatod is az évszámokat.
               </h1>
               <p className="lead text-white-50 mb-4">
-                A belépés után egy új, modern főoldal fogad, ahol helyet kapnak a
-                tételek, gyakorló modulok és később az admin funkciók is.
+                A belépés után modern főoldal, külön kvízközpont és részletes tesztnézet fogad.
               </p>
 
               <div className="row g-3">
                 {highlights.map((item) => (
                   <div className="col-12 col-sm-6" key={item}>
                     <div className="glass-card h-100 p-3 rounded-4">
-                      <div className="small text-uppercase text-white-50 mb-2">Előny</div>
+                      <div className="small text-uppercase text-white-50 mb-2">Újdonság</div>
                       <div className="fw-semibold">{item}</div>
                     </div>
                   </div>
@@ -78,7 +79,7 @@ export default function LoginPage() {
             <div className="card border-0 shadow-lg login-card mx-auto">
               <div className="card-body p-4 p-md-5">
                 <div className="d-flex align-items-center gap-3 mb-4">
-                  <div className="brand-icon">T</div>
+                  <div className="brand-icon">TT</div>
                   <div>
                     <div className="text-muted small">Üdv újra</div>
                     <h2 className="h3 fw-bold mb-0">Bejelentkezés</h2>
@@ -86,7 +87,7 @@ export default function LoginPage() {
                 </div>
 
                 <p className="text-muted mb-4">
-                  Lépj be a fiókodba, és folytasd a tanulást a megújult főoldalon.
+                  Lépj be a fiókodba, és nyisd meg a tételolvasót vagy a többféle kérdéstípust használó évszám kvízeket.
                 </p>
 
                 {error && (

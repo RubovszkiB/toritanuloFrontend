@@ -1,0 +1,326 @@
+import { fallbackQuizData } from '../data/fallbackQuizData'
+
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://localhost:7072'
+
+function getAuthHeaders() {
+  const token = localStorage.getItem('token')
+  return token
+    ? {
+        Authorization: `Bearer ${token}`,
+      }
+    : {}
+}
+
+async function fetchJsonCandidate(paths) {
+  let lastError = null
+
+  for (const path of paths) {
+    try {
+      const response = await fetch(`${API_BASE_URL}${path}`, {
+        headers: {
+          ...getAuthHeaders(),
+        },
+      })
+
+      if (!response.ok) {
+        lastError = new Error(`HTTP ${response.status}`)
+        continue
+      }
+
+      return await response.json()
+    } catch (error) {
+      lastError = error
+    }
+  }
+
+  throw lastError || new Error('Nem sikerült betölteni az adatokat.')
+}
+
+function pick(obj, keys, fallback = null) {
+  for (const key of keys) {
+    if (obj?.[key] !== undefined && obj?.[key] !== null) {
+      return obj[key]
+    }
+  }
+
+  return fallback
+}
+
+function normalizeTopics(rawTopics) {
+  const list = Array.isArray(rawTopics)
+    ? rawTopics
+    : rawTopics?.items || rawTopics?.data || rawTopics?.temakorok || []
+
+  return list.map((item, index) => ({
+    id: pick(item, ['id', 'temakorId', 'topicId'], index + 1),
+    code: pick(item, ['kod', 'code', 'slug'], `temakor-${index + 1}`),
+    title: pick(item, ['nev', 'title', 'name'], `Témakör ${index + 1}`),
+    description: pick(item, ['leiras', 'description'], ''),
+    order: pick(item, ['sorszam', 'order'], index + 1),
+    testCount: pick(item, ['testCount', 'tesztDb'], 0),
+    questionCount: pick(item, ['questionCount', 'kerdesDb'], 0),
+  }))
+}
+
+function normalizeQuestion(rawQuestion, index = 0) {
+  const rawOptions = rawQuestion?.options || rawQuestion?.valaszopciok || rawQuestion?.opciok || []
+  const rawAcceptedAnswers =
+    rawQuestion?.acceptedAnswers || rawQuestion?.helyesValaszok || rawQuestion?.answers || []
+  const rawPairs = rawQuestion?.pairs || rawQuestion?.parok || []
+
+  return {
+    id: pick(rawQuestion, ['id', 'kerdesId'], index + 1),
+    typeId: pick(rawQuestion, ['typeId', 'kerdesTipusId'], null),
+    type: pick(rawQuestion, ['type', 'tipusKod', 'kerdesTipusKod'], 'single_choice'),
+    typeLabel: pick(rawQuestion, ['typeLabel', 'tipusNev', 'kerdesTipusNev'], 'Kérdés'),
+    text: pick(rawQuestion, ['text', 'kerdesSzoveg', 'questionText'], 'Kérdés'),
+    instruction: pick(rawQuestion, ['instruction', 'instrukcio'], ''),
+    explanation: pick(rawQuestion, ['explanation', 'magyarazat'], ''),
+    difficulty: pick(rawQuestion, ['difficulty', 'nehezseg'], 2),
+    points: pick(rawQuestion, ['points', 'pontszam'], 1),
+    order: pick(rawQuestion, ['order', 'sorszam'], index + 1),
+    chronologyEvent: pick(rawQuestion, ['chronologyEvent', 'kronologiaEsemeny'], null),
+    options: rawOptions.map((option, optionIndex) => ({
+      id: pick(option, ['id', 'valaszId'], optionIndex + 1),
+      text: pick(option, ['text', 'valaszSzoveg'], `Opció ${optionIndex + 1}`),
+      isCorrect: Boolean(pick(option, ['isCorrect', 'helyes'], false)),
+      correctOrder: pick(option, ['correctOrder', 'helyesSorrend'], null),
+      order: pick(option, ['order', 'sorszam'], optionIndex + 1),
+    })),
+    acceptedAnswers: rawAcceptedAnswers.map((answer, answerIndex) => ({
+      id: pick(answer, ['id'], answerIndex + 1),
+      text: pick(answer, ['text', 'valaszSzoveg'], ''),
+      number: pick(answer, ['number', 'valaszSzam'], null),
+      era: pick(answer, ['era'], 'NONE'),
+      normalized: pick(answer, ['normalized', 'normalizaltValasz'], ''),
+    })),
+    pairs: rawPairs.map((pair, pairIndex) => ({
+      id: pick(pair, ['id'], pairIndex + 1),
+      left: pick(pair, ['left', 'balOldal'], `Bal oldal ${pairIndex + 1}`),
+      right: pick(pair, ['right', 'jobbOldal'], `Jobb oldal ${pairIndex + 1}`),
+      order: pick(pair, ['order', 'sorszam'], pairIndex + 1),
+    })),
+  }
+}
+
+function normalizeTests(rawTests) {
+  const list = Array.isArray(rawTests)
+    ? rawTests
+    : rawTests?.items || rawTests?.data || rawTests?.tesztek || []
+
+  return list.map((item, index) => ({
+    id: pick(item, ['id', 'tesztId'], index + 1),
+    topicId: pick(item, ['topicId', 'temakorId'], null),
+    slug: pick(item, ['slug', 'kod'], `teszt-${index + 1}`),
+    title: pick(item, ['title', 'cim', 'name'], `Teszt ${index + 1}`),
+    description: pick(item, ['description', 'leiras'], ''),
+    type: pick(item, ['type', 'tesztTipus'], 'evszam'),
+    difficulty: pick(item, ['difficulty', 'nehezseg'], 'konnyu'),
+    timeLimitSec: pick(item, ['timeLimitSec', 'idokeretMp'], null),
+    questionCount: pick(item, ['questionCount', 'kerdesDb'], item?.questions?.length || item?.kerdesek?.length || 0),
+    questions: (item?.questions || item?.kerdesek || []).map(normalizeQuestion),
+  }))
+}
+
+function filterYearOnlyTests(tests = []) {
+  return tests.filter((test) => test.type === 'evszam')
+}
+
+function findFallbackTopicById(topicId) {
+  return fallbackQuizData.topics.find((topic) => String(topic.id) === String(topicId)) || null
+}
+
+function findFallbackTestBySlug(slug) {
+  return fallbackQuizData.tests.find((test) => test.slug === slug) || null
+}
+
+function getTopicKey(topic) {
+  return String(topic.code || topic.id)
+}
+
+function getTestKey(test) {
+  return String(test.slug || test.id)
+}
+
+function mergeTopics(apiTopics = []) {
+  const merged = new Map()
+
+  fallbackQuizData.topics.forEach((topic) => {
+    merged.set(getTopicKey(topic), { ...topic })
+  })
+
+  apiTopics.forEach((topic) => {
+    const key = getTopicKey(topic)
+    const fallbackTopic = merged.get(key)
+
+    merged.set(key, {
+      ...(fallbackTopic || {}),
+      ...topic,
+      testCount: topic.testCount || fallbackTopic?.testCount || 0,
+      questionCount: topic.questionCount || fallbackTopic?.questionCount || 0,
+    })
+  })
+
+  return [...merged.values()].sort((first, second) => {
+    const orderDelta = (first.order || 999) - (second.order || 999)
+    if (orderDelta !== 0) {
+      return orderDelta
+    }
+
+    return first.title.localeCompare(second.title, 'hu')
+  })
+}
+
+function mergeTests(apiTests = []) {
+  const merged = new Map()
+
+  fallbackQuizData.tests.forEach((test) => {
+    merged.set(getTestKey(test), { ...test })
+  })
+
+  apiTests.forEach((test) => {
+    const key = getTestKey(test)
+    const fallbackTest = merged.get(key)
+    const apiQuestions = Array.isArray(test.questions) ? test.questions : []
+
+    merged.set(key, {
+      ...(fallbackTest || {}),
+      ...test,
+      questionCount: test.questionCount || apiQuestions.length || fallbackTest?.questionCount || 0,
+      questions: apiQuestions.length ? apiQuestions : fallbackTest?.questions || [],
+    })
+  })
+
+  return [...merged.values()].sort((first, second) => {
+    const topicDelta = (first.topicId || 999) - (second.topicId || 999)
+    if (topicDelta !== 0) {
+      return topicDelta
+    }
+
+    return first.title.localeCompare(second.title, 'hu')
+  })
+}
+
+function getSourceLabel(apiCount, mergedCount) {
+  if (apiCount > 0 && mergedCount > apiCount) {
+    return 'mixed'
+  }
+
+  if (apiCount > 0) {
+    return 'api'
+  }
+
+  return 'fallback'
+}
+
+export async function getQuizTopics() {
+  try {
+    const rawData = await fetchJsonCandidate([
+      '/api/TesztTemakorok',
+      '/api/teszttemakorok',
+      '/api/Quiz/topics',
+      '/api/quiz/topics',
+    ])
+
+    const apiTopics = normalizeTopics(rawData)
+    const mergedTopics = mergeTopics(apiTopics)
+
+    return {
+      source: getSourceLabel(apiTopics.length, mergedTopics.length),
+      items: mergedTopics,
+    }
+  } catch {
+    return {
+      source: 'fallback',
+      items: fallbackQuizData.topics,
+    }
+  }
+}
+
+export async function getQuizTests(topicId = null) {
+  try {
+    const rawData = await fetchJsonCandidate([
+      topicId ? `/api/Tesztek?temakorId=${topicId}` : '/api/Tesztek',
+      topicId ? `/api/tesztek?temakorId=${topicId}` : '/api/tesztek',
+      topicId ? `/api/Quiz/tests?topicId=${topicId}` : '/api/Quiz/tests',
+      topicId ? `/api/quiz/tests?topicId=${topicId}` : '/api/quiz/tests',
+    ])
+
+    const apiTests = normalizeTests(rawData)
+    let tests = filterYearOnlyTests(mergeTests(apiTests))
+
+    if (topicId) {
+      tests = tests.filter((test) => String(test.topicId) === String(topicId))
+    }
+
+    return {
+      source: getSourceLabel(filterYearOnlyTests(apiTests).length, tests.length),
+      items: tests.map((test) => ({
+        ...test,
+        questions: [],
+      })),
+    }
+  } catch {
+    let tests = filterYearOnlyTests([...fallbackQuizData.tests])
+    if (topicId) {
+      tests = tests.filter((test) => String(test.topicId) === String(topicId))
+    }
+
+    return {
+      source: 'fallback',
+      items: tests.map((test) => ({
+        ...test,
+        questions: [],
+      })),
+    }
+  }
+}
+
+export async function getQuizBySlug(slug) {
+  const fallbackTest = findFallbackTestBySlug(slug)
+
+  try {
+    const rawData = await fetchJsonCandidate([
+      `/api/Tesztek/slug/${slug}`,
+      `/api/tesztek/slug/${slug}`,
+      `/api/Tesztek/${slug}`,
+      `/api/tesztek/${slug}`,
+      `/api/Quiz/tests/${slug}`,
+      `/api/quiz/tests/${slug}`,
+    ])
+
+    const test = normalizeTests(rawData)[0] || normalizeTests([rawData])[0]
+    if (!test || test.type !== 'evszam') {
+      throw new Error('Hiányos tesztadat')
+    }
+
+    const mergedTest = {
+      ...(fallbackTest || {}),
+      ...test,
+      questions: test.questions?.length ? test.questions : fallbackTest?.questions || [],
+      questionCount: test.questionCount || test.questions?.length || fallbackTest?.questionCount || 0,
+    }
+
+    if (!mergedTest.questions?.length) {
+      throw new Error('Hiányos tesztadat')
+    }
+
+    return {
+      source: fallbackTest ? 'mixed' : 'api',
+      item: mergedTest,
+    }
+  } catch {
+    if (!fallbackTest || fallbackTest.type !== 'evszam') {
+      throw new Error('A teszt nem található.')
+    }
+
+    return {
+      source: 'fallback',
+      item: fallbackTest,
+    }
+  }
+}
+
+export function getQuizTopicMeta(topicId) {
+  return findFallbackTopicById(topicId)
+}
