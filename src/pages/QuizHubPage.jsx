@@ -108,7 +108,7 @@ export default function QuizHubPage() {
               <div className="col-12 col-lg-7">
                 <span className="badge rounded-pill section-badge px-3 py-2 mb-3">Évszám kvízközpont</span>
                 <h1 className="display-6 fw-bold text-white mb-3">
-                  Mostantól az 1789 és 1945 közötti három új témakör is külön, csak évszámokra épülő tesztekkel jelenik meg.
+                  Mostantól a társadalmi, állampolgári, pénzügyi és munkavállalói ismeretek blokkja is külön, csak évszámokra épülő tesztekkel jelenik meg.
                 </h1>
                 <p className="lead text-white-50 mb-0">
                   Először válassz témakört, utána a hozzá tartozó évszámteszteket látod külön blokkban.

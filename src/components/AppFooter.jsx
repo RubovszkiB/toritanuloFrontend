@@ -30,7 +30,7 @@ export default function AppFooter() {
             <ul className="list-unstyled footer-links mb-0">
               <li>Reszponzív főoldal</li>
               <li>Modern kvíznézet</li>
-              <li>8 témakör, 24 évszámteszt</li>
+              <li>12 témakör, 36 évszámteszt</li>
             </ul>
           </div>
         </div>

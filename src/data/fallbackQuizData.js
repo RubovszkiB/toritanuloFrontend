@@ -71,6 +71,42 @@ export const fallbackQuizData = {
       "order": 8,
       "testCount": 3,
       "questionCount": 24
+    },
+    {
+      "id": 1009,
+      "code": "magyar-vilaghaboruk-kora",
+      "title": "Magyarország a világháborúk korában",
+      "description": "Az első világháború, Trianon, a Horthy-korszak, a revíziók és a magyar második világháborús szerepvállalás évszámai.",
+      "order": 9,
+      "testCount": 3,
+      "questionCount": 24
+    },
+    {
+      "id": 1010,
+      "code": "jelenkor",
+      "title": "A jelenkor",
+      "description": "A hidegháború, a dekolonizáció, az európai integráció és a globális világ legfontosabb évszámai.",
+      "order": 10,
+      "testCount": 3,
+      "questionCount": 24
+    },
+    {
+      "id": 1011,
+      "code": "magyar-1945-rendszervaltozasig",
+      "title": "Magyarország 1945-től a rendszerváltozásig",
+      "description": "A kommunista diktatúra kiépítése, 1956, a Kádár-korszak és a rendszerváltozás fő évszámai.",
+      "order": 11,
+      "testCount": 3,
+      "questionCount": 24
+    },
+    {
+      "id": 1012,
+      "code": "allampolgari-penzugyi-munka",
+      "title": "Társadalmi, állampolgári, pénzügyi és munkavállalói ismeretek",
+      "description": "Állampolgári jogok, Alaptörvény, pénzügyi alapok és munkavállalási ismeretek évszámai.",
+      "order": 12,
+      "testCount": 3,
+      "questionCount": 21
     }
   ],
   "tests": [
@@ -8159,6 +8195,3821 @@ export const fallbackQuizData = {
         }
       ],
       "questionCount": 8
+    },
+    {
+      "id": 1232,
+      "topicId": 1009,
+      "slug": "magyar-vilaghaboruk-elso-vh-oszirozsas-trianon",
+      "title": "Magyar világháborúk - első világháború, összeomlás és Trianon",
+      "description": "1914 és 1921 közötti magyar évszámok az első világháborútól a soproni népszavazásig.",
+      "type": "evszam",
+      "difficulty": "konnyu",
+      "timeLimitSec": 900,
+      "questions": [
+        {
+          "id": 2232,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be az első világháború kitörésének évét Magyarország szempontjából!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "Az Osztrák–Magyar Monarchia 1914-ben sodródott világháborúba.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 1,
+          "chronologyEvent": 1354,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4115,
+              "text": "1914",
+              "number": 1914,
+              "era": "CE",
+              "normalized": "1914"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1009
+        },
+        {
+          "id": 2233,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik évben tört ki az őszirózsás forradalom?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "Az őszirózsás forradalom 1918 őszén tört ki.",
+          "difficulty": 1,
+          "points": 1,
+          "order": 2,
+          "chronologyEvent": 1355,
+          "options": [
+            {
+              "id": 3569,
+              "text": "1917",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3570,
+              "text": "1918",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3571,
+              "text": "1919",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3572,
+              "text": "1920",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1009
+        },
+        {
+          "id": 2234,
+          "typeId": 3,
+          "type": "true_false",
+          "typeLabel": "Igaz/Hamis",
+          "text": "Igaz vagy hamis? A Tanácsköztársaság 1919-ben kiáltatott ki.",
+          "instruction": "",
+          "explanation": "Igaz: a Tanácsköztársaság 1919. március 21-én jött létre.",
+          "difficulty": 1,
+          "points": 1,
+          "order": 3,
+          "chronologyEvent": 1356,
+          "options": [
+            {
+              "id": 3573,
+              "text": "Igaz",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3574,
+              "text": "Hamis",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1009
+        },
+        {
+          "id": 2235,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Mikor írták alá a trianoni békeszerződést?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A trianoni békét 1920. június 4-én írták alá.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 4,
+          "chronologyEvent": 1357,
+          "options": [
+            {
+              "id": 3575,
+              "text": "1919",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3576,
+              "text": "1920",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3577,
+              "text": "1921",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3578,
+              "text": "1922",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1009
+        },
+        {
+          "id": 2236,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik év kapcsolódik a soproni népszavazáshoz?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A soproni népszavazásra 1921-ben került sor.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 5,
+          "chronologyEvent": 1358,
+          "options": [
+            {
+              "id": 3579,
+              "text": "1920",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3580,
+              "text": "1921",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3581,
+              "text": "1922",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3582,
+              "text": "1924",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1009
+        },
+        {
+          "id": 2237,
+          "typeId": 5,
+          "type": "chronology_order",
+          "typeLabel": "Időrendi sorrend",
+          "text": "Tedd időrendbe az első világháború utáni magyar eseményeket!",
+          "instruction": "",
+          "explanation": "Helyes sorrend: 1914 → 1918 → 1919 → 1920 → 1921.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 6,
+          "chronologyEvent": null,
+          "options": [
+            {
+              "id": 3583,
+              "text": "Az első világháború kitörése",
+              "isCorrect": false,
+              "correctOrder": 1,
+              "order": 1
+            },
+            {
+              "id": 3584,
+              "text": "Az őszirózsás forradalom",
+              "isCorrect": false,
+              "correctOrder": 2,
+              "order": 2
+            },
+            {
+              "id": 3585,
+              "text": "A Tanácsköztársaság kikiáltása",
+              "isCorrect": false,
+              "correctOrder": 3,
+              "order": 3
+            },
+            {
+              "id": 3586,
+              "text": "A trianoni béke",
+              "isCorrect": false,
+              "correctOrder": 4,
+              "order": 4
+            },
+            {
+              "id": 3587,
+              "text": "A soproni népszavazás",
+              "isCorrect": false,
+              "correctOrder": 5,
+              "order": 5
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1009
+        },
+        {
+          "id": 2238,
+          "typeId": 6,
+          "type": "matching",
+          "typeLabel": "Párosítás",
+          "text": "Párosítsd az eseményeket az évszámokkal!",
+          "instruction": "",
+          "explanation": "A témakör kulcsévei: 1914, 1918, 1919, 1920, 1921.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 7,
+          "chronologyEvent": null,
+          "options": [],
+          "acceptedAnswers": [],
+          "pairs": [
+            {
+              "id": 5145,
+              "left": "Az első világháború kitörése",
+              "right": "1914",
+              "order": 1
+            },
+            {
+              "id": 5146,
+              "left": "Őszirózsás forradalom",
+              "right": "1918",
+              "order": 2
+            },
+            {
+              "id": 5147,
+              "left": "Tanácsköztársaság",
+              "right": "1919",
+              "order": 3
+            },
+            {
+              "id": 5148,
+              "left": "Trianoni béke",
+              "right": "1920",
+              "order": 4
+            },
+            {
+              "id": 5149,
+              "left": "Soproni népszavazás",
+              "right": "1921",
+              "order": 5
+            }
+          ],
+          "topicId": 1009
+        },
+        {
+          "id": 2239,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be a soproni népszavazás évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "Sopron 1921-ben szavazhatott hovatartozásáról.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 8,
+          "chronologyEvent": 1358,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4116,
+              "text": "1921",
+              "number": 1921,
+              "era": "CE",
+              "normalized": "1921"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1009
+        }
+      ]
+    },
+    {
+      "id": 1233,
+      "topicId": 1009,
+      "slug": "magyar-vilaghaboruk-horthy-korszak-es-reviziok",
+      "title": "Magyar világháborúk - Horthy-korszak és revíziók",
+      "description": "A Horthy-rendszer kiépülése, a válság és a területi revíziók fontos évszámai.",
+      "type": "evszam",
+      "difficulty": "kozepes",
+      "timeLimitSec": 900,
+      "questions": [
+        {
+          "id": 2240,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be Horthy Miklós kormányzóvá választásának évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "Horthyt 1920-ban választották kormányzóvá.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 1,
+          "chronologyEvent": 1359,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4117,
+              "text": "1920",
+              "number": 1920,
+              "era": "CE",
+              "normalized": "1920"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1009
+        },
+        {
+          "id": 2241,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik évben fogadták el a numerus clausus törvényt?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A numerus clausus 1920-ban született.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 2,
+          "chronologyEvent": 1360,
+          "options": [
+            {
+              "id": 3588,
+              "text": "1919",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3589,
+              "text": "1920",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3590,
+              "text": "1921",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3591,
+              "text": "1924",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1009
+        },
+        {
+          "id": 2242,
+          "typeId": 3,
+          "type": "true_false",
+          "typeLabel": "Igaz/Hamis",
+          "text": "Igaz vagy hamis? Bethlen István 1921-ben lett miniszterelnök.",
+          "instruction": "",
+          "explanation": "Igaz: Bethlen 1921-ben került a miniszterelnöki székbe.",
+          "difficulty": 1,
+          "points": 1,
+          "order": 3,
+          "chronologyEvent": 1361,
+          "options": [
+            {
+              "id": 3592,
+              "text": "Igaz",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3593,
+              "text": "Hamis",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1009
+        },
+        {
+          "id": 2243,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Mikor lett miniszterelnök Gömbös Gyula?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "Gömbös Gyula 1932-ben lett miniszterelnök.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 4,
+          "chronologyEvent": 1362,
+          "options": [
+            {
+              "id": 3594,
+              "text": "1929",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3595,
+              "text": "1932",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3596,
+              "text": "1935",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3597,
+              "text": "1938",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1009
+        },
+        {
+          "id": 2244,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik év kapcsolódik a győri program meghirdetéséhez?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A győri programot 1938-ban hirdették meg.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 5,
+          "chronologyEvent": 1363,
+          "options": [
+            {
+              "id": 3598,
+              "text": "1936",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3599,
+              "text": "1937",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3600,
+              "text": "1938",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3601,
+              "text": "1939",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1009
+        },
+        {
+          "id": 2245,
+          "typeId": 5,
+          "type": "chronology_order",
+          "typeLabel": "Időrendi sorrend",
+          "text": "Tedd időrendbe a Horthy-korszak főbb állomásait!",
+          "instruction": "",
+          "explanation": "Helyes sorrend: 1920 → 1921 → 1932 → 1938 → 1938.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 6,
+          "chronologyEvent": null,
+          "options": [
+            {
+              "id": 3602,
+              "text": "Horthy kormányzóvá választása",
+              "isCorrect": false,
+              "correctOrder": 1,
+              "order": 1
+            },
+            {
+              "id": 3603,
+              "text": "Bethlen István miniszterelnöksége kezdődik",
+              "isCorrect": false,
+              "correctOrder": 2,
+              "order": 2
+            },
+            {
+              "id": 3604,
+              "text": "Gömbös Gyula miniszterelnök lesz",
+              "isCorrect": false,
+              "correctOrder": 3,
+              "order": 3
+            },
+            {
+              "id": 3605,
+              "text": "A győri program meghirdetése",
+              "isCorrect": false,
+              "correctOrder": 4,
+              "order": 4
+            },
+            {
+              "id": 3606,
+              "text": "Az első bécsi döntés",
+              "isCorrect": false,
+              "correctOrder": 5,
+              "order": 5
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1009
+        },
+        {
+          "id": 2246,
+          "typeId": 6,
+          "type": "matching",
+          "typeLabel": "Párosítás",
+          "text": "Párosítsd a revíziós lépéseket az évszámokkal!",
+          "instruction": "",
+          "explanation": "A revíziók fő évszámai: 1938, 1939, 1940, 1941.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 7,
+          "chronologyEvent": null,
+          "options": [],
+          "acceptedAnswers": [],
+          "pairs": [
+            {
+              "id": 5150,
+              "left": "Első bécsi döntés",
+              "right": "1938",
+              "order": 1
+            },
+            {
+              "id": 5151,
+              "left": "Kárpátalja visszacsatolása",
+              "right": "1939",
+              "order": 2
+            },
+            {
+              "id": 5152,
+              "left": "Második bécsi döntés",
+              "right": "1940",
+              "order": 3
+            },
+            {
+              "id": 5153,
+              "left": "Délvidék visszafoglalása",
+              "right": "1941",
+              "order": 4
+            }
+          ],
+          "topicId": 1009
+        },
+        {
+          "id": 2247,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be az első bécsi döntés évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "Az első bécsi döntés 1938-ban született.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 8,
+          "chronologyEvent": 1364,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4118,
+              "text": "1938",
+              "number": 1938,
+              "era": "CE",
+              "normalized": "1938"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1009
+        }
+      ]
+    },
+    {
+      "id": 1234,
+      "topicId": 1009,
+      "slug": "magyar-vilaghaboruk-masodik-vh-es-holokauszt",
+      "title": "Magyar világháborúk - második világháború és holokauszt",
+      "description": "Magyarország hadba lépése, a doni katasztrófa, a megszállás és a háború vége.",
+      "type": "evszam",
+      "difficulty": "kozepes",
+      "timeLimitSec": 900,
+      "questions": [
+        {
+          "id": 2248,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be Magyarország hadba lépésének évét a Szovjetunió ellen!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "Magyarország 1941-ben lépett be a Szovjetunió elleni háborúba.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 1,
+          "chronologyEvent": 1365,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4119,
+              "text": "1941",
+              "number": 1941,
+              "era": "CE",
+              "normalized": "1941"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1009
+        },
+        {
+          "id": 2249,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik évben szállták meg a németek Magyarországot?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "Magyarországot 1944. március 19-én szállta meg Németország.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 2,
+          "chronologyEvent": 1367,
+          "options": [
+            {
+              "id": 3607,
+              "text": "1942",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3608,
+              "text": "1943",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3609,
+              "text": "1944",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3610,
+              "text": "1945",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1009
+        },
+        {
+          "id": 2250,
+          "typeId": 3,
+          "type": "true_false",
+          "typeLabel": "Igaz/Hamis",
+          "text": "Igaz vagy hamis? A nyilas hatalomátvétel 1944-ben történt.",
+          "instruction": "",
+          "explanation": "Igaz: a nyilasok 1944 őszén vették át a hatalmat.",
+          "difficulty": 1,
+          "points": 1,
+          "order": 3,
+          "chronologyEvent": 1368,
+          "options": [
+            {
+              "id": 3611,
+              "text": "Igaz",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3612,
+              "text": "Hamis",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1009
+        },
+        {
+          "id": 2251,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Mikor következett be a doni katasztrófa?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A 2. magyar hadsereg pusztulása 1943 januárjához kötődik.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 4,
+          "chronologyEvent": 1366,
+          "options": [
+            {
+              "id": 3613,
+              "text": "1941",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3614,
+              "text": "1942",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3615,
+              "text": "1943",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3616,
+              "text": "1944",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1009
+        },
+        {
+          "id": 2252,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik év kapcsolódik a magyarországi deportálások megkezdéséhez?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A deportálások 1944-ben indultak meg.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 5,
+          "chronologyEvent": 1369,
+          "options": [
+            {
+              "id": 3617,
+              "text": "1942",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3618,
+              "text": "1943",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3619,
+              "text": "1944",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3620,
+              "text": "1945",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1009
+        },
+        {
+          "id": 2253,
+          "typeId": 5,
+          "type": "chronology_order",
+          "typeLabel": "Időrendi sorrend",
+          "text": "Tedd időrendbe Magyarország második világháborús eseményeit!",
+          "instruction": "",
+          "explanation": "Helyes sorrend: 1941 → 1943 → 1944 → 1944 → 1945.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 6,
+          "chronologyEvent": null,
+          "options": [
+            {
+              "id": 3621,
+              "text": "Hadba lépés a Szovjetunió ellen",
+              "isCorrect": false,
+              "correctOrder": 1,
+              "order": 1
+            },
+            {
+              "id": 3622,
+              "text": "Doni katasztrófa",
+              "isCorrect": false,
+              "correctOrder": 2,
+              "order": 2
+            },
+            {
+              "id": 3623,
+              "text": "Német megszállás",
+              "isCorrect": false,
+              "correctOrder": 3,
+              "order": 3
+            },
+            {
+              "id": 3624,
+              "text": "Nyilas hatalomátvétel",
+              "isCorrect": false,
+              "correctOrder": 4,
+              "order": 4
+            },
+            {
+              "id": 3625,
+              "text": "A háború vége Magyarországon",
+              "isCorrect": false,
+              "correctOrder": 5,
+              "order": 5
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1009
+        },
+        {
+          "id": 2254,
+          "typeId": 6,
+          "type": "matching",
+          "typeLabel": "Párosítás",
+          "text": "Párosítsd az eseményeket az évszámokkal!",
+          "instruction": "",
+          "explanation": "A kulcsévszámok: 1941, 1943, 1944, 1945.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 7,
+          "chronologyEvent": null,
+          "options": [],
+          "acceptedAnswers": [],
+          "pairs": [
+            {
+              "id": 5154,
+              "left": "Hadba lépés a Szovjetunió ellen",
+              "right": "1941",
+              "order": 1
+            },
+            {
+              "id": 5155,
+              "left": "Doni katasztrófa",
+              "right": "1943",
+              "order": 2
+            },
+            {
+              "id": 5156,
+              "left": "Német megszállás",
+              "right": "1944",
+              "order": 3
+            },
+            {
+              "id": 5157,
+              "left": "A háború vége Magyarországon",
+              "right": "1945",
+              "order": 4
+            }
+          ],
+          "topicId": 1009
+        },
+        {
+          "id": 2255,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be a háború magyarországi befejezésének évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "Magyarországon 1945-ben értek véget a harcok.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 8,
+          "chronologyEvent": 1370,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4120,
+              "text": "1945",
+              "number": 1945,
+              "era": "CE",
+              "normalized": "1945"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1009
+        }
+      ]
+    },
+    {
+      "id": 1235,
+      "topicId": 1010,
+      "slug": "jelenkor-hideghaboru-es-konfliktusok",
+      "title": "Jelenkor - hidegháború és konfliktusok",
+      "description": "A kétpólusú világ kialakulása, a blokkok létrejötte és a főbb hidegháborús válságok évszámai.",
+      "type": "evszam",
+      "difficulty": "konnyu",
+      "timeLimitSec": 900,
+      "questions": [
+        {
+          "id": 2256,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be a Truman-doktrína évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "A Truman-doktrína 1947-ben hirdette meg a feltartóztatás politikáját.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 1,
+          "chronologyEvent": 1372,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4121,
+              "text": "1947",
+              "number": 1947,
+              "era": "CE",
+              "normalized": "1947"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1010
+        },
+        {
+          "id": 2257,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik évben jött létre a NATO?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A NATO 1949-ben alakult meg.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 2,
+          "chronologyEvent": 1373,
+          "options": [
+            {
+              "id": 3626,
+              "text": "1947",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3627,
+              "text": "1948",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3628,
+              "text": "1949",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3629,
+              "text": "1951",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1010
+        },
+        {
+          "id": 2258,
+          "typeId": 3,
+          "type": "true_false",
+          "typeLabel": "Igaz/Hamis",
+          "text": "Igaz vagy hamis? A berlini falat 1961-ben építették fel.",
+          "instruction": "",
+          "explanation": "Igaz: a fal 1961-ben választotta ketté Berlint.",
+          "difficulty": 1,
+          "points": 1,
+          "order": 3,
+          "chronologyEvent": 1374,
+          "options": [
+            {
+              "id": 3630,
+              "text": "Igaz",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3631,
+              "text": "Hamis",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1010
+        },
+        {
+          "id": 2259,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik évben jött létre az ENSZ?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "Az ENSZ 1945-ben alakult meg.",
+          "difficulty": 1,
+          "points": 1,
+          "order": 4,
+          "chronologyEvent": 1371,
+          "options": [
+            {
+              "id": 3632,
+              "text": "1944",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3633,
+              "text": "1945",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3634,
+              "text": "1946",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3635,
+              "text": "1947",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1010
+        },
+        {
+          "id": 2260,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Mikor volt a kubai rakétaválság?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A kubai rakétaválság 1962-ben sodorta a világot atomháború közelébe.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 5,
+          "chronologyEvent": 1375,
+          "options": [
+            {
+              "id": 3636,
+              "text": "1956",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3637,
+              "text": "1961",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3638,
+              "text": "1962",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3639,
+              "text": "1968",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1010
+        },
+        {
+          "id": 2261,
+          "typeId": 5,
+          "type": "chronology_order",
+          "typeLabel": "Időrendi sorrend",
+          "text": "Tedd időrendbe a hidegháború főbb állomásait!",
+          "instruction": "",
+          "explanation": "Helyes sorrend: 1945 → 1947 → 1949 → 1961 → 1989.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 6,
+          "chronologyEvent": null,
+          "options": [
+            {
+              "id": 3640,
+              "text": "Az ENSZ létrejötte",
+              "isCorrect": false,
+              "correctOrder": 1,
+              "order": 1
+            },
+            {
+              "id": 3641,
+              "text": "A Truman-doktrína",
+              "isCorrect": false,
+              "correctOrder": 2,
+              "order": 2
+            },
+            {
+              "id": 3642,
+              "text": "A NATO létrejötte",
+              "isCorrect": false,
+              "correctOrder": 3,
+              "order": 3
+            },
+            {
+              "id": 3643,
+              "text": "A berlini fal felépítése",
+              "isCorrect": false,
+              "correctOrder": 4,
+              "order": 4
+            },
+            {
+              "id": 3644,
+              "text": "A berlini fal leomlása",
+              "isCorrect": false,
+              "correctOrder": 5,
+              "order": 5
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1010
+        },
+        {
+          "id": 2262,
+          "typeId": 6,
+          "type": "matching",
+          "typeLabel": "Párosítás",
+          "text": "Párosítsd az eseményeket az évszámokkal!",
+          "instruction": "",
+          "explanation": "A blokkrendszer fő évszámai: 1945, 1947, 1949, 1962.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 7,
+          "chronologyEvent": null,
+          "options": [],
+          "acceptedAnswers": [],
+          "pairs": [
+            {
+              "id": 5158,
+              "left": "ENSZ létrejötte",
+              "right": "1945",
+              "order": 1
+            },
+            {
+              "id": 5159,
+              "left": "Truman-doktrína",
+              "right": "1947",
+              "order": 2
+            },
+            {
+              "id": 5160,
+              "left": "NATO létrejötte",
+              "right": "1949",
+              "order": 3
+            },
+            {
+              "id": 5161,
+              "left": "Kubai rakétaválság",
+              "right": "1962",
+              "order": 4
+            }
+          ],
+          "topicId": 1010
+        },
+        {
+          "id": 2263,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be a berlini fal leomlásának évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "A berlini fal 1989-ben omlott le.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 8,
+          "chronologyEvent": 1376,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4122,
+              "text": "1989",
+              "number": 1989,
+              "era": "CE",
+              "normalized": "1989"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1010
+        }
+      ]
+    },
+    {
+      "id": 1236,
+      "topicId": 1010,
+      "slug": "jelenkor-dekolonizacio-es-kozel-kelet",
+      "title": "Jelenkor - dekolonizáció és Közel-Kelet",
+      "description": "India, Kína, Izrael és a közel-keleti konfliktusok alapvető évszámai.",
+      "type": "evszam",
+      "difficulty": "kozepes",
+      "timeLimitSec": 900,
+      "questions": [
+        {
+          "id": 2264,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be India függetlenné válásának évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "India 1947-ben nyerte el függetlenségét.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 1,
+          "chronologyEvent": 1377,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4123,
+              "text": "1947",
+              "number": 1947,
+              "era": "CE",
+              "normalized": "1947"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1010
+        },
+        {
+          "id": 2265,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik évben jött létre Izrael állam?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "Izraelt 1948-ban kiáltották ki.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 2,
+          "chronologyEvent": 1378,
+          "options": [
+            {
+              "id": 3645,
+              "text": "1947",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3646,
+              "text": "1948",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3647,
+              "text": "1949",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3648,
+              "text": "1956",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1010
+        },
+        {
+          "id": 2266,
+          "typeId": 3,
+          "type": "true_false",
+          "typeLabel": "Igaz/Hamis",
+          "text": "Igaz vagy hamis? A Kínai Népköztársaság 1949-ben jött létre.",
+          "instruction": "",
+          "explanation": "Igaz: Mao Ce-tung 1949-ben kiáltotta ki a Kínai Népköztársaságot.",
+          "difficulty": 1,
+          "points": 1,
+          "order": 3,
+          "chronologyEvent": 1379,
+          "options": [
+            {
+              "id": 3649,
+              "text": "Igaz",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3650,
+              "text": "Hamis",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1010
+        },
+        {
+          "id": 2267,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Mikor volt a szuezi válság?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A szuezi válság 1956-ban robbant ki.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 4,
+          "chronologyEvent": 1380,
+          "options": [
+            {
+              "id": 3651,
+              "text": "1948",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3652,
+              "text": "1956",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3653,
+              "text": "1967",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3654,
+              "text": "1973",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1010
+        },
+        {
+          "id": 2268,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik év kapcsolódik a hatnapos háborúhoz?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A hatnapos háború 1967-ben zajlott.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 5,
+          "chronologyEvent": 1381,
+          "options": [
+            {
+              "id": 3655,
+              "text": "1956",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3656,
+              "text": "1967",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3657,
+              "text": "1973",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3658,
+              "text": "1979",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1010
+        },
+        {
+          "id": 2269,
+          "typeId": 5,
+          "type": "chronology_order",
+          "typeLabel": "Időrendi sorrend",
+          "text": "Tedd időrendbe a dekolonizáció és a Közel-Kelet főbb eseményeit!",
+          "instruction": "",
+          "explanation": "Helyes sorrend: 1947 → 1948 → 1949 → 1956 → 1967.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 6,
+          "chronologyEvent": null,
+          "options": [
+            {
+              "id": 3659,
+              "text": "India függetlenné válása",
+              "isCorrect": false,
+              "correctOrder": 1,
+              "order": 1
+            },
+            {
+              "id": 3660,
+              "text": "Izrael létrejötte",
+              "isCorrect": false,
+              "correctOrder": 2,
+              "order": 2
+            },
+            {
+              "id": 3661,
+              "text": "A Kínai Népköztársaság kikiáltása",
+              "isCorrect": false,
+              "correctOrder": 3,
+              "order": 3
+            },
+            {
+              "id": 3662,
+              "text": "A szuezi válság",
+              "isCorrect": false,
+              "correctOrder": 4,
+              "order": 4
+            },
+            {
+              "id": 3663,
+              "text": "A hatnapos háború",
+              "isCorrect": false,
+              "correctOrder": 5,
+              "order": 5
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1010
+        },
+        {
+          "id": 2270,
+          "typeId": 6,
+          "type": "matching",
+          "typeLabel": "Párosítás",
+          "text": "Párosítsd az eseményeket az évszámokkal!",
+          "instruction": "",
+          "explanation": "A témakör kulcsévei: 1947, 1948, 1949, 1956, 1967.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 7,
+          "chronologyEvent": null,
+          "options": [],
+          "acceptedAnswers": [],
+          "pairs": [
+            {
+              "id": 5162,
+              "left": "India függetlenné válása",
+              "right": "1947",
+              "order": 1
+            },
+            {
+              "id": 5163,
+              "left": "Izrael létrejötte",
+              "right": "1948",
+              "order": 2
+            },
+            {
+              "id": 5164,
+              "left": "A Kínai Népköztársaság",
+              "right": "1949",
+              "order": 3
+            },
+            {
+              "id": 5165,
+              "left": "A szuezi válság",
+              "right": "1956",
+              "order": 4
+            },
+            {
+              "id": 5166,
+              "left": "A hatnapos háború",
+              "right": "1967",
+              "order": 5
+            }
+          ],
+          "topicId": 1010
+        },
+        {
+          "id": 2271,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be a Kínai Népköztársaság létrejöttének évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "A Kínai Népköztársaságot 1949-ben kiáltották ki.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 8,
+          "chronologyEvent": 1379,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4124,
+              "text": "1949",
+              "number": 1949,
+              "era": "CE",
+              "normalized": "1949"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1010
+        }
+      ]
+    },
+    {
+      "id": 1237,
+      "topicId": 1010,
+      "slug": "jelenkor-europai-integracio-es-globalis-vilag",
+      "title": "Jelenkor - európai integráció és globális világ",
+      "description": "Az európai integráció fő állomásai, a kétpólusú világ megszűnése és a globalizáció fontos évszámai.",
+      "type": "evszam",
+      "difficulty": "kozepes",
+      "timeLimitSec": 900,
+      "questions": [
+        {
+          "id": 2272,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be a római szerződés évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "A római szerződést 1957-ben írták alá.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 1,
+          "chronologyEvent": 1383,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4125,
+              "text": "1957",
+              "number": 1957,
+              "era": "CE",
+              "normalized": "1957"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1010
+        },
+        {
+          "id": 2273,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik évben írták alá a maastrichti szerződést?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A maastrichti szerződés 1992-ben jött létre.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 2,
+          "chronologyEvent": 1386,
+          "options": [
+            {
+              "id": 3664,
+              "text": "1990",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3665,
+              "text": "1991",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3666,
+              "text": "1992",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3667,
+              "text": "2004",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1010
+        },
+        {
+          "id": 2274,
+          "typeId": 3,
+          "type": "true_false",
+          "typeLabel": "Igaz/Hamis",
+          "text": "Igaz vagy hamis? Németország újraegyesítése 1990-ben történt.",
+          "instruction": "",
+          "explanation": "Igaz: a német újraegyesítés 1990-ben valósult meg.",
+          "difficulty": 1,
+          "points": 1,
+          "order": 3,
+          "chronologyEvent": 1384,
+          "options": [
+            {
+              "id": 3668,
+              "text": "Igaz",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3669,
+              "text": "Hamis",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1010
+        },
+        {
+          "id": 2275,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Mikor szűnt meg a Szovjetunió?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A Szovjetunió 1991-ben bomlott fel.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 4,
+          "chronologyEvent": 1385,
+          "options": [
+            {
+              "id": 3670,
+              "text": "1989",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3671,
+              "text": "1990",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3672,
+              "text": "1991",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3673,
+              "text": "1992",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1010
+        },
+        {
+          "id": 2276,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik év kapcsolódik Magyarország EU-csatlakozásához?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "Magyarország 2004-ben csatlakozott az Európai Unióhoz.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 5,
+          "chronologyEvent": 1387,
+          "options": [
+            {
+              "id": 3674,
+              "text": "1999",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3675,
+              "text": "2002",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3676,
+              "text": "2004",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3677,
+              "text": "2007",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1010
+        },
+        {
+          "id": 2277,
+          "typeId": 5,
+          "type": "chronology_order",
+          "typeLabel": "Időrendi sorrend",
+          "text": "Tedd időrendbe az európai integráció főbb állomásait!",
+          "instruction": "",
+          "explanation": "Helyes sorrend: 1951 → 1957 → 1990 → 1992 → 2004.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 6,
+          "chronologyEvent": null,
+          "options": [
+            {
+              "id": 3678,
+              "text": "Az ESZAK létrejötte",
+              "isCorrect": false,
+              "correctOrder": 1,
+              "order": 1
+            },
+            {
+              "id": 3679,
+              "text": "A római szerződés",
+              "isCorrect": false,
+              "correctOrder": 2,
+              "order": 2
+            },
+            {
+              "id": 3680,
+              "text": "Németország újraegyesítése",
+              "isCorrect": false,
+              "correctOrder": 3,
+              "order": 3
+            },
+            {
+              "id": 3681,
+              "text": "A maastrichti szerződés",
+              "isCorrect": false,
+              "correctOrder": 4,
+              "order": 4
+            },
+            {
+              "id": 3682,
+              "text": "Magyarország EU-csatlakozása",
+              "isCorrect": false,
+              "correctOrder": 5,
+              "order": 5
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1010
+        },
+        {
+          "id": 2278,
+          "typeId": 6,
+          "type": "matching",
+          "typeLabel": "Párosítás",
+          "text": "Párosítsd az eseményeket az évszámokkal!",
+          "instruction": "",
+          "explanation": "Az integráció fő évszámai: 1951, 1957, 1991, 1992, 2004.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 7,
+          "chronologyEvent": null,
+          "options": [],
+          "acceptedAnswers": [],
+          "pairs": [
+            {
+              "id": 5167,
+              "left": "Az ESZAK létrejötte",
+              "right": "1951",
+              "order": 1
+            },
+            {
+              "id": 5168,
+              "left": "A római szerződés",
+              "right": "1957",
+              "order": 2
+            },
+            {
+              "id": 5169,
+              "left": "A Szovjetunió szétesése",
+              "right": "1991",
+              "order": 3
+            },
+            {
+              "id": 5170,
+              "left": "A maastrichti szerződés",
+              "right": "1992",
+              "order": 4
+            },
+            {
+              "id": 5171,
+              "left": "Magyarország EU-csatlakozása",
+              "right": "2004",
+              "order": 5
+            }
+          ],
+          "topicId": 1010
+        },
+        {
+          "id": 2279,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be Magyarország EU-csatlakozásának évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "Magyarország 2004-ben csatlakozott az EU-hoz.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 8,
+          "chronologyEvent": 1387,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4126,
+              "text": "2004",
+              "number": 2004,
+              "era": "CE",
+              "normalized": "2004"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1010
+        }
+      ]
+    },
+    {
+      "id": 1238,
+      "topicId": 1011,
+      "slug": "magyar-1945-koalicios-es-rakosi-korszak",
+      "title": "Magyarország 1945 után - koalíciós időszak és Rákosi-korszak",
+      "description": "A kommunista hatalomátvétel és a Rákosi-rendszer kiépítésének kulcsévszámai.",
+      "type": "evszam",
+      "difficulty": "konnyu",
+      "timeLimitSec": 900,
+      "questions": [
+        {
+          "id": 2280,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be a földreform évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "A földreformra 1945-ben került sor.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 1,
+          "chronologyEvent": 1388,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4127,
+              "text": "1945",
+              "number": 1945,
+              "era": "CE",
+              "normalized": "1945"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1011
+        },
+        {
+          "id": 2281,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik évben vezették be a forintot?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A forintot 1946-ban vezették be.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 2,
+          "chronologyEvent": 1389,
+          "options": [
+            {
+              "id": 3683,
+              "text": "1945",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3684,
+              "text": "1946",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3685,
+              "text": "1947",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3686,
+              "text": "1948",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1011
+        },
+        {
+          "id": 2282,
+          "typeId": 3,
+          "type": "true_false",
+          "typeLabel": "Igaz/Hamis",
+          "text": "Igaz vagy hamis? Az MDP 1948-ban jött létre.",
+          "instruction": "",
+          "explanation": "Igaz: a kommunista és a szociáldemokrata párt 1948-ban egyesült.",
+          "difficulty": 1,
+          "points": 1,
+          "order": 3,
+          "chronologyEvent": 1391,
+          "options": [
+            {
+              "id": 3687,
+              "text": "Igaz",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3688,
+              "text": "Hamis",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1011
+        },
+        {
+          "id": 2283,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Mikor voltak a kékcédulás választások?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A hírhedt kékcédulás választásokat 1947-ben tartották.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 4,
+          "chronologyEvent": 1390,
+          "options": [
+            {
+              "id": 3689,
+              "text": "1946",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3690,
+              "text": "1947",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3691,
+              "text": "1948",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3692,
+              "text": "1949",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1011
+        },
+        {
+          "id": 2284,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik év kapcsolódik a Rajk-perhez és Rajk László kivégzéséhez?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "Rajk Lászlót 1949-ben végezték ki.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 5,
+          "chronologyEvent": 1392,
+          "options": [
+            {
+              "id": 3693,
+              "text": "1947",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3694,
+              "text": "1948",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3695,
+              "text": "1949",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3696,
+              "text": "1950",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1011
+        },
+        {
+          "id": 2285,
+          "typeId": 5,
+          "type": "chronology_order",
+          "typeLabel": "Időrendi sorrend",
+          "text": "Tedd időrendbe a kommunista hatalomátvétel főbb állomásait!",
+          "instruction": "",
+          "explanation": "Helyes sorrend: 1945 → 1946 → 1947 → 1948 → 1950.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 6,
+          "chronologyEvent": null,
+          "options": [
+            {
+              "id": 3697,
+              "text": "Földreform",
+              "isCorrect": false,
+              "correctOrder": 1,
+              "order": 1
+            },
+            {
+              "id": 3698,
+              "text": "Forint bevezetése",
+              "isCorrect": false,
+              "correctOrder": 2,
+              "order": 2
+            },
+            {
+              "id": 3699,
+              "text": "Kékcédulás választások",
+              "isCorrect": false,
+              "correctOrder": 3,
+              "order": 3
+            },
+            {
+              "id": 3700,
+              "text": "MDP létrejötte",
+              "isCorrect": false,
+              "correctOrder": 4,
+              "order": 4
+            },
+            {
+              "id": 3701,
+              "text": "Első ötéves terv kezdete",
+              "isCorrect": false,
+              "correctOrder": 5,
+              "order": 5
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1011
+        },
+        {
+          "id": 2286,
+          "typeId": 6,
+          "type": "matching",
+          "typeLabel": "Párosítás",
+          "text": "Párosítsd az eseményeket az évszámokkal!",
+          "instruction": "",
+          "explanation": "A diktatúra kiépítésének kulcsévei: 1945, 1946, 1947, 1948, 1949.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 7,
+          "chronologyEvent": null,
+          "options": [],
+          "acceptedAnswers": [],
+          "pairs": [
+            {
+              "id": 5172,
+              "left": "Földreform",
+              "right": "1945",
+              "order": 1
+            },
+            {
+              "id": 5173,
+              "left": "Forint bevezetése",
+              "right": "1946",
+              "order": 2
+            },
+            {
+              "id": 5174,
+              "left": "Kékcédulás választások",
+              "right": "1947",
+              "order": 3
+            },
+            {
+              "id": 5175,
+              "left": "MDP létrejötte",
+              "right": "1948",
+              "order": 4
+            },
+            {
+              "id": 5176,
+              "left": "Rajk-per",
+              "right": "1949",
+              "order": 5
+            }
+          ],
+          "topicId": 1011
+        },
+        {
+          "id": 2287,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be az első ötéves terv indulásának évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "Az első ötéves terv 1950-ben indult.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 8,
+          "chronologyEvent": 1393,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4128,
+              "text": "1950",
+              "number": 1950,
+              "era": "CE",
+              "normalized": "1950"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1011
+        }
+      ]
+    },
+    {
+      "id": 1239,
+      "topicId": 1011,
+      "slug": "magyar-1945-1956-es-kadar-konszolidacio",
+      "title": "Magyarország 1945 után - 1956 és a Kádár-korszak konszolidációja",
+      "description": "Az 1956-os forradalom, a megtorlás és a Kádár-rendszer konszolidációjának fontos évszámai.",
+      "type": "evszam",
+      "difficulty": "kozepes",
+      "timeLimitSec": 900,
+      "questions": [
+        {
+          "id": 2288,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be az 1956-os forradalom kitörésének évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "A forradalom 1956-ban robbant ki.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 1,
+          "chronologyEvent": 1394,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4129,
+              "text": "1956",
+              "number": 1956,
+              "era": "CE",
+              "normalized": "1956"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1011
+        },
+        {
+          "id": 2289,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik évben végezték ki Nagy Imrét?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "Nagy Imrét 1958-ban végezték ki.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 2,
+          "chronologyEvent": 1395,
+          "options": [
+            {
+              "id": 3702,
+              "text": "1957",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3703,
+              "text": "1958",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3704,
+              "text": "1961",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3705,
+              "text": "1963",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1011
+        },
+        {
+          "id": 2290,
+          "typeId": 3,
+          "type": "true_false",
+          "typeLabel": "Igaz/Hamis",
+          "text": "Igaz vagy hamis? Az új gazdasági mechanizmust 1968-ban vezették be.",
+          "instruction": "",
+          "explanation": "Igaz: az új gazdasági mechanizmus 1968-ban indult.",
+          "difficulty": 1,
+          "points": 1,
+          "order": 3,
+          "chronologyEvent": 1397,
+          "options": [
+            {
+              "id": 3706,
+              "text": "Igaz",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3707,
+              "text": "Hamis",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1011
+        },
+        {
+          "id": 2291,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Mikor hirdettek általános amnesztiát Magyarországon?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "Az amnesztiát 1963-ban hirdették ki.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 4,
+          "chronologyEvent": 1396,
+          "options": [
+            {
+              "id": 3708,
+              "text": "1958",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3709,
+              "text": "1960",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3710,
+              "text": "1963",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3711,
+              "text": "1968",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1011
+        },
+        {
+          "id": 2292,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik év kapcsolódik a prágai tavasz leverésében való magyar részvételhez?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A Varsói Szerződés csapatai 1968-ban avatkoztak be Csehszlovákiában.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 5,
+          "chronologyEvent": 1398,
+          "options": [
+            {
+              "id": 3712,
+              "text": "1963",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3713,
+              "text": "1965",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3714,
+              "text": "1968",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3715,
+              "text": "1972",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1011
+        },
+        {
+          "id": 2293,
+          "typeId": 5,
+          "type": "chronology_order",
+          "typeLabel": "Időrendi sorrend",
+          "text": "Tedd időrendbe az 1956 utáni főbb eseményeket!",
+          "instruction": "",
+          "explanation": "Helyes sorrend: 1956 → 1958 → 1963 → 1968 → 1968.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 6,
+          "chronologyEvent": null,
+          "options": [
+            {
+              "id": 3716,
+              "text": "Az 1956-os forradalom",
+              "isCorrect": false,
+              "correctOrder": 1,
+              "order": 1
+            },
+            {
+              "id": 3717,
+              "text": "Nagy Imre kivégzése",
+              "isCorrect": false,
+              "correctOrder": 2,
+              "order": 2
+            },
+            {
+              "id": 3718,
+              "text": "Általános amnesztia",
+              "isCorrect": false,
+              "correctOrder": 3,
+              "order": 3
+            },
+            {
+              "id": 3719,
+              "text": "Új gazdasági mechanizmus",
+              "isCorrect": false,
+              "correctOrder": 4,
+              "order": 4
+            },
+            {
+              "id": 3720,
+              "text": "Prágai tavasz leverése",
+              "isCorrect": false,
+              "correctOrder": 5,
+              "order": 5
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1011
+        },
+        {
+          "id": 2294,
+          "typeId": 6,
+          "type": "matching",
+          "typeLabel": "Párosítás",
+          "text": "Párosítsd az eseményeket az évszámokkal!",
+          "instruction": "",
+          "explanation": "A konszolidáció fő évszámai: 1956, 1958, 1963, 1968.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 7,
+          "chronologyEvent": null,
+          "options": [],
+          "acceptedAnswers": [],
+          "pairs": [
+            {
+              "id": 5177,
+              "left": "Forradalom kitörése",
+              "right": "1956",
+              "order": 1
+            },
+            {
+              "id": 5178,
+              "left": "Nagy Imre kivégzése",
+              "right": "1958",
+              "order": 2
+            },
+            {
+              "id": 5179,
+              "left": "Általános amnesztia",
+              "right": "1963",
+              "order": 3
+            },
+            {
+              "id": 5180,
+              "left": "Új gazdasági mechanizmus",
+              "right": "1968",
+              "order": 4
+            }
+          ],
+          "topicId": 1011
+        },
+        {
+          "id": 2295,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be az általános amnesztia évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "Az általános amnesztiát 1963-ban hirdették ki.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 8,
+          "chronologyEvent": 1396,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4130,
+              "text": "1963",
+              "number": 1963,
+              "era": "CE",
+              "normalized": "1963"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1011
+        }
+      ]
+    },
+    {
+      "id": 1240,
+      "topicId": 1011,
+      "slug": "magyar-1945-rendszervaltas",
+      "title": "Magyarország 1945 után - rendszerváltás",
+      "description": "Az ellenzéki mozgalmak, a rendszerváltás és a közjogi átalakulás kulcsévszámai.",
+      "type": "evszam",
+      "difficulty": "kozepes",
+      "timeLimitSec": 900,
+      "questions": [
+        {
+          "id": 2296,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be a lakiteleki találkozó évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "A lakiteleki találkozóra 1987-ben került sor.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 1,
+          "chronologyEvent": 1399,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4131,
+              "text": "1987",
+              "number": 1987,
+              "era": "CE",
+              "normalized": "1987"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1011
+        },
+        {
+          "id": 2297,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik évben kiáltották ki a Magyar Köztársaságot?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A Magyar Köztársaságot 1989. október 23-án kiáltották ki.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 2,
+          "chronologyEvent": 1401,
+          "options": [
+            {
+              "id": 3721,
+              "text": "1988",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3722,
+              "text": "1989",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3723,
+              "text": "1990",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3724,
+              "text": "1991",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1011
+        },
+        {
+          "id": 2298,
+          "typeId": 3,
+          "type": "true_false",
+          "typeLabel": "Igaz/Hamis",
+          "text": "Igaz vagy hamis? A szovjet csapatok 1991-ben hagyták el Magyarországot.",
+          "instruction": "",
+          "explanation": "Igaz: a szovjet csapatkivonás 1991-ben fejeződött be.",
+          "difficulty": 1,
+          "points": 1,
+          "order": 3,
+          "chronologyEvent": 1403,
+          "options": [
+            {
+              "id": 3725,
+              "text": "Igaz",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3726,
+              "text": "Hamis",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1011
+        },
+        {
+          "id": 2299,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Mikor tartották az első szabad országgyűlési választásokat?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "Az első szabad választásokat 1990-ben tartották.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 4,
+          "chronologyEvent": 1402,
+          "options": [
+            {
+              "id": 3727,
+              "text": "1989",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3728,
+              "text": "1990",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3729,
+              "text": "1991",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3730,
+              "text": "1994",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1011
+        },
+        {
+          "id": 2300,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik év kapcsolódik az Alaptörvény elfogadásához?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "Az Alaptörvényt 2011-ben fogadták el.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 5,
+          "chronologyEvent": 1404,
+          "options": [
+            {
+              "id": 3731,
+              "text": "2009",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3732,
+              "text": "2010",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3733,
+              "text": "2011",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3734,
+              "text": "2012",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1011
+        },
+        {
+          "id": 2301,
+          "typeId": 5,
+          "type": "chronology_order",
+          "typeLabel": "Időrendi sorrend",
+          "text": "Tedd időrendbe a rendszerváltás főbb állomásait!",
+          "instruction": "",
+          "explanation": "Helyes sorrend: 1987 → 1989 → 1989 → 1990 → 1991.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 6,
+          "chronologyEvent": null,
+          "options": [
+            {
+              "id": 3735,
+              "text": "Lakiteleki találkozó",
+              "isCorrect": false,
+              "correctOrder": 1,
+              "order": 1
+            },
+            {
+              "id": 3736,
+              "text": "Ellenzéki Kerekasztal",
+              "isCorrect": false,
+              "correctOrder": 2,
+              "order": 2
+            },
+            {
+              "id": 3737,
+              "text": "A Magyar Köztársaság kikiáltása",
+              "isCorrect": false,
+              "correctOrder": 3,
+              "order": 3
+            },
+            {
+              "id": 3738,
+              "text": "Első szabad választások",
+              "isCorrect": false,
+              "correctOrder": 4,
+              "order": 4
+            },
+            {
+              "id": 3739,
+              "text": "Szovjet csapatkivonás befejezése",
+              "isCorrect": false,
+              "correctOrder": 5,
+              "order": 5
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1011
+        },
+        {
+          "id": 2302,
+          "typeId": 6,
+          "type": "matching",
+          "typeLabel": "Párosítás",
+          "text": "Párosítsd az eseményeket az évszámokkal!",
+          "instruction": "",
+          "explanation": "A rendszerváltás fő évszámai: 1987, 1989, 1990, 1991.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 7,
+          "chronologyEvent": null,
+          "options": [],
+          "acceptedAnswers": [],
+          "pairs": [
+            {
+              "id": 5181,
+              "left": "Lakiteleki találkozó",
+              "right": "1987",
+              "order": 1
+            },
+            {
+              "id": 5182,
+              "left": "Ellenzéki Kerekasztal",
+              "right": "1989",
+              "order": 2
+            },
+            {
+              "id": 5183,
+              "left": "Első szabad választások",
+              "right": "1990",
+              "order": 3
+            },
+            {
+              "id": 5184,
+              "left": "Szovjet csapatkivonás befejezése",
+              "right": "1991",
+              "order": 4
+            }
+          ],
+          "topicId": 1011
+        },
+        {
+          "id": 2303,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be az Ellenzéki Kerekasztal évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "Az Ellenzéki Kerekasztal tárgyalásai 1989-ben kezdődtek.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 8,
+          "chronologyEvent": 1400,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4132,
+              "text": "1989",
+              "number": 1989,
+              "era": "CE",
+              "normalized": "1989"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1011
+        }
+      ]
+    },
+    {
+      "id": 1241,
+      "topicId": 1012,
+      "slug": "allampolgari-ismeretek-jogok-es-demokracia",
+      "title": "Állampolgári ismeretek - jogok és demokrácia",
+      "description": "Emberi jogok, demokratikus átmenet és uniós állampolgári keretek évszámai.",
+      "type": "evszam",
+      "difficulty": "konnyu",
+      "timeLimitSec": 900,
+      "questions": [
+        {
+          "id": 2304,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be az Emberi Jogok Egyetemes Nyilatkozata elfogadásának évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "Az Emberi Jogok Egyetemes Nyilatkozatát 1948-ban fogadták el.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 1,
+          "chronologyEvent": 1405,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4133,
+              "text": "1948",
+              "number": 1948,
+              "era": "CE",
+              "normalized": "1948"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1012
+        },
+        {
+          "id": 2305,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik évben rögzült Magyarországon alkotmányosan a többpártrendszer és a demokratikus jogállam?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A demokratikus átmenet kulcséve 1989.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 2,
+          "chronologyEvent": 1406,
+          "options": [
+            {
+              "id": 3740,
+              "text": "1948",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3741,
+              "text": "1989",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3742,
+              "text": "1990",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3743,
+              "text": "2004",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1012
+        },
+        {
+          "id": 2306,
+          "typeId": 3,
+          "type": "true_false",
+          "typeLabel": "Igaz/Hamis",
+          "text": "Igaz vagy hamis? Magyarország 2004-ben csatlakozott az Európai Unióhoz.",
+          "instruction": "",
+          "explanation": "Igaz: Magyarország 2004-ben lett az Európai Unió tagja.",
+          "difficulty": 1,
+          "points": 1,
+          "order": 3,
+          "chronologyEvent": 1408,
+          "options": [
+            {
+              "id": 3744,
+              "text": "Igaz",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3745,
+              "text": "Hamis",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1012
+        },
+        {
+          "id": 2307,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Mikor tartották Magyarországon az első szabad országgyűlési választásokat a rendszerváltás után?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "Az első szabad országgyűlési választások évszáma 1990.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 4,
+          "chronologyEvent": 1407,
+          "options": [
+            {
+              "id": 3746,
+              "text": "1989",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3747,
+              "text": "1990",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3748,
+              "text": "1991",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3749,
+              "text": "2004",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1012
+        },
+        {
+          "id": 2308,
+          "typeId": 5,
+          "type": "chronology_order",
+          "typeLabel": "Időrendi sorrend",
+          "text": "Tedd időrendbe az állampolgári jogokhoz és a demokráciához kapcsolódó eseményeket!",
+          "instruction": "",
+          "explanation": "Helyes sorrend: Emberi Jogok Egyetemes Nyilatkozata → többpártrendszer alkotmányos rögzítése → első szabad választások → EU-csatlakozás.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 5,
+          "chronologyEvent": null,
+          "options": [
+            {
+              "id": 3750,
+              "text": "Az Emberi Jogok Egyetemes Nyilatkozata",
+              "isCorrect": false,
+              "correctOrder": 1,
+              "order": 1
+            },
+            {
+              "id": 3751,
+              "text": "A többpártrendszer alkotmányos rögzítése Magyarországon",
+              "isCorrect": false,
+              "correctOrder": 2,
+              "order": 2
+            },
+            {
+              "id": 3752,
+              "text": "Az első szabad országgyűlési választások",
+              "isCorrect": false,
+              "correctOrder": 3,
+              "order": 3
+            },
+            {
+              "id": 3753,
+              "text": "Magyarország EU-csatlakozása",
+              "isCorrect": false,
+              "correctOrder": 4,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1012
+        },
+        {
+          "id": 2309,
+          "typeId": 6,
+          "type": "matching",
+          "typeLabel": "Párosítás",
+          "text": "Párosítsd az eseményeket az évszámokkal!",
+          "instruction": "",
+          "explanation": "Párok: Emberi Jogok Egyetemes Nyilatkozata = 1948 | demokratikus jogállami átmenet = 1989 | első szabad választások = 1990 | EU-csatlakozás = 2004.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 6,
+          "chronologyEvent": null,
+          "options": [],
+          "acceptedAnswers": [],
+          "pairs": [
+            {
+              "id": 5185,
+              "left": "Az Emberi Jogok Egyetemes Nyilatkozata",
+              "right": "1948",
+              "order": 1
+            },
+            {
+              "id": 5186,
+              "left": "A többpártrendszer alkotmányos rögzítése",
+              "right": "1989",
+              "order": 2
+            },
+            {
+              "id": 5187,
+              "left": "Az első szabad országgyűlési választások",
+              "right": "1990",
+              "order": 3
+            },
+            {
+              "id": 5188,
+              "left": "Magyarország EU-csatlakozása",
+              "right": "2004",
+              "order": 4
+            }
+          ],
+          "topicId": 1012
+        },
+        {
+          "id": 2310,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be a demokratikus jogállami átmenet kulcsévének évszámát!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "A rendszerváltás alkotmányos fordulatának kulcséve 1989.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 7,
+          "chronologyEvent": 1406,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4134,
+              "text": "1989",
+              "number": 1989,
+              "era": "CE",
+              "normalized": "1989"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1012
+        }
+      ]
+    },
+    {
+      "id": 1242,
+      "topicId": 1012,
+      "slug": "allamszervezet-intezmenyek-es-alaptorveny",
+      "title": "Államszervezet - intézmények és Alaptörvény",
+      "description": "Az Alkotmánybíróság, az önkormányzatok, az ombudsman és az Alaptörvény évszámai.",
+      "type": "evszam",
+      "difficulty": "kozepes",
+      "timeLimitSec": 900,
+      "questions": [
+        {
+          "id": 2311,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik évben jött létre Magyarországon az Alkotmánybíróság?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "Az Alkotmánybíróság 1989-ben jött létre.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 1,
+          "chronologyEvent": 1409,
+          "options": [
+            {
+              "id": 3754,
+              "text": "1988",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3755,
+              "text": "1989",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3756,
+              "text": "1990",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3757,
+              "text": "2011",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1012
+        },
+        {
+          "id": 2312,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be az Alaptörvény elfogadásának évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "Az Alaptörvényt 2011-ben fogadták el.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 2,
+          "chronologyEvent": 1411,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4135,
+              "text": "2011",
+              "number": 2011,
+              "era": "CE",
+              "normalized": "2011"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1012
+        },
+        {
+          "id": 2313,
+          "typeId": 3,
+          "type": "true_false",
+          "typeLabel": "Igaz/Hamis",
+          "text": "Igaz vagy hamis? Az Alaptörvény 2012-ben lépett hatályba.",
+          "instruction": "",
+          "explanation": "Igaz: az Alaptörvény 2012. január 1-jén lépett hatályba.",
+          "difficulty": 1,
+          "points": 1,
+          "order": 3,
+          "chronologyEvent": 1412,
+          "options": [
+            {
+              "id": 3758,
+              "text": "Igaz",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3759,
+              "text": "Hamis",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1012
+        },
+        {
+          "id": 2314,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik év kapcsolódik az első szabad önkormányzati választásokhoz?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "Az önkormányzati rendszer demokratikus működésének kezdő éve 1990.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 4,
+          "chronologyEvent": 1410,
+          "options": [
+            {
+              "id": 3760,
+              "text": "1989",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3761,
+              "text": "1990",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3762,
+              "text": "1993",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3763,
+              "text": "2011",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1012
+        },
+        {
+          "id": 2315,
+          "typeId": 5,
+          "type": "chronology_order",
+          "typeLabel": "Időrendi sorrend",
+          "text": "Tedd időrendbe a magyar államszervezet fontosabb mérföldköveit!",
+          "instruction": "",
+          "explanation": "Helyes sorrend: Alkotmánybíróság → önkormányzati választások → ombudsmani rendszer törvényi megalapozása → Alaptörvény elfogadása → Alaptörvény hatálybalépése.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 5,
+          "chronologyEvent": null,
+          "options": [
+            {
+              "id": 3764,
+              "text": "Az Alkotmánybíróság létrejötte",
+              "isCorrect": false,
+              "correctOrder": 1,
+              "order": 1
+            },
+            {
+              "id": 3765,
+              "text": "Az első szabad önkormányzati választások",
+              "isCorrect": false,
+              "correctOrder": 2,
+              "order": 2
+            },
+            {
+              "id": 3766,
+              "text": "Az ombudsmani rendszer törvényi megalapozása",
+              "isCorrect": false,
+              "correctOrder": 3,
+              "order": 3
+            },
+            {
+              "id": 3767,
+              "text": "Az Alaptörvény elfogadása",
+              "isCorrect": false,
+              "correctOrder": 4,
+              "order": 4
+            },
+            {
+              "id": 3768,
+              "text": "Az Alaptörvény hatálybalépése",
+              "isCorrect": false,
+              "correctOrder": 5,
+              "order": 5
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1012
+        },
+        {
+          "id": 2316,
+          "typeId": 6,
+          "type": "matching",
+          "typeLabel": "Párosítás",
+          "text": "Párosítsd az intézményeket és jogi mérföldköveket az évszámokkal!",
+          "instruction": "",
+          "explanation": "Párok: Alkotmánybíróság = 1989 | önkormányzati rendszer = 1990 | ombudsmani törvény = 1993 | Alaptörvény elfogadása = 2011 | hatálybalépése = 2012.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 6,
+          "chronologyEvent": null,
+          "options": [],
+          "acceptedAnswers": [],
+          "pairs": [
+            {
+              "id": 5189,
+              "left": "Az Alkotmánybíróság létrejötte",
+              "right": "1989",
+              "order": 1
+            },
+            {
+              "id": 5190,
+              "left": "Az első szabad önkormányzati választások",
+              "right": "1990",
+              "order": 2
+            },
+            {
+              "id": 5191,
+              "left": "Az ombudsmani rendszer törvényi megalapozása",
+              "right": "1993",
+              "order": 3
+            },
+            {
+              "id": 5192,
+              "left": "Az Alaptörvény elfogadása",
+              "right": "2011",
+              "order": 4
+            },
+            {
+              "id": 5193,
+              "left": "Az Alaptörvény hatálybalépése",
+              "right": "2012",
+              "order": 5
+            }
+          ],
+          "topicId": 1012
+        },
+        {
+          "id": 2317,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be az ombudsmani rendszer törvényi megalapozásának évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "Az ombudsmani rendszer jogi alapjait 1993-ban fektették le.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 7,
+          "chronologyEvent": 1413,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4136,
+              "text": "1993",
+              "number": 1993,
+              "era": "CE",
+              "normalized": "1993"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1012
+        }
+      ]
+    },
+    {
+      "id": 1243,
+      "topicId": 1012,
+      "slug": "penzugyek-es-munkavallalas",
+      "title": "Pénzügyek és munkavállalás",
+      "description": "Forint, piacgazdaság, EU-s munkavállalás, válság és munka törvénykönyve évszámai.",
+      "type": "evszam",
+      "difficulty": "kozepes",
+      "timeLimitSec": 900,
+      "questions": [
+        {
+          "id": 2318,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be a forint bevezetésének évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "A forintot 1946-ban vezették be.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 1,
+          "chronologyEvent": 1414,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4137,
+              "text": "1946",
+              "number": 1946,
+              "era": "CE",
+              "normalized": "1946"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1012
+        },
+        {
+          "id": 2319,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik év kapcsolódik a 2008-as világgazdasági válsághoz?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A globális pénzügyi válság kulcséve 2008.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 2,
+          "chronologyEvent": 1417,
+          "options": [
+            {
+              "id": 3769,
+              "text": "2004",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3770,
+              "text": "2008",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3771,
+              "text": "2010",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3772,
+              "text": "2012",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1012
+        },
+        {
+          "id": 2320,
+          "typeId": 3,
+          "type": "true_false",
+          "typeLabel": "Igaz/Hamis",
+          "text": "Igaz vagy hamis? Az új Munka Törvénykönyve 2012-ben lépett hatályba.",
+          "instruction": "",
+          "explanation": "Igaz: az új Munka Törvénykönyve 2012-ben lépett hatályba.",
+          "difficulty": 1,
+          "points": 1,
+          "order": 3,
+          "chronologyEvent": 1418,
+          "options": [
+            {
+              "id": 3773,
+              "text": "Igaz",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3774,
+              "text": "Hamis",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 2
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1012
+        },
+        {
+          "id": 2321,
+          "typeId": 1,
+          "type": "single_choice",
+          "typeLabel": "Egyválasztós",
+          "text": "Melyik évben indult meg Magyarországon a piacgazdaságra való áttérés a rendszerváltással összefüggésben?",
+          "instruction": "Egy helyes évszám van.",
+          "explanation": "A piacgazdasági átmenet kulcséve 1989.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 4,
+          "chronologyEvent": 1415,
+          "options": [
+            {
+              "id": 3775,
+              "text": "1988",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 1
+            },
+            {
+              "id": 3776,
+              "text": "1989",
+              "isCorrect": true,
+              "correctOrder": null,
+              "order": 2
+            },
+            {
+              "id": 3777,
+              "text": "1990",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 3
+            },
+            {
+              "id": 3778,
+              "text": "2004",
+              "isCorrect": false,
+              "correctOrder": null,
+              "order": 4
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1012
+        },
+        {
+          "id": 2322,
+          "typeId": 5,
+          "type": "chronology_order",
+          "typeLabel": "Időrendi sorrend",
+          "text": "Tedd időrendbe a pénzügyi és munkavállalási témákhoz kapcsolódó eseményeket!",
+          "instruction": "",
+          "explanation": "Helyes sorrend: forint bevezetése → piacgazdasági átmenet → EU-csatlakozás → világgazdasági válság → új Munka Törvénykönyve.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 5,
+          "chronologyEvent": null,
+          "options": [
+            {
+              "id": 3779,
+              "text": "A forint bevezetése",
+              "isCorrect": false,
+              "correctOrder": 1,
+              "order": 1
+            },
+            {
+              "id": 3780,
+              "text": "A piacgazdaságra való áttérés kezdete",
+              "isCorrect": false,
+              "correctOrder": 2,
+              "order": 2
+            },
+            {
+              "id": 3781,
+              "text": "Magyarország EU-csatlakozása",
+              "isCorrect": false,
+              "correctOrder": 3,
+              "order": 3
+            },
+            {
+              "id": 3782,
+              "text": "A világgazdasági válság magyar begyűrűzése",
+              "isCorrect": false,
+              "correctOrder": 4,
+              "order": 4
+            },
+            {
+              "id": 3783,
+              "text": "Az új Munka Törvénykönyve hatálybalépése",
+              "isCorrect": false,
+              "correctOrder": 5,
+              "order": 5
+            }
+          ],
+          "acceptedAnswers": [],
+          "pairs": [],
+          "topicId": 1012
+        },
+        {
+          "id": 2323,
+          "typeId": 6,
+          "type": "matching",
+          "typeLabel": "Párosítás",
+          "text": "Párosítsd az eseményeket az évszámokkal!",
+          "instruction": "",
+          "explanation": "Párok: forint = 1946 | piacgazdasági átmenet = 1989 | EU-csatlakozás = 2004 | válság = 2008 | új Munka Törvénykönyve = 2012.",
+          "difficulty": 3,
+          "points": 2,
+          "order": 6,
+          "chronologyEvent": null,
+          "options": [],
+          "acceptedAnswers": [],
+          "pairs": [
+            {
+              "id": 5194,
+              "left": "A forint bevezetése",
+              "right": "1946",
+              "order": 1
+            },
+            {
+              "id": 5195,
+              "left": "A piacgazdaságra való áttérés kezdete",
+              "right": "1989",
+              "order": 2
+            },
+            {
+              "id": 5196,
+              "left": "Magyarország EU-csatlakozása",
+              "right": "2004",
+              "order": 3
+            },
+            {
+              "id": 5197,
+              "left": "A világgazdasági válság magyar begyűrűzése",
+              "right": "2008",
+              "order": 4
+            },
+            {
+              "id": 5198,
+              "left": "Az új Munka Törvénykönyve hatálybalépése",
+              "right": "2012",
+              "order": 5
+            }
+          ],
+          "topicId": 1012
+        },
+        {
+          "id": 2324,
+          "typeId": 4,
+          "type": "year_input",
+          "typeLabel": "Évszám beírása",
+          "text": "Írd be Magyarország Európai Unióhoz való csatlakozásának évét!",
+          "instruction": "Csak az évszám számjegyeit írd be.",
+          "explanation": "Magyarország 2004-ben csatlakozott az Európai Unióhoz.",
+          "difficulty": 2,
+          "points": 1,
+          "order": 7,
+          "chronologyEvent": 1416,
+          "options": [],
+          "acceptedAnswers": [
+            {
+              "id": 4138,
+              "text": "2004",
+              "number": 2004,
+              "era": "CE",
+              "normalized": "2004"
+            }
+          ],
+          "pairs": [],
+          "topicId": 1012
+        }
+      ]
     }
   ]
 }

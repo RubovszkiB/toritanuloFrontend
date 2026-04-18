@@ -7,7 +7,7 @@ import { getQuizTests, getQuizTopics } from '../services/quizService'
 const benefits = [
   'most már csak évszámteszteket mutat a kvízközpont',
   'külön témakör- és külön tesztblokk lett a jobb átláthatóságért',
-  'az 1789 és 1945 közötti három új témakör is bekerült',
+  'a társadalmi, állampolgári, pénzügyi és munkavállalói blokk is bekerült',
   'később könnyű lesz külön személy, helyszín és fogalom modulokat hozzáadni',
 ]
 
@@ -104,8 +104,8 @@ export default function HomePage() {
                 <span className="badge rounded-pill section-badge px-3 py-2 mb-3">Tételolvasó + évszámkvíz</span>
                 <h1 className="display-5 fw-bold mb-3 text-white">Szia, {username}! Innen egyből mehetsz a csak évszámos gyakorlásra.</h1>
                 <p className="lead text-white-50 mb-4">
-                  Az ókor, a középkor és a kora újkor után bekerült a polgári átalakulás, a magyar polgárosodás és a
-                  világháborúk kora is. A kvízközpont most már 8 külön témakörrel dolgozik.
+                  Az ókortól a jelenkorig már 12 külön témakörből lehet évszámteszteket indítani.
+                  A kvízközpontba most már a társadalmi, állampolgári, pénzügyi és munkavállalói blokk is bekerült.
                 </p>
                 <div className="d-flex flex-column flex-sm-row gap-3">
                   <Link to="/tesztek" className="btn btn-warning btn-lg fw-semibold px-4 rounded-4">
@@ -174,10 +174,10 @@ export default function HomePage() {
                 <div className="card border-0 shadow-sm rounded-5 h-100 module-card">
                   <div className="card-body p-4 p-md-5">
                     <span className="section-kicker">Friss bővítés</span>
-                    <h2 className="fw-bold mb-3">Már az 1789–1945 közötti blokkok is bent vannak</h2>
+                    <h2 className="fw-bold mb-3">Már a végső állampolgári és pénzügyi blokk is bent van</h2>
                     <p className="text-muted mb-4">
-                      A rendszer most már az ókortól a világháborúk koráig külön, csak évszámokra épülő tesztekkel
-                      dolgozik. Nincsenek benne kevert személy-, fogalom- vagy helyszínkérdések.
+                      A rendszer most már az ókortól a társadalmi, állampolgári, pénzügyi és munkavállalói ismeretekig külön, csak évszámokra épülő tesztekkel dolgozik.
+                      Nincsenek benne kevert személy-, fogalom- vagy helyszínkérdések.
                     </p>
 
                     <div className="row g-3">
