@@ -8,6 +8,12 @@ import TetelekPage from './pages/TetelekPage'
 import TetelReaderPage from './pages/TetelReaderPage'
 import QuizHubPage from './pages/QuizHubPage'
 import QuizPlayPage from './pages/QuizPlayPage'
+import EssayHubPage from './pages/EssayHubPage'
+import EssayDetailPage from './pages/EssayDetailPage'
+import LongEssayHubPage from './pages/LongEssayHubPage'
+import LongEssayDetailPage from './pages/LongEssayDetailPage'
+import ComplexEssayHubPage from './pages/ComplexEssayHubPage'
+import ComplexEssayDetailPage from './pages/ComplexEssayDetailPage'
 
 export default function App() {
   const hasToken = Boolean(localStorage.getItem('token'))
@@ -75,6 +81,60 @@ export default function App() {
         element={
           <ProtectedRoute>
             <QuizPlayPage quizType="szemely" />
+          </ProtectedRoute>
+        }
+      />
+
+      <Route
+        path="/esszek"
+        element={
+          <ProtectedRoute>
+            <EssayHubPage />
+          </ProtectedRoute>
+        }
+      />
+
+      <Route
+        path="/esszek/:slug"
+        element={
+          <ProtectedRoute>
+            <EssayDetailPage />
+          </ProtectedRoute>
+        }
+      />
+
+      <Route
+        path="/hosszu-esszek"
+        element={
+          <ProtectedRoute>
+            <LongEssayHubPage />
+          </ProtectedRoute>
+        }
+      />
+
+      <Route
+        path="/hosszu-esszek/:slug"
+        element={
+          <ProtectedRoute>
+            <LongEssayDetailPage />
+          </ProtectedRoute>
+        }
+      />
+
+      <Route
+        path="/komplex-esszek"
+        element={
+          <ProtectedRoute>
+            <ComplexEssayHubPage />
+          </ProtectedRoute>
+        }
+      />
+
+      <Route
+        path="/komplex-esszek/:slug"
+        element={
+          <ProtectedRoute>
+            <ComplexEssayDetailPage />
           </ProtectedRoute>
         }
       />

@@ -1,0 +1,687 @@
+{
+  "meta": {
+    "source": "hosszu_essze_pdfek_rovid_nevekkel_csak_feladat_v8.zip",
+    "assetBasePath": "/essay-pdfs/long/",
+    "generatedFrom": "manifest_short.json v8 + existing longEssaySource topic mapping",
+    "unmappedManifestFiles": [
+      "he_03.pdf",
+      "he_24.pdf"
+    ]
+  },
+  "entries": [
+    {
+      "topicId": "hun_med_tatarjaras_ujjaepites",
+      "promptIndex": 0,
+      "exam": "2017. máj.",
+      "prompt": "Mutassa be a tatárjárás menetét, a tatárok pusztítását és IV. Béla intézkedéseit az ország újjáépítésére! Válaszában térjen ki a különböző történészi vélemények összevetésére is!",
+      "file": "he_13.pdf",
+      "url": "/essay-pdfs/long/he_13.pdf",
+      "previewImages": [
+        "/essay-pdfs/long-preview/he_13_p1.png"
+      ],
+      "manifestId": "he_13",
+      "manifestTaskHeader": "1. A feladat a tatárjárással és az ország újjáépítésével kapcsolatos. (hosszú) (2017. máj.)",
+      "manifestPrompt": "Mutassa be a források és ismeretei segítségével a tatárjárás menetét, a tatárok pusztítását és",
+      "includedPages": [
+        2
+      ],
+      "sourcePageRange": {
+        "start": 2,
+        "end": 3
+      }
+    },
+    {
+      "topicId": "hun_med_szent_laszlo_megszilarditas",
+      "promptIndex": 0,
+      "exam": "2018. okt.",
+      "prompt": "Mutassa be a magyar állami és társadalmi rend megszilárdulását I. (Szent) László király uralkodása idején! Térjen ki a Magyar Királyság külpolitikájára is!",
+      "file": "he_14.pdf",
+      "url": "/essay-pdfs/long/he_14.pdf",
+      "previewImages": [
+        "/essay-pdfs/long-preview/he_14_p1.png"
+      ],
+      "manifestId": "he_14",
+      "manifestTaskHeader": "2. A feladat a középkori Magyarország történetéhez kapcsolódik. (hosszú) (2018. okt.)",
+      "manifestPrompt": "Mutassa be a források és ismeretei segítségével a magyar állami és társadalmi rend",
+      "includedPages": [
+        4
+      ],
+      "sourcePageRange": {
+        "start": 4,
+        "end": 5
+      }
+    },
+    {
+      "topicId": "hun_med_matyas_kulpolitika",
+      "promptIndex": 0,
+      "exam": "2019. máj.",
+      "prompt": "Mutassa be Hunyadi Mátyás külpolitikájának, illetve dinasztikus politikájának célkitűzéseit, eszközeit és eredményeit!",
+      "file": "he_15.pdf",
+      "url": "/essay-pdfs/long/he_15.pdf",
+      "previewImages": [
+        "/essay-pdfs/long-preview/he_15_p1.png"
+      ],
+      "manifestId": "he_15",
+      "manifestTaskHeader": "3. A feladat Hunyadi Mátyáshoz kapcsolódik. (hosszú) (2019. máj.)",
+      "manifestPrompt": "Mutassa be a források és ismeretei segítségével Hunyadi Mátyás külpolitikájának, illetve",
+      "includedPages": [
+        6
+      ],
+      "sourcePageRange": {
+        "start": 6,
+        "end": 7
+      }
+    },
+    {
+      "topicId": "hun_med_anjou_tarsadalom_varosfejlodes",
+      "promptIndex": 0,
+      "exam": "2019. okt.",
+      "prompt": "Mutassa be az Anjou-kor társadalmának jellemzőit! Válaszában térjen ki a hazai városfejlődésre is!",
+      "file": "he_16.pdf",
+      "url": "/essay-pdfs/long/he_16.pdf",
+      "previewImages": [
+        "/essay-pdfs/long-preview/he_16_p1.png"
+      ],
+      "manifestId": "he_16",
+      "manifestTaskHeader": "4. A feladat a középkori magyar társadalommal kapcsolatos. (hosszú) (2019. okt.)",
+      "manifestPrompt": "Mutassa be a források és ismeretei segítségével az Anjou-kor társadalmának jellemzőit!",
+      "includedPages": [
+        8
+      ],
+      "sourcePageRange": {
+        "start": 8,
+        "end": 9
+      }
+    },
+    {
+      "topicId": "hun_med_laszlo_kalman_intezkedesek",
+      "promptIndex": 0,
+      "exam": "2020. máj.",
+      "prompt": "Mutassa be I. László és Kálmán intézkedéseit! Válaszában röviden magyarázza meg az intézkedések jelentőségét! A két király külpolitikájáról ne írjon!",
+      "file": "he_17.pdf",
+      "url": "/essay-pdfs/long/he_17.pdf",
+      "previewImages": [
+        "/essay-pdfs/long-preview/he_17_p1.png"
+      ],
+      "manifestId": "he_17",
+      "manifestTaskHeader": "5. A feladat a középkori magyar történelemhez kapcsolódik. (hosszú)(2020. máj.)",
+      "manifestPrompt": "Mutassa be a források és ismeretei segítségével I. László és Kálmán intézkedéseit!",
+      "includedPages": [
+        10
+      ],
+      "sourcePageRange": {
+        "start": 10,
+        "end": 11
+      }
+    },
+    {
+      "topicId": "hun_med_aranybulla_hatter_nemesseg",
+      "promptIndex": 0,
+      "exam": "2020. máj. id.",
+      "prompt": "Mutassa be az Aranybulla intézkedéseit, és azok hátterét! Válaszában térjen ki az Aranybulla szerepére a nemesség kialakulásában!",
+      "file": "he_18.pdf",
+      "url": "/essay-pdfs/long/he_18.pdf",
+      "previewImages": [
+        "/essay-pdfs/long-preview/he_18_p1.png"
+      ],
+      "manifestId": "he_18",
+      "manifestTaskHeader": "6. A feladat az Aranybullával kapcsolatos. (hosszú) (2020. máj. id.)",
+      "manifestPrompt": "Mutassa be a források és ismeretei segítségével az Aranybulla intézkedéseit, és azok",
+      "includedPages": [
+        12
+      ],
+      "sourcePageRange": {
+        "start": 12,
+        "end": 13
+      }
+    },
+    {
+      "topicId": "hun_med_hunyadi_janos_torokellenes_harcok",
+      "promptIndex": 0,
+      "exam": "2021. okt.",
+      "prompt": "Mutassa be Hunyadi János törökellenes harcainak legfontosabb eseményeit 1443-tól a haláláig! Térjen ki a harcok eltérő jellegére az időszak elején és végén, ismertesse az erőviszonyok változását is!",
+      "file": "he_19.pdf",
+      "url": "/essay-pdfs/long/he_19.pdf",
+      "previewImages": [
+        "/essay-pdfs/long-preview/he_19_p1.png",
+        "/essay-pdfs/long-preview/he_19_p2.png"
+      ],
+      "manifestId": "he_19",
+      "manifestTaskHeader": "7. A feladat a középkori magyar történelemhez kapcsolódik. (hosszú) (2021. okt.)",
+      "manifestPrompt": "Mutassa be a források és ismeretei segítségével Hunyadi János törökellenes harcainak",
+      "includedPages": [
+        14,
+        15
+      ],
+      "sourcePageRange": {
+        "start": 14,
+        "end": 16
+      }
+    },
+    {
+      "topicId": "hun_med_matyas_reformok_hatasok",
+      "promptIndex": 0,
+      "exam": "2022. okt.",
+      "prompt": "Mutassa be Mátyás kormányzati és pénzügyi reformjait, valamint azok hatásait!",
+      "file": "he_20.pdf",
+      "url": "/essay-pdfs/long/he_20.pdf",
+      "previewImages": [
+        "/essay-pdfs/long-preview/he_20_p1.png"
+      ],
+      "manifestId": "he_20",
+      "manifestTaskHeader": "8. A feladat Hunyadi Mátyás uralkodásával kapcsolatos. (hosszú) (2022. okt.)",
+      "manifestPrompt": "Mutassa be a források és ismeretei segítségével Mátyás kormányzati és pénzügyi reformjait,",
+      "includedPages": [
+        17
+      ],
+      "sourcePageRange": {
+        "start": 17,
+        "end": 18
+      }
+    },
+    {
+      "topicId": "hun_early_modern_szapolyai_ferdinand_harom_resz",
+      "promptIndex": 0,
+      "exam": "2017. máj. id.",
+      "prompt": "Mutassa be Szapolyai János és I. Ferdinánd küzdelmeit, valamint az ország három részre szakadását!",
+      "file": "he_21.pdf",
+      "url": "/essay-pdfs/long/he_21.pdf",
+      "previewImages": [
+        "/essay-pdfs/long-preview/he_21_p1.png"
+      ],
+      "manifestId": "he_21",
+      "manifestTaskHeader": "1. A feladat Magyarország XVI. századi történelmével kapcsolatos. (hosszú) (2017. máj. id.)",
+      "manifestPrompt": "Mutassa be a források és ismeretei segítségével Szapolyai János és I. Ferdinánd küzdelmeit,",
+      "includedPages": [
+        2
+      ],
+      "sourcePageRange": {
+        "start": 2,
+        "end": 3
+      }
+    },
+    {
+      "topicId": "hun_early_modern_rakoczi_szatmari_beke",
+      "promptIndex": 0,
+      "exam": "2017. okt.",
+      "prompt": "Mutassa be a Rákóczi-szabadságharc katonai vereségét befolyásoló tényezőket! Ismertesse a szatmári békeszerződés tartalmát, összevetve a szabadságharc eredeti céljaival! Értékelje a békeszerződést!",
+      "file": "he_22.pdf",
+      "url": "/essay-pdfs/long/he_22.pdf",
+      "previewImages": [
+        "/essay-pdfs/long-preview/he_22_p1.png"
+      ],
+      "manifestId": "he_22",
+      "manifestTaskHeader": "2. A feladat a Rákóczi-szabadságharchoz kapcsolódik. (hosszú) (2017. okt)",
+      "manifestPrompt": "Mutassa be a források és ismeretei segítségével a Rákóczi-szabadságharc katonai vereségét",
+      "includedPages": [
+        4
+      ],
+      "sourcePageRange": {
+        "start": 4,
+        "end": 5
+      }
+    },
+    {
+      "topicId": "hun_early_modern_torok_berendezkedes_egyutteles",
+      "promptIndex": 0,
+      "exam": "2018. máj.",
+      "prompt": "Mutassa be a török berendezkedés jellemző vonásait és a török–magyar együttélés sajátosságait! Válaszában térjen ki a török hódoltság kulturális hatásaira is! Ne eseménytörténetet írjon!",
+      "file": "he_23.pdf",
+      "url": "/essay-pdfs/long/he_23.pdf",
+      "previewImages": [
+        "/essay-pdfs/long-preview/he_23_p1.png"
+      ],
+      "manifestId": "he_23",
+      "manifestTaskHeader": "3. A feladat a három részre szakadt Magyarországgal kapcsolatos. (hosszú) (2018. máj.)",
+      "manifestPrompt": "Mutassa be a források és ismeretei segítségével a török berendezkedés jellemző vonásait és",
+      "includedPages": [
+        6
+      ],
+      "sourcePageRange": {
+        "start": 6,
+        "end": 7
+      }
+    },
+    {
+      "topicId": "hun_early_modern_maria_terezia_reformok_magyar_nemesek",
+      "promptIndex": 0,
+      "exam": "2020. okt.",
+      "prompt": "Mutassa be Mária Terézia reformjait! Válaszában elemezze, miként alakult az uralkodónő kapcsolata a magyar nemesekkel!",
+      "file": "he_25.pdf",
+      "url": "/essay-pdfs/long/he_25.pdf",
+      "previewImages": [
+        "/essay-pdfs/long-preview/he_25_p1.png"
+      ],
+      "manifestId": "he_25",
+      "manifestTaskHeader": "5. A feladat a 18. századi Magyarország történetével kapcsolatos. (hosszú) (2020. okt.)",
+      "manifestPrompt": "Mutassa be a források és ismeretei segítségével Mária Terézia reformjait! Válaszában",
+      "includedPages": [
+        10
+      ],
+      "sourcePageRange": {
+        "start": 10,
+        "end": 11
+      }
+    },
+    {
+      "topicId": "hun_early_modern_18sz_nepessegnovekedes",
+      "promptIndex": 0,
+      "exam": "2021. máj.",
+      "prompt": "Mutassa be, milyen folyamatok és intézkedések járultak hozzá a 18. századi Magyarország népességének növekedéséhez! Válaszában térjen ki az előzményekre, valamint a magyarok etnikai arányának változására is!",
+      "file": "he_26.pdf",
+      "url": "/essay-pdfs/long/he_26.pdf",
+      "previewImages": [
+        "/essay-pdfs/long-preview/he_26_p1.png"
+      ],
+      "manifestId": "he_26",
+      "manifestTaskHeader": "6. A feladat Magyarország kora újkori történetéhez kapcsolódik. (hosszú) (2021. máj.)",
+      "manifestPrompt": "Mutassa be a források és ismeretei segítségével milyen folyamatok és intézkedések járultak",
+      "includedPages": [
+        12
+      ],
+      "sourcePageRange": {
+        "start": 12,
+        "end": 13
+      }
+    },
+    {
+      "topicId": "hun_early_modern_erdely_berendezkedes_vallas_etnikum",
+      "promptIndex": 0,
+      "exam": "2021. máj. id.",
+      "prompt": "Mutassa be az Erdélyi Fejedelemség politikai berendezkedését, valamint etnikai és vallási viszonyait! Eseménytörténetet ne írjon!",
+      "file": "he_27.pdf",
+      "url": "/essay-pdfs/long/he_27.pdf",
+      "previewImages": [
+        "/essay-pdfs/long-preview/he_27_p1.png"
+      ],
+      "manifestId": "he_27",
+      "manifestTaskHeader": "7. A feladat az Erdélyi Fejedelemség történetéhez kapcsolódik. (hosszú) (2021. máj. id.)",
+      "manifestPrompt": "Mutassa be a források és ismeretei segítségével az Erdélyi Fejedelemség politikai",
+      "includedPages": [
+        14
+      ],
+      "sourcePageRange": {
+        "start": 14,
+        "end": 15
+      }
+    },
+    {
+      "topicId": "hun_modern_bp_vilagvaros",
+      "promptIndex": 0,
+      "exam": "2017. okt.",
+      "prompt": "Mutassa be Budapest világvárossá válásának fő összetevőit!",
+      "file": "he_28.pdf",
+      "url": "/essay-pdfs/long/he_28.pdf",
+      "previewImages": [
+        "/essay-pdfs/long-preview/he_28_p1.png"
+      ],
+      "manifestId": "he_28",
+      "manifestTaskHeader": "1. A feladat Magyarország dualizmus kori történetével kapcsolatos. (hosszú)(2017. okt.)",
+      "manifestPrompt": "Mutassa be a források és ismeretei segítségével Budapest világvárossá válásának fő",
+      "includedPages": [
+        2
+      ],
+      "sourcePageRange": {
+        "start": 2,
+        "end": 3
+      }
+    },
+    {
+      "topicId": "hun_modern_polgari_allam_reformok",
+      "promptIndex": 0,
+      "exam": "2018. máj.",
+      "prompt": "Mutassa be a polgári állam feladatait a közigazgatás, az egészségügy és az oktatás reformján keresztül a XIX. század utolsó harmadában!",
+      "file": "he_29.pdf",
+      "url": "/essay-pdfs/long/he_29.pdf",
+      "previewImages": [
+        "/essay-pdfs/long-preview/he_29_p1.png"
+      ],
+      "manifestId": "he_29",
+      "manifestTaskHeader": "2. A feladat a polgári állam kiépülésével kapcsolatos a dualizmus kori Magyarországon.",
+      "manifestPrompt": "(hosszú) (2018. máj.)",
+      "includedPages": [
+        4
+      ],
+      "sourcePageRange": {
+        "start": 4,
+        "end": 5
+      }
+    },
+    {
+      "topicId": "hun_modern_dualizmus_bp_eletmod",
+      "promptIndex": 0,
+      "exam": "2018. máj. id.",
+      "prompt": "Mutassa be a népesség és a polgári életmód jellemző változásait a dualizmus kori Budapesten!",
+      "file": "he_30.pdf",
+      "url": "/essay-pdfs/long/he_30.pdf",
+      "previewImages": [
+        "/essay-pdfs/long-preview/he_30_p1.png"
+      ],
+      "manifestId": "he_30",
+      "manifestTaskHeader": "3. A feladat a dualizmus kori Magyarország társadalomtörténetéhez kapcsolódik.",
+      "manifestPrompt": "(hosszú) (2018 máj. id.)",
+      "includedPages": [
+        6
+      ],
+      "sourcePageRange": {
+        "start": 6,
+        "end": 7
+      }
+    },
+    {
+      "topicId": "hun_modern_dualizmus_nemzetisegi_politika",
+      "promptIndex": 0,
+      "exam": "2021. okt.",
+      "prompt": "Mutassa be a dualizmus kori magyar kormányzat nemzetiségi politikáját, valamint azt, hogyan viszonyultak ehhez a nemzetiségek! Válaszában térjen ki a magyar–horvát közjogi viszonyra is!",
+      "file": "he_31.pdf",
+      "url": "/essay-pdfs/long/he_31.pdf",
+      "previewImages": [
+        "/essay-pdfs/long-preview/he_31_p1.png"
+      ],
+      "manifestId": "he_31",
+      "manifestTaskHeader": "4. A feladat a dualizmus kori Magyarországgal kapcsolatos. (hosszú) (2021. okt.)",
+      "manifestPrompt": "Mutassa be a források és ismeretei segítségével a dualizmus kori magyar kormányzat",
+      "includedPages": [
+        8
+      ],
+      "sourcePageRange": {
+        "start": 8,
+        "end": 9
+      }
+    },
+    {
+      "topicId": "hun_modern_maria_terezia_ii_jozsef_kozpontositas",
+      "promptIndex": 0,
+      "exam": "2022. máj.",
+      "prompt": "Mutassa be Mária Terézia és II. József felvilágosult és központosító intézkedéseit és azok célját! Tárja fel, hogy a két uralkodó intézkedései miben feleltek meg, illetve hatalomgyakorlásuk módja miben mondott ellent a felvilágosodásnak!",
+      "file": "he_32.pdf",
+      "url": "/essay-pdfs/long/he_32.pdf",
+      "previewImages": [
+        "/essay-pdfs/long-preview/he_32_p1.png"
+      ],
+      "manifestId": "he_32",
+      "manifestTaskHeader": "5. A feladat Magyarország 18. századi történelméhez kapcsolódik. (hosszú) (2022. máj.)",
+      "manifestPrompt": "Mutassa be a források és ismeretei segítségével Mária Terézia és II. József felvilágosult és",
+      "includedPages": [
+        10
+      ],
+      "sourcePageRange": {
+        "start": 10,
+        "end": 11
+      }
+    },
+    {
+      "topicId": "hun_modern_jobbagyfelszabaditas_fo_osszetevok",
+      "promptIndex": 0,
+      "exam": "2022. máj. id.",
+      "prompt": "Mutassa be a jobbágyfelszabadítás kérdésének fő összetevőit! Válaszában világítson rá a kérdés jelentőségére!",
+      "file": "he_33.pdf",
+      "url": "/essay-pdfs/long/he_33.pdf",
+      "previewImages": [
+        "/essay-pdfs/long-preview/he_33_p1.png"
+      ],
+      "manifestId": "he_33",
+      "manifestTaskHeader": "6. A feladat a reformkori Magyarországgal kapcsolatos. (hosszú) (2022. máj. id.)",
+      "manifestPrompt": "Mutassa be a források és ismeretei segítségével a jobbágyfelszabadítás kérdésének fő",
+      "includedPages": [
+        12
+      ],
+      "sourcePageRange": {
+        "start": 12,
+        "end": 13
+      }
+    },
+    {
+      "topicId": "hun_ww_interwar_worldcrisis_gombos",
+      "promptIndex": 0,
+      "exam": "2022. máj. id.",
+      "prompt": "Mutassa be a gazdasági világválság gazdasági és társadalmi következményeit, valamint Gömbös Gyula válságkezelő politikáját!",
+      "file": "he_34.pdf",
+      "url": "/essay-pdfs/long/he_34.pdf",
+      "previewImages": [
+        "/essay-pdfs/long-preview/he_34_p1.png"
+      ],
+      "manifestId": "he_34",
+      "manifestTaskHeader": "1. A feladat Magyarország két világháború közötti történetével kapcsolatos. (hosszú)",
+      "manifestPrompt": "(2022. máj. id.) Mutassa a be a források és ismeretei segítségével a gazdasági",
+      "includedPages": [
+        2
+      ],
+      "sourcePageRange": {
+        "start": 2,
+        "end": 3
+      }
+    },
+    {
+      "topicId": "hun_post45_kadar_tarsadalompolitika",
+      "promptIndex": 0,
+      "exam": "2017. máj. id.",
+      "prompt": "Mutassa be a Kádár-korszak társadalompolitikáját! Válaszában térjen ki az oktatás- és a kultúrpolitikára is!",
+      "file": "he_01.pdf",
+      "url": "/essay-pdfs/long/he_01.pdf",
+      "previewImages": [
+        "/essay-pdfs/long-preview/he_01_p1.png"
+      ],
+      "manifestId": "he_01",
+      "manifestTaskHeader": "1. A feladat Magyarország Kádár-kori történetével kapcsolatos. (hosszú) (20217. máj. id.)",
+      "manifestPrompt": "Mutassa be a források és ismeretei segítségével a Kádár-korszak társadalompolitikáját!",
+      "includedPages": [
+        2
+      ],
+      "sourcePageRange": {
+        "start": 2,
+        "end": 3
+      }
+    },
+    {
+      "topicId": "hun_post45_kadar_valsag_tenyezoi",
+      "promptIndex": 0,
+      "exam": "2019. máj.",
+      "prompt": "Mutassa be a Kádár-rendszer válságának gazdasági, külpolitikai és belpolitikai tényezőit! A rendszerváltozás folyamatára már ne térjen ki!",
+      "file": "he_02.pdf",
+      "url": "/essay-pdfs/long/he_02.pdf",
+      "previewImages": [
+        "/essay-pdfs/long-preview/he_02_p1.png"
+      ],
+      "manifestId": "he_02",
+      "manifestTaskHeader": "2. A feladat a Kádár-korszakhoz kapcsolódik. (hosszú) (2019. máj.)",
+      "manifestPrompt": "Mutassa be a források és ismeretei segítségével a Kádár-rendszer válságának gazdasági,",
+      "includedPages": [
+        4
+      ],
+      "sourcePageRange": {
+        "start": 4,
+        "end": 5
+      }
+    },
+    {
+      "topicId": "hun_post45_egyparti_diktatura_kiepitese_1947_49",
+      "promptIndex": 0,
+      "exam": "2020. máj.",
+      "prompt": "Mutassa be, milyen eszközökkel és intézkedésekkel építették ki az egypárti diktatúrát az 1947-es választásoktól 1949-ig! Válaszában csak a megjelölt időszak politikai és gazdasági változásait vizsgálja!",
+      "file": "he_04.pdf",
+      "url": "/essay-pdfs/long/he_04.pdf",
+      "previewImages": [
+        "/essay-pdfs/long-preview/he_04_p1.png"
+      ],
+      "manifestId": "he_04",
+      "manifestTaskHeader": "4. A feladat Magyarország második világháború utáni történetével kapcsolatos.",
+      "manifestPrompt": "(hosszú)(2020. máj.) Mutassa be a források és ismeretei segítségével, milyen eszközökkel és",
+      "includedPages": [
+        8
+      ],
+      "sourcePageRange": {
+        "start": 8,
+        "end": 9
+      }
+    },
+    {
+      "topicId": "hun_post45_rendszervaltozas_politikai_gazdasagi_atalakulas",
+      "promptIndex": 0,
+      "exam": "2020. okt.",
+      "prompt": "Mutassa be, hogyan változott meg Magyarország politikai és gazdasági rendszere a rendszerváltozás következtében! Ne eseménytörténetet írjon!",
+      "file": "he_05.pdf",
+      "url": "/essay-pdfs/long/he_05.pdf",
+      "previewImages": [
+        "/essay-pdfs/long-preview/he_05_p1.png"
+      ],
+      "manifestId": "he_05",
+      "manifestTaskHeader": "5. A feladat a magyarországi rendszerváltozással kapcsolatos. (hosszú) (2020. okt.)",
+      "manifestPrompt": "Mutassa be a források és ismeretei segítségével, hogyan változott meg Magyarország",
+      "includedPages": [
+        10
+      ],
+      "sourcePageRange": {
+        "start": 10,
+        "end": 11
+      }
+    },
+    {
+      "topicId": "hun_post45_1956_nemzetkozi_osszefuggesek",
+      "promptIndex": 0,
+      "exam": "2021. máj. id.",
+      "prompt": "Mutassa be az 1956-os forradalom nemzetközi előzményeit és összefüggéseit!",
+      "file": "he_06.pdf",
+      "url": "/essay-pdfs/long/he_06.pdf",
+      "previewImages": [
+        "/essay-pdfs/long-preview/he_06_p1.png"
+      ],
+      "manifestId": "he_06",
+      "manifestTaskHeader": "6. A feladat az 1956-os magyar forradalommal kapcsolatos. (hosszú) (2021. máj. id.)",
+      "manifestPrompt": "Mutassa be a források és ismeretei segítségével az 1956-os forradalom nemzetközi",
+      "includedPages": [
+        12
+      ],
+      "sourcePageRange": {
+        "start": 12,
+        "end": 13
+      }
+    },
+    {
+      "topicId": "hun_post45_rakosi_gazdasagpolitika_kovetkezmenyek",
+      "promptIndex": 0,
+      "exam": "2022. máj.",
+      "prompt": "Mutassa be a Rákosi-korszak gazdaságpolitikáját és annak következményeit!",
+      "file": "he_07.pdf",
+      "url": "/essay-pdfs/long/he_07.pdf",
+      "previewImages": [
+        "/essay-pdfs/long-preview/he_07_p1.png"
+      ],
+      "manifestId": "he_07",
+      "manifestTaskHeader": "7. A feladat a Rákosi-korszakhoz kapcsolódik. (hosszú) (2022. máj.)",
+      "manifestPrompt": "Mutassa be a források és ismeretei segítségével a Rákosi-korszak gazdaságpolitikáját és",
+      "includedPages": [
+        14
+      ],
+      "sourcePageRange": {
+        "start": 14,
+        "end": 15
+      }
+    },
+    {
+      "topicId": "hun_post45_haboru_utani_gazdasag_koalicio_kommunista",
+      "promptIndex": 0,
+      "exam": "2022. okt.",
+      "prompt": "Mutassa be Magyarország háború utáni gazdasági helyzetét és gazdaságpolitikáját a koalíciós kormányzás és a kommunista hatalomátvétel időszakában!",
+      "file": "he_08.pdf",
+      "url": "/essay-pdfs/long/he_08.pdf",
+      "previewImages": [
+        "/essay-pdfs/long-preview/he_08_p1.png"
+      ],
+      "manifestId": "he_08",
+      "manifestTaskHeader": "8. A feladat Magyarország 1945 és 1949 közötti történetével kapcsolatos. (hosszú)",
+      "manifestPrompt": "(2022. okt)",
+      "includedPages": [
+        16
+      ],
+      "sourcePageRange": {
+        "start": 16,
+        "end": 17
+      }
+    },
+    {
+      "topicId": "civics_nepfelseg_mai_magyarorszag",
+      "promptIndex": 0,
+      "exam": "2017. máj.",
+      "prompt": "Mutassa be a népfelség érvényesülését a mai Magyarországon! Válaszában térjen ki a választójogra, a választások alapelveire és rendszerére, a népszavazásra és az Országgyűlés jogkörére!",
+      "file": "he_09.pdf",
+      "url": "/essay-pdfs/long/he_09.pdf",
+      "previewImages": [
+        "/essay-pdfs/long-preview/he_09_p1.png"
+      ],
+      "manifestId": "he_09",
+      "manifestTaskHeader": "1. A feladat a mai magyar demokráciával kapcsolatos. (hosszú) (2017. máj.)",
+      "manifestPrompt": "Mutassa be a források és ismeretei segítségével a népfelség érvényesülését a mai",
+      "includedPages": [
+        2
+      ],
+      "sourcePageRange": {
+        "start": 2,
+        "end": 3
+      }
+    },
+    {
+      "topicId": "civics_demografia_ellatorendszerek",
+      "promptIndex": 0,
+      "exam": "2018. okt.",
+      "prompt": "Mutassa be a jelenkori Magyarországon zajló demográfiai folyamatokat, azok okait, továbbá összefüggéseit az ellátórendszerekkel!",
+      "file": "he_10.pdf",
+      "url": "/essay-pdfs/long/he_10.pdf",
+      "previewImages": [
+        "/essay-pdfs/long-preview/he_10_p1.png"
+      ],
+      "manifestId": "he_10",
+      "manifestTaskHeader": "2. A feladat Magyarország jelenkori történelméhez kapcsolódik. (hosszú) (2018. okt.)",
+      "manifestPrompt": "Mutassa be a források és ismeretei segítségével a jelenkori Magyarországon zajló",
+      "includedPages": [
+        4
+      ],
+      "sourcePageRange": {
+        "start": 4,
+        "end": 5
+      }
+    },
+    {
+      "topicId": "civics_allamhaztartas_szerkezet_bevetelek",
+      "promptIndex": 0,
+      "exam": "2020. máj. id.",
+      "prompt": "Mutassa be a mai magyar államháztartás szerkezetét és bevételeit!",
+      "file": "he_11.pdf",
+      "url": "/essay-pdfs/long/he_11.pdf",
+      "previewImages": [
+        "/essay-pdfs/long-preview/he_11_p1.png"
+      ],
+      "manifestId": "he_11",
+      "manifestTaskHeader": "3. A feladat az állam gazdasági szerepével kapcsolatos. (hosszú) (2020. máj. id.)",
+      "manifestPrompt": "Mutassa be a mai magyar államháztartás szerkezetét és bevételeit!",
+      "includedPages": [
+        6
+      ],
+      "sourcePageRange": {
+        "start": 6,
+        "end": 7
+      }
+    },
+    {
+      "topicId": "civics_allam_ujraeloszto_szerep",
+      "promptIndex": 0,
+      "exam": "2021. máj.",
+      "prompt": "Mutassa be az állam pénzbeli újraelosztó szerepét a mai Magyarországon! Válaszában az újraelosztás céljára, bevételi forrásaira, valamint egyes területeire összpontosítson!",
+      "file": "he_12.pdf",
+      "url": "/essay-pdfs/long/he_12.pdf",
+      "previewImages": [
+        "/essay-pdfs/long-preview/he_12_p1.png"
+      ],
+      "manifestId": "he_12",
+      "manifestTaskHeader": "4. A feladat a jelenkori Magyarországhoz kapcsolódik. (hosszú) (2021. máj.)",
+      "manifestPrompt": "Mutassa be a források és ismeretei segítségével az állam pénzbeli újraelosztó szerepét a",
+      "includedPages": [
+        8
+      ],
+      "sourcePageRange": {
+        "start": 8,
+        "end": 9
+      }
+    }
+  ]
+}

@@ -1,0 +1,640 @@
+{
+  "meta": {
+    "source": "rovid_10_pontos_essze_pdfek_csak_feladat (1).zip",
+    "assetBasePath": "/essay-pdfs/short/",
+    "generatedFrom": "manifest_trimmed.json + normalized prompt matching"
+  },
+  "entries": [
+    {
+      "topicId": "present_eu_economic_principles",
+      "promptIndex": 0,
+      "exam": "2017. máj.",
+      "prompt": "Mutassa be az európai integráció gazdasági alapelveit és célkitűzéseit! Az integráció folyamatáról ne írjon!",
+      "file": "10_a_jelenkor_1945_t_u0151l_napjainkig_emelt_essze_1_2017_maj_1_a_feladat_az_eur.pdf",
+      "url": "/essay-pdfs/short/10_a_jelenkor_1945_t_u0151l_napjainkig_emelt_essze_1_2017_maj_1_a_feladat_az_eur.pdf",
+      "matchScore": 1.0,
+      "keptPages": [
+        {
+          "source_page": 1,
+          "crop": [
+            35.88,
+            17.87,
+            562.54,
+            743.45
+          ]
+        },
+        {
+          "source_page": 2,
+          "crop": [
+            44.66,
+            17.87,
+            562.54,
+            94.63
+          ]
+        }
+      ],
+      "previewImages": [
+        "/essay-pdfs/short-preview/10_a_jelenkor_1945_t_u0151l_napjainkig_emelt_essze_1_2017_maj_1_a_feladat_az_eur_p1.png",
+        "/essay-pdfs/short-preview/10_a_jelenkor_1945_t_u0151l_napjainkig_emelt_essze_1_2017_maj_1_a_feladat_az_eur_p2.png"
+      ]
+    },
+    {
+      "topicId": "present_vietnam_war",
+      "promptIndex": 0,
+      "exam": "2017. okt.",
+      "prompt": "Mutassa be az amerikai–vietnámi háborút és következményeit!",
+      "file": "10_a_jelenkor_1945_t_u0151l_napjainkig_emelt_essze_2_2017_okt_2_a_feladat_a_hide.pdf",
+      "url": "/essay-pdfs/short/10_a_jelenkor_1945_t_u0151l_napjainkig_emelt_essze_2_2017_okt_2_a_feladat_a_hide.pdf",
+      "matchScore": 1.0,
+      "keptPages": [
+        {
+          "source_page": 1,
+          "crop": [
+            35.88,
+            17.87,
+            562.54,
+            251.73
+          ]
+        }
+      ],
+      "previewImages": [
+        "/essay-pdfs/short-preview/10_a_jelenkor_1945_t_u0151l_napjainkig_emelt_essze_2_2017_okt_2_a_feladat_a_hide_p1.png"
+      ]
+    },
+    {
+      "topicId": "present_eu_member_state_conflicts",
+      "promptIndex": 0,
+      "exam": "2018. máj. id.",
+      "prompt": "Tárja fel az Unió tagállamai közti vitákat a költségvetés, a pénzügyek, a nemzeti szuverenitás és a biztonságpolitika területén 2010-ig!",
+      "file": "10_a_jelenkor_1945_t_u0151l_napjainkig_emelt_essze_3_2018_maj_id_3_a_feladat_az_.pdf",
+      "url": "/essay-pdfs/short/10_a_jelenkor_1945_t_u0151l_napjainkig_emelt_essze_3_2018_maj_id_3_a_feladat_az_.pdf",
+      "matchScore": 0.867,
+      "keptPages": [
+        {
+          "source_page": 1,
+          "crop": [
+            35.88,
+            17.87,
+            562.54,
+            559.1
+          ]
+        }
+      ],
+      "previewImages": [
+        "/essay-pdfs/short-preview/10_a_jelenkor_1945_t_u0151l_napjainkig_emelt_essze_3_2018_maj_id_3_a_feladat_az__p1.png"
+      ]
+    },
+    {
+      "topicId": "present_eu_integration_steps",
+      "promptIndex": 0,
+      "exam": "2018. okt.",
+      "prompt": "Mutassa be az integráció lépéseit és a Közös Piac működését az 1950-es évek elejétől 1973-ig, Nagy-Britannia belépéséig!",
+      "file": "10_a_jelenkor_1945_t_u0151l_napjainkig_emelt_essze_4_2018_okt_4_a_feladat_az_eur.pdf",
+      "url": "/essay-pdfs/short/10_a_jelenkor_1945_t_u0151l_napjainkig_emelt_essze_4_2018_okt_4_a_feladat_az_eur.pdf",
+      "matchScore": 1.0,
+      "keptPages": [
+        {
+          "source_page": 1,
+          "crop": [
+            35.88,
+            17.87,
+            562.54,
+            446.97
+          ]
+        }
+      ],
+      "previewImages": [
+        "/essay-pdfs/short-preview/10_a_jelenkor_1945_t_u0151l_napjainkig_emelt_essze_4_2018_okt_4_a_feladat_az_eur_p1.png"
+      ]
+    },
+    {
+      "topicId": "present_globalization",
+      "promptIndex": 0,
+      "exam": "2020. máj.",
+      "prompt": "Mutassa be a gazdasági globalizáció jellemzőit! A környezeti, népesedési és kulturális hatásokról ne írjon!",
+      "file": "10_a_jelenkor_1945_t_u0151l_napjainkig_emelt_essze_5_2020_maj_5_a_feladat_a_jele.pdf",
+      "url": "/essay-pdfs/short/10_a_jelenkor_1945_t_u0151l_napjainkig_emelt_essze_5_2020_maj_5_a_feladat_a_jele.pdf",
+      "matchScore": 1.0,
+      "keptPages": [
+        {
+          "source_page": 1,
+          "crop": [
+            35.88,
+            17.87,
+            562.54,
+            423.96
+          ]
+        }
+      ],
+      "previewImages": [
+        "/essay-pdfs/short-preview/10_a_jelenkor_1945_t_u0151l_napjainkig_emelt_essze_5_2020_maj_5_a_feladat_a_jele_p1.png"
+      ]
+    },
+    {
+      "topicId": "anc_islam_mohamed",
+      "promptIndex": 0,
+      "exam": "2018. máj. id.",
+      "prompt": "Mutassa be Mohamed szerepét az iszlám vallás kialakulásában!",
+      "file": "1_az_okor_es_kulturaja_emelt_essze_1_2018_maj_id_1_a_feladat_az_iszlam_vallashoz.pdf",
+      "url": "/essay-pdfs/short/1_az_okor_es_kulturaja_emelt_essze_1_2018_maj_id_1_a_feladat_az_iszlam_vallashoz.pdf",
+      "matchScore": 1.0,
+      "keptPages": [
+        {
+          "source_page": 1,
+          "crop": [
+            45.74,
+            17.61,
+            564.94,
+            335.35
+          ]
+        }
+      ],
+      "previewImages": [
+        "/essay-pdfs/short-preview/1_az_okor_es_kulturaja_emelt_essze_1_2018_maj_id_1_a_feladat_az_iszlam_vallashoz_p1.png"
+      ]
+    },
+    {
+      "topicId": "anc_christianity_4th_century",
+      "promptIndex": 0,
+      "exam": "2020. máj. id.",
+      "prompt": "Mutassa be, milyen változások történtek a kereszténység helyzetében a Római Birodalomban a Kr. u. 4. században!",
+      "file": "1_az_okor_es_kulturaja_emelt_essze_2_2020_maj_id_2_a_feladat_a_keresztenyseg_oko.pdf",
+      "url": "/essay-pdfs/short/1_az_okor_es_kulturaja_emelt_essze_2_2020_maj_id_2_a_feladat_a_keresztenyseg_oko.pdf",
+      "matchScore": 0.846,
+      "keptPages": [
+        {
+          "source_page": 1,
+          "crop": [
+            35.88,
+            17.61,
+            564.94,
+            428.28
+          ]
+        }
+      ],
+      "previewImages": [
+        "/essay-pdfs/short-preview/1_az_okor_es_kulturaja_emelt_essze_2_2020_maj_id_2_a_feladat_a_keresztenyseg_oko_p1.png"
+      ]
+    },
+    {
+      "topicId": "anc_augustus_principate",
+      "promptIndex": 0,
+      "exam": "2022. okt.",
+      "prompt": "Mutassa be Augustus uralmának azokat az elemeit, amelyek a köztársaság látszatának fenntartását szolgálták!",
+      "file": "1_az_okor_es_kulturaja_emelt_essze_3_2022_okt_3_a_feladat_a_romai_birodalom_tort.pdf",
+      "url": "/essay-pdfs/short/1_az_okor_es_kulturaja_emelt_essze_3_2022_okt_3_a_feladat_a_romai_birodalom_tort.pdf",
+      "matchScore": 1.0,
+      "keptPages": [
+        {
+          "source_page": 1,
+          "crop": [
+            35.88,
+            17.61,
+            564.94,
+            526.22
+          ]
+        }
+      ],
+      "previewImages": [
+        "/essay-pdfs/short-preview/1_az_okor_es_kulturaja_emelt_essze_3_2022_okt_3_a_feladat_a_romai_birodalom_tort_p1.png"
+      ]
+    },
+    {
+      "topicId": "med_serfdom_rights_duties",
+      "promptIndex": 0,
+      "exam": "2017. máj.",
+      "prompt": "Mutassa be a középkori jobbágyság jogait és kötelességeit az uradalom keretein belül!",
+      "file": "2_a_kozepkor_emelt_essze_1_2017_maj_1_a_feladat_a_kozepkori_jobbagysaghoz_kapcso.pdf",
+      "url": "/essay-pdfs/short/2_a_kozepkor_emelt_essze_1_2017_maj_1_a_feladat_a_kozepkori_jobbagysaghoz_kapcso.pdf",
+      "matchScore": 0.917,
+      "keptPages": [
+        {
+          "source_page": 1,
+          "crop": [
+            32.16,
+            17.87,
+            562.42,
+            687.51
+          ]
+        }
+      ],
+      "previewImages": [
+        "/essay-pdfs/short-preview/2_a_kozepkor_emelt_essze_1_2017_maj_1_a_feladat_a_kozepkori_jobbagysaghoz_kapcso_p1.png"
+      ]
+    },
+    {
+      "topicId": "med_guilds_training",
+      "promptIndex": 0,
+      "exam": "2017. máj. id.",
+      "prompt": "Mutassa be, hogyan biztosították a céhek a szakképzést, hogyan történt a mesterré válás! Térjen ki a korlátozásokra és okaikra is!",
+      "file": "2_a_kozepkor_emelt_essze_2_2017_maj_id_2_a_feladat_a_kozepkori_cehek_tortenetehe.pdf",
+      "url": "/essay-pdfs/short/2_a_kozepkor_emelt_essze_2_2017_maj_id_2_a_feladat_a_kozepkori_cehek_tortenetehe.pdf",
+      "matchScore": 0.769,
+      "keptPages": [
+        {
+          "source_page": 1,
+          "crop": [
+            36.0,
+            17.87,
+            562.42,
+            306.7
+          ]
+        }
+      ],
+      "previewImages": [
+        "/essay-pdfs/short-preview/2_a_kozepkor_emelt_essze_2_2017_maj_id_2_a_feladat_a_kozepkori_cehek_tortenetehe_p1.png"
+      ]
+    },
+    {
+      "topicId": "med_eastern_christianity",
+      "promptIndex": 0,
+      "exam": "2019. okt.",
+      "prompt": "Mutassa be a keleti kereszténység szervezeti sajátosságait! Röviden térjen ki a nyelvhasználat kérdésére is!",
+      "file": "2_a_kozepkor_emelt_essze_3_2019_okt_3_a_feladat_a_kozepkori_keleti_keresztenyseg.pdf",
+      "url": "/essay-pdfs/short/2_a_kozepkor_emelt_essze_3_2019_okt_3_a_feladat_a_kozepkori_keleti_keresztenyseg.pdf",
+      "matchScore": 1.0,
+      "keptPages": [
+        {
+          "source_page": 1,
+          "crop": [
+            36.0,
+            17.87,
+            562.42,
+            485.95
+          ]
+        }
+      ],
+      "previewImages": [
+        "/essay-pdfs/short-preview/2_a_kozepkor_emelt_essze_3_2019_okt_3_a_feladat_a_kozepkori_keleti_keresztenyseg_p1.png"
+      ]
+    },
+    {
+      "topicId": "med_estates_france",
+      "promptIndex": 0,
+      "exam": "2020. okt.",
+      "prompt": "Mutassa be a rendi gyűlés összehívásának körülményeit és a rendi gyűlés működését! Térjen ki a királyi hatalom korlátaira is!",
+      "file": "2_a_kozepkor_emelt_essze_4_2020_okt_4_a_feladat_a_francia_rendi_allam_kialakulas.pdf",
+      "url": "/essay-pdfs/short/2_a_kozepkor_emelt_essze_4_2020_okt_4_a_feladat_a_francia_rendi_allam_kialakulas.pdf",
+      "matchScore": 0.765,
+      "keptPages": [
+        {
+          "source_page": 1,
+          "crop": [
+            36.0,
+            17.87,
+            562.42,
+            612.26
+          ]
+        }
+      ],
+      "previewImages": [
+        "/essay-pdfs/short-preview/2_a_kozepkor_emelt_essze_4_2020_okt_4_a_feladat_a_francia_rendi_allam_kialakulas_p1.png"
+      ]
+    },
+    {
+      "topicId": "med_universities",
+      "promptIndex": 0,
+      "exam": "2021. máj.",
+      "prompt": "Mutassa be a középkori egyetemek kialakulását és működését!",
+      "file": "2_a_kozepkor_emelt_essze_5_2021_maj_5_a_feladat_a_kozepkori_muvelodessel_kapcsol.pdf",
+      "url": "/essay-pdfs/short/2_a_kozepkor_emelt_essze_5_2021_maj_5_a_feladat_a_kozepkori_muvelodessel_kapcsol.pdf",
+      "matchScore": 1.0,
+      "keptPages": [
+        {
+          "source_page": 1,
+          "crop": [
+            36.0,
+            17.87,
+            562.42,
+            446.4
+          ]
+        }
+      ],
+      "previewImages": [
+        "/essay-pdfs/short-preview/2_a_kozepkor_emelt_essze_5_2021_maj_5_a_feladat_a_kozepkori_muvelodessel_kapcsol_p1.png"
+      ]
+    },
+    {
+      "topicId": "med_serfdom_formation",
+      "promptIndex": 0,
+      "exam": "2021. máj. id.",
+      "prompt": "Mutassa be a jobbágyság kialakulását és helyzetének fő jellemzőit!",
+      "file": "2_a_kozepkor_emelt_essze_6_2021_maj_id_6_a_feladat_a_kozepkor_tarsadalmaval_kapc.pdf",
+      "url": "/essay-pdfs/short/2_a_kozepkor_emelt_essze_6_2021_maj_id_6_a_feladat_a_kozepkor_tarsadalmaval_kapc.pdf",
+      "matchScore": 1.0,
+      "keptPages": [
+        {
+          "source_page": 1,
+          "crop": [
+            36.0,
+            17.87,
+            562.42,
+            367.85
+          ]
+        }
+      ],
+      "previewImages": [
+        "/essay-pdfs/short-preview/2_a_kozepkor_emelt_essze_6_2021_maj_id_6_a_feladat_a_kozepkor_tarsadalmaval_kapc_p1.png"
+      ]
+    },
+    {
+      "topicId": "med_english_estates_monarchy",
+      "promptIndex": 1,
+      "exam": "2022. máj. id.",
+      "prompt": "Mutassa be az angol rendi monarchia működését! Térjen ki az uralkodói felségjogok és a rendi jogok érvényesülésére is!",
+      "file": "2_a_kozepkor_emelt_essze_7_2022_maj_id_7_a_feladat_anglia_kozepkori_tortenetehez.pdf",
+      "url": "/essay-pdfs/short/2_a_kozepkor_emelt_essze_7_2022_maj_id_7_a_feladat_anglia_kozepkori_tortenetehez.pdf",
+      "matchScore": 0.929,
+      "keptPages": [
+        {
+          "source_page": 1,
+          "crop": [
+            36.0,
+            17.87,
+            562.42,
+            364.88
+          ]
+        }
+      ],
+      "previewImages": [
+        "/essay-pdfs/short-preview/2_a_kozepkor_emelt_essze_7_2022_maj_id_7_a_feladat_anglia_kozepkori_tortenetehez_p1.png"
+      ]
+    },
+    {
+      "topicId": "earlymod_spanish_colonization",
+      "promptIndex": 1,
+      "exam": "2022. máj.",
+      "prompt": "Mutassa be Amerika 16. századi gyarmatosításának gazdasági jellemzőit és az európai gazdaságra gyakorolt hatásait!",
+      "file": "4_szellemi_t_u00e1rsadalmi_u00e9s_politikai_v_u00e1ltoz_u00e1sok_a_kora_u00fajko.pdf",
+      "url": "/essay-pdfs/short/4_szellemi_t_u00e1rsadalmi_u00e9s_politikai_v_u00e1ltoz_u00e1sok_a_kora_u00fajko.pdf",
+      "matchScore": 0.867,
+      "keptPages": [
+        {
+          "source_page": 1,
+          "crop": [
+            44.78,
+            17.76,
+            562.3,
+            365.64
+          ]
+        }
+      ],
+      "previewImages": [
+        "/essay-pdfs/short-preview/4_szellemi_t_u00e1rsadalmi_u00e9s_politikai_v_u00e1ltoz_u00e1sok_a_kora_u00fajko_p1.png"
+      ]
+    },
+    {
+      "topicId": "modern_second_industrial_revolution",
+      "promptIndex": 0,
+      "exam": "2021. okt.",
+      "prompt": "Mutassa be, mely tényezők ösztönözték, illetve tették lehetővé az ipar dinamikus fejlődését a második ipari forradalom során!",
+      "file": "6_a_polg_u00e1ri_u00e1talakul_u00e1s_a_nemzet_u00e1llamok_u00e9s_az_imperializmu.pdf",
+      "url": "/essay-pdfs/short/6_a_polg_u00e1ri_u00e1talakul_u00e1s_a_nemzet_u00e1llamok_u00e9s_az_imperializmu.pdf",
+      "matchScore": 0.941,
+      "keptPages": [
+        {
+          "source_page": 1,
+          "crop": [
+            36.0,
+            17.87,
+            562.42,
+            622.39
+          ]
+        }
+      ],
+      "previewImages": [
+        "/essay-pdfs/short-preview/6_a_polg_u00e1ri_u00e1talakul_u00e1s_a_nemzet_u00e1llamok_u00e9s_az_imperializmu_p1.png"
+      ]
+    },
+    {
+      "topicId": "ww_versailles_peace",
+      "promptIndex": 0,
+      "exam": "2022. okt.",
+      "prompt": "Mutassa be, milyen békefeltételeket szabtak Németország számára a győztesek, és miként igyekeztek Németországot meggyengíteni!",
+      "file": "8_a_vil_u00e1gh_u00e1bor_u00fak_kora_1914_1945_emelt_essze_10_2022_okt_10_a_fela.pdf",
+      "url": "/essay-pdfs/short/8_a_vil_u00e1gh_u00e1bor_u00fak_kora_1914_1945_emelt_essze_10_2022_okt_10_a_fela.pdf",
+      "matchScore": 0.8,
+      "keptPages": [
+        {
+          "source_page": 1,
+          "crop": [
+            35.88,
+            17.76,
+            562.3,
+            438.94
+          ]
+        }
+      ],
+      "previewImages": [
+        "/essay-pdfs/short-preview/8_a_vil_u00e1gh_u00e1bor_u00fak_kora_1914_1945_emelt_essze_10_2022_okt_10_a_fela_p1.png"
+      ]
+    },
+    {
+      "topicId": "ww_mussolini_foreign_policy",
+      "promptIndex": 0,
+      "exam": "2018. máj.",
+      "prompt": "Mutassa be Mussolini külpolitikájának fő elemeit! Térjen ki a fasiszta ideológiának a hatalmi törekvésekben betöltött szerepére is!",
+      "file": "8_a_vil_u00e1gh_u00e1bor_u00fak_kora_1914_1945_emelt_essze_1_2018_maj_1_a_felada.pdf",
+      "url": "/essay-pdfs/short/8_a_vil_u00e1gh_u00e1bor_u00fak_kora_1914_1945_emelt_essze_1_2018_maj_1_a_felada.pdf",
+      "matchScore": 1.0,
+      "keptPages": [
+        {
+          "source_page": 1,
+          "crop": [
+            35.85,
+            17.76,
+            562.3,
+            432.93
+          ]
+        }
+      ],
+      "previewImages": [
+        "/essay-pdfs/short-preview/8_a_vil_u00e1gh_u00e1bor_u00fak_kora_1914_1945_emelt_essze_1_2018_maj_1_a_felada_p1.png"
+      ]
+    },
+    {
+      "topicId": "ww_nazi_ideology",
+      "promptIndex": 0,
+      "exam": "2019. máj.",
+      "prompt": "Mutassa be a nemzetiszocialista (náci) ideológia legfontosabb elemeit!",
+      "file": "8_a_vil_u00e1gh_u00e1bor_u00fak_kora_1914_1945_emelt_essze_2_2019_maj_2_a_felada.pdf",
+      "url": "/essay-pdfs/short/8_a_vil_u00e1gh_u00e1bor_u00fak_kora_1914_1945_emelt_essze_2_2019_maj_2_a_felada.pdf",
+      "matchScore": 1.0,
+      "keptPages": [
+        {
+          "source_page": 1,
+          "crop": [
+            35.88,
+            17.76,
+            562.3,
+            457.32
+          ]
+        }
+      ],
+      "previewImages": [
+        "/essay-pdfs/short-preview/8_a_vil_u00e1gh_u00e1bor_u00fak_kora_1914_1945_emelt_essze_2_2019_maj_2_a_felada_p1.png"
+      ]
+    },
+    {
+      "topicId": "ww_ww1_home_front",
+      "promptIndex": 0,
+      "exam": "2019. okt.",
+      "prompt": "Mutassa be a mindennapi élet viszonyait a hátországban az első világháború idején!",
+      "file": "8_a_vil_u00e1gh_u00e1bor_u00fak_kora_1914_1945_emelt_essze_3_2019_okt_3_a_felada.pdf",
+      "url": "/essay-pdfs/short/8_a_vil_u00e1gh_u00e1bor_u00fak_kora_1914_1945_emelt_essze_3_2019_okt_3_a_felada.pdf",
+      "matchScore": 0.5,
+      "keptPages": [
+        {
+          "source_page": 1,
+          "crop": [
+            35.88,
+            17.76,
+            562.3,
+            386.16
+          ]
+        }
+      ],
+      "previewImages": [
+        "/essay-pdfs/short-preview/8_a_vil_u00e1gh_u00e1bor_u00fak_kora_1914_1945_emelt_essze_3_2019_okt_3_a_felada_p1.png"
+      ]
+    },
+    {
+      "topicId": "ww_new_deal",
+      "promptIndex": 0,
+      "exam": "2020. máj. id.",
+      "prompt": "Mutassa be az állam gazdasági szerepét a válságkezelésben a New Deal példáján keresztül az 1930-as években!",
+      "file": "8_a_vil_u00e1gh_u00e1bor_u00fak_kora_1914_1945_emelt_essze_4_2020_maj_id_4_a_fel.pdf",
+      "url": "/essay-pdfs/short/8_a_vil_u00e1gh_u00e1bor_u00fak_kora_1914_1945_emelt_essze_4_2020_maj_id_4_a_fel.pdf",
+      "matchScore": 1.0,
+      "keptPages": [
+        {
+          "source_page": 1,
+          "crop": [
+            31.44,
+            17.76,
+            562.3,
+            416.14
+          ]
+        }
+      ],
+      "previewImages": [
+        "/essay-pdfs/short-preview/8_a_vil_u00e1gh_u00e1bor_u00fak_kora_1914_1945_emelt_essze_4_2020_maj_id_4_a_fel_p1.png"
+      ]
+    },
+    {
+      "topicId": "ww_great_depression_collapse",
+      "promptIndex": 0,
+      "exam": "2020. okt.",
+      "prompt": "Tárja fel, miként omlott össze az Amerikai Egyesült Államok gazdasága a nagy gazdasági világválság idején!",
+      "file": "8_a_vil_u00e1gh_u00e1bor_u00fak_kora_1914_1945_emelt_essze_5_2020_okt_5_a_felada.pdf",
+      "url": "/essay-pdfs/short/8_a_vil_u00e1gh_u00e1bor_u00fak_kora_1914_1945_emelt_essze_5_2020_okt_5_a_felada.pdf",
+      "matchScore": 0.941,
+      "keptPages": [
+        {
+          "source_page": 1,
+          "crop": [
+            35.88,
+            17.76,
+            562.3,
+            665.57
+          ]
+        }
+      ],
+      "previewImages": [
+        "/essay-pdfs/short-preview/8_a_vil_u00e1gh_u00e1bor_u00fak_kora_1914_1945_emelt_essze_5_2020_okt_5_a_felada_p1.png"
+      ]
+    },
+    {
+      "topicId": "ww_stalin_industrialization",
+      "promptIndex": 0,
+      "exam": "2021. máj.",
+      "prompt": "Mutassa be, miként biztosította Sztálin a szovjet ipar gyors fejlődését! Térjen ki arra is, mi volt az erőltetett iparosítás ára!",
+      "file": "8_a_vil_u00e1gh_u00e1bor_u00fak_kora_1914_1945_emelt_essze_6_2021_maj_6_a_felada.pdf",
+      "url": "/essay-pdfs/short/8_a_vil_u00e1gh_u00e1bor_u00fak_kora_1914_1945_emelt_essze_6_2021_maj_6_a_felada.pdf",
+      "matchScore": 0.75,
+      "keptPages": [
+        {
+          "source_page": 1,
+          "crop": [
+            35.88,
+            17.76,
+            562.3,
+            388.63
+          ]
+        }
+      ],
+      "previewImages": [
+        "/essay-pdfs/short-preview/8_a_vil_u00e1gh_u00e1bor_u00fak_kora_1914_1945_emelt_essze_6_2021_maj_6_a_felada_p1.png"
+      ]
+    },
+    {
+      "topicId": "ww_women_status",
+      "promptIndex": 0,
+      "exam": "2021. máj. id.",
+      "prompt": "Mutassa be, hogyan változott a nők helyzete a XX. század első felében az iparilag fejlett országokban!",
+      "file": "8_a_vil_u00e1gh_u00e1bor_u00fak_kora_1914_1945_emelt_essze_7_2021_maj_id_7_a_fel.pdf",
+      "url": "/essay-pdfs/short/8_a_vil_u00e1gh_u00e1bor_u00fak_kora_1914_1945_emelt_essze_7_2021_maj_id_7_a_fel.pdf",
+      "matchScore": 0.818,
+      "keptPages": [
+        {
+          "source_page": 1,
+          "crop": [
+            35.88,
+            17.76,
+            562.3,
+            492.14
+          ]
+        }
+      ],
+      "previewImages": [
+        "/essay-pdfs/short-preview/8_a_vil_u00e1gh_u00e1bor_u00fak_kora_1914_1945_emelt_essze_7_2021_maj_id_7_a_fel_p1.png"
+      ]
+    },
+    {
+      "topicId": "ww_nazi_antisemitic_policy",
+      "promptIndex": 0,
+      "exam": "2022. máj.",
+      "prompt": "Mutassa be a náci német politika legfontosabb zsidóellenes elemeit a második világháború előtti időszakban!",
+      "file": "8_a_vil_u00e1gh_u00e1bor_u00fak_kora_1914_1945_emelt_essze_8_2022_maj_8_a_felada.pdf",
+      "url": "/essay-pdfs/short/8_a_vil_u00e1gh_u00e1bor_u00fak_kora_1914_1945_emelt_essze_8_2022_maj_8_a_felada.pdf",
+      "matchScore": 0.929,
+      "keptPages": [
+        {
+          "source_page": 1,
+          "crop": [
+            31.44,
+            17.76,
+            562.3,
+            449.64
+          ]
+        }
+      ],
+      "previewImages": [
+        "/essay-pdfs/short-preview/8_a_vil_u00e1gh_u00e1bor_u00fak_kora_1914_1945_emelt_essze_8_2022_maj_8_a_felada_p1.png"
+      ]
+    },
+    {
+      "topicId": "ww_ww1_home_front",
+      "promptIndex": 1,
+      "exam": "2022. máj. id.",
+      "prompt": "Tárja fel az első világháború idején a hátország élelmezési helyzetét! Térjen ki röviden a helyzet következményeire is!",
+      "file": "8_a_vil_u00e1gh_u00e1bor_u00fak_kora_1914_1945_emelt_essze_9_2022_maj_id_9_a_fel.pdf",
+      "url": "/essay-pdfs/short/8_a_vil_u00e1gh_u00e1bor_u00fak_kora_1914_1945_emelt_essze_9_2022_maj_id_9_a_fel.pdf",
+      "matchScore": 0.846,
+      "keptPages": [
+        {
+          "source_page": 1,
+          "crop": [
+            14.4,
+            17.76,
+            595.32,
+            394.44
+          ]
+        }
+      ],
+      "previewImages": [
+        "/essay-pdfs/short-preview/8_a_vil_u00e1gh_u00e1bor_u00fak_kora_1914_1945_emelt_essze_9_2022_maj_id_9_a_fel_p1.png"
+      ]
+    }
+  ]
+}

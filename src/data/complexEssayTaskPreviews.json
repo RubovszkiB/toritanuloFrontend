@@ -1,0 +1,1267 @@
+{
+  "meta": {
+    "source": "emelt_tori_komplex_essze_pdfek_csak_feladat_v4.zip",
+    "assetBasePath": "/essay-pdfs/complex/",
+    "generatedFrom": "manifest.json + complexEssaySource type order mapping"
+  },
+  "entries": [
+    {
+      "topicId": "ka_2017_maj_torok_kuzdelmek",
+      "promptIndex": 0,
+      "complexType": "korszakokon_ativelo",
+      "exam": "2017. máj.",
+      "prompt": "Mutassa be a magyar–oszmán konfliktusok fő fordulópontjait és az erőviszonyok romlását a nándorfehérvári győzelemtől a hódoltság kialakulásáig.",
+      "file": "ka_01.pdf",
+      "url": "/essay-pdfs/complex/ka_01.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/ka_01_p1.png",
+        "/essay-pdfs/complex-preview/ka_01_p2.png"
+      ],
+      "manifestId": "ka_01",
+      "sourcePageRange": [
+        2,
+        4
+      ],
+      "keptPages": [
+        {
+          "source_page": 2,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            841.9
+          ]
+        },
+        {
+          "source_page": 3,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            145.4
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "ka_2017_maj_id_nemzetisegi_politika",
+      "promptIndex": 0,
+      "complexType": "korszakokon_ativelo",
+      "exam": "2017. máj. id.",
+      "prompt": "Mutassa be a magyar nemzetiségi politika változásait a reformkorban, 1848–49-ben és a dualizmus korában.",
+      "file": "ka_02.pdf",
+      "url": "/essay-pdfs/complex/ka_02.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/ka_02_p1.png"
+      ],
+      "manifestId": "ka_02",
+      "sourcePageRange": [
+        5,
+        7
+      ],
+      "keptPages": [
+        {
+          "source_page": 5,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            734.5
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "ka_2017_okt_revizios_kulpolitika",
+      "promptIndex": 0,
+      "complexType": "korszakokon_ativelo",
+      "exam": "2017. okt.",
+      "prompt": "Mutassa be a magyar külpolitikai törekvéseket a történelmi állam területi egységének megőrzésére, majd revíziójára.",
+      "file": "ka_03.pdf",
+      "url": "/essay-pdfs/complex/ka_03.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/ka_03_p1.png",
+        "/essay-pdfs/complex-preview/ka_03_p2.png"
+      ],
+      "manifestId": "ka_03",
+      "sourcePageRange": [
+        8,
+        10
+      ],
+      "keptPages": [
+        {
+          "source_page": 8,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            841.9
+          ]
+        },
+        {
+          "source_page": 9,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            292.7
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "ka_2018_maj_foldkerdes",
+      "promptIndex": 0,
+      "complexType": "korszakokon_ativelo",
+      "exam": "2018. máj.",
+      "prompt": "Mutassa be a földkérdés fő fordulópontjait 1918-tól a rendszerváltásig.",
+      "file": "ka_04.pdf",
+      "url": "/essay-pdfs/complex/ka_04.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/ka_04_p1.png"
+      ],
+      "manifestId": "ka_04",
+      "sourcePageRange": [
+        11,
+        12
+      ],
+      "keptPages": [
+        {
+          "source_page": 11,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            677.0
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "ka_2018_maj_id_jobbagysag",
+      "promptIndex": 0,
+      "complexType": "korszakokon_ativelo",
+      "exam": "2018. máj. id.",
+      "prompt": "Mutassa be a jobbágyság helyzetének és megítélésének változását Mária Teréziától az áprilisi törvényekig.",
+      "file": "ka_05.pdf",
+      "url": "/essay-pdfs/complex/ka_05.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/ka_05_p1.png",
+        "/essay-pdfs/complex-preview/ka_05_p2.png"
+      ],
+      "manifestId": "ka_05",
+      "sourcePageRange": [
+        13,
+        15
+      ],
+      "keptPages": [
+        {
+          "source_page": 13,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            841.9
+          ]
+        },
+        {
+          "source_page": 14,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            126.6
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "ka_2018_okt_szovjet_kulpolitika",
+      "promptIndex": 0,
+      "complexType": "korszakokon_ativelo",
+      "exam": "2018. okt.",
+      "prompt": "Mutassa be a sztálini Szovjetunió külpolitikáját a kezdeti elszigeteltségtől a hidegháborús terjeszkedésig.",
+      "file": "ka_06.pdf",
+      "url": "/essay-pdfs/complex/ka_06.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/ka_06_p1.png",
+        "/essay-pdfs/complex-preview/ka_06_p2.png"
+      ],
+      "manifestId": "ka_06",
+      "sourcePageRange": [
+        16,
+        18
+      ],
+      "keptPages": [
+        {
+          "source_page": 16,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            841.9
+          ]
+        },
+        {
+          "source_page": 17,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            398.9
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "ka_2019_maj_tavol_kelet_gyarmatositas",
+      "promptIndex": 0,
+      "complexType": "korszakokon_ativelo",
+      "exam": "2019. máj.",
+      "prompt": "Mutassa be a gyarmatosítás és a gyarmati világ felbomlásának folyamatát Kínában és Koreában.",
+      "file": "ka_07.pdf",
+      "url": "/essay-pdfs/complex/ka_07.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/ka_07_p1.png"
+      ],
+      "manifestId": "ka_07",
+      "sourcePageRange": [
+        19,
+        20
+      ],
+      "keptPages": [
+        {
+          "source_page": 19,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            676.4
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "ka_2019_maj_id_habsburg_kozjogi_viszony",
+      "promptIndex": 0,
+      "complexType": "korszakokon_ativelo",
+      "exam": "2019. máj. id.",
+      "prompt": "Mutassa be a Habsburg–magyar közjogi viszony alakulását a török kiűzése után II. József haláláig.",
+      "file": "ka_08.pdf",
+      "url": "/essay-pdfs/complex/ka_08.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/ka_08_p1.png",
+        "/essay-pdfs/complex-preview/ka_08_p2.png"
+      ],
+      "manifestId": "ka_08",
+      "sourcePageRange": [
+        21,
+        23
+      ],
+      "keptPages": [
+        {
+          "source_page": 21,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            841.9
+          ]
+        },
+        {
+          "source_page": 22,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            309.9
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "ka_2019_okt_allamforma_allamfo",
+      "promptIndex": 0,
+      "complexType": "korszakokon_ativelo",
+      "exam": "2019. okt.",
+      "prompt": "Mutassa be az államforma és az államfői jogkör változásait a dualizmus végétől a rendszerváltásig.",
+      "file": "ka_09.pdf",
+      "url": "/essay-pdfs/complex/ka_09.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/ka_09_p1.png",
+        "/essay-pdfs/complex-preview/ka_09_p2.png"
+      ],
+      "manifestId": "ka_09",
+      "sourcePageRange": [
+        24,
+        26
+      ],
+      "keptPages": [
+        {
+          "source_page": 24,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            841.9
+          ]
+        },
+        {
+          "source_page": 25,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            185.2
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "ka_2020_maj_kiraly_rendek",
+      "promptIndex": 0,
+      "complexType": "korszakokon_ativelo",
+      "exam": "2020. máj.",
+      "prompt": "Mutassa be a királyi hatalom és a rendek viszonyának változását Mátyás trónra kerülésétől Ferdinánd uralma végéig.",
+      "file": "ka_10.pdf",
+      "url": "/essay-pdfs/complex/ka_10.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/ka_10_p1.png",
+        "/essay-pdfs/complex-preview/ka_10_p2.png"
+      ],
+      "manifestId": "ka_10",
+      "sourcePageRange": [
+        27,
+        29
+      ],
+      "keptPages": [
+        {
+          "source_page": 27,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            841.9
+          ]
+        },
+        {
+          "source_page": 28,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            130.7
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "ka_2020_maj_id_valasztojog_20sz",
+      "promptIndex": 0,
+      "complexType": "korszakokon_ativelo",
+      "exam": "2020. máj. id.",
+      "prompt": "Mutassa be a magyar választójog és választási rendszer alapvető elemeinek alakulását a 20. században.",
+      "file": "ka_11.pdf",
+      "url": "/essay-pdfs/complex/ka_11.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/ka_11_p1.png",
+        "/essay-pdfs/complex-preview/ka_11_p2.png"
+      ],
+      "manifestId": "ka_11",
+      "sourcePageRange": [
+        30,
+        32
+      ],
+      "keptPages": [
+        {
+          "source_page": 30,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            841.9
+          ]
+        },
+        {
+          "source_page": 31,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            300.9
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "ka_2020_okt_zsidosag_emancipacio_jogfosztas",
+      "promptIndex": 0,
+      "complexType": "korszakokon_ativelo",
+      "exam": "2020. okt.",
+      "prompt": "Mutassa be a magyarországi zsidóság emancipációját, integrációját, majd fokozatos jogfosztását.",
+      "file": "ka_12.pdf",
+      "url": "/essay-pdfs/complex/ka_12.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/ka_12_p1.png",
+        "/essay-pdfs/complex-preview/ka_12_p2.png"
+      ],
+      "manifestId": "ka_12",
+      "sourcePageRange": [
+        33,
+        35
+      ],
+      "keptPages": [
+        {
+          "source_page": 33,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            841.9
+          ]
+        },
+        {
+          "source_page": 34,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            201.5
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "ka_2021_maj_hadero_tortenet",
+      "promptIndex": 0,
+      "complexType": "korszakokon_ativelo",
+      "exam": "2021. máj.",
+      "prompt": "Mutassa be a magyar haderő szervezeti változásait 1848-tól Trianonig.",
+      "file": "ka_13.pdf",
+      "url": "/essay-pdfs/complex/ka_13.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/ka_13_p1.png",
+        "/essay-pdfs/complex-preview/ka_13_p2.png"
+      ],
+      "manifestId": "ka_13",
+      "sourcePageRange": [
+        36,
+        38
+      ],
+      "keptPages": [
+        {
+          "source_page": 36,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            841.9
+          ]
+        },
+        {
+          "source_page": 37,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            229.6
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "ka_2021_maj_id_ipar_1867_1929",
+      "promptIndex": 0,
+      "complexType": "korszakokon_ativelo",
+      "exam": "2021. máj. id.",
+      "prompt": "Mutassa be a magyar ipar helyzetének alakulását a dualizmus korától a bethleni konszolidáció végéig.",
+      "file": "ka_14.pdf",
+      "url": "/essay-pdfs/complex/ka_14.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/ka_14_p1.png",
+        "/essay-pdfs/complex-preview/ka_14_p2.png"
+      ],
+      "manifestId": "ka_14",
+      "sourcePageRange": [
+        39,
+        41
+      ],
+      "keptPages": [
+        {
+          "source_page": 39,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            841.9
+          ]
+        },
+        {
+          "source_page": 40,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            428.2
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "ka_2021_okt_kulpolitika_1944_2000",
+      "promptIndex": 0,
+      "complexType": "korszakokon_ativelo",
+      "exam": "2021. okt.",
+      "prompt": "Mutassa be a magyar külpolitikai törekvéseket 1944-től az euroatlanti integrációig.",
+      "file": "ka_15.pdf",
+      "url": "/essay-pdfs/complex/ka_15.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/ka_15_p1.png",
+        "/essay-pdfs/complex-preview/ka_15_p2.png"
+      ],
+      "manifestId": "ka_15",
+      "sourcePageRange": [
+        42,
+        44
+      ],
+      "keptPages": [
+        {
+          "source_page": 42,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            841.9
+          ]
+        },
+        {
+          "source_page": 43,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            380.4
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "ka_2022_maj_vedekezes_oszmanokkal_szemben",
+      "promptIndex": 0,
+      "complexType": "korszakokon_ativelo",
+      "exam": "2022. máj.",
+      "prompt": "Mutassa be a magyar védekezési lehetőségek változását Zsigmond korától az ország széteséséig.",
+      "file": "ka_16.pdf",
+      "url": "/essay-pdfs/complex/ka_16.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/ka_16_p1.png",
+        "/essay-pdfs/complex-preview/ka_16_p2.png"
+      ],
+      "manifestId": "ka_16",
+      "sourcePageRange": [
+        45,
+        47
+      ],
+      "keptPages": [
+        {
+          "source_page": 45,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            841.9
+          ]
+        },
+        {
+          "source_page": 46,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            215.2
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "ka_2022_maj_id_habsburg_szovetsegi_politika",
+      "promptIndex": 0,
+      "complexType": "korszakokon_ativelo",
+      "exam": "2022. máj. id.",
+      "prompt": "Mutassa be a Habsburg államalakulat szövetségi politikáját a 18. századtól az első világháborúig.",
+      "file": "ka_17.pdf",
+      "url": "/essay-pdfs/complex/ka_17.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/ka_17_p1.png",
+        "/essay-pdfs/complex-preview/ka_17_p2.png"
+      ],
+      "manifestId": "ka_17",
+      "sourcePageRange": [
+        48,
+        50
+      ],
+      "keptPages": [
+        {
+          "source_page": 48,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            841.9
+          ]
+        },
+        {
+          "source_page": 49,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            415.2
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "ka_2022_okt_valasztasi_rendszer_1830_1939",
+      "promptIndex": 0,
+      "complexType": "korszakokon_ativelo",
+      "exam": "2022. okt.",
+      "prompt": "Mutassa be a magyar országgyűlési választási rendszer és választójog fejlődését a reformkortól 1939-ig.",
+      "file": "ka_18.pdf",
+      "url": "/essay-pdfs/complex/ka_18.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/ka_18_p1.png",
+        "/essay-pdfs/complex-preview/ka_18_p2.png"
+      ],
+      "manifestId": "ka_18",
+      "sourcePageRange": [
+        51,
+        53
+      ],
+      "keptPages": [
+        {
+          "source_page": 51,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            841.9
+          ]
+        },
+        {
+          "source_page": 52,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            342.8
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "oh_2017_maj_kommunizmus_nemzetiszocializmus",
+      "promptIndex": 0,
+      "complexType": "osszehasonlito",
+      "exam": "2017. máj.",
+      "prompt": "Hasonlítsa össze a kommunista és a nemzetiszocialista ideológiát.",
+      "file": "os_01.pdf",
+      "url": "/essay-pdfs/complex/os_01.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/os_01_p1.png",
+        "/essay-pdfs/complex-preview/os_01_p2.png"
+      ],
+      "manifestId": "os_01",
+      "sourcePageRange": [
+        2,
+        4
+      ],
+      "keptPages": [
+        {
+          "source_page": 2,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            841.9
+          ]
+        },
+        {
+          "source_page": 3,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            376.8
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "oh_2017_maj_id_matyas_esz_oszman",
+      "promptIndex": 0,
+      "complexType": "osszehasonlito",
+      "exam": "2017. máj. id.",
+      "prompt": "Vesse össze Mátyás államát a korabeli Oszmán Birodalommal.",
+      "file": "os_02.pdf",
+      "url": "/essay-pdfs/complex/os_02.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/os_02_p1.png",
+        "/essay-pdfs/complex-preview/os_02_p2.png"
+      ],
+      "manifestId": "os_02",
+      "sourcePageRange": [
+        5,
+        7
+      ],
+      "keptPages": [
+        {
+          "source_page": 5,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            841.9
+          ]
+        },
+        {
+          "source_page": 6,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            646.4
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "oh_2017_okt_keresztenyseg_iszlam",
+      "promptIndex": 0,
+      "complexType": "osszehasonlito",
+      "exam": "2017. okt.",
+      "prompt": "Vesse össze a keresztény és az iszlám vallás fő tanait és társadalmi tanításait.",
+      "file": "os_03.pdf",
+      "url": "/essay-pdfs/complex/os_03.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/os_03_p1.png"
+      ],
+      "manifestId": "os_03",
+      "sourcePageRange": [
+        8,
+        10
+      ],
+      "keptPages": [
+        {
+          "source_page": 8,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            841.9
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "oh_2018_maj_nagy_karoly_szent_istvan",
+      "promptIndex": 0,
+      "complexType": "osszehasonlito",
+      "exam": "2018. máj.",
+      "prompt": "Vesse össze Nagy Károly és I. (Szent) István államát.",
+      "file": "os_04.pdf",
+      "url": "/essay-pdfs/complex/os_04.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/os_04_p1.png"
+      ],
+      "manifestId": "os_04",
+      "sourcePageRange": [
+        11,
+        13
+      ],
+      "keptPages": [
+        {
+          "source_page": 11,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            841.9
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "oh_2018_maj_id_keleti_nyugati_blokk",
+      "promptIndex": 0,
+      "complexType": "osszehasonlito",
+      "exam": "2018. máj. id.",
+      "prompt": "Mutassa be a keleti és a nyugati blokk főbb jellemzőit.",
+      "file": "os_05.pdf",
+      "url": "/essay-pdfs/complex/os_05.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/os_05_p1.png"
+      ],
+      "manifestId": "os_05",
+      "sourcePageRange": [
+        14,
+        16
+      ],
+      "keptPages": [
+        {
+          "source_page": 14,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            841.9
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "oh_2018_okt_xiv_lajos_ii_jozsef",
+      "promptIndex": 0,
+      "complexType": "osszehasonlito",
+      "exam": "2018. okt.",
+      "prompt": "Vesse össze XIV. Lajos abszolutizmusát és II. József felvilágosult abszolutizmusát.",
+      "file": "os_06.pdf",
+      "url": "/essay-pdfs/complex/os_06.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/os_06_p1.png",
+        "/essay-pdfs/complex-preview/os_06_p2.png"
+      ],
+      "manifestId": "os_06",
+      "sourcePageRange": [
+        17,
+        19
+      ],
+      "keptPages": [
+        {
+          "source_page": 17,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            841.9
+          ]
+        },
+        {
+          "source_page": 18,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            310.1
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "oh_2019_maj_rakoczi_amerikai_fuggetlenseg",
+      "promptIndex": 0,
+      "complexType": "osszehasonlito",
+      "exam": "2019. máj.",
+      "prompt": "Vesse össze a két függetlenségi küzdelmet.",
+      "file": "os_07.pdf",
+      "url": "/essay-pdfs/complex/os_07.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/os_07_p1.png",
+        "/essay-pdfs/complex-preview/os_07_p2.png"
+      ],
+      "manifestId": "os_07",
+      "sourcePageRange": [
+        20,
+        22
+      ],
+      "keptPages": [
+        {
+          "source_page": 20,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            841.9
+          ]
+        },
+        {
+          "source_page": 21,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            556.7
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "oh_2019_maj_id_luther_katolikus_megujulas",
+      "promptIndex": 0,
+      "complexType": "osszehasonlito",
+      "exam": "2019. máj. id.",
+      "prompt": "Vesse össze a lutheri reformációt és a katolikus megújulást.",
+      "file": "os_08.pdf",
+      "url": "/essay-pdfs/complex/os_08.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/os_08_p1.png"
+      ],
+      "manifestId": "os_08",
+      "sourcePageRange": [
+        23,
+        24
+      ],
+      "keptPages": [
+        {
+          "source_page": 23,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            669.2
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "oh_2019_okt_szechenyi_kossuth",
+      "promptIndex": 0,
+      "complexType": "osszehasonlito",
+      "exam": "2019. okt.",
+      "prompt": "Vesse össze Széchenyi és Kossuth reformprogramját.",
+      "file": "os_09.pdf",
+      "url": "/essay-pdfs/complex/os_09.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/os_09_p1.png",
+        "/essay-pdfs/complex-preview/os_09_p2.png"
+      ],
+      "manifestId": "os_09",
+      "sourcePageRange": [
+        25,
+        27
+      ],
+      "keptPages": [
+        {
+          "source_page": 25,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            841.9
+          ]
+        },
+        {
+          "source_page": 26,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            357.0
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "oh_2020_maj_trianon_parizs",
+      "promptIndex": 0,
+      "complexType": "osszehasonlito",
+      "exam": "2020. máj.",
+      "prompt": "Vesse össze az első és a második világháborút lezáró magyar békeszerződéseket.",
+      "file": "os_10.pdf",
+      "url": "/essay-pdfs/complex/os_10.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/os_10_p1.png",
+        "/essay-pdfs/complex-preview/os_10_p2.png"
+      ],
+      "manifestId": "os_10",
+      "sourcePageRange": [
+        28,
+        30
+      ],
+      "keptPages": [
+        {
+          "source_page": 28,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            841.9
+          ]
+        },
+        {
+          "source_page": 29,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            395.8
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "oh_2020_maj_id_nemet_magyar_nemzetallam",
+      "promptIndex": 0,
+      "complexType": "osszehasonlito",
+      "exam": "2020. máj. id.",
+      "prompt": "Vesse össze a polgári nemzetállam megteremtését és jellemzőit Németországban és Magyarországon.",
+      "file": "os_11.pdf",
+      "url": "/essay-pdfs/complex/os_11.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/os_11_p1.png",
+        "/essay-pdfs/complex-preview/os_11_p2.png"
+      ],
+      "manifestId": "os_11",
+      "sourcePageRange": [
+        31,
+        33
+      ],
+      "keptPages": [
+        {
+          "source_page": 31,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            841.9
+          ]
+        },
+        {
+          "source_page": 32,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            428.7
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "oh_2020_okt_amerika_india_gyarmatositas",
+      "promptIndex": 0,
+      "complexType": "osszehasonlito",
+      "exam": "2020. okt.",
+      "prompt": "Vesse össze Amerika és India gyarmatosítását.",
+      "file": "os_12.pdf",
+      "url": "/essay-pdfs/complex/os_12.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/os_12_p1.png",
+        "/essay-pdfs/complex-preview/os_12_p2.png"
+      ],
+      "manifestId": "os_12",
+      "sourcePageRange": [
+        34,
+        36
+      ],
+      "keptPages": [
+        {
+          "source_page": 34,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            841.9
+          ]
+        },
+        {
+          "source_page": 35,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            343.5
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "oh_2021_maj_nyugati_keleti_egyhaz",
+      "promptIndex": 0,
+      "complexType": "osszehasonlito",
+      "exam": "2021. máj.",
+      "prompt": "Vesse össze a nyugati és a keleti egyház szervezetét és működését.",
+      "file": "os_13.pdf",
+      "url": "/essay-pdfs/complex/os_13.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/os_13_p1.png"
+      ],
+      "manifestId": "os_13",
+      "sourcePageRange": [
+        37,
+        39
+      ],
+      "keptPages": [
+        {
+          "source_page": 37,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            841.9
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "oh_2021_maj_id_anglia_franciaorszag_17_18",
+      "promptIndex": 0,
+      "complexType": "osszehasonlito",
+      "exam": "2021. máj. id.",
+      "prompt": "Vesse össze Anglia és Franciaország kül- és belpolitikai helyzetét, valamint társadalmát.",
+      "file": "os_14.pdf",
+      "url": "/essay-pdfs/complex/os_14.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/os_14_p1.png",
+        "/essay-pdfs/complex-preview/os_14_p2.png"
+      ],
+      "manifestId": "os_14",
+      "sourcePageRange": [
+        40,
+        42
+      ],
+      "keptPages": [
+        {
+          "source_page": 40,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            841.9
+          ]
+        },
+        {
+          "source_page": 41,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            369.5
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "oh_2021_okt_harminceves_vs_spanyol_orokosodesi",
+      "promptIndex": 0,
+      "complexType": "osszehasonlito",
+      "exam": "2021. okt.",
+      "prompt": "Vesse össze a két háborút a Habsburg Birodalom és Franciaország vetélkedése szempontjából.",
+      "file": "os_15.pdf",
+      "url": "/essay-pdfs/complex/os_15.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/os_15_p1.png",
+        "/essay-pdfs/complex-preview/os_15_p2.png"
+      ],
+      "manifestId": "os_15",
+      "sourcePageRange": [
+        43,
+        46
+      ],
+      "keptPages": [
+        {
+          "source_page": 43,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            841.9
+          ]
+        },
+        {
+          "source_page": 44,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            771.2
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "oh_2022_maj_nemetorszag_ww1_ww2",
+      "promptIndex": 0,
+      "complexType": "osszehasonlito",
+      "exam": "2022. máj.",
+      "prompt": "Vesse össze Németország helyzetét és céljait az első és második világháború kitörése idején.",
+      "file": "os_16.pdf",
+      "url": "/essay-pdfs/complex/os_16.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/os_16_p1.png"
+      ],
+      "manifestId": "os_16",
+      "sourcePageRange": [
+        47,
+        49
+      ],
+      "keptPages": [
+        {
+          "source_page": 47,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            841.9
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "oh_2022_maj_id_liberalizmus_marxizmus",
+      "promptIndex": 0,
+      "complexType": "osszehasonlito",
+      "exam": "2022. máj. id.",
+      "prompt": "Vesse össze a liberalizmus és a marxizmus eszméjét.",
+      "file": "os_17.pdf",
+      "url": "/essay-pdfs/complex/os_17.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/os_17_p1.png"
+      ],
+      "manifestId": "os_17",
+      "sourcePageRange": [
+        50,
+        52
+      ],
+      "keptPages": [
+        {
+          "source_page": 50,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            841.9
+          ]
+        }
+      ]
+    },
+    {
+      "topicId": "oh_2022_okt_kozepkori_vs_felvilagosult_vilagkep",
+      "promptIndex": 0,
+      "complexType": "osszehasonlito",
+      "exam": "2022. okt.",
+      "prompt": "Vesse össze a középkori vallásos és a felvilágosult világképet.",
+      "file": "os_18.pdf",
+      "url": "/essay-pdfs/complex/os_18.pdf",
+      "previewImages": [
+        "/essay-pdfs/complex-preview/os_18_p1.png"
+      ],
+      "manifestId": "os_18",
+      "sourcePageRange": [
+        53,
+        55
+      ],
+      "keptPages": [
+        {
+          "source_page": 53,
+          "clip": [
+            0.0,
+            0.0,
+            595.3,
+            841.9
+          ]
+        }
+      ]
+    }
+  ]
+}

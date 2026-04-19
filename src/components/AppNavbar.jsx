@@ -54,6 +54,21 @@ export default function AppNavbar() {
                 Személy kvíz
               </NavLink>
             </li>
+            <li className="nav-item">
+              <NavLink to="/esszek" className="nav-link px-3">
+                Rövid esszék
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/hosszu-esszek" className="nav-link px-3">
+                Hosszú esszék
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink to="/komplex-esszek" className="nav-link px-3">
+                Komplex esszék
+              </NavLink>
+            </li>
             {isAdmin && (
               <li className="nav-item">
                 <NavLink to="/admin" className="nav-link px-3 admin-link">

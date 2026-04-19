@@ -31,6 +31,9 @@ export default function AppFooter() {
               <li>Tételek</li>
               <li>Évszám kvíz</li>
               <li>Személy kvíz</li>
+              <li>Rövid esszék</li>
+              <li>Hosszú esszék</li>
+              <li>Komplex esszék</li>
             </ul>
           </div>
 

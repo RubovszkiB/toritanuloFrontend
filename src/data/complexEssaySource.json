@@ -1,0 +1,2201 @@
+{
+  "version": "v1",
+  "scope": "Emelt történelem komplex esszék, 2017. máj. – 2022. okt.",
+  "structure": {
+    "korszakokon_ativelo": "Időrendi ív, előzmény–fordulópont–következmény logika, több korszak összekapcsolása.",
+    "osszehasonlito": "Párhuzamos bontás azonos szempontok mentén, hasonlóságok és különbségek, rövid mérlegelő lezárás."
+  },
+  "entries": [
+    {
+      "id": "ka_2017_maj_torok_kuzdelmek",
+      "slug": "ka-2017-maj-torok-kuzdelmek",
+      "complexType": "korszakokon_ativelo",
+      "complexTypeLabel": "Korszakokon átívelő",
+      "exam": "2017. máj.",
+      "theme": "Magyar–török küzdelmek a nándorfehérvári diadaltól a Hódoltságig",
+      "period": "1456–1541",
+      "prompt": "Mutassa be a magyar–oszmán konfliktusok fő fordulópontjait és az erőviszonyok romlását a nándorfehérvári győzelemtől a hódoltság kialakulásáig.",
+      "past_prompts": [
+        {
+          "exam": "2017. máj.",
+          "prompt": "Mutassa be a magyar–oszmán konfliktusok fő fordulópontjait és az erőviszonyok romlását a nándorfehérvári győzelemtől a hódoltság kialakulásáig."
+        }
+      ],
+      "required_axes": [
+        "nándorfehérvári diadal és következményei",
+        "Mátyás törökellenes politikája",
+        "Jagelló-kori hanyatlás",
+        "mohácsi csata és következményei",
+        "Hódoltság megalakulása"
+      ],
+      "required_concepts": [
+        "végvárvonal",
+        "fekete sereg",
+        "rendi monarchia",
+        "kettős királyválasztás",
+        "Hódoltság",
+        "váradi egyezmény"
+      ],
+      "required_people": [
+        "Hunyadi János",
+        "Kapisztrán János",
+        "Hunyadi Mátyás",
+        "II. Ulászló",
+        "II. Lajos",
+        "Szapolyai János",
+        "I. Ferdinánd",
+        "I. Szulejmán"
+      ],
+      "required_dates": [
+        "1456",
+        "1490",
+        "1526",
+        "1538",
+        "1541"
+      ],
+      "required_places": [
+        "Nándorfehérvár",
+        "Jajca",
+        "Mohács",
+        "Buda"
+      ],
+      "related_tetelek": [
+        27
+      ],
+      "detailed_requirements": [
+        "Ismerje a déli végvárrendszer szerepét és a nándorfehérvári győzelem európai jelentőségét.",
+        "Mutassa be, hogy Mátyás inkább védelmi egyensúlyra és nyugati hadjárataira támaszkodott, nem döntő törökellenes felszabadító politikára.",
+        "Értse a Jagelló-kor pénzügyi és katonai gyengülését, a rendek megerősödését.",
+        "Kösse össze Mohácsot a központi hatalom összeomlásával és a kettős királyválasztással.",
+        "Vezesse le, hogyan jött létre 1541 után a három országrész, különösen a Hódoltság."
+      ],
+      "minimum_answer_focus": "Az esszé gerince: 1456 még sikeres védekezés, Mátyás alatt átmeneti stabilizálás, a Jagelló-korban hanyatlás, Mohács után szétesés, 1541-től tartós oszmán berendezkedés.",
+      "common_mistakes": [
+        "Mátyást ne állítsa be folyamatos felszabadító hadjárat vezetőjeként.",
+        "Ne keverje össze a Hódoltság létrejöttét Moháccsal: a döntő fordulat 1541 Buda elfoglalása."
+      ]
+    },
+    {
+      "id": "ka_2017_maj_id_nemzetisegi_politika",
+      "slug": "ka-2017-maj-id-nemzetisegi-politika",
+      "complexType": "korszakokon_ativelo",
+      "complexTypeLabel": "Korszakokon átívelő",
+      "exam": "2017. máj. id.",
+      "theme": "Magyar nemzetiségi politika a reformkortól a dualizmusig",
+      "period": "1830-as évek–1914",
+      "prompt": "Mutassa be a magyar nemzetiségi politika változásait a reformkorban, 1848–49-ben és a dualizmus korában.",
+      "past_prompts": [
+        {
+          "exam": "2017. máj. id.",
+          "prompt": "Mutassa be a magyar nemzetiségi politika változásait a reformkorban, 1848–49-ben és a dualizmus korában."
+        }
+      ],
+      "required_axes": [
+        "etnikai viszonyok és változásuk",
+        "reformellenzék nemzetfogalma",
+        "1848–49 nemzetiségi konfliktusai",
+        "dualizmuskori nemzetiségi politika"
+      ],
+      "required_concepts": [
+        "politikai nemzet",
+        "nemzetiség",
+        "nemzetiségi törvény",
+        "horvát–magyar kiegyezés",
+        "asszimiláció",
+        "pánszlávizmus"
+      ],
+      "required_people": [
+        "Kossuth Lajos",
+        "Deák Ferenc",
+        "Eötvös József",
+        "Jelačić",
+        "Ferenc József"
+      ],
+      "required_dates": [
+        "1848",
+        "1849",
+        "1868",
+        "1875"
+      ],
+      "required_places": [
+        "Magyar Királyság",
+        "Horvátország",
+        "Felvidék",
+        "Erdély"
+      ],
+      "related_tetelek": [
+        9,
+        16
+      ],
+      "detailed_requirements": [
+        "Mutassa be a soknemzetiségű ország etnikai arányait és a magyarság kisebbségi vagy relatív többségi helyzetét.",
+        "Magyarázza el a politikai nemzet fogalmát és hogy a reformellenzék miért nem kollektív nemzetiségi jogokban gondolkodott.",
+        "Ismertesse az 1848–49-es fegyveres konfliktusokat és az 1849. júliusi nemzetiségi törvényt.",
+        "Térjen ki a horvát különállásra és az 1868-as horvát–magyar kiegyezésre.",
+        "Mutassa be a dualizmus kori oktatási, nyelvi és közigazgatási asszimilációs törekvéseket."
+      ],
+      "minimum_answer_focus": "A minimum válasz lényege: a magyar elit a politikai nemzet egységében gondolkodott, ami 1848–49-ben konfliktusokhoz, a dualizmusban pedig részleges jogadás és erős magyarosítás együtteséhez vezetett.",
+      "common_mistakes": [
+        "Ne állítsa, hogy a reformkorban teljes nemzetiségi egyenjogúság volt.",
+        "Ne feledje, hogy 1849-ben született engedményeket tartalmazó szabályozás is."
+      ]
+    },
+    {
+      "id": "ka_2017_okt_revizios_kulpolitika",
+      "slug": "ka-2017-okt-revizios-kulpolitika",
+      "complexType": "korszakokon_ativelo",
+      "complexTypeLabel": "Korszakokon átívelő",
+      "exam": "2017. okt.",
+      "theme": "A történelmi Magyarország területi egységének megőrzése és visszaállítása 1918–1939 között",
+      "period": "1918–1939",
+      "prompt": "Mutassa be a magyar külpolitikai törekvéseket a történelmi állam területi egységének megőrzésére, majd revíziójára.",
+      "past_prompts": [
+        {
+          "exam": "2017. okt.",
+          "prompt": "Mutassa be a magyar külpolitikai törekvéseket a történelmi állam területi egységének megőrzésére, majd revíziójára."
+        }
+      ],
+      "required_axes": [
+        "Károlyi-kormány külpolitikája",
+        "Tanácsköztársaság külpolitikája és harcai",
+        "trianoni béke és 1920-as évek revíziója",
+        "1930-as évek revíziós eredményei"
+      ],
+      "required_concepts": [
+        "wilsoni elvek",
+        "Vix-jegyzék",
+        "Clemenceau-jegyzék",
+        "trianoni béke",
+        "revízió",
+        "győri program",
+        "bécsi döntés"
+      ],
+      "required_people": [
+        "Károlyi Mihály",
+        "Kun Béla",
+        "Bethlen István",
+        "Gömbös Gyula",
+        "Horthy Miklós"
+      ],
+      "required_dates": [
+        "1918",
+        "1919",
+        "1920. június 4.",
+        "1938",
+        "1939"
+      ],
+      "required_places": [
+        "Magyarország",
+        "Felvidék",
+        "Kárpátalja",
+        "Párizs"
+      ],
+      "related_tetelek": [
+        9,
+        28
+      ],
+      "detailed_requirements": [
+        "Mutassa be a Károlyi-kormány pacifista, antanthoz igazodó, sikertelen külpolitikáját.",
+        "Ismertesse a Tanácsköztársaság északi hadjáratát és annak külpolitikai korlátait.",
+        "Magyarázza el Trianon következményeit és a két világháború közötti békés revíziós propagandát.",
+        "Térjen ki a kisantant ellensúlyára és az olasz, majd német kapcsolatok felértékelődésére.",
+        "Sorolja fel a revízió első eredményeit 1938–39-ben."
+      ],
+      "minimum_answer_focus": "A fókusz: 1918–20-ban a területi egység megőrzése kudarcba fulladt, utána a politika célja a revízió lett, amely a harmincas évek végén részleges sikereket hozott.",
+      "common_mistakes": [
+        "Ne írjon részletes hadisztorit, a diplomáciai és politikai változás a fontos.",
+        "A győri program ne egyszerűen gazdasági programként jelenjen meg, hanem a revíziós-politikai háttérrel együtt."
+      ]
+    },
+    {
+      "id": "ka_2018_maj_foldkerdes",
+      "slug": "ka-2018-maj-foldkerdes",
+      "complexType": "korszakokon_ativelo",
+      "complexTypeLabel": "Korszakokon átívelő",
+      "exam": "2018. máj.",
+      "theme": "A földtulajdonviszonyok átalakulása Magyarországon 1918-tól a rendszerváltásig",
+      "period": "1918–1991",
+      "prompt": "Mutassa be a földkérdés fő fordulópontjait 1918-tól a rendszerváltásig.",
+      "past_prompts": [
+        {
+          "exam": "2018. máj.",
+          "prompt": "Mutassa be a földkérdés fő fordulópontjait 1918-tól a rendszerváltásig."
+        }
+      ],
+      "required_axes": [
+        "1918–19 földreform-kísérletek",
+        "két világháború közötti reform és kritikája",
+        "1945 utáni földosztás és kollektivizálás",
+        "szocialista tulajdonviszonyok",
+        "kárpótlás"
+      ],
+      "required_concepts": [
+        "nagybirtok",
+        "földosztás",
+        "földreform",
+        "kollektivizálás",
+        "termelőszövetkezet",
+        "tagosítás",
+        "kárpótlás"
+      ],
+      "required_people": [
+        "Jászi Oszkár",
+        "Nagyatádi Szabó István",
+        "Gömbös Gyula",
+        "Nagy Imre"
+      ],
+      "required_dates": [
+        "1918",
+        "1919",
+        "1920",
+        "1945",
+        "1948–1961",
+        "1956",
+        "1991"
+      ],
+      "required_places": [
+        "Magyarország"
+      ],
+      "related_tetelek": [
+        4
+      ],
+      "detailed_requirements": [
+        "Mutassa be, hogy az őszirózsás forradalom alatt a földosztás igénye erős volt, de korlátozottan valósult meg.",
+        "Különítse el a Tanácsköztársaság szocializáló politikáját a kisbirtokos földreformtól.",
+        "Térjen ki a Nagyatádi-féle reform korlátaira és a két világháború közti agrárfeszültségekre.",
+        "Mutassa be az 1945-ös földosztás politikai jelentőségét és a kollektivizáláshoz vezető utat.",
+        "Ismertesse a téeszesítés, majd a rendszerváltáskori kárpótlás következményeit."
+      ],
+      "minimum_answer_focus": "Minimum: a földkérdés végig társadalmi feszültségforrás maradt; a kisbirtokos ígéretet végül az államszocialista kollektivizálás váltotta fel, amit 1991 után kárpótlás követett.",
+      "common_mistakes": [
+        "Ne keverje a földosztást a kollektivizálással.",
+        "A Nagy Imre-féle 1953/56-os korrekciókat ne tekintse a rendszer teljes felszámolásának."
+      ]
+    },
+    {
+      "id": "ka_2018_maj_id_jobbagysag",
+      "slug": "ka-2018-maj-id-jobbagysag",
+      "complexType": "korszakokon_ativelo",
+      "complexTypeLabel": "Korszakokon átívelő",
+      "exam": "2018. máj. id.",
+      "theme": "A jobbágyság kérdése a felvilágosult abszolutizmustól a reformkorig",
+      "period": "1767–1848",
+      "prompt": "Mutassa be a jobbágyság helyzetének és megítélésének változását Mária Teréziától az áprilisi törvényekig.",
+      "past_prompts": [
+        {
+          "exam": "2018. máj. id.",
+          "prompt": "Mutassa be a jobbágyság helyzetének és megítélésének változását Mária Teréziától az áprilisi törvényekig."
+        }
+      ],
+      "required_axes": [
+        "jobbágyság helyzete és változása",
+        "nemesség álláspontja",
+        "felvilágosult abszolutista reformok",
+        "reformkori viták",
+        "reformországgyűlések törvényhozása"
+      ],
+      "required_concepts": [
+        "úrbérrendezés",
+        "robot",
+        "kilenced",
+        "jobbágyfelszabadítás",
+        "örökváltság",
+        "közteherviselés",
+        "ősiség"
+      ],
+      "required_people": [
+        "Mária Terézia",
+        "II. József",
+        "Széchenyi István",
+        "Kossuth Lajos",
+        "Deák Ferenc"
+      ],
+      "required_dates": [
+        "1767",
+        "1785",
+        "1832–36",
+        "1839–40",
+        "1848"
+      ],
+      "required_places": [
+        "Magyar Királyság"
+      ],
+      "related_tetelek": [
+        13,
+        16
+      ],
+      "detailed_requirements": [
+        "Ismerje az úrbérrendezés célját: a földesúri terhek szabályozását, nem a jobbágyság felszámolását.",
+        "Mutassa be II. József jobbágyrendeletének jelentőségét és korlátait.",
+        "Magyarázza el, hogyan lett a jobbágykérdés a reformkor központi vitája.",
+        "Térjen ki az önkéntes, majd kötelező örökváltság kérdésére.",
+        "Zárja az áprilisi törvények jobbágyfelszabadító szerepével."
+      ],
+      "minimum_answer_focus": "A minimum fókusz: a jobbágyság helyzetét a 18. században szabályozni próbálták, a reformkorban pedig a polgári átalakulás kulcskérdésévé vált, amelyet 1848 oldott meg.",
+      "common_mistakes": [
+        "Ne írja, hogy Mária Terézia eltörölte a jobbágyságot.",
+        "Az örökváltság és a jobbágyfelszabadítás nem ugyanaz a lépcső."
+      ]
+    },
+    {
+      "id": "ka_2018_okt_szovjet_kulpolitika",
+      "slug": "ka-2018-okt-szovjet-kulpolitika",
+      "complexType": "korszakokon_ativelo",
+      "complexTypeLabel": "Korszakokon átívelő",
+      "exam": "2018. okt.",
+      "theme": "A sztálini Szovjetunió külpolitikája az 1920-as évektől a koreai háborúig",
+      "period": "1920-as évek–1953",
+      "prompt": "Mutassa be a sztálini Szovjetunió külpolitikáját a kezdeti elszigeteltségtől a hidegháborús terjeszkedésig.",
+      "past_prompts": [
+        {
+          "exam": "2018. okt.",
+          "prompt": "Mutassa be a sztálini Szovjetunió külpolitikáját a kezdeti elszigeteltségtől a hidegháborús terjeszkedésig."
+        }
+      ],
+      "required_axes": [
+        "1920-as évek külpolitikai helyzete",
+        "Sztálin törekvései a II. világháború végéig",
+        "hidegháborús terjeszkedés",
+        "koreai háború"
+      ],
+      "required_concepts": [
+        "egy országban megvalósuló szocializmus",
+        "kollektív biztonság",
+        "Molotov–Ribbentrop-paktum",
+        "érdekszféra",
+        "hidegháború",
+        "koreai háború"
+      ],
+      "required_people": [
+        "Sztálin",
+        "Kim Ir Szen",
+        "Truman"
+      ],
+      "required_dates": [
+        "1924",
+        "1939",
+        "1945",
+        "1947",
+        "1950–1953"
+      ],
+      "required_places": [
+        "Szovjetunió",
+        "Kelet-Közép-Európa",
+        "Korea"
+      ],
+      "related_tetelek": [
+        30
+      ],
+      "detailed_requirements": [
+        "Mutassa be a Szovjetunió kezdeti diplomáciai elszigeteltségét és fokozatos elismerését.",
+        "Ismertesse Sztálin pragmatikus fordulatait: kollektív biztonság, majd náci–szovjet megnemtámadási szerződés.",
+        "Mutassa be a második világháború utáni szovjet érdekszféra-építést Kelet-Európában.",
+        "Térjen ki a hidegháború kibontakozására és a koreai háború szovjet hátterére."
+      ],
+      "minimum_answer_focus": "A gerinc: elszigetelt forradalmi államból szuperhatalmi érdekszféra-birodalom; a sztálini külpolitika egyszerre volt ideologikus és nagyhatalmi.",
+      "common_mistakes": [
+        "Ne keverje össze Lenin és Sztálin külpolitikai szakaszait.",
+        "A koreai háborúban a szovjet szerep közvetett, nem nyílt szárazföldi tömegháború."
+      ]
+    },
+    {
+      "id": "ka_2019_maj_tavol_kelet_gyarmatositas",
+      "slug": "ka-2019-maj-tavol-kelet-gyarmatositas",
+      "complexType": "korszakokon_ativelo",
+      "complexTypeLabel": "Korszakokon átívelő",
+      "exam": "2019. máj.",
+      "theme": "Kína és Korea a gyarmatosítás és a dekolonizáció korszakában",
+      "period": "19. század második fele–1953",
+      "prompt": "Mutassa be a gyarmatosítás és a gyarmati világ felbomlásának folyamatát Kínában és Koreában.",
+      "past_prompts": [
+        {
+          "exam": "2019. máj.",
+          "prompt": "Mutassa be a gyarmatosítás és a gyarmati világ felbomlásának folyamatát Kínában és Koreában."
+        }
+      ],
+      "required_axes": [
+        "Kína helyzete a 19. század második felében",
+        "nagyhatalmi befolyás a 20. század elején",
+        "polgárháború Kínában",
+        "Kína a II. világháborúban",
+        "Kínai Népköztársaság",
+        "Koreai háború"
+      ],
+      "required_concepts": [
+        "félgyarmat",
+        "befolyási övezet",
+        "bokszerlázadás",
+        "Kuomintang",
+        "kommunista polgárháború",
+        "Kínai Népköztársaság",
+        "38. szélességi kör"
+      ],
+      "required_people": [
+        "Csang Kaj-sek",
+        "Mao Ce-tung",
+        "Kim Ir Szen"
+      ],
+      "required_dates": [
+        "1894–95",
+        "1900",
+        "1911",
+        "1927–49",
+        "1949",
+        "1950–53"
+      ],
+      "required_places": [
+        "Kína",
+        "Korea",
+        "Mandzsúria",
+        "Peking"
+      ],
+      "related_tetelek": [
+        30
+      ],
+      "detailed_requirements": [
+        "Ismerje Kína félgyarmati helyzetét és az európai, japán, amerikai befolyási övezeteket.",
+        "Mutassa be Korea japán függésbe kerülését és a második világháború utáni kettészakadását.",
+        "Térjen ki a kínai polgárháború két nagy szakaszára és a japán háború hatására.",
+        "Magyarázza el a KNK megalakulását és a koreai háború kapcsolatát a hidegháborúval."
+      ],
+      "minimum_answer_focus": "A minimum fókusz: a távol-keleti térség a klasszikus gyarmati nyomástól a hidegháborús megosztottságig jutott el.",
+      "common_mistakes": [
+        "Ne kezelje Kínát klasszikus teljes gyarmatként; félgyarmati jellegű volt.",
+        "Koreát ne csak japán gyarmatként, hanem hidegháborús törésvonalként is mutassa be."
+      ]
+    },
+    {
+      "id": "ka_2019_maj_id_habsburg_kozjogi_viszony",
+      "slug": "ka-2019-maj-id-habsburg-kozjogi-viszony",
+      "complexType": "korszakokon_ativelo",
+      "complexTypeLabel": "Korszakokon átívelő",
+      "exam": "2019. máj. id.",
+      "theme": "Magyarország és a Habsburg Birodalom közjogi viszonya 1687–1790 között",
+      "period": "1687–1790",
+      "prompt": "Mutassa be a Habsburg–magyar közjogi viszony alakulását a török kiűzése után II. József haláláig.",
+      "past_prompts": [
+        {
+          "exam": "2019. máj. id.",
+          "prompt": "Mutassa be a Habsburg–magyar közjogi viszony alakulását a török kiűzése után II. József haláláig."
+        }
+      ],
+      "required_axes": [
+        "közjogi viszony a török kiűzése után",
+        "pragmatica sanctio",
+        "Mária Terézia és a rendek",
+        "II. József kormányzása"
+      ],
+      "required_concepts": [
+        "rendi monarchia",
+        "pragmatica sanctio",
+        "örökös királyság",
+        "kalapos király",
+        "felvilágosult abszolutizmus"
+      ],
+      "required_people": [
+        "III. Károly",
+        "Mária Terézia",
+        "II. József"
+      ],
+      "required_dates": [
+        "1687",
+        "1723",
+        "1741",
+        "1780–1790"
+      ],
+      "required_places": [
+        "Magyar Királyság",
+        "Pozsony",
+        "Bécs"
+      ],
+      "related_tetelek": [
+        13
+      ],
+      "detailed_requirements": [
+        "Mutassa be az 1687-es fordulatot: szabad királyválasztás feladása, Habsburg örökösödés.",
+        "Magyarázza el a Pragmatica Sanctio kettős jelentését: nőági öröklés és a birodalmi együttmaradás elve.",
+        "Térjen ki a rendek és Mária Terézia együttműködésére.",
+        "Mutassa be II. József rendeleti kormányzását és a rendi alkotmány háttérbe szorítását."
+      ],
+      "minimum_answer_focus": "A minimum válasz: a 18. században Magyarország rendi különállása megmaradt, de a Habsburg uralkodóházhoz való kötöttség és a birodalmi integráció erősödött.",
+      "common_mistakes": [
+        "Ne nevezze II. Józsefet megkoronázott magyar királynak.",
+        "A Pragmatica Sanctio nem azonos a kiegyezéssel vagy valamiféle modern alkotmánnyal."
+      ]
+    },
+    {
+      "id": "ka_2019_okt_allamforma_allamfo",
+      "slug": "ka-2019-okt-allamforma-allamfo",
+      "complexType": "korszakokon_ativelo",
+      "complexTypeLabel": "Korszakokon átívelő",
+      "exam": "2019. okt.",
+      "theme": "Államforma és államfői jogkör változásai Magyarországon 1914–1990",
+      "period": "1914–1990",
+      "prompt": "Mutassa be az államforma és az államfői jogkör változásait a dualizmus végétől a rendszerváltásig.",
+      "past_prompts": [
+        {
+          "exam": "2019. okt.",
+          "prompt": "Mutassa be az államforma és az államfői jogkör változásait a dualizmus végétől a rendszerváltásig."
+        }
+      ],
+      "required_axes": [
+        "dualizmus kori államforma",
+        "őszirózsás forradalom változásai",
+        "Tanácsköztársaság",
+        "Horthy-korszak",
+        "koalíciós korszak és kommunista diktatúra",
+        "1989–90 változások"
+      ],
+      "required_concepts": [
+        "alkotmányos monarchia",
+        "népköztársaság",
+        "tanácsköztársaság",
+        "király nélküli királyság",
+        "Elnöki Tanács",
+        "köztársaság"
+      ],
+      "required_people": [
+        "Károly IV.",
+        "Károlyi Mihály",
+        "Horthy Miklós",
+        "Rákosi Mátyás",
+        "Kádár János",
+        "Szűrös Mátyás"
+      ],
+      "required_dates": [
+        "1918",
+        "1919",
+        "1920",
+        "1946",
+        "1949",
+        "1989"
+      ],
+      "required_places": [
+        "Magyarország"
+      ],
+      "related_tetelek": [
+        19
+      ],
+      "detailed_requirements": [
+        "Mutassa be a monarchiából köztársaságba, majd tanácsállamba való gyors átmenetet 1918–19-ben.",
+        "Ismertesse a király nélküli királyság sajátosságát és a kormányzó jogköreit.",
+        "Térjen ki a második köztársaságra, majd az 1949-es népköztársasági államformára.",
+        "Mutassa be, hogy az Elnöki Tanács kollektív államfői szerv volt.",
+        "Zárja az 1989-es köztársasági fordulattal."
+      ],
+      "minimum_answer_focus": "A gerinc: 1918 után többször radikálisan változott az államforma, az államfői jogkör pedig mindig a rendszer természetét tükrözte.",
+      "common_mistakes": [
+        "Ne keverje a népköztársaságot a Tanácsköztársasággal.",
+        "A Horthy-rendszer nem köztársaság volt."
+      ]
+    },
+    {
+      "id": "ka_2020_maj_kiraly_rendek",
+      "slug": "ka-2020-maj-kiraly-rendek",
+      "complexType": "korszakokon_ativelo",
+      "complexTypeLabel": "Korszakokon átívelő",
+      "exam": "2020. máj.",
+      "theme": "A király és a rendek erőviszonya Hunyadi Mátyástól I. Ferdinándig",
+      "period": "1458–1564",
+      "prompt": "Mutassa be a királyi hatalom és a rendek viszonyának változását Mátyás trónra kerülésétől Ferdinánd uralma végéig.",
+      "past_prompts": [
+        {
+          "exam": "2020. máj.",
+          "prompt": "Mutassa be a királyi hatalom és a rendek viszonyának változását Mátyás trónra kerülésétől Ferdinánd uralma végéig."
+        }
+      ],
+      "required_axes": [
+        "Mátyás trónra kerülése",
+        "Mátyás és a rendek",
+        "rendi törekvések a 16. század elején",
+        "Mohács előzményei",
+        "Szapolyai és Ferdinánd trónra kerülése"
+      ],
+      "required_concepts": [
+        "rendi monarchia",
+        "központosítás",
+        "fekete sereg",
+        "rendi országgyűlés",
+        "Tripartitum",
+        "kettős királyválasztás"
+      ],
+      "required_people": [
+        "Hunyadi Mátyás",
+        "Werbőczy István",
+        "II. Ulászló",
+        "II. Lajos",
+        "Szapolyai János",
+        "I. Ferdinánd"
+      ],
+      "required_dates": [
+        "1458",
+        "1490",
+        "1514",
+        "1526",
+        "1538",
+        "1541",
+        "1564"
+      ],
+      "required_places": [
+        "Magyar Királyság",
+        "Buda"
+      ],
+      "related_tetelek": [
+        2,
+        27
+      ],
+      "detailed_requirements": [
+        "Mutassa be Mátyás rendekkel kötött kompromisszumos trónra jutását és utána végrehajtott központosítását.",
+        "Térjen ki a Jagelló-kori rendi visszarendeződésre és a Werbőczy-féle rendi jogfelfogásra.",
+        "Kapcsolja össze a rendi erősödést a védekezés gyengülésével és Moháccsal.",
+        "Mutassa be a kettős királyválasztás hátterét és következményét."
+      ],
+      "minimum_answer_focus": "Minimum: Mátyás alatt a királyi hatalom erősödött, a Jagelló-korban a rendek kerültek fölénybe, Mohács után pedig a rendi megosztottság az ország széteséséhez vezetett.",
+      "common_mistakes": [
+        "Tripartitumot ne tekintse teljes törvénykönyvnek.",
+        "Mohács előzményei között a rendi megosztottságot is emelje ki, ne csak a haditechnikát."
+      ]
+    },
+    {
+      "id": "ka_2020_maj_id_valasztojog_20sz",
+      "slug": "ka-2020-maj-id-valasztojog-20sz",
+      "complexType": "korszakokon_ativelo",
+      "complexTypeLabel": "Korszakokon átívelő",
+      "exam": "2020. máj. id.",
+      "theme": "A magyar választójog és választási rendszer alakulása Bethlen Istvántól a rendszerváltásig",
+      "period": "1922–1990",
+      "prompt": "Mutassa be a magyar választójog és választási rendszer alapvető elemeinek alakulását a 20. században.",
+      "past_prompts": [
+        {
+          "exam": "2020. máj. id.",
+          "prompt": "Mutassa be a magyar választójog és választási rendszer alapvető elemeinek alakulását a 20. században."
+        }
+      ],
+      "required_axes": [
+        "Bethlen választójogi rendelete",
+        "Horthy-kori rendszer",
+        "választójog a II. vh. után",
+        "1945–49 közti rendszer",
+        "kommunista évtizedek választásai",
+        "rendszerváltás"
+      ],
+      "required_concepts": [
+        "nyílt szavazás",
+        "cenzus",
+        "titkos szavazás",
+        "egypártrendszer",
+        "népfrontlista",
+        "vegyes választási rendszer"
+      ],
+      "required_people": [
+        "Bethlen István",
+        "Rákosi Mátyás",
+        "Kádár János"
+      ],
+      "required_dates": [
+        "1922",
+        "1945",
+        "1947",
+        "1949",
+        "1985",
+        "1989–1990"
+      ],
+      "required_places": [
+        "Magyarország"
+      ],
+      "related_tetelek": [
+        19
+      ],
+      "detailed_requirements": [
+        "Mutassa be, hogyan szűkítette Bethlen a választójogot és hol maradt meg a nyílt szavazás.",
+        "Térjen ki a háború utáni demokratikusabb fordulatra és a női választójog általánossá válására.",
+        "Ismertesse, hogyan üresedtek ki a választások az egypártrendszerben.",
+        "Zárja az 1989–90-es többpárti és vegyes rendszer kialakulásával."
+      ],
+      "minimum_answer_focus": "Fókusz: a választójog története a korlátozott parlamentarizmustól a pártállami látszatválasztásokon át a demokratikus többpártrendszerig vezetett.",
+      "common_mistakes": [
+        "Ne állítsa, hogy a Horthy-korban mindenütt titkos volt a szavazás.",
+        "A kommunista korszak választásai formálisak voltak, nem valódi versenyen alapultak."
+      ]
+    },
+    {
+      "id": "ka_2020_okt_zsidosag_emancipacio_jogfosztas",
+      "slug": "ka-2020-okt-zsidosag-emancipacio-jogfosztas",
+      "complexType": "korszakokon_ativelo",
+      "complexTypeLabel": "Korszakokon átívelő",
+      "exam": "2020. okt.",
+      "theme": "A magyarországi zsidóság emancipációja és jogfosztása a kiegyezéstől 1939-ig",
+      "period": "1867–1939",
+      "prompt": "Mutassa be a magyarországi zsidóság emancipációját, integrációját, majd fokozatos jogfosztását.",
+      "past_prompts": [
+        {
+          "exam": "2020. okt.",
+          "prompt": "Mutassa be a magyarországi zsidóság emancipációját, integrációját, majd fokozatos jogfosztását."
+        }
+      ],
+      "required_axes": [
+        "dualizmus kori helyzet",
+        "1920-as évek antiszemita intézkedései",
+        "válságkori változások",
+        "jogfosztás a harmincas évek végén"
+      ],
+      "required_concepts": [
+        "emancipáció",
+        "asszimiláció",
+        "antiszemitizmus",
+        "numerus clausus",
+        "zsidótörvény"
+      ],
+      "required_people": [
+        "Eötvös József",
+        "Teleki Pál",
+        "Gömbös Gyula",
+        "Horthy Miklós"
+      ],
+      "required_dates": [
+        "1867",
+        "1895",
+        "1920",
+        "1938",
+        "1939"
+      ],
+      "required_places": [
+        "Magyarország",
+        "Budapest"
+      ],
+      "related_tetelek": [
+        8,
+        9
+      ],
+      "detailed_requirements": [
+        "Mutassa be a polgári emancipációt és a zsidóság szerepét a modernizációban.",
+        "Térjen ki a recepcióra mint vallásjogi elismerésre.",
+        "Ismertesse a numerus clausust mint első jelentős jogkorlátozást.",
+        "Mutassa be a gazdasági válság, radikalizálódás és szélsőjobboldali nyomás szerepét.",
+        "Ne menjen bele a holokauszt 1944-es történetébe, mert a feladat 1939-ig tart."
+      ],
+      "minimum_answer_focus": "A minimum válasz: a dualizmus kori emancipációt és asszimilációt az első világháború után felerősödő antiszemitizmus váltotta fel, amely 1938–39-ben jogfosztó törvényekben öltött testet.",
+      "common_mistakes": [
+        "Ne vigye túl 1944-re a feladatot.",
+        "A numerus clausus korlátozó, de nem azonos a későbbi zsidótörvényekkel."
+      ]
+    },
+    {
+      "id": "ka_2021_maj_hadero_tortenet",
+      "slug": "ka-2021-maj-hadero-tortenet",
+      "complexType": "korszakokon_ativelo",
+      "complexTypeLabel": "Korszakokon átívelő",
+      "exam": "2021. máj.",
+      "theme": "A magyar haderő szervezeti keretei 1848 és 1920 között",
+      "period": "1848–1920",
+      "prompt": "Mutassa be a magyar haderő szervezeti változásait 1848-tól Trianonig.",
+      "past_prompts": [
+        {
+          "exam": "2021. máj.",
+          "prompt": "Mutassa be a magyar haderő szervezeti változásait 1848-tól Trianonig."
+        }
+      ],
+      "required_axes": [
+        "magyarok a birodalmi hadseregben",
+        "1848–49 honvédség",
+        "közös hadsereg és Magyar Királyi Honvédség",
+        "Vörös Hadsereg és Nemzeti Hadsereg",
+        "trianoni korlátozások"
+      ],
+      "required_concepts": [
+        "honvédség",
+        "közös hadsereg",
+        "véderővita",
+        "Vörös Hadsereg",
+        "Nemzeti Hadsereg",
+        "trianoni katonai korlátozások"
+      ],
+      "required_people": [
+        "Kossuth Lajos",
+        "Görgei Artúr",
+        "Ferenc József",
+        "Horthy Miklós"
+      ],
+      "required_dates": [
+        "1848",
+        "1868",
+        "1918–1919",
+        "1920"
+      ],
+      "required_places": [
+        "Magyarország",
+        "Osztrák–Magyar Monarchia"
+      ],
+      "related_tetelek": [
+        16,
+        28
+      ],
+      "detailed_requirements": [
+        "Mutassa be, hogy 1848 előtt a magyarok a császári hadseregben szolgáltak.",
+        "Ismertesse az önálló honvédség megszervezését 1848-ban és megszűnését a szabadságharc leverése után.",
+        "Térjen ki a kiegyezés utáni kettős hadseregszerkezetre.",
+        "Mutassa be az 1919-es gyors katonai átszervezéseket.",
+        "Zárja a trianoni béke hadseregkorlátozó rendelkezéseivel."
+      ],
+      "minimum_answer_focus": "Fókusz: a magyar fegyveres erő önállósága 1848-ban röviden megjelent, 1867 után korlátozottan tért vissza, 1920-ban pedig súlyosan beszűkült.",
+      "common_mistakes": [
+        "Ne tévessze össze a közös hadsereget a Magyar Királyi Honvédséggel.",
+        "A Vörös Hadsereget és a Nemzeti Hadsereget külön politikai kontextusban mutassa be."
+      ]
+    },
+    {
+      "id": "ka_2021_maj_id_ipar_1867_1929",
+      "slug": "ka-2021-maj-id-ipar-1867-1929",
+      "complexType": "korszakokon_ativelo",
+      "complexTypeLabel": "Korszakokon átívelő",
+      "exam": "2021. máj. id.",
+      "theme": "Magyar ipar helyzete a kiegyezéstől 1929-ig",
+      "period": "1867–1929",
+      "prompt": "Mutassa be a magyar ipar helyzetének alakulását a dualizmus korától a bethleni konszolidáció végéig.",
+      "past_prompts": [
+        {
+          "exam": "2021. máj. id.",
+          "prompt": "Mutassa be a magyar ipar helyzetének alakulását a dualizmus korától a bethleni konszolidáció végéig."
+        }
+      ],
+      "required_axes": [
+        "dualizmuskori fellendülés háttere",
+        "I. világháború hatása",
+        "Trianon hatása",
+        "bethleni konszolidáció"
+      ],
+      "required_concepts": [
+        "iparosodás",
+        "védővám",
+        "infrastruktúra",
+        "hadiipar",
+        "trianoni piacvesztés",
+        "konszolidáció"
+      ],
+      "required_people": [
+        "Tisza Kálmán",
+        "Bethlen István"
+      ],
+      "required_dates": [
+        "1867",
+        "1890-es évek",
+        "1914–1918",
+        "1920",
+        "1924–1929"
+      ],
+      "required_places": [
+        "Budapest",
+        "Magyarország"
+      ],
+      "related_tetelek": [
+        4
+      ],
+      "detailed_requirements": [
+        "Mutassa be a kiegyezés gazdasági kereteit, hitelrendszert, közlekedésfejlesztést.",
+        "Térjen ki a nehézipar, élelmiszeripar, gépgyártás szerepére.",
+        "Magyarázza el a háborús konjunktúrát és szerkezeti torzulást.",
+        "Ismertesse Trianon nyersanyag-, piac- és közlekedési hatásait.",
+        "Mutassa be a bethleni konszolidáció részleges stabilizáló hatását."
+      ],
+      "minimum_answer_focus": "Minimum: a dualizmus ipari fellendülését a világháború és Trianon törte meg, de a húszas évek közepére részleges stabilizáció következett.",
+      "common_mistakes": [
+        "Ne írja, hogy Trianon után az ipar teljesen összeomlott; volt szerkezeti alkalmazkodás is."
+      ]
+    },
+    {
+      "id": "ka_2021_okt_kulpolitika_1944_2000",
+      "slug": "ka-2021-okt-kulpolitika-1944-2000",
+      "complexType": "korszakokon_ativelo",
+      "complexTypeLabel": "Korszakokon átívelő",
+      "exam": "2021. okt.",
+      "theme": "Magyar külpolitikai törekvések a kiugrási kísérlettől az ezredfordulóig",
+      "period": "1944–2004",
+      "prompt": "Mutassa be a magyar külpolitikai törekvéseket 1944-től az euroatlanti integrációig.",
+      "past_prompts": [
+        {
+          "exam": "2021. okt.",
+          "prompt": "Mutassa be a magyar külpolitikai törekvéseket 1944-től az euroatlanti integrációig."
+        }
+      ],
+      "required_axes": [
+        "kiugrási kísérlet",
+        "nyilas külpolitika",
+        "szovjet blokkhoz kötöttség",
+        "külpolitikai enyhülés és nyitás",
+        "rendszerváltás utáni nyugati integráció"
+      ],
+      "required_concepts": [
+        "kiugrás",
+        "megszállás",
+        "szuverenitáskorlátozás",
+        "Varsói Szerződés",
+        "ENSZ",
+        "NATO",
+        "Európai Unió"
+      ],
+      "required_people": [
+        "Horthy Miklós",
+        "Szálasi Ferenc",
+        "Rákosi Mátyás",
+        "Kádár János",
+        "Antall József"
+      ],
+      "required_dates": [
+        "1944. október 15.",
+        "1945",
+        "1956",
+        "1989",
+        "1999",
+        "2004"
+      ],
+      "required_places": [
+        "Magyarország",
+        "Németország",
+        "Szovjetunió",
+        "NATO",
+        "EU"
+      ],
+      "related_tetelek": [
+        19,
+        29,
+        30
+      ],
+      "detailed_requirements": [
+        "Mutassa be a kiugrás kudarcának okait és következményeit.",
+        "Ismertesse a nyilas külpolitika teljes német függését.",
+        "Térjen ki a szovjet blokkba kényszerülésre, 1956 nemzetközi helyzetére, majd a kádári pragmatikus nyitásra.",
+        "Zárja a rendszerváltás utáni nyugati orientációval és csatlakozásokkal."
+      ],
+      "minimum_answer_focus": "A minimum gerinc: a német függést a szovjet függés váltotta fel, majd 1989 után a külpolitika fő célja a nyugati integráció lett.",
+      "common_mistakes": [
+        "Ne kezelje 1956-ot sikeres külpolitikai fordulatként.",
+        "Az EU-csatlakozás ne keveredjen a NATO-val."
+      ]
+    },
+    {
+      "id": "ka_2022_maj_vedekezes_oszmanokkal_szemben",
+      "slug": "ka-2022-maj-vedekezes-oszmanokkal-szemben",
+      "complexType": "korszakokon_ativelo",
+      "complexTypeLabel": "Korszakokon átívelő",
+      "exam": "2022. máj.",
+      "theme": "Magyarország lehetőségei az Oszmán Birodalom feltartóztatására Zsigmondtól a három részre szakadásig",
+      "period": "1397–1541",
+      "prompt": "Mutassa be a magyar védekezési lehetőségek változását Zsigmond korától az ország széteséséig.",
+      "past_prompts": [
+        {
+          "exam": "2022. máj.",
+          "prompt": "Mutassa be a magyar védekezési lehetőségek változását Zsigmond korától az ország széteséséig."
+        }
+      ],
+      "required_axes": [
+        "támadó hadjáratok szerepe",
+        "Zsigmond intézkedései",
+        "Mátyás politikája",
+        "katonai szervezet változásai",
+        "erőviszonyok eltolódása",
+        "szövetségi politika",
+        "mohács utáni nehézségek",
+        "Habsburgok törökellenes politikája"
+      ],
+      "required_concepts": [
+        "telekkatonaság",
+        "végvárrendszer",
+        "fekete sereg",
+        "bandérium",
+        "Habsburg dinasztikus politika",
+        "Hódoltság"
+      ],
+      "required_people": [
+        "Luxemburgi Zsigmond",
+        "Hunyadi Mátyás",
+        "II. Lajos",
+        "I. Ferdinánd",
+        "Szulejmán"
+      ],
+      "required_dates": [
+        "1397",
+        "1444",
+        "1456",
+        "1526",
+        "1541"
+      ],
+      "required_places": [
+        "Magyar Királyság",
+        "Oszmán Birodalom",
+        "Buda"
+      ],
+      "related_tetelek": [
+        27
+      ],
+      "detailed_requirements": [
+        "Mutassa be a temesvári országgyűlés és a telekkatonaság jelentőségét.",
+        "Értse a védekező és támadó stratégia váltakozását.",
+        "Hangsúlyozza az oszmán erőforrásfölényt a 16. század elején.",
+        "Mutassa be, hogy Mohács után a megosztottság és a dinasztikus konfliktusok tovább gyengítették a védekezést."
+      ],
+      "minimum_answer_focus": "Minimum: a magyar védekezés egyre kevésbé tudta ellensúlyozni az oszmán túlerőt; a belső megosztottság és az erőforráshiány végül 1541-re az ország széteséséhez vezetett.",
+      "common_mistakes": [
+        "Ne írjon részletes csataleírást; a szerkezeti és politikai változás a lényeg."
+      ]
+    },
+    {
+      "id": "ka_2022_maj_id_habsburg_szovetsegi_politika",
+      "slug": "ka-2022-maj-id-habsburg-szovetsegi-politika",
+      "complexType": "korszakokon_ativelo",
+      "complexTypeLabel": "Korszakokon átívelő",
+      "exam": "2022. máj. id.",
+      "theme": "A Habsburg Birodalom és az Osztrák–Magyar Monarchia szövetségi politikája 1740–1914",
+      "period": "1740–1914",
+      "prompt": "Mutassa be a Habsburg államalakulat szövetségi politikáját a 18. századtól az első világháborúig.",
+      "past_prompts": [
+        {
+          "exam": "2022. máj. id.",
+          "prompt": "Mutassa be a Habsburg államalakulat szövetségi politikáját a 18. századtól az első világháborúig."
+        }
+      ],
+      "required_axes": [
+        "18. századi háborúk szövetségi rendszere",
+        "napóleoni háborúk",
+        "dinasztikus együttműködés 1849-ig",
+        "szövetségi viszonyok a 19. század második felében"
+      ],
+      "required_concepts": [
+        "diplomáciai forradalom",
+        "Szent Szövetség",
+        "német egységkérdés",
+        "kettős szövetség",
+        "hármas szövetség"
+      ],
+      "required_people": [
+        "Mária Terézia",
+        "II. József",
+        "Metternich",
+        "Ferenc József",
+        "Bismarck"
+      ],
+      "required_dates": [
+        "1756",
+        "1815",
+        "1849",
+        "1866",
+        "1879",
+        "1882",
+        "1914"
+      ],
+      "required_places": [
+        "Habsburg Birodalom",
+        "Osztrák–Magyar Monarchia",
+        "Európa"
+      ],
+      "related_tetelek": [
+        13,
+        15,
+        28
+      ],
+      "detailed_requirements": [
+        "Mutassa be az osztrák örökösödési és hétéves háborúk korszakát, különösen a diplomáciai átrendeződést.",
+        "Térjen ki a napóleoni háborúk és a bécsi kongresszus utáni restaurációs rendszerre.",
+        "Magyarázza el a dinasztikus-orosz együttműködést 1849-ben.",
+        "Mutassa be, hogyan vezetett a porosz vereség és 1866 a német egységből való kiszoruláshoz.",
+        "Zárja a kettős és hármas szövetség rendszerével."
+      ],
+      "minimum_answer_focus": "A fókusz: a Habsburgok szövetségi politikája a túlélés, az európai egyensúly és később a német, illetve balkáni erőtérben elfoglalt helyzet megőrzését szolgálta.",
+      "common_mistakes": [
+        "Ne részletezze a háborúk teljes eseménytörténetét.",
+        "A diplomáciai forradalmat időben helyesen használja (1756)."
+      ]
+    },
+    {
+      "id": "ka_2022_okt_valasztasi_rendszer_1830_1939",
+      "slug": "ka-2022-okt-valasztasi-rendszer-1830-1939",
+      "complexType": "korszakokon_ativelo",
+      "complexTypeLabel": "Korszakokon átívelő",
+      "exam": "2022. okt.",
+      "theme": "Az országgyűlési választási rendszer és a választójog Magyarországon 1830–1939",
+      "period": "1830–1939",
+      "prompt": "Mutassa be a magyar országgyűlési választási rendszer és választójog fejlődését a reformkortól 1939-ig.",
+      "past_prompts": [
+        {
+          "exam": "2022. okt.",
+          "prompt": "Mutassa be a magyar országgyűlési választási rendszer és választójog fejlődését a reformkortól 1939-ig."
+        }
+      ],
+      "required_axes": [
+        "reformkori rendszer",
+        "1848-as változások",
+        "dualizmuskori választójog",
+        "Károlyi-kormány szabályozása",
+        "Tanácsköztársaság",
+        "1939-es helyzet"
+      ],
+      "required_concepts": [
+        "cenzus",
+        "rendi képviselet",
+        "népképviselet",
+        "titkos szavazás",
+        "általános választójog",
+        "nyílt szavazás"
+      ],
+      "required_people": [
+        "Kossuth Lajos",
+        "Károlyi Mihály",
+        "Bethlen István"
+      ],
+      "required_dates": [
+        "1848",
+        "1867",
+        "1918",
+        "1919",
+        "1922",
+        "1938/1939"
+      ],
+      "required_places": [
+        "Magyarország"
+      ],
+      "related_tetelek": [
+        16,
+        19
+      ],
+      "detailed_requirements": [
+        "Mutassa be a rendi és népképviseleti logika közti különbséget.",
+        "Térjen ki az 1848-as alapfordulatra, de a korlátozott választójog fennmaradására.",
+        "Ismertesse a dualizmus cenzusos, szűk rendszerét.",
+        "Magyarázza el az 1918–19-es radikális kiterjesztési kísérleteket.",
+        "Mutassa be a két világháború közti korlátozott parlamentarizmust."
+      ],
+      "minimum_answer_focus": "Minimum: a rendszer a rendi-cenzusos modelltől lassan haladt a szélesebb választójog felé, de 1939-ig több korlátozás fennmaradt.",
+      "common_mistakes": [
+        "Ne állítsa, hogy 1848-ban teljes általános választójog jött létre."
+      ]
+    },
+    {
+      "id": "oh_2017_maj_kommunizmus_nemzetiszocializmus",
+      "slug": "oh-2017-maj-kommunizmus-nemzetiszocializmus",
+      "complexType": "osszehasonlito",
+      "complexTypeLabel": "Összehasonlító",
+      "exam": "2017. máj.",
+      "theme": "A kommunista és a nemzetiszocialista ideológia összehasonlítása",
+      "period": "20. század első fele",
+      "prompt": "Hasonlítsa össze a kommunista és a nemzetiszocialista ideológiát.",
+      "past_prompts": [
+        {
+          "exam": "2017. máj.",
+          "prompt": "Hasonlítsa össze a kommunista és a nemzetiszocialista ideológiát."
+        }
+      ],
+      "required_axes": [
+        "szociális törekvések",
+        "nemzethez való viszony",
+        "vezér szerepe",
+        "demokráciafelfogás",
+        "ellenségképek",
+        "jelképek"
+      ],
+      "required_concepts": [
+        "osztályharc",
+        "internacionalizmus",
+        "fajelmélet",
+        "vezérelv",
+        "egypártrendszer",
+        "proletárdiktatúra"
+      ],
+      "required_people": [
+        "Lenin",
+        "Hitler",
+        "Marx"
+      ],
+      "required_dates": [
+        "1917",
+        "1920",
+        "1933"
+      ],
+      "required_places": [
+        "Szovjetunió",
+        "Németország"
+      ],
+      "related_tetelek": [
+        24,
+        29
+      ],
+      "detailed_requirements": [
+        "Mutassa be, hogy mindkét ideológia antidemokratikus, de eltérő alapon: osztály vs faj/nemzet.",
+        "Hangsúlyozza a közösségi célok elsőbbségét az egyénnel szemben.",
+        "Ismertesse a vezér szerepét és az ellenségképek különbségét.",
+        "A konkrét államok működését ne részletezze túl, maradjon az ideológiánál."
+      ],
+      "minimum_answer_focus": "Minimum: a kommunizmus osztályalapon, a nemzetiszocializmus faj- és nemzetalapon szervezte újra a társadalmat; mindkettő elutasította a liberális demokráciát.",
+      "common_mistakes": [
+        "Ne csússzon át a konkrét terrorrendszerek történetébe, ha a feladat ideológiát kér."
+      ]
+    },
+    {
+      "id": "oh_2017_maj_id_matyas_esz_oszman",
+      "slug": "oh-2017-maj-id-matyas-esz-oszman",
+      "complexType": "osszehasonlito",
+      "complexTypeLabel": "Összehasonlító",
+      "exam": "2017. máj. id.",
+      "theme": "Hunyadi Mátyás állama és a korabeli Oszmán Birodalom",
+      "period": "15. század második fele",
+      "prompt": "Vesse össze Mátyás államát a korabeli Oszmán Birodalommal.",
+      "past_prompts": [
+        {
+          "exam": "2017. máj. id.",
+          "prompt": "Vesse össze Mátyás államát a korabeli Oszmán Birodalommal."
+        }
+      ],
+      "required_axes": [
+        "kiterjedés és hatalmi helyzet",
+        "uralkodói hatalom",
+        "hadsereg",
+        "hivatalnokszervezet",
+        "uralkodói bevételek"
+      ],
+      "required_concepts": [
+        "központosítás",
+        "szultáni hatalom",
+        "fekete sereg",
+        "timár-rendszer",
+        "kincstár"
+      ],
+      "required_people": [
+        "Hunyadi Mátyás",
+        "II. Mehmed"
+      ],
+      "required_dates": [
+        "1458–1490"
+      ],
+      "required_places": [
+        "Magyar Királyság",
+        "Oszmán Birodalom"
+      ],
+      "related_tetelek": [
+        2,
+        27
+      ],
+      "detailed_requirements": [
+        "Mutassa be az oszmán túlsúlyt területben és erőforrásokban.",
+        "Hangsúlyozza, hogy Mátyás centralizált, de rendi korlátok között mozgó királyságot vezetett, míg a szultáni hatalom koncentráltabb volt.",
+        "Vesse össze a fekete sereget az oszmán hadszervezet sokrétűségével."
+      ],
+      "minimum_answer_focus": "Minimum: Mátyás állama központosított, de erőforrásaiban elmaradó keresztény királyság volt, míg az Oszmán Birodalom nagyobb, centralizáltabb és katonailag erősebb államként működött.",
+      "common_mistakes": [
+        "Ne állítsa, hogy Mátyás abszolút uralkodó volt oszmán mintára."
+      ]
+    },
+    {
+      "id": "oh_2017_okt_keresztenyseg_iszlam",
+      "slug": "oh-2017-okt-keresztenyseg-iszlam",
+      "complexType": "osszehasonlito",
+      "complexTypeLabel": "Összehasonlító",
+      "exam": "2017. okt.",
+      "theme": "A kereszténység és az iszlám fő tanai és társadalmi tanításai",
+      "period": "ókor–középkor",
+      "prompt": "Vesse össze a keresztény és az iszlám vallás fő tanait és társadalmi tanításait.",
+      "past_prompts": [
+        {
+          "exam": "2017. okt.",
+          "prompt": "Vesse össze a keresztény és az iszlám vallás fő tanait és társadalmi tanításait."
+        }
+      ],
+      "required_axes": [
+        "kialakulás",
+        "alapítók szerepe",
+        "alapvető tanítások és parancsok",
+        "szent könyvek",
+        "társadalmi tanítás"
+      ],
+      "required_concepts": [
+        "monoteizmus",
+        "Biblia",
+        "Korán",
+        "egyház/umma",
+        "szeretetparancs",
+        "öt pillér"
+      ],
+      "required_people": [
+        "Jézus Krisztus",
+        "Mohamed"
+      ],
+      "required_dates": [
+        "1. század",
+        "7. század"
+      ],
+      "required_places": [
+        "Palesztina",
+        "Római Birodalom",
+        "Mekka",
+        "Medina"
+      ],
+      "related_tetelek": [
+        21,
+        22
+      ],
+      "detailed_requirements": [
+        "Mutassa be a két vallás monoteista jellegét és Ábrahám-hagyományát.",
+        "Ismertesse a kereszténység megváltástanát és az iszlám teljes alávetettség-elvét.",
+        "Térjen ki a szent könyvekre és a közösségszervező normákra.",
+        "A társadalmi tanításnál emelje ki az alamizsna, könyörület, felebaráti szeretet és erkölcsi szabályozás szerepét."
+      ],
+      "minimum_answer_focus": "Minimum: a kereszténység és az iszlám is egyistenhívő világvallás, de alapítójuk szerepe, tanrendszerük és intézményi szerkezetük eltérő.",
+      "common_mistakes": [
+        "Mohamedet ne tegye az iszlámban isteni személlyé; próféta.",
+        "A kereszténységben Jézus több, mint próféta."
+      ]
+    },
+    {
+      "id": "oh_2018_maj_nagy_karoly_szent_istvan",
+      "slug": "oh-2018-maj-nagy-karoly-szent-istvan",
+      "complexType": "osszehasonlito",
+      "complexTypeLabel": "Összehasonlító",
+      "exam": "2018. máj.",
+      "theme": "Nagy Károly és Szent István államának berendezkedése",
+      "period": "8–11. század",
+      "prompt": "Vesse össze Nagy Károly és I. (Szent) István államát.",
+      "past_prompts": [
+        {
+          "exam": "2018. máj.",
+          "prompt": "Vesse össze Nagy Károly és I. (Szent) István államát."
+        }
+      ],
+      "required_axes": [
+        "előzmények",
+        "legitimáció",
+        "gazdasági korlátok",
+        "királyi birtokok",
+        "közigazgatás",
+        "egyházszervezés"
+      ],
+      "required_concepts": [
+        "keresztény királyság",
+        "koronázás",
+        "vármegye",
+        "grófság",
+        "tized",
+        "püspökség"
+      ],
+      "required_people": [
+        "Nagy Károly",
+        "I. (Szent) István",
+        "III. Ottó",
+        "II. Szilveszter"
+      ],
+      "required_dates": [
+        "800",
+        "1000/1001"
+      ],
+      "required_places": [
+        "Frank Birodalom",
+        "Magyar Királyság",
+        "Róma"
+      ],
+      "related_tetelek": [
+        21
+      ],
+      "detailed_requirements": [
+        "Mutassa be a legitimáció eltérő formáit, de a pápasággal való kapcsolat közös szerepét.",
+        "Vesse össze a grófsági és vármegyei rendszert.",
+        "Térjen ki a kereszténység államszervező erejére és az egyházszervezet kiépítésére."
+      ],
+      "minimum_answer_focus": "Minimum: mindkét uralkodó a keresztény államszervezés eszközeivel erősítette meg hatalmát, de eltérő gazdasági és geopolitikai környezetben.",
+      "common_mistakes": [
+        "Ne azonosítsa teljesen a frank és a magyar közigazgatást; analóg, de nem azonos rendszerek."
+      ]
+    },
+    {
+      "id": "oh_2018_maj_id_keleti_nyugati_blokk",
+      "slug": "oh-2018-maj-id-keleti-nyugati-blokk",
+      "complexType": "osszehasonlito",
+      "complexTypeLabel": "Összehasonlító",
+      "exam": "2018. máj. id.",
+      "theme": "A keleti és a nyugati blokk főbb jellemzői",
+      "period": "1945 utáni évtizedek",
+      "prompt": "Mutassa be a keleti és a nyugati blokk főbb jellemzőit.",
+      "past_prompts": [
+        {
+          "exam": "2018. máj. id.",
+          "prompt": "Mutassa be a keleti és a nyugati blokk főbb jellemzőit."
+        }
+      ],
+      "required_axes": [
+        "politikai berendezkedés",
+        "gazdasági rendszer és integráció",
+        "katonai szembenállás"
+      ],
+      "required_concepts": [
+        "demokrácia",
+        "diktatúra",
+        "piacgazdaság",
+        "tervgazdaság",
+        "NATO",
+        "Varsói Szerződés",
+        "KGST",
+        "Marshall-segély"
+      ],
+      "required_people": [
+        "Truman",
+        "Sztálin"
+      ],
+      "required_dates": [
+        "1947",
+        "1949",
+        "1955"
+      ],
+      "required_places": [
+        "NSZK",
+        "NDK",
+        "USA",
+        "Szovjetunió",
+        "Európa"
+      ],
+      "related_tetelek": [
+        30
+      ],
+      "detailed_requirements": [
+        "Vesse össze a többpárti parlamentáris rendszert az egypárti diktatúrával.",
+        "Mutassa be a piacgazdaság és tervgazdaság különbségeit.",
+        "Térjen ki a két blokk integrációs és katonai szervezeteire."
+      ],
+      "minimum_answer_focus": "Minimum: a nyugati blokk pluralista és piacgazdasági, a keleti blokk egypárti és tervgazdasági volt; kapcsolatukat a hidegháborús katonai szembenállás határozta meg.",
+      "common_mistakes": [
+        "Ne írja, hogy az NDK valódi liberális demokrácia volt."
+      ]
+    },
+    {
+      "id": "oh_2018_okt_xiv_lajos_ii_jozsef",
+      "slug": "oh-2018-okt-xiv-lajos-ii-jozsef",
+      "complexType": "osszehasonlito",
+      "complexTypeLabel": "Összehasonlító",
+      "exam": "2018. okt.",
+      "theme": "XIV. Lajos abszolutizmusa és II. József felvilágosult abszolutizmusa",
+      "period": "17–18. század",
+      "prompt": "Vesse össze XIV. Lajos abszolutizmusát és II. József felvilágosult abszolutizmusát.",
+      "past_prompts": [
+        {
+          "exam": "2018. okt.",
+          "prompt": "Vesse össze XIV. Lajos abszolutizmusát és II. József felvilágosult abszolutizmusát."
+        }
+      ],
+      "required_axes": [
+        "eszmei alapok",
+        "vámpolitika",
+        "vallási kérdések",
+        "közigazgatás",
+        "hatalom támaszai"
+      ],
+      "required_concepts": [
+        "abszolutizmus",
+        "felvilágosult abszolutizmus",
+        "merkantilizmus",
+        "türelmi rendelet",
+        "rendeleti kormányzás"
+      ],
+      "required_people": [
+        "XIV. Lajos",
+        "II. József",
+        "Colbert"
+      ],
+      "required_dates": [
+        "1661–1715",
+        "1780–1790"
+      ],
+      "required_places": [
+        "Franciaország",
+        "Magyarország",
+        "Habsburg Birodalom"
+      ],
+      "related_tetelek": [
+        13,
+        15
+      ],
+      "detailed_requirements": [
+        "Mutassa be az uralkodói hatalom isteni eredetének francia modelljét.",
+        "Vesse össze a merkantilista gazdaságpolitikát és a felvilágosult racionalizáló reformokat.",
+        "Térjen ki a valláspolitika különbségeire: francia korlátozás vs türelmi rendelet."
+      ],
+      "minimum_answer_focus": "Minimum: mindkettő központosító rendszer, de XIV. Lajos klasszikus abszolutizmusa és II. József felvilágosult reformabszolutizmusa eltérő eszmei alapokon állt.",
+      "common_mistakes": [
+        "II. Józsefet ne nevezze klasszikus abszolút uralkodónak XIV. Lajossal azonos értelemben."
+      ]
+    },
+    {
+      "id": "oh_2019_maj_rakoczi_amerikai_fuggetlenseg",
+      "slug": "oh-2019-maj-rakoczi-amerikai-fuggetlenseg",
+      "complexType": "osszehasonlito",
+      "complexTypeLabel": "Összehasonlító",
+      "exam": "2019. máj.",
+      "theme": "A Rákóczi-szabadságharc és az amerikai függetlenségi háború",
+      "period": "1703–1711 és 1775–1783",
+      "prompt": "Vesse össze a két függetlenségi küzdelmet.",
+      "past_prompts": [
+        {
+          "exam": "2019. máj.",
+          "prompt": "Vesse össze a két függetlenségi küzdelmet."
+        }
+      ],
+      "required_axes": [
+        "hatalmi helyzet",
+        "társadalmi elégedetlenség okai",
+        "társadalomképek",
+        "függetlenség kérdése",
+        "lezárás"
+      ],
+      "required_concepts": [
+        "szabadságharc",
+        "függetlenség",
+        "kuruc",
+        "gyarmatok",
+        "alkotmányosság",
+        "szuverenitás"
+      ],
+      "required_people": [
+        "II. Rákóczi Ferenc",
+        "XIV. Lajos",
+        "George Washington"
+      ],
+      "required_dates": [
+        "1703–1711",
+        "1776",
+        "1783"
+      ],
+      "required_places": [
+        "Magyarország",
+        "Észak-Amerika"
+      ],
+      "related_tetelek": [
+        13,
+        15
+      ],
+      "detailed_requirements": [
+        "Mutassa be a két mozgalom eltérő nemzetközi környezetét.",
+        "Térjen ki a rendi és polgári társadalomkép különbségeire.",
+        "Vesse össze a lezárást: szatmári béke vs függetlenség kivívása."
+      ],
+      "minimum_answer_focus": "Minimum: mindkettő birodalomellenes küzdelem volt, de az amerikai háború sikeres államalapításhoz, a Rákóczi-szabadságharc pedig kompromisszumos lezáráshoz vezetett.",
+      "common_mistakes": [
+        "Ne kezelje a Rákóczi-szabadságharcot modern polgári forradalomként."
+      ]
+    },
+    {
+      "id": "oh_2019_maj_id_luther_katolikus_megujulas",
+      "slug": "oh-2019-maj-id-luther-katolikus-megujulas",
+      "complexType": "osszehasonlito",
+      "complexTypeLabel": "Összehasonlító",
+      "exam": "2019. máj. id.",
+      "theme": "A lutheri reformáció és a katolikus megújulás",
+      "period": "16. század",
+      "prompt": "Vesse össze a lutheri reformációt és a katolikus megújulást.",
+      "past_prompts": [
+        {
+          "exam": "2019. máj. id.",
+          "prompt": "Vesse össze a lutheri reformációt és a katolikus megújulást."
+        }
+      ],
+      "required_axes": [
+        "hitbéli kérdések",
+        "egyházszervezet",
+        "anyanyelvű igehirdetés",
+        "oktatás",
+        "templomépítészet"
+      ],
+      "required_concepts": [
+        "búcsú",
+        "hit általi megigazulás",
+        "hét szentség",
+        "Tridenti zsinat",
+        "jezsuiták",
+        "barokk"
+      ],
+      "required_people": [
+        "Luther Márton",
+        "Kálvin János",
+        "Loyolai Szent Ignác"
+      ],
+      "required_dates": [
+        "1517",
+        "1545–1563"
+      ],
+      "required_places": [
+        "Német-római Birodalom",
+        "Róma"
+      ],
+      "related_tetelek": [
+        21
+      ],
+      "detailed_requirements": [
+        "Mutassa be a búcsúcédula-vita és a szentségtan eltéréseit.",
+        "Vesse össze a decentralizáltabb protestáns és a pápai központú katolikus szervezetet.",
+        "Térjen ki az anyanyelvű igehirdetés, iskolarendszer és nevelés jelentőségére.",
+        "Mutassa be a templomtér és díszítés eltérő szemléletét."
+      ],
+      "minimum_answer_focus": "Minimum: a reformáció egyszerűbb hitgyakorlatot és új tanokat hangsúlyozott, a katolikus megújulás pedig részben válaszolt a kritikákra, miközben megőrizte a hagyományos dogmákat.",
+      "common_mistakes": [
+        "A katolikus megújulást ne azonosítsa teljesen a reformációval; ellenreformáció és belső reform egyszerre."
+      ]
+    },
+    {
+      "id": "oh_2019_okt_szechenyi_kossuth",
+      "slug": "oh-2019-okt-szechenyi-kossuth",
+      "complexType": "osszehasonlito",
+      "complexTypeLabel": "Összehasonlító",
+      "exam": "2019. okt.",
+      "theme": "Széchenyi és Kossuth reformprogramja",
+      "period": "reformkor",
+      "prompt": "Vesse össze Széchenyi és Kossuth reformprogramját.",
+      "past_prompts": [
+        {
+          "exam": "2019. okt.",
+          "prompt": "Vesse össze Széchenyi és Kossuth reformprogramját."
+        }
+      ],
+      "required_axes": [
+        "társadalmi háttér",
+        "jobbágykérdés",
+        "gazdaságpolitika",
+        "nemzetiségi kérdés",
+        "társadalmi bázis",
+        "udvarhoz való viszony"
+      ],
+      "required_concepts": [
+        "reformkor",
+        "örökváltság",
+        "védegylet",
+        "hitel",
+        "politikai nemzet"
+      ],
+      "required_people": [
+        "Széchenyi István",
+        "Kossuth Lajos"
+      ],
+      "required_dates": [
+        "1830",
+        "1841",
+        "1844"
+      ],
+      "required_places": [
+        "Magyarország"
+      ],
+      "related_tetelek": [
+        16
+      ],
+      "detailed_requirements": [
+        "Mutassa be az óvatos, felülről reformáló és a szélesebb társadalmi mozgósításra építő program különbségét.",
+        "Térjen ki a gazdasági modernizáció és védővámvita kérdéseire.",
+        "Vesse össze a bécsi udvarhoz való viszonyukat."
+      ],
+      "minimum_answer_focus": "Minimum: mindketten a polgári átalakulást akarták, de Széchenyi óvatosabb, Kossuth radikálisabb és mozgósítóbb programot képviselt.",
+      "common_mistakes": [
+        "Ne csak életrajzi összehasonlítást írjon; a programok a lényeg."
+      ]
+    },
+    {
+      "id": "oh_2020_maj_trianon_parizs",
+      "slug": "oh-2020-maj-trianon-parizs",
+      "complexType": "osszehasonlito",
+      "complexTypeLabel": "Összehasonlító",
+      "exam": "2020. máj.",
+      "theme": "A trianoni és a párizsi béke összehasonlítása",
+      "period": "1920 és 1947",
+      "prompt": "Vesse össze az első és a második világháborút lezáró magyar békeszerződéseket.",
+      "past_prompts": [
+        {
+          "exam": "2020. máj.",
+          "prompt": "Vesse össze az első és a második világháborút lezáró magyar békeszerződéseket."
+        }
+      ],
+      "required_axes": [
+        "nemzetközi körülmények",
+        "magyar törekvések",
+        "területi rendelkezések",
+        "etnikai következmények",
+        "kisebbségvédelem",
+        "korabeli visszhang"
+      ],
+      "required_concepts": [
+        "trianoni béke",
+        "párizsi béke",
+        "revízió",
+        "kitelepítés",
+        "kisebbségvédelem"
+      ],
+      "required_people": [
+        "Apponyi Albert",
+        "Nagy Ferenc"
+      ],
+      "required_dates": [
+        "1920",
+        "1947"
+      ],
+      "required_places": [
+        "Magyarország",
+        "Párizs"
+      ],
+      "related_tetelek": [
+        9,
+        28,
+        29
+      ],
+      "detailed_requirements": [
+        "Mutassa be, hogy 1920-ban a háborús vereség és birodalomszétesés, 1947-ben a náci szövetségesi szerep határozta meg a békét.",
+        "Vesse össze a határokat: 1947 lényegében Trianon helyreállítása kisebb módosítással.",
+        "Térjen ki a kisebbségi kérdés és a lakosságmozgások eltéréseire."
+      ],
+      "minimum_answer_focus": "Minimum: a párizsi béke nagyrészt helyreállította Trianont; mindkét béke súlyos szuverenitási és nemzetpolitikai következményekkel járt.",
+      "common_mistakes": [
+        "Ne nevezze a párizsi békét egyszerűen „második Trianonnak” magyarázat nélkül."
+      ]
+    },
+    {
+      "id": "oh_2020_maj_id_nemet_magyar_nemzetallam",
+      "slug": "oh-2020-maj-id-nemet-magyar-nemzetallam",
+      "complexType": "osszehasonlito",
+      "complexTypeLabel": "Összehasonlító",
+      "exam": "2020. máj. id.",
+      "theme": "A polgári nemzetállam megteremtése Németországban és Magyarországon",
+      "period": "19. század utolsó harmada",
+      "prompt": "Vesse össze a polgári nemzetállam megteremtését és jellemzőit Németországban és Magyarországon.",
+      "past_prompts": [
+        {
+          "exam": "2020. máj. id.",
+          "prompt": "Vesse össze a polgári nemzetállam megteremtését és jellemzőit Németországban és Magyarországon."
+        }
+      ],
+      "required_axes": [
+        "törvényes megalakítás",
+        "uralkodó szerepe",
+        "népképviselet",
+        "etnikai viszonyok",
+        "egyház–állam viszony",
+        "területi felépítés"
+      ],
+      "required_concepts": [
+        "nemzetállam",
+        "alkotmányos monarchia",
+        "föderalizmus",
+        "dualizmus",
+        "kultúrharc"
+      ],
+      "required_people": [
+        "Bismarck",
+        "Ferenc József",
+        "Andrássy Gyula"
+      ],
+      "required_dates": [
+        "1867",
+        "1871"
+      ],
+      "required_places": [
+        "Németország",
+        "Magyarország",
+        "Osztrák–Magyar Monarchia"
+      ],
+      "related_tetelek": [
+        24,
+        25
+      ],
+      "detailed_requirements": [
+        "Mutassa be, hogy Németország egységes nemzetállamként, Magyarország pedig a Monarchia részeként, korlátozottan valósította meg a nemzetállami törekvéseket.",
+        "Vesse össze a föderális német és a centralizáltabb magyar államszerkezetet.",
+        "Térjen ki az etnikai sokszínűség problémájára."
+      ],
+      "minimum_answer_focus": "Minimum: Németország nemzetállama egységes birodalmi keretben, Magyarországé a Monarchián belüli részleges szuverenitással jött létre.",
+      "common_mistakes": [
+        "Ne nevezze Magyarországot teljesen független nemzetállamnak 1867 után."
+      ]
+    },
+    {
+      "id": "oh_2020_okt_amerika_india_gyarmatositas",
+      "slug": "oh-2020-okt-amerika-india-gyarmatositas",
+      "complexType": "osszehasonlito",
+      "complexTypeLabel": "Összehasonlító",
+      "exam": "2020. okt.",
+      "theme": "Amerika 16. századi és India 18–19. századi gyarmatosítása",
+      "period": "16. század és 18–19. század",
+      "prompt": "Vesse össze Amerika és India gyarmatosítását.",
+      "past_prompts": [
+        {
+          "exam": "2020. okt.",
+          "prompt": "Vesse össze Amerika és India gyarmatosítását."
+        }
+      ],
+      "required_axes": [
+        "gyarmatosító hatalmak",
+        "ideológiai háttér",
+        "gazdasági okok és szerep",
+        "gazdasági következmények",
+        "eredményesség okai"
+      ],
+      "required_concepts": [
+        "gyarmatosítás",
+        "konkvisztádor",
+        "kereskedelmi társaság",
+        "kolonializmus",
+        "világgazdaság"
+      ],
+      "required_people": [
+        "Kolumbusz Kristóf",
+        "Cortés",
+        "Pizarro",
+        "Robert Clive"
+      ],
+      "required_dates": [
+        "1492",
+        "16. század",
+        "1757",
+        "1858"
+      ],
+      "required_places": [
+        "Amerika",
+        "India",
+        "Spanyolország",
+        "Brit Birodalom"
+      ],
+      "related_tetelek": [
+        1,
+        7
+      ],
+      "detailed_requirements": [
+        "Mutassa be a spanyol hódítás és a brit kereskedelmi-birodalmi terjeszkedés közti különbséget.",
+        "Vesse össze a gyarmatosítás gazdasági motivációit és következményeit.",
+        "Térjen ki a technikai, járványügyi, politikai feltételekre."
+      ],
+      "minimum_answer_focus": "Minimum: Amerika gyarmatosítása gyors katonai hódítással, India gyarmatosítása fokozatos kereskedelmi és politikai alárendeléssel zajlott.",
+      "common_mistakes": [
+        "Ne mossa össze a 16. századi spanyol gyarmatosítást a 19. századi brit gyarmati rendszerrel."
+      ]
+    },
+    {
+      "id": "oh_2021_maj_nyugati_keleti_egyhaz",
+      "slug": "oh-2021-maj-nyugati-keleti-egyhaz",
+      "complexType": "osszehasonlito",
+      "complexTypeLabel": "Összehasonlító",
+      "exam": "2021. máj.",
+      "theme": "A nyugati és a keleti egyház szervezete és működése",
+      "period": "középkor",
+      "prompt": "Vesse össze a nyugati és a keleti egyház szervezetét és működését.",
+      "past_prompts": [
+        {
+          "exam": "2021. máj.",
+          "prompt": "Vesse össze a nyugati és a keleti egyház szervezetét és működését."
+        }
+      ],
+      "required_axes": [
+        "egyházi központ és hierarchia",
+        "nyelvhasználat",
+        "szerzetesség",
+        "cölibátus",
+        "építészet",
+        "világi hatalomhoz való viszony"
+      ],
+      "required_concepts": [
+        "pápa",
+        "patriarcha",
+        "latin",
+        "görög",
+        "cölibátus",
+        "ortodoxia",
+        "román/gótika",
+        "bizánci"
+      ],
+      "required_people": [
+        "pápa",
+        "konstantinápolyi pátriárka"
+      ],
+      "required_dates": [
+        "1054"
+      ],
+      "required_places": [
+        "Róma",
+        "Konstantinápoly"
+      ],
+      "related_tetelek": [
+        21
+      ],
+      "detailed_requirements": [
+        "Mutassa be a pápai primátus és a patriarcha-rendszer közti különbséget.",
+        "Térjen ki a liturgikus nyelvekre és az egyházi kultúrára.",
+        "Vesse össze a világi hatalomhoz fűződő viszonyt, különösen a cezaropapizmus kérdését."
+      ],
+      "minimum_answer_focus": "Minimum: a nyugati és keleti egyház közös keresztény alapokon állt, de szervezetük, nyelvük és államhoz való viszonyuk eltérően fejlődött.",
+      "common_mistakes": [
+        "Ne írja, hogy az ortodox egyházban is a pápa a legfőbb vezető."
+      ]
+    },
+    {
+      "id": "oh_2021_maj_id_anglia_franciaorszag_17_18",
+      "slug": "oh-2021-maj-id-anglia-franciaorszag-17-18",
+      "complexType": "osszehasonlito",
+      "complexTypeLabel": "Összehasonlító",
+      "exam": "2021. máj. id.",
+      "theme": "Anglia és Franciaország helyzete a XVII–XVIII. század fordulóján",
+      "period": "17–18. század fordulója",
+      "prompt": "Vesse össze Anglia és Franciaország kül- és belpolitikai helyzetét, valamint társadalmát.",
+      "past_prompts": [
+        {
+          "exam": "2021. máj. id.",
+          "prompt": "Vesse össze Anglia és Franciaország kül- és belpolitikai helyzetét, valamint társadalmát."
+        }
+      ],
+      "required_axes": [
+        "európai hatalmi politika és gyarmatosítás",
+        "kormányzati rendszer",
+        "társadalmi tagozódás",
+        "vallási helyzet"
+      ],
+      "required_concepts": [
+        "alkotmányos monarchia",
+        "abszolutizmus",
+        "gyarmatosítás",
+        "polgárság",
+        "államegyház"
+      ],
+      "required_people": [
+        "XIV. Lajos",
+        "Orániai Vilmos"
+      ],
+      "required_dates": [
+        "1688",
+        "1701–1714"
+      ],
+      "required_places": [
+        "Anglia",
+        "Franciaország"
+      ],
+      "related_tetelek": [
+        15
+      ],
+      "detailed_requirements": [
+        "Mutassa be a parlamentáris-angol és abszolút-francia modellt.",
+        "Vesse össze a társadalmi szerkezetet és a vallási tolerancia/korlátozás kérdését.",
+        "Térjen ki a gyarmatosítás és tengeri hatalom jelentőségére."
+      ],
+      "minimum_answer_focus": "Minimum: Anglia alkotmányos-monarchikus és kereskedőbb, Franciaország abszolutista és kontinentális hatalmi orientációjú állam volt.",
+      "common_mistakes": [
+        "Ne állítsa, hogy Franciaországban alkotmányos monarchia működött XIV. Lajos alatt."
+      ]
+    },
+    {
+      "id": "oh_2021_okt_harminceves_vs_spanyol_orokosodesi",
+      "slug": "oh-2021-okt-harminceves-vs-spanyol-orokosodesi",
+      "complexType": "osszehasonlito",
+      "complexTypeLabel": "Összehasonlító",
+      "exam": "2021. okt.",
+      "theme": "A harmincéves háború és a spanyol örökösödési háború a Habsburg–francia vetélkedés szempontjából",
+      "period": "17–18. század",
+      "prompt": "Vesse össze a két háborút a Habsburg Birodalom és Franciaország vetélkedése szempontjából.",
+      "past_prompts": [
+        {
+          "exam": "2021. okt.",
+          "prompt": "Vesse össze a két háborút a Habsburg Birodalom és Franciaország vetélkedése szempontjából."
+        }
+      ],
+      "required_axes": [
+        "Habsburg célok",
+        "francia célok",
+        "Habsburg szövetségesek",
+        "francia szövetségesek",
+        "eredmények"
+      ],
+      "required_concepts": [
+        "hatalmi egyensúly",
+        "Habsburg hegemónia",
+        "vesztfáliai béke",
+        "utrechti béke"
+      ],
+      "required_people": [
+        "Richelieu",
+        "XIV. Lajos",
+        "Habsburg uralkodók"
+      ],
+      "required_dates": [
+        "1618–1648",
+        "1701–1714"
+      ],
+      "required_places": [
+        "Német-római Birodalom",
+        "Franciaország",
+        "Spanyolország"
+      ],
+      "related_tetelek": [
+        15
+      ],
+      "detailed_requirements": [
+        "Mutassa be a francia külpolitika alapcélját: a Habsburg bekerítés megtörését.",
+        "Vesse össze a két háború szövetségi rendszereit és kimenetelét.",
+        "Térjen ki arra, hogy a Habsburgok helyzete a két háború végén eltérő módon alakult."
+      ],
+      "minimum_answer_focus": "Minimum: mindkét háború a hatalmi egyensúlyról szólt, Franciaország fokozatosan előnybe került a Habsburgokkal szemben.",
+      "common_mistakes": [
+        "Ne írjon csak hadieseményeket; a diplomáciai célok és eredmények a fontosak."
+      ]
+    },
+    {
+      "id": "oh_2022_maj_nemetorszag_ww1_ww2",
+      "slug": "oh-2022-maj-nemetorszag-ww1-ww2",
+      "complexType": "osszehasonlito",
+      "complexTypeLabel": "Összehasonlító",
+      "exam": "2022. máj.",
+      "theme": "Németország helyzete és céljai az első és a második világháború kitörésekor",
+      "period": "1914 és 1939",
+      "prompt": "Vesse össze Németország helyzetét és céljait az első és második világháború kitörése idején.",
+      "past_prompts": [
+        {
+          "exam": "2022. máj.",
+          "prompt": "Vesse össze Németország helyzetét és céljait az első és második világháború kitörése idején."
+        }
+      ],
+      "required_axes": [
+        "politikai berendezkedés",
+        "terjeszkedés ideológiája",
+        "háborús tervek",
+        "szövetségesek",
+        "gazdasági erőforrások",
+        "szerep a kirobbanásban"
+      ],
+      "required_concepts": [
+        "császárság",
+        "nemzetiszocializmus",
+        "villámháború",
+        "Schlieffen-terv",
+        "élettér"
+      ],
+      "required_people": [
+        "II. Vilmos",
+        "Hitler"
+      ],
+      "required_dates": [
+        "1914",
+        "1939"
+      ],
+      "required_places": [
+        "Németország",
+        "Európa"
+      ],
+      "related_tetelek": [
+        28,
+        29
+      ],
+      "detailed_requirements": [
+        "Mutassa be az autoriter császári és a totális náci rendszer közti különbséget.",
+        "Vesse össze a háborús célokat és stratégiákat.",
+        "Térjen ki a szövetségi rendszerek eltérő logikájára."
+      ],
+      "minimum_answer_focus": "Minimum: 1914-ben Németország nagyhatalmi helyzetét akarta biztosítani, 1939-ben ideologikus hódító háborút indított.",
+      "common_mistakes": [
+        "Ne állítsa, hogy az első világháborús Németország nemzetiszocialista volt."
+      ]
+    },
+    {
+      "id": "oh_2022_maj_id_liberalizmus_marxizmus",
+      "slug": "oh-2022-maj-id-liberalizmus-marxizmus",
+      "complexType": "osszehasonlito",
+      "complexTypeLabel": "Összehasonlító",
+      "exam": "2022. máj. id.",
+      "theme": "A liberalizmus és a marxizmus eszméje",
+      "period": "19. század",
+      "prompt": "Vesse össze a liberalizmus és a marxizmus eszméjét.",
+      "past_prompts": [
+        {
+          "exam": "2022. máj. id.",
+          "prompt": "Vesse össze a liberalizmus és a marxizmus eszméjét."
+        }
+      ],
+      "required_axes": [
+        "kialakulás körülményei",
+        "fő célok",
+        "eszközök",
+        "egyénhez való viszony",
+        "ideális politikai berendezkedés",
+        "ideális gazdasági berendezkedés"
+      ],
+      "required_concepts": [
+        "liberalizmus",
+        "marxizmus",
+        "magántulajdon",
+        "szabadverseny",
+        "osztályharc",
+        "forradalom"
+      ],
+      "required_people": [
+        "John Locke",
+        "Adam Smith",
+        "Karl Marx",
+        "Friedrich Engels"
+      ],
+      "required_dates": [
+        "18–19. század"
+      ],
+      "required_places": [
+        "Nyugat-Európa"
+      ],
+      "related_tetelek": [
+        24
+      ],
+      "detailed_requirements": [
+        "Mutassa be a polgári és ipari társadalom eltérő problémáira adott válaszokat.",
+        "Vesse össze az egyén és közösség szerepét, a tulajdonhoz való viszonyt, valamint az államról alkotott képet."
+      ],
+      "minimum_answer_focus": "Minimum: a liberalizmus a szabadságjogokra és a magántulajdonra, a marxizmus az osztályellentétek felszámolására és a közösségi tulajdonra épült.",
+      "common_mistakes": [
+        "A marxizmust ne szűkítse le puszta gazdaságkritikára; teljes társadalomelmélet."
+      ]
+    },
+    {
+      "id": "oh_2022_okt_kozepkori_vs_felvilagosult_vilagkep",
+      "slug": "oh-2022-okt-kozepkori-vs-felvilagosult-vilagkep",
+      "complexType": "osszehasonlito",
+      "complexTypeLabel": "Összehasonlító",
+      "exam": "2022. okt.",
+      "theme": "A középkori vallásos és a felvilágosult világkép összehasonlítása",
+      "period": "középkor és 18. század",
+      "prompt": "Vesse össze a középkori vallásos és a felvilágosult világképet.",
+      "past_prompts": [
+        {
+          "exam": "2022. okt.",
+          "prompt": "Vesse össze a középkori vallásos és a felvilágosult világképet."
+        }
+      ],
+      "required_axes": [
+        "tekintélyforrás",
+        "emberkép",
+        "természetfelfogás",
+        "társadalmi és politikai következmények",
+        "oktatás és tudás"
+      ],
+      "required_concepts": [
+        "világkép",
+        "tekintély",
+        "ész",
+        "empirizmus",
+        "szekularizáció",
+        "természetjog"
+      ],
+      "required_people": [
+        "Aquinói Tamás",
+        "Voltaire",
+        "Montesquieu",
+        "Rousseau"
+      ],
+      "required_dates": [
+        "középkor",
+        "18. század"
+      ],
+      "required_places": [
+        "Európa"
+      ],
+      "related_tetelek": [
+        14,
+        21,
+        23
+      ],
+      "detailed_requirements": [
+        "Mutassa be a kinyilatkoztatásra és tekintélyre épülő középkori szemléletet.",
+        "Vesse össze ezt a felvilágosodás ész-, tapasztalat- és haladásközpontú nézetrendszerével.",
+        "Térjen ki a politikai gondolkodás következményeire is."
+      ],
+      "minimum_answer_focus": "Minimum: a középkori világkép teocentrikus és tekintélyelvű, a felvilágosult világkép antropocentrikusabb, racionalista és kritikus.",
+      "common_mistakes": [
+        "Ne azonosítsa a felvilágosodást vallástalansággal; inkább a vallási tekintély kritikája jellemző."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2885 @@
+{
+  "version": "1.0",
+  "scope": "emelt_tortenelem_hosszu_essze",
+  "source_note": "A fájl a feltöltött emelt esszéfeladatok, a részletes vizsgakövetelmények és témaköri összerendezés alapján készült. Témaközpontú forrásfájl, seedként vagy SQL-generálás alapjaként használható.",
+  "entry_count": 32,
+  "schema": {
+    "id": "string",
+    "tema": "string",
+    "essay_type": "string",
+    "era": "string",
+    "past_prompts": "array",
+    "requirements_topics": "array",
+    "related_tetelek": "array",
+    "important_time": "array",
+    "important_space": "array",
+    "important_people": "array",
+    "important_concepts": "array",
+    "causes": "array",
+    "processes": "array",
+    "consequences": "array",
+    "long_term_effects": "array",
+    "required_elements_min": "object",
+    "autocomplete_keywords": "array",
+    "common_mistakes": "array",
+    "minimum_answer": "string",
+    "extended_outline": "object"
+  },
+  "entries": [
+    {
+      "id": "hun_med_tatarjaras_ujjaepites",
+      "tema": "A tatárjárás menete, pusztítása és IV. Béla újjáépítő politikája",
+      "essay_type": "hosszu",
+      "era": "A középkori magyar állam megteremtése és virágkora",
+      "past_prompts": [
+        {
+          "exam": "2017. máj.",
+          "prompt": "Mutassa be a tatárjárás menetét, a tatárok pusztítását és IV. Béla intézkedéseit az ország újjáépítésére! Válaszában térjen ki a különböző történészi vélemények összevetésére is!"
+        }
+      ],
+      "requirements_topics": [
+        "3.2 A tatárjárás és az ország újjáépítése IV. Béla idején"
+      ],
+      "related_tetelek": [
+        "Az Árpád-ház: tatárjárás és újjáépítés"
+      ],
+      "important_time": [
+        "1241–1242",
+        "1241. április 11. muhi csata",
+        "1242 tatár kivonulás"
+      ],
+      "important_space": [
+        "Muhi",
+        "Sajó",
+        "Magyar Királyság",
+        "kővárak"
+      ],
+      "important_people": [
+        "IV. Béla",
+        "Batu kán"
+      ],
+      "important_concepts": [
+        "tatárjárás",
+        "mongol invázió",
+        "kővárépítés",
+        "telepítés",
+        "hospesek",
+        "második honalapító"
+      ],
+      "causes": [
+        "mongol világbirodalmi terjeszkedés",
+        "a keleti határ védelmének gyengesége",
+        "a kunok befogadása miatti belső feszültségek"
+      ],
+      "processes": [
+        "a tatárok betörése",
+        "muhi vereség",
+        "országos pusztítás",
+        "népességveszteség és gazdasági visszaesés",
+        "újjáépítés várakkal és telepítésekkel"
+      ],
+      "consequences": [
+        "súlyos demográfiai és gazdasági veszteség",
+        "a védelem és közigazgatás átalakulása",
+        "a királyi politika a várépítés és a városok erősítése felé fordult"
+      ],
+      "long_term_effects": [
+        "megerősödött a kővárhálózat",
+        "nőtt a városok és hospesek szerepe",
+        "az ország ellenállóbb lett a későbbi támadásokkal szemben"
+      ],
+      "required_elements_min": {
+        "szemely": [
+          "IV. Béla"
+        ],
+        "evszam": [
+          "1241–1242"
+        ],
+        "fogalom": [
+          "tatárjárás",
+          "kővárépítés"
+        ],
+        "ok_vagy_kovetkezmeny": [
+          "mongol támadás",
+          "újjáépítés"
+        ]
+      },
+      "autocomplete_keywords": [
+        "Muhi",
+        "Batu kán",
+        "hospes",
+        "második honalapító"
+      ],
+      "common_mistakes": [
+        "összekeveri a tatárjárást a török hódoltsággal",
+        "csak a muhi csatáról ír, az újjáépítésről nem",
+        "kimarad a telepítések és várépítés szerepe"
+      ],
+      "minimum_answer": "A tatárjárás 1241–1242-ben pusztította el az ország nagy részét, a muhi csatában a magyar sereg vereséget szenvedett. IV. Béla a katasztrófa után kővárépítésekkel, telepítésekkel és a városok, hospesek támogatásával újjászervezte az országot. Emiatt gyakran második honalapítónak nevezik.",
+      "extended_outline": {
+        "bevezetes": "A tatárjárás a középkori magyar állam egyik legsúlyosabb válsága volt.",
+        "elozmenyek": "mongol terjeszkedés, keleti veszély, kunkérdés, a védelem hiányosságai.",
+        "targyalas": "betörés, muhi csata, pusztítás, király menekülése, tatár kivonulás.",
+        "kovetkezmenyek": "népességveszteség, pusztulás, várépítés, telepítések, városfejlődés.",
+        "lezaras": "IV. Béla politikája hosszú távon megerősítette az országot."
+      }
+    },
+    {
+      "id": "hun_med_szent_laszlo_megszilarditas",
+      "tema": "A magyar állami és társadalmi rend megszilárdulása Szent László idején",
+      "essay_type": "hosszu",
+      "era": "A középkori magyar állam megteremtése és virágkora",
+      "past_prompts": [
+        {
+          "exam": "2018. okt.",
+          "prompt": "Mutassa be a magyar állami és társadalmi rend megszilárdulását I. (Szent) László király uralkodása idején! Térjen ki a Magyar Királyság külpolitikájára is!"
+        }
+      ],
+      "requirements_topics": [
+        "3.2 Az új rend megszilárdulása Szent László és Könyves Kálmán idején"
+      ],
+      "related_tetelek": [
+        "Szent László és a keresztény királyság megszilárdítása"
+      ],
+      "important_time": [
+        "1077–1095 Szent László uralkodása"
+      ],
+      "important_space": [
+        "Magyar Királyság",
+        "Horvátország",
+        "Ladomér/Havasalföld határvidékei"
+      ],
+      "important_people": [
+        "I. (Szent) László"
+      ],
+      "important_concepts": [
+        "államszilárdítás",
+        "vármegye",
+        "törvénykönyvek",
+        "lovagkirály",
+        "perszonálunió Horvátországgal"
+      ],
+      "causes": [
+        "trónviszályok a XI. században",
+        "a keresztény királyság rendjének megerősítése",
+        "külső fenyegetések"
+      ],
+      "processes": [
+        "szigorú törvényhozás",
+        "magántulajdon védelme",
+        "egyház támogatása",
+        "külpolitikai terjeszkedés és befolyásszerzés"
+      ],
+      "consequences": [
+        "stabilabb belső rend",
+        "megerősödő királyi hatalom",
+        "horvát kapcsolatok erősödése"
+      ],
+      "long_term_effects": [
+        "a keresztény magyar állam tartós megszilárdulása",
+        "Szent László kultuszának kialakulása"
+      ],
+      "required_elements_min": {
+        "szemely": [
+          "Szent László"
+        ],
+        "evszam": [
+          "1077–1095"
+        ],
+        "fogalom": [
+          "törvénykönyv",
+          "államszilárdítás"
+        ],
+        "ok_vagy_kovetkezmeny": [
+          "belső rend megszilárdítása",
+          "horvát kapcsolat"
+        ]
+      },
+      "autocomplete_keywords": [
+        "lopás büntetése",
+        "egyház",
+        "Horvátország",
+        "lovagkirály"
+      ],
+      "common_mistakes": [
+        "csak legendákat ír és kevés konkrét intézkedést",
+        "kimarad a külpolitika",
+        "összekeveri Könyves Kálmán intézkedéseivel"
+      ],
+      "minimum_answer": "Szent László szigorú törvényekkel és az egyház támogatásával megszilárdította a keresztény királyság rendjét. Uralkodása alatt erősödött a királyi hatalom, védték a tulajdont és a társadalmi rendet. Külpolitikájában is eredményes volt, különösen a horvát kapcsolatok terén.",
+      "extended_outline": {
+        "bevezetes": "Szent László uralkodása az államalapítás utáni megszilárdítás korszaka.",
+        "elozmenyek": "trónharcok és belső bizonytalanság.",
+        "targyalas": "törvények, egyházpolitika, rendvédelem, külpolitikai lépések.",
+        "kovetkezmenyek": "stabilabb belső rend és erősebb királyság.",
+        "lezaras": "uralkodása hosszú távon a magyar középkori állam alapjait erősítette meg."
+      }
+    },
+    {
+      "id": "hun_med_matyas_kulpolitika",
+      "tema": "Hunyadi Mátyás külpolitikája és dinasztikus politikája",
+      "essay_type": "hosszu",
+      "era": "A középkori magyar állam megteremtése és virágkora",
+      "past_prompts": [
+        {
+          "exam": "2019. máj.",
+          "prompt": "Mutassa be Hunyadi Mátyás külpolitikájának, illetve dinasztikus politikájának célkitűzéseit, eszközeit és eredményeit!"
+        }
+      ],
+      "requirements_topics": [
+        "3.4 Hunyadi Mátyás reformjai és külpolitikája"
+      ],
+      "related_tetelek": [
+        "Mátyás külpolitikája"
+      ],
+      "important_time": [
+        "1458–1490 Mátyás uralkodása",
+        "1463 bécsújhelyi egyezmény",
+        "1485 Bécs elfoglalása"
+      ],
+      "important_space": [
+        "Csehország",
+        "Ausztria",
+        "Bécs",
+        "Magyar Királyság"
+      ],
+      "important_people": [
+        "Hunyadi Mátyás",
+        "III. Frigyes",
+        "Podjebrád György",
+        "Jagellók"
+      ],
+      "important_concepts": [
+        "fekete sereg",
+        "dinasztikus politika",
+        "perszonálunió kísérlete",
+        "nyugati expanzió"
+      ],
+      "causes": [
+        "a török veszély mellett nyugati nagyhatalmi ambíciók",
+        "a királyi hatalom erősítése",
+        "dinasztiaalapítás szándéka"
+      ],
+      "processes": [
+        "cseh és osztrák hadjáratok",
+        "a fekete sereg alkalmazása",
+        "házassági és öröklési politika",
+        "Bécs elfoglalása"
+      ],
+      "consequences": [
+        "rövid távú területi sikerek",
+        "nőtt a király tekintélye",
+        "nem jött létre tartós dinasztiaalapítás"
+      ],
+      "long_term_effects": [
+        "a nyugati expanzió erőforrásokat vont el",
+        "Mátyás halála után összeomlottak a hódítások"
+      ],
+      "required_elements_min": {
+        "szemely": [
+          "Hunyadi Mátyás"
+        ],
+        "evszam": [
+          "1458–1490"
+        ],
+        "fogalom": [
+          "fekete sereg",
+          "dinasztikus politika"
+        ],
+        "ok_vagy_kovetkezmeny": [
+          "nyugati hódítások",
+          "nem tartós eredmények"
+        ]
+      },
+      "autocomplete_keywords": [
+        "Bécs",
+        "III. Frigyes",
+        "Corvin János",
+        "fekete sereg"
+      ],
+      "common_mistakes": [
+        "csak reformokról ír, külpolitikáról alig",
+        "nem tér ki a dinasztikus célokra",
+        "túlhangsúlyozza a törökellenes harcokat ebben a témában"
+      ],
+      "minimum_answer": "Mátyás külpolitikájának célja a királyi hatalom és a nemzetközi tekintély növelése volt, ezért főként nyugat felé terjeszkedett. A fekete seregre támaszkodva sikeresen lépett fel Csehországban és Ausztriában, 1485-ben elfoglalta Bécset is. Dinasztikus céljait azonban nem tudta tartósan megvalósítani.",
+      "extended_outline": {
+        "bevezetes": "Mátyás külpolitikája eltért apjáétól: fő célja sokszor nem a török, hanem a nyugati hatalmi egyensúly alakítása volt.",
+        "elozmenyek": "megerősödő királyi hatalom, európai dinasztikus verseny.",
+        "targyalas": "cseh és osztrák politika, fekete sereg, Bécs elfoglalása, dinasztikus tervek.",
+        "kovetkezmenyek": "jelentős presztízs, de átmeneti eredmények.",
+        "lezaras": "Mátyás külpolitikája erős uralkodói teljesítmény volt, de halála után nem maradt tartós örökség."
+      }
+    },
+    {
+      "id": "hun_med_anjou_tarsadalom_varosfejlodes",
+      "tema": "Az Anjou-kori társadalom jellemzői és a hazai városfejlődés",
+      "essay_type": "hosszu",
+      "era": "A középkori magyar állam megteremtése és virágkora",
+      "past_prompts": [
+        {
+          "exam": "2019. okt.",
+          "prompt": "Mutassa be az Anjou-kor társadalmának jellemzőit! Válaszában térjen ki a hazai városfejlődésre is!"
+        }
+      ],
+      "requirements_topics": [
+        "3.3 I. (Nagy) Lajos törvényei és az Anjou-kori társadalom"
+      ],
+      "related_tetelek": [
+        "Az Anjou-kor társadalma és gazdasága"
+      ],
+      "important_time": [
+        "1308–1342 I. Károly",
+        "1342–1382 I. (Nagy) Lajos",
+        "1351-es törvények"
+      ],
+      "important_space": [
+        "Magyar Királyság",
+        "bányavárosok",
+        "szabad királyi városok"
+      ],
+      "important_people": [
+        "I. Károly",
+        "I. (Nagy) Lajos"
+      ],
+      "important_concepts": [
+        "nemesség",
+        "jobbágyság",
+        "ősiség",
+        "kilenced",
+        "szabad királyi város",
+        "bányászat"
+      ],
+      "causes": [
+        "a királyi hatalom helyreállítása az oligarchák leverése után",
+        "gazdasági fellendülés",
+        "nemesi társadalom egységesülése"
+      ],
+      "processes": [
+        "1351-es törvényekkel a nemesség jogainak megerősítése",
+        "jobbágyság terheinek rendezése",
+        "bányavárosok és kereskedelem fejlődése"
+      ],
+      "consequences": [
+        "egységesebb nemesség",
+        "erősödő királyi jövedelmek",
+        "városi fejlődés, de nyugathoz képest korlátozott urbanizáció"
+      ],
+      "long_term_effects": [
+        "az ősiség hosszú távon gátolta a földforgalmat",
+        "a városok gazdasági szerepe nőtt"
+      ],
+      "required_elements_min": {
+        "szemely": [
+          "I. Károly",
+          "Nagy Lajos"
+        ],
+        "evszam": [
+          "1351"
+        ],
+        "fogalom": [
+          "ősiség",
+          "kilenced"
+        ],
+        "ok_vagy_kovetkezmeny": [
+          "nemesség megerősödése",
+          "városfejlődés"
+        ]
+      },
+      "autocomplete_keywords": [
+        "1351",
+        "szabad királyi város",
+        "bányaváros",
+        "kilenced"
+      ],
+      "common_mistakes": [
+        "nem tér ki a városfejlődésre",
+        "összekeveri az Aranybullával a 1351-es törvényeket",
+        "csak gazdaságról ír, társadalmi szerkezetet nem"
+      ],
+      "minimum_answer": "Az Anjou-korban megerősödött a királyi hatalom és egységesedett a nemesség. Nagy Lajos 1351-es törvényei rögzítették a nemesi jogokat, az ősiséget és a jobbágyi kilencedet. A korszakban fejlődtek a bányavárosok és a szabad királyi városok is, bár a magyar urbanizáció mérsékeltebb maradt, mint Nyugat-Európában.",
+      "extended_outline": {
+        "bevezetes": "Az Anjou-kor a középkori magyar állam megerősödésének időszaka volt.",
+        "elozmenyek": "az oligarchák hatalmának felszámolása, központi hatalom helyreállítása.",
+        "targyalas": "nemesség, jobbágyság, 1351-es törvények, városok és bányászat.",
+        "kovetkezmenyek": "erősebb királyi állam és rendezettebb társadalmi viszonyok.",
+        "lezaras": "a korszak tartósan meghatározta a késő középkori magyar társadalom kereteit."
+      }
+    },
+    {
+      "id": "hun_med_laszlo_kalman_intezkedesek",
+      "tema": "I. László és Könyves Kálmán intézkedései és jelentőségük",
+      "essay_type": "hosszu",
+      "era": "A középkori magyar állam megteremtése és virágkora",
+      "past_prompts": [
+        {
+          "exam": "2020. máj.",
+          "prompt": "Mutassa be I. László és Kálmán intézkedéseit! Válaszában röviden magyarázza meg az intézkedések jelentőségét! A két király külpolitikájáról ne írjon!"
+        }
+      ],
+      "requirements_topics": [
+        "3.2 Az új rend megszilárdulása Szent László és Könyves Kálmán idején"
+      ],
+      "related_tetelek": [
+        "Szent László és Könyves Kálmán belpolitikája"
+      ],
+      "important_time": [
+        "1077–1095",
+        "1095–1116"
+      ],
+      "important_space": [
+        "Magyar Királyság"
+      ],
+      "important_people": [
+        "Szent László",
+        "Könyves Kálmán"
+      ],
+      "important_concepts": [
+        "törvényhozás",
+        "egyházszervezet",
+        "keresztény államrend",
+        "központi hatalom"
+      ],
+      "causes": [
+        "az államszervezet megszilárdításának igénye",
+        "belső rend és keresztény normák megerősítése"
+      ],
+      "processes": [
+        "Szent László szigorúbb rendvédelmi törvényei",
+        "Kálmán mérsékeltebb, fejlettebb szabályozása",
+        "egyház és királyi hatalom támogatása"
+      ],
+      "consequences": [
+        "stabilabb jogrend",
+        "erősebb állam és egyház",
+        "a keresztény királyság tartós megszilárdulása"
+      ],
+      "long_term_effects": [
+        "a középkori magyar államrend alapjai tartóssá váltak"
+      ],
+      "required_elements_min": {
+        "szemely": [
+          "Szent László",
+          "Könyves Kálmán"
+        ],
+        "evszam": [
+          "1077–1095",
+          "1095–1116"
+        ],
+        "fogalom": [
+          "törvénykönyv",
+          "egyházszervezet"
+        ],
+        "ok_vagy_kovetkezmeny": [
+          "rend megszilárdulása",
+          "keresztény állam"
+        ]
+      },
+      "autocomplete_keywords": [
+        "boszorkányok",
+        "lopás",
+        "zsinat",
+        "egyházi tized"
+      ],
+      "common_mistakes": [
+        "külpolitikát részletez, pedig nem ez a fókusz",
+        "nem hasonlítja össze a két uralkodó módszereit"
+      ],
+      "minimum_answer": "Szent László és Könyves Kálmán törvényekkel és az egyház támogatásával szilárdították meg a magyar keresztény államot. Szent László szigorúbban lépett fel a rend védelmében, míg Kálmán szabályozása fejlettebb és mérsékeltebb volt. Intézkedéseik hosszú távon megerősítették a királyi hatalmat és a jogrendet.",
+      "extended_outline": {
+        "bevezetes": "Az államalapítást követően kulcsfeladat volt a rend megszilárdítása.",
+        "elozmenyek": "trónharcok, pogány hagyományok továbbélése.",
+        "targyalas": "László szigorú törvényei, Kálmán egyház- és jogpolitikája.",
+        "kovetkezmenyek": "stabil államrend és keresztény királyság.",
+        "lezaras": "a két uralkodó együtt teremtette meg a tartós megszilárdulás alapjait."
+      }
+    },
+    {
+      "id": "hun_med_aranybulla_hatter_nemesseg",
+      "tema": "Az Aranybulla intézkedései, háttere és szerepe a nemesség kialakulásában",
+      "essay_type": "hosszu",
+      "era": "A középkori magyar állam megteremtése és virágkora",
+      "past_prompts": [
+        {
+          "exam": "2020. máj. id.",
+          "prompt": "Mutassa be az Aranybulla intézkedéseit, és azok hátterét! Válaszában térjen ki az Aranybulla szerepére a nemesség kialakulásában!"
+        }
+      ],
+      "requirements_topics": [
+        "3.2 Az Aranybulla"
+      ],
+      "related_tetelek": [
+        "Az Aranybulla és a rendi fejlődés"
+      ],
+      "important_time": [
+        "1222 Aranybulla"
+      ],
+      "important_space": [
+        "Magyar Királyság"
+      ],
+      "important_people": [
+        "II. András"
+      ],
+      "important_concepts": [
+        "Aranybulla",
+        "ellenállási záradék",
+        "szerviensek",
+        "nemesség",
+        "adómentesség"
+      ],
+      "causes": [
+        "II. András birtokadományozó politikája",
+        "királyi hatalom és jövedelmek gyengülése",
+        "szerviensek érdekvédelme"
+      ],
+      "processes": [
+        "az oklevél kiadása",
+        "a királyi hatalom korlátozása",
+        "a szerviensek jogainak rögzítése"
+      ],
+      "consequences": [
+        "a rendi fejlődés fontos állomása",
+        "a nemesi jogok megerősítése",
+        "a királyi hatalom jogi korlátozása"
+      ],
+      "long_term_effects": [
+        "a nemesség kialakulásának egyik alapdokumentuma",
+        "későbbi rendi jogfejlődés hivatkozási alapja"
+      ],
+      "required_elements_min": {
+        "szemely": [
+          "II. András"
+        ],
+        "evszam": [
+          "1222"
+        ],
+        "fogalom": [
+          "Aranybulla",
+          "ellenállási záradék"
+        ],
+        "ok_vagy_kovetkezmeny": [
+          "birtokadományozás",
+          "nemesi jogok erősödése"
+        ]
+      },
+      "autocomplete_keywords": [
+        "szerviens",
+        "ellenállási jog",
+        "adómentesség",
+        "1222"
+      ],
+      "common_mistakes": [
+        "összekeveri az 1351-es megerősítéssel",
+        "kimarad a háttér, csak felsorolja a pontokat",
+        "nem ír a szerviensekről"
+      ],
+      "minimum_answer": "Az Aranybullát II. András adta ki 1222-ben a királyi hatalom túlzott birtokadományozása és a szerviensek elégedetlensége miatt. Az oklevél rögzítette a szerviensek jogait, korlátozta a királyt és kimondta az ellenállási záradékot is. Emiatt a rendi fejlődés és a nemesség kialakulásának egyik alapdokumentuma lett.",
+      "extended_outline": {
+        "bevezetes": "Az Aranybulla a magyar rendi fejlődés egyik kulcsdokumentuma.",
+        "elozmenyek": "II. András politikája, jövedelemcsökkenés, szerviensek panaszai.",
+        "targyalas": "intézkedések, jogok, ellenállási záradék, a szerviensek helyzete.",
+        "kovetkezmenyek": "királyi hatalom korlátozása és a nemesi jogok megerősödése.",
+        "lezaras": "az Aranybulla évszázadokra meghatározta a magyar rendi gondolkodást."
+      }
+    },
+    {
+      "id": "hun_med_hunyadi_janos_torokellenes_harcok",
+      "tema": "Hunyadi János törökellenes harcai 1443-tól haláláig",
+      "essay_type": "hosszu",
+      "era": "A középkori magyar állam megteremtése és virágkora",
+      "past_prompts": [
+        {
+          "exam": "2021. okt.",
+          "prompt": "Mutassa be Hunyadi János törökellenes harcainak legfontosabb eseményeit 1443-tól a haláláig! Térjen ki a harcok eltérő jellegére az időszak elején és végén, ismertesse az erőviszonyok változását is!"
+        }
+      ],
+      "requirements_topics": [
+        "3.4 Hunyadi János törökellenes harcai"
+      ],
+      "related_tetelek": [
+        "Hunyadi János hadjáratai"
+      ],
+      "important_time": [
+        "1443–1444 hosszú hadjárat",
+        "1444 Várna",
+        "1448 Rigómező",
+        "1456 Nándorfehérvár"
+      ],
+      "important_space": [
+        "Balkán",
+        "Várna",
+        "Rigómező",
+        "Nándorfehérvár"
+      ],
+      "important_people": [
+        "Hunyadi János",
+        "II. Murád",
+        "Kapisztrán János"
+      ],
+      "important_concepts": [
+        "törökellenes harcok",
+        "végvári védelem",
+        "keresztes hadjárat",
+        "hosszú hadjárat"
+      ],
+      "causes": [
+        "oszmán terjeszkedés a Balkánon",
+        "Magyarország védelme",
+        "nemzetközi keresztény összefogás kísérlete"
+      ],
+      "processes": [
+        "támadó hadjáratok a Balkánon",
+        "várnai vereség",
+        "rigómezei vereség",
+        "védekező stratégia Nándorfehérvárnál"
+      ],
+      "consequences": [
+        "a déli védelem időleges megmentése",
+        "1456-ban jelentős győzelem",
+        "Hunyadi halála után csökkent a lendület"
+      ],
+      "long_term_effects": [
+        "Nándorfehérvár megvédése hosszabb időre feltartóztatta a törököt",
+        "erősödött Hunyadi emlékezete és politikai öröksége"
+      ],
+      "required_elements_min": {
+        "szemely": [
+          "Hunyadi János"
+        ],
+        "evszam": [
+          "1444",
+          "1456"
+        ],
+        "fogalom": [
+          "hosszú hadjárat",
+          "Nándorfehérvár"
+        ],
+        "ok_vagy_kovetkezmeny": [
+          "oszmán terjeszkedés",
+          "a déli határ védelme"
+        ]
+      },
+      "autocomplete_keywords": [
+        "Várna",
+        "Rigómező",
+        "Kapisztrán",
+        "harangszó"
+      ],
+      "common_mistakes": [
+        "csak a nándorfehérvári diadalt írja le",
+        "nem mutatja be a támadó és védekező szakasz különbségét"
+      ],
+      "minimum_answer": "Hunyadi János 1443 után előbb támadó jellegű balkáni hadjáratokkal próbálta visszaszorítani az oszmánokat, de Várnánál és Rigómezőnél vereséget szenvedett. A harcok később védekezőbb jelleget öltöttek, csúcspontjuk Nándorfehérvár 1456-os megvédése lett. Ez a győzelem hosszabb időre feltartóztatta a török előrenyomulást.",
+      "extended_outline": {
+        "bevezetes": "Hunyadi János a 15. századi magyar törökellenes küzdelmek központi alakja volt.",
+        "elozmenyek": "oszmán előrenyomulás, balkáni helyzet, keresztény összefogás reménye.",
+        "targyalas": "hosszú hadjárat, Várna, Rigómező, majd Nándorfehérvár.",
+        "kovetkezmenyek": "a déli védelem átmeneti megerősítése.",
+        "lezaras": "Hunyadi küzdelmei egyszerre mutatják a magyar ellenállás korlátait és eredményeit."
+      }
+    },
+    {
+      "id": "hun_med_matyas_reformok_hatasok",
+      "tema": "Mátyás kormányzati és pénzügyi reformjai, valamint hatásaik",
+      "essay_type": "hosszu",
+      "era": "A középkori magyar állam megteremtése és virágkora",
+      "past_prompts": [
+        {
+          "exam": "2022. okt.",
+          "prompt": "Mutassa be Mátyás kormányzati és pénzügyi reformjait, valamint azok hatásait!"
+        }
+      ],
+      "requirements_topics": [
+        "3.4 Hunyadi Mátyás reformjai és külpolitikája"
+      ],
+      "related_tetelek": [
+        "Mátyás belpolitikája és reformjai"
+      ],
+      "important_time": [
+        "1458–1490",
+        "1467 adóreform"
+      ],
+      "important_space": [
+        "Magyar Királyság"
+      ],
+      "important_people": [
+        "Hunyadi Mátyás"
+      ],
+      "important_concepts": [
+        "rendkívüli hadiadó",
+        "füstadó helyett királyi kincstár adója",
+        "kincstartó",
+        "fekete sereg",
+        "központosítás"
+      ],
+      "causes": [
+        "a királyi hatalom megerősítésének igénye",
+        "állandó hadsereg finanszírozása"
+      ],
+      "processes": [
+        "kormányzati centralizáció",
+        "adóreformok",
+        "a királyi tanács háttérbe szorítása",
+        "szakképzett hivatalnokok alkalmazása"
+      ],
+      "consequences": [
+        "nőttek a királyi bevételek",
+        "erősebb központi hatalom",
+        "nőtt az adóterhelés"
+      ],
+      "long_term_effects": [
+        "a reformok Mátyás személyéhez kötődtek, ezért halála után részben szétestek"
+      ],
+      "required_elements_min": {
+        "szemely": [
+          "Hunyadi Mátyás"
+        ],
+        "evszam": [
+          "1467"
+        ],
+        "fogalom": [
+          "adóreform",
+          "rendkívüli hadiadó"
+        ],
+        "ok_vagy_kovetkezmeny": [
+          "központosítás",
+          "bevételek növekedése"
+        ]
+      },
+      "autocomplete_keywords": [
+        "fekete sereg",
+        "kincstár adója",
+        "centralizáció"
+      ],
+      "common_mistakes": [
+        "a külpolitikát részletezi a reformok helyett",
+        "nem tér ki az adóreform céljára és hatására"
+      ],
+      "minimum_answer": "Mátyás központosította a kormányzatot és átalakította az adórendszert, hogy biztosítsa a királyi hatalom és a fekete sereg fenntartásának pénzügyi alapjait. A reformok növelték a királyi bevételeket és erősítették az uralkodót, ugyanakkor fokozott terheket róttak az országra. Mivel sok intézkedés személyéhez kötődött, halála után tartósságuk korlátozott volt.",
+      "extended_outline": {
+        "bevezetes": "Mátyás reformjai a késő középkori magyar állam központosításának csúcspontját jelentették.",
+        "elozmenyek": "erős királyi hatalom és hadszervezési igény.",
+        "targyalas": "kormányzati reformok, adóreform, fekete sereg finanszírozása.",
+        "kovetkezmenyek": "növekvő bevételek, erős uralkodói hatalom, nagyobb terhek.",
+        "lezaras": "a reformok jelentősek voltak, de hosszú távon nem bizonyultak teljesen tartósnak."
+      }
+    },
+    {
+      "id": "hun_early_modern_szapolyai_ferdinand_harom_resz",
+      "tema": "Szapolyai János és I. Ferdinánd küzdelmei, valamint az ország három részre szakadása",
+      "essay_type": "hosszu",
+      "era": "Magyarország a kora újkorban",
+      "past_prompts": [
+        {
+          "exam": "2017. máj. id.",
+          "prompt": "Mutassa be Szapolyai János és I. Ferdinánd küzdelmeit, valamint az ország három részre szakadását!"
+        }
+      ],
+      "requirements_topics": [
+        "5.1 A mohácsi vész és az ország három részre szakadása",
+        "5.1 A három országrész berendezkedése"
+      ],
+      "related_tetelek": [
+        "Mohács és a három részre szakadás"
+      ],
+      "important_time": [
+        "1526 Mohács",
+        "1526 kettős királyválasztás",
+        "1538 váradi béke",
+        "1541 Buda elfoglalása"
+      ],
+      "important_space": [
+        "Mohács",
+        "Buda",
+        "Erdély",
+        "Királyi Magyarország",
+        "Hódoltság"
+      ],
+      "important_people": [
+        "Szapolyai János",
+        "I. Ferdinánd",
+        "I. Szulejmán"
+      ],
+      "important_concepts": [
+        "kettős királyválasztás",
+        "váradi béke",
+        "három országrész",
+        "hódoltság"
+      ],
+      "causes": [
+        "mohácsi vereség",
+        "trónöröklési vita",
+        "Habsburg–török rivalizálás"
+      ],
+      "processes": [
+        "Szapolyai és Ferdinánd harca",
+        "török beavatkozás",
+        "Buda elfoglalása 1541-ben",
+        "a három országrész kialakulása"
+      ],
+      "consequences": [
+        "az ország tartós megosztottsága",
+        "különböző berendezkedések kialakulása",
+        "a török jelenlét megszilárdulása"
+      ],
+      "long_term_effects": [
+        "a magyar fejlődés tartósan eltérő pályákra szakadt",
+        "Erdély sajátos politikai szerephez jutott"
+      ],
+      "required_elements_min": {
+        "szemely": [
+          "Szapolyai János",
+          "I. Ferdinánd"
+        ],
+        "evszam": [
+          "1526",
+          "1541"
+        ],
+        "fogalom": [
+          "három országrész",
+          "kettős királyválasztás"
+        ],
+        "ok_vagy_kovetkezmeny": [
+          "Mohács",
+          "ország megosztottsága"
+        ]
+      },
+      "autocomplete_keywords": [
+        "váradi béke",
+        "Buda 1541",
+        "Hódoltság"
+      ],
+      "common_mistakes": [
+        "kihagyja a váradi békét",
+        "nem különíti el a három országrész berendezkedését"
+      ],
+      "minimum_answer": "A mohácsi vereség után 1526-ban kettős királyválasztás alakult ki Szapolyai János és I. Ferdinánd között. Harcukba a török is beavatkozott, és 1541-ben Buda elfoglalásával kialakult a három országrész rendszere: a Hódoltság, a Habsburg uralta Királyi Magyarország és Erdély. Ez a megosztottság hosszú időre meghatározta a magyar történelmet.",
+      "extended_outline": {
+        "bevezetes": "Mohács után a magyar állam súlyos politikai válságba került.",
+        "elozmenyek": "trónválság, Habsburg-igények, török nyomás.",
+        "targyalas": "kettős királyválasztás, váradi béke, Buda elfoglalása, három országrész.",
+        "kovetkezmenyek": "tartós megosztottság és eltérő berendezkedések.",
+        "lezaras": "a három részre szakadás a kora újkori magyar történelem egyik alaphelyzete lett."
+      }
+    },
+    {
+      "id": "hun_early_modern_rakoczi_szatmari_beke",
+      "tema": "A Rákóczi-szabadságharc katonai vereségének okai és a szatmári béke értékelése",
+      "essay_type": "hosszu",
+      "era": "Magyarország a kora újkorban",
+      "past_prompts": [
+        {
+          "exam": "2017. okt.",
+          "prompt": "Mutassa be a Rákóczi-szabadságharc katonai vereségét befolyásoló tényezőket! Ismertesse a szatmári békeszerződés tartalmát, összevetve a szabadságharc eredeti céljaival! Értékelje a békeszerződést!"
+        }
+      ],
+      "requirements_topics": [
+        "5.3 A Rákóczi-szabadságharc okai, főbb eseményei és eredményei"
+      ],
+      "related_tetelek": [
+        "Rákóczi-szabadságharc"
+      ],
+      "important_time": [
+        "1703–1711",
+        "1711 szatmári béke"
+      ],
+      "important_space": [
+        "Magyarország",
+        "Erdély",
+        "Szatmár"
+      ],
+      "important_people": [
+        "II. Rákóczi Ferenc",
+        "Károlyi Sándor"
+      ],
+      "important_concepts": [
+        "kuruc",
+        "labanc",
+        "rendi jogok",
+        "szatmári béke"
+      ],
+      "causes": [
+        "nemzetközi támogatás elégtelensége",
+        "a Habsburgok erőfölénye",
+        "gazdasági és társadalmi korlátok"
+      ],
+      "processes": [
+        "kezdeti sikerek",
+        "katonai kifulladás",
+        "külső segítség elmaradása",
+        "békekötés"
+      ],
+      "consequences": [
+        "a szabadságharc katonai veresége",
+        "a rendi jogok részleges biztosítása",
+        "Habsburg uralom megszilárdulása"
+      ],
+      "long_term_effects": [
+        "a kompromisszumos Habsburg–magyar együttélés egyik alapja lett",
+        "Rákóczi emlékezete a függetlenségi hagyomány része"
+      ],
+      "required_elements_min": {
+        "szemely": [
+          "II. Rákóczi Ferenc"
+        ],
+        "evszam": [
+          "1703–1711",
+          "1711"
+        ],
+        "fogalom": [
+          "szatmári béke",
+          "kuruc"
+        ],
+        "ok_vagy_kovetkezmeny": [
+          "külső támogatás hiánya",
+          "rendi jogok részleges elismerése"
+        ]
+      },
+      "autocomplete_keywords": [
+        "kuruc",
+        "labanc",
+        "Károlyi Sándor",
+        "Szatmár"
+      ],
+      "common_mistakes": [
+        "csak az eseménytörténetet írja le, az értékelést nem",
+        "nem veti össze a békét az eredeti célokkal"
+      ],
+      "minimum_answer": "A Rákóczi-szabadságharc vereségéhez hozzájárult a Habsburgok erőfölénye, a külső támogatás hiánya és a kuruc állam korlátozott erőforrásai. Az 1711-es szatmári béke nem hozott függetlenséget, de biztosította a rendi jogok egy részét és amnesztiát adott. Így a béke katonai vereséget, de részleges politikai kompromisszumot jelentett.",
+      "extended_outline": {
+        "bevezetes": "A Rákóczi-szabadságharc a Habsburg-ellenes magyar rendi küzdelmek csúcspontja volt.",
+        "elozmenyek": "Habsburg centralizáció, adóterhek, rendi elégedetlenség.",
+        "targyalas": "a vereség katonai és politikai okai, a szatmári béke tartalma.",
+        "kovetkezmenyek": "függetlenség elmaradása, kompromisszumos rendezés.",
+        "lezaras": "a szabadságharc veresége ellenére a béke fontos rendi garanciákat őrzött meg."
+      }
+    },
+    {
+      "id": "hun_early_modern_torok_berendezkedes_egyutteles",
+      "tema": "A török berendezkedés jellemzői és a török–magyar együttélés sajátosságai",
+      "essay_type": "hosszu",
+      "era": "Magyarország a kora újkorban",
+      "past_prompts": [
+        {
+          "exam": "2018. máj.",
+          "prompt": "Mutassa be a török berendezkedés jellemző vonásait és a török–magyar együttélés sajátosságait! Válaszában térjen ki a török hódoltság kulturális hatásaira is! Ne eseménytörténetet írjon!"
+        }
+      ],
+      "requirements_topics": [
+        "5.1 A három országrész berendezkedése"
+      ],
+      "related_tetelek": [
+        "A török hódoltság rendszere"
+      ],
+      "important_time": [
+        "1541–1699"
+      ],
+      "important_space": [
+        "Hódoltság",
+        "Buda",
+        "vilajetek és szandzsákok"
+      ],
+      "important_people": [
+        "török pasa",
+        "szpáhik",
+        "bég"
+      ],
+      "important_concepts": [
+        "hódoltság",
+        "vilajet",
+        "szandzsák",
+        "adóztatás",
+        "kettős adózás",
+        "dzsámi",
+        "fürdők"
+      ],
+      "causes": [
+        "török hódítás és katonai megszállás",
+        "az ország megosztottsága"
+      ],
+      "processes": [
+        "oszmán közigazgatás kiépítése",
+        "adóztatás",
+        "helyi együttélés és alkalmazkodás",
+        "kulturális érintkezés"
+      ],
+      "consequences": [
+        "népességfogyás és pusztulás bizonyos térségekben",
+        "kettős adóztatás",
+        "új kulturális elemek megjelenése"
+      ],
+      "long_term_effects": [
+        "etnikai és településszerkezeti változások",
+        "a török korszak épített öröksége"
+      ],
+      "required_elements_min": {
+        "szemely": [
+          "pasa"
+        ],
+        "evszam": [
+          "1541"
+        ],
+        "fogalom": [
+          "hódoltság",
+          "kettős adózás"
+        ],
+        "ok_vagy_kovetkezmeny": [
+          "török megszállás",
+          "kulturális hatások"
+        ]
+      },
+      "autocomplete_keywords": [
+        "vilajet",
+        "szandzsák",
+        "dzsámi",
+        "fürdő"
+      ],
+      "common_mistakes": [
+        "eseménytörténetet ír a berendezkedés helyett",
+        "nem tér ki a kulturális hatásokra"
+      ],
+      "minimum_answer": "A török hódoltságban az oszmánok saját közigazgatást és adórendszert vezettek be, a területet vilajetekre és szandzsákokra osztották. A lakosságot gyakran kettős adózás sújtotta, mégis kialakultak együttélési formák a helyi társadalom és a megszállók között. A korszak kulturális öröksége ma is látható például fürdőkben és dzsámikban.",
+      "extended_outline": {
+        "bevezetes": "A török hódoltság nem csak hadiesemény, hanem sajátos társadalmi és közigazgatási rendszer is volt.",
+        "elozmenyek": "Buda elfoglalása és az ország három részre szakadása.",
+        "targyalas": "oszmán közigazgatás, adóztatás, együttélés, kulturális hatások.",
+        "kovetkezmenyek": "pusztulás, népességmozgás, kettős adózás, kulturális örökség.",
+        "lezaras": "a hódoltság mélyen átalakította a középső országrész viszonyait."
+      }
+    },
+    {
+      "id": "hun_early_modern_maria_terezia_reformok_magyar_nemesek",
+      "tema": "Mária Terézia reformjai és viszonya a magyar nemességhez",
+      "essay_type": "hosszu",
+      "era": "Magyarország a kora újkorban",
+      "past_prompts": [
+        {
+          "exam": "2020. okt.",
+          "prompt": "Mutassa be Mária Terézia reformjait! Válaszában elemezze, miként alakult az uralkodónő kapcsolata a magyar nemesekkel!"
+        }
+      ],
+      "requirements_topics": [
+        "5.4 Mária Terézia és II. József reformjai"
+      ],
+      "related_tetelek": [
+        "Mária Terézia reformjai"
+      ],
+      "important_time": [
+        "1740–1780",
+        "1767 úrbéri rendelet",
+        "1777 Ratio Educationis"
+      ],
+      "important_space": [
+        "Habsburg Birodalom",
+        "Magyar Királyság"
+      ],
+      "important_people": [
+        "Mária Terézia"
+      ],
+      "important_concepts": [
+        "felvilágosult abszolutizmus",
+        "úrbéri rendelet",
+        "Ratio Educationis",
+        "rendi kompromisszum"
+      ],
+      "causes": [
+        "a birodalom modernizációjának igénye",
+        "az állami bevételek és hadsereg erősítése"
+      ],
+      "processes": [
+        "adó- és igazgatási reformok",
+        "jobbágyterhek szabályozása",
+        "oktatási reform"
+      ],
+      "consequences": [
+        "hatékonyabb államigazgatás",
+        "jobbágyok terheinek részleges rendezése",
+        "a magyar rendekkel együttműködés és feszültség egyszerre"
+      ],
+      "long_term_effects": [
+        "erősebb központosító állam",
+        "későbbi reformok alapjainak megteremtése"
+      ],
+      "required_elements_min": {
+        "szemely": [
+          "Mária Terézia"
+        ],
+        "evszam": [
+          "1767",
+          "1777"
+        ],
+        "fogalom": [
+          "úrbéri rendelet",
+          "Ratio Educationis"
+        ],
+        "ok_vagy_kovetkezmeny": [
+          "modernizáció",
+          "rendi együttműködés"
+        ]
+      },
+      "autocomplete_keywords": [
+        "vitam et sanguinem",
+        "úrbéri",
+        "oktatás"
+      ],
+      "common_mistakes": [
+        "összekeveri II. József intézkedéseivel",
+        "nem elemzi a magyar nemességhez fűződő viszonyt"
+      ],
+      "minimum_answer": "Mária Terézia a felvilágosult abszolutizmus szellemében reformokkal igyekezett megerősíteni a Habsburg államot. Magyarországon szabályozta a jobbágyterheket az úrbéri rendelettel és oktatási reformot vezetett be a Ratio Educationisszal. A magyar nemességgel egyszerre törekedett együttműködésre és központi irányításra, ezért kapcsolata velük kettős volt.",
+      "extended_outline": {
+        "bevezetes": "Mária Terézia reformjai a Habsburg Birodalom megerősítését szolgálták.",
+        "elozmenyek": "örökösödési háború, állami modernizáció szükségessége.",
+        "targyalas": "úrbéri rendelet, oktatásügy, igazgatási reformok, a rendekkel való viszony.",
+        "kovetkezmenyek": "hatékonyabb állam és szabályozottabb társadalmi viszonyok.",
+        "lezaras": "politikája kompromisszumokra épült, de a központosítás irányába mutatott."
+      }
+    },
+    {
+      "id": "hun_early_modern_18sz_nepessegnovekedes",
+      "tema": "A 18. századi magyarországi népességnövekedés folyamatai és következményei",
+      "essay_type": "hosszu",
+      "era": "Magyarország a kora újkorban",
+      "past_prompts": [
+        {
+          "exam": "2021. máj.",
+          "prompt": "Mutassa be, milyen folyamatok és intézkedések járultak hozzá a 18. századi Magyarország népességének növekedéséhez! Válaszában térjen ki az előzményekre, valamint a magyarok etnikai arányának változására is!"
+        }
+      ],
+      "requirements_topics": [
+        "5.4 Demográfiai és etnikai változások a 18. században"
+      ],
+      "related_tetelek": [
+        "18. századi demográfiai és etnikai változások"
+      ],
+      "important_time": [
+        "18. század",
+        "török kiűzése utáni időszak"
+      ],
+      "important_space": [
+        "Magyar Királyság",
+        "Bánság",
+        "Délvidék"
+      ],
+      "important_people": [
+        "Mária Terézia",
+        "telepesek"
+      ],
+      "important_concepts": [
+        "újranépesítés",
+        "betelepítés",
+        "természetes szaporodás",
+        "etnikai átalakulás"
+      ],
+      "causes": [
+        "a török háborúk utáni elnéptelenedés",
+        "birodalmi telepítési politika",
+        "járványok csökkenése és békésebb viszonyok"
+      ],
+      "processes": [
+        "belső vándorlás",
+        "külső telepítések német, szerb, román és más csoportokkal",
+        "természetes szaporodás"
+      ],
+      "consequences": [
+        "gyors népességnövekedés",
+        "soknemzetiségűbb ország",
+        "a magyarok arányának csökkenése egyes térségekben"
+      ],
+      "long_term_effects": [
+        "a nemzetiségi kérdés kiéleződésének alapjai részben ekkor alakultak ki"
+      ],
+      "required_elements_min": {
+        "szemely": [
+          "Mária Terézia"
+        ],
+        "evszam": [
+          "18. század"
+        ],
+        "fogalom": [
+          "betelepítés",
+          "etnikai változás"
+        ],
+        "ok_vagy_kovetkezmeny": [
+          "török pusztítás utáni újranépesítés",
+          "nemzetiségi arányok átalakulása"
+        ]
+      },
+      "autocomplete_keywords": [
+        "svábok",
+        "belső vándorlás",
+        "soknemzetiségű"
+      ],
+      "common_mistakes": [
+        "nem ír az előzményekről",
+        "nem említi az etnikai arányok változását"
+      ],
+      "minimum_answer": "A 18. században a török háborúk utáni elnéptelenedett területek újranépesítése, a telepítések és a természetes szaporodás gyors népességnövekedést hoztak Magyarországon. A folyamat következtében az ország etnikailag sokszínűbbé vált, és több térségben csökkent a magyarok aránya. Ez hosszú távon a nemzetiségi kérdés jelentőségét is növelte.",
+      "extended_outline": {
+        "bevezetes": "A 18. századi demográfiai változások mélyen átalakították Magyarországot.",
+        "elozmenyek": "török háborúk, elnéptelenedés, pusztítás.",
+        "targyalas": "telepítések, természetes szaporodás, belső vándorlás, etnikai átrendeződés.",
+        "kovetkezmenyek": "népességnövekedés és soknemzetiségűbb társadalom.",
+        "lezaras": "a későbbi nemzetiségi konfliktusok gyökerei részben ebben a korszakban kereshetők."
+      }
+    },
+    {
+      "id": "hun_early_modern_erdely_berendezkedes_vallas_etnikum",
+      "tema": "Az Erdélyi Fejedelemség politikai berendezkedése, etnikai és vallási viszonyai",
+      "essay_type": "hosszu",
+      "era": "Magyarország a kora újkorban",
+      "past_prompts": [
+        {
+          "exam": "2021. máj. id.",
+          "prompt": "Mutassa be az Erdélyi Fejedelemség politikai berendezkedését, valamint etnikai és vallási viszonyait! Eseménytörténetet ne írjon!"
+        }
+      ],
+      "requirements_topics": [
+        "5.2 Erdély sajátos etnikai és vallási helyzete",
+        "5.2 Bethlen Gábor fejedelemsége"
+      ],
+      "related_tetelek": [
+        "Erdély sajátos helyzete a kora újkorban"
+      ],
+      "important_time": [
+        "16–17. század"
+      ],
+      "important_space": [
+        "Erdély",
+        "Partium",
+        "Gyulafehérvár"
+      ],
+      "important_people": [
+        "erdélyi fejedelmek",
+        "Bethlen Gábor"
+      ],
+      "important_concepts": [
+        "fejedelmi állam",
+        "rendi dualizmus",
+        "három nemzet",
+        "bevett vallások",
+        "vallási türelem"
+      ],
+      "causes": [
+        "az ország három részre szakadása",
+        "különálló politikai fejlődés"
+      ],
+      "processes": [
+        "fejedelemségi berendezkedés kialakulása",
+        "rendi és fejedelmi hatalom együttélése",
+        "többnemzetiségű és többvallású társadalom"
+      ],
+      "consequences": [
+        "Erdély önálló politikai szereplővé vált",
+        "a vallási türelem és sokszínűség erősödött"
+      ],
+      "long_term_effects": [
+        "Erdély különállása fontos eleme lett a magyar politikai hagyománynak"
+      ],
+      "required_elements_min": {
+        "szemely": [
+          "Bethlen Gábor"
+        ],
+        "evszam": [
+          "16–17. század"
+        ],
+        "fogalom": [
+          "három nemzet",
+          "bevett vallások"
+        ],
+        "ok_vagy_kovetkezmeny": [
+          "ország három részre szakadása",
+          "vallási türelem"
+        ]
+      },
+      "autocomplete_keywords": [
+        "tordai országgyűlés",
+        "bevett vallás",
+        "Partium"
+      ],
+      "common_mistakes": [
+        "eseménytörténetet ír a berendezkedés helyett",
+        "nem ír a vallási viszonyokról"
+      ],
+      "minimum_answer": "Az Erdélyi Fejedelemség az ország három részre szakadása után sajátos rendi-fejedelmi állammá vált. Többnemzetiségű és többvallású társadalom jellemezte, ahol a bevett vallások rendszere viszonylagos vallási türelmet biztosított. Politikai berendezkedése ezért eltért mind a Hódoltságétól, mind a Királyi Magyarországétól.",
+      "extended_outline": {
+        "bevezetes": "Erdély a kora újkorban sajátos magyar államalakulat volt.",
+        "elozmenyek": "három részre szakadás és a térség különálló fejlődése.",
+        "targyalas": "fejedelemségi berendezkedés, rendi tényezők, nemzetiségek, vallások.",
+        "kovetkezmenyek": "önálló politikai szerep és vallási sokszínűség.",
+        "lezaras": "Erdély különállása a magyar történelem egyik sajátos jelensége lett."
+      }
+    },
+    {
+      "id": "hun_modern_bp_vilagvaros",
+      "tema": "Budapest világvárossá válásának fő összetevői",
+      "essay_type": "hosszu",
+      "era": "A polgárosodás kezdetei és kibontakozása Magyarországon",
+      "past_prompts": [
+        {
+          "exam": "2017. okt.",
+          "prompt": "Mutassa be Budapest világvárossá válásának fő összetevőit!"
+        }
+      ],
+      "requirements_topics": [
+        "7.4 Budapest világvárossá fejlődése"
+      ],
+      "related_tetelek": [
+        "Budapest fejlődése a dualizmus korában"
+      ],
+      "important_time": [
+        "1873 egyesítés",
+        "millennium 1896",
+        "dualizmus kora"
+      ],
+      "important_space": [
+        "Budapest",
+        "Andrássy út",
+        "Városliget"
+      ],
+      "important_people": [
+        "városegyesítést támogató politikai elit"
+      ],
+      "important_concepts": [
+        "urbanizáció",
+        "iparosodás",
+        "közlekedésfejlesztés",
+        "közművesítés",
+        "millenniumi építkezések"
+      ],
+      "causes": [
+        "kiegyezés utáni gazdasági fellendülés",
+        "központi állami szerepkör erősödése",
+        "népességáramlás"
+      ],
+      "processes": [
+        "Pest, Buda és Óbuda egyesítése",
+        "infrastruktúra-fejlesztés",
+        "közlekedési hálózat és reprezentatív építkezések",
+        "lakosságnövekedés"
+      ],
+      "consequences": [
+        "Budapest a Monarchia egyik legfontosabb metropoliszává vált",
+        "gazdasági és kulturális központi szerep erősödött"
+      ],
+      "long_term_effects": [
+        "tartós fővárosi túlsúly alakult ki Magyarországon"
+      ],
+      "required_elements_min": {
+        "szemely": [
+          "politikai elit"
+        ],
+        "evszam": [
+          "1873",
+          "1896"
+        ],
+        "fogalom": [
+          "urbanizáció",
+          "közművesítés"
+        ],
+        "ok_vagy_kovetkezmeny": [
+          "iparosodás",
+          "világvárosi szerep"
+        ]
+      },
+      "autocomplete_keywords": [
+        "Andrássy út",
+        "millennium",
+        "városegyesítés",
+        "földalatti"
+      ],
+      "common_mistakes": [
+        "csak épületeket sorol, de nem magyarázza a gazdasági és társadalmi okokat"
+      ],
+      "minimum_answer": "Budapest világvárossá válását a kiegyezés utáni gazdasági fellendülés, az 1873-as városegyesítés és a gyors népességnövekedés segítette. A korszakban kiépült a modern infrastruktúra, a közművek és a reprezentatív városkép. Budapest így gazdasági, kulturális és politikai központtá vált.",
+      "extended_outline": {
+        "bevezetes": "A dualizmus korában Budapest gyors fejlődésen ment át.",
+        "elozmenyek": "kiegyezés, gazdasági növekedés, közigazgatási központi szerep.",
+        "targyalas": "városegyesítés, közlekedés, közművek, építkezések, népességnövekedés.",
+        "kovetkezmenyek": "metropolisz és országos központ szerep.",
+        "lezaras": "Budapest fejlődése a modern magyar polgárosodás látványos jelképe lett."
+      }
+    },
+    {
+      "id": "hun_modern_polgari_allam_reformok",
+      "tema": "A polgári állam feladatai a közigazgatás, egészségügy és oktatás reformján keresztül",
+      "essay_type": "hosszu",
+      "era": "A polgárosodás kezdetei és kibontakozása Magyarországon",
+      "past_prompts": [
+        {
+          "exam": "2018. máj.",
+          "prompt": "Mutassa be a polgári állam feladatait a közigazgatás, az egészségügy és az oktatás reformján keresztül a XIX. század utolsó harmadában!"
+        }
+      ],
+      "requirements_topics": [
+        "7.3 A polgári állam kiépülése Magyarországon"
+      ],
+      "related_tetelek": [
+        "A polgári állam kiépülése"
+      ],
+      "important_time": [
+        "1867 után",
+        "1876 közigazgatási reform",
+        "1868 népoktatási törvény"
+      ],
+      "important_space": [
+        "Magyarország"
+      ],
+      "important_people": [
+        "Eötvös József",
+        "Tisza Kálmán-korszak politikusai"
+      ],
+      "important_concepts": [
+        "polgári állam",
+        "közigazgatási reform",
+        "népoktatás",
+        "közegészségügy"
+      ],
+      "causes": [
+        "modern államigazgatás igénye",
+        "iparosodás és urbanizáció",
+        "nemzetállami törekvések"
+      ],
+      "processes": [
+        "egységesebb közigazgatás",
+        "iskolahálózat bővítése",
+        "járványügyi és egészségügyi intézkedések"
+      ],
+      "consequences": [
+        "hatékonyabb állam",
+        "műveltebb társadalom",
+        "javuló közegészségügyi viszonyok"
+      ],
+      "long_term_effects": [
+        "a modern magyar állam intézményi alapjai megszilárdultak"
+      ],
+      "required_elements_min": {
+        "szemely": [
+          "Eötvös József"
+        ],
+        "evszam": [
+          "1868",
+          "1876"
+        ],
+        "fogalom": [
+          "népoktatás",
+          "közigazgatási reform"
+        ],
+        "ok_vagy_kovetkezmeny": [
+          "modernizáció",
+          "hatékonyabb állam"
+        ]
+      },
+      "autocomplete_keywords": [
+        "járás",
+        "tankerület",
+        "közegészség"
+      ],
+      "common_mistakes": [
+        "csak oktatásról ír",
+        "nem mutatja be, hogy ezek a polgári állam feladatai miért"
+      ],
+      "minimum_answer": "A dualizmus korában a polgári állam feladata lett a modern közigazgatás, az oktatás és a közegészségügy megszervezése. A népoktatási és közigazgatási reformok, valamint az egészségügyi intézkedések hatékonyabb államot és korszerűbb társadalmat hoztak létre. Ezek a változások a magyar polgári átalakulás alapvető elemei voltak.",
+      "extended_outline": {
+        "bevezetes": "A polgári állam nemcsak politikai rendszer, hanem intézményi modernizáció is.",
+        "elozmenyek": "kiegyezés utáni államépítés.",
+        "targyalas": "közigazgatási reformok, oktatás, közegészségügy.",
+        "kovetkezmenyek": "hatékonyabb működés, társadalmi modernizáció.",
+        "lezaras": "a polgári állam a mindennapi életet is átalakította Magyarországon."
+      }
+    },
+    {
+      "id": "hun_modern_dualizmus_bp_eletmod",
+      "tema": "Népességi és polgári életmódbeli változások a dualizmus kori Budapesten",
+      "essay_type": "hosszu",
+      "era": "A polgárosodás kezdetei és kibontakozása Magyarországon",
+      "past_prompts": [
+        {
+          "exam": "2018. máj. id.",
+          "prompt": "Mutassa be a népesség és a polgári életmód jellemző változásait a dualizmus kori Budapesten!"
+        }
+      ],
+      "requirements_topics": [
+        "7.4 Budapest világvárossá fejlődése",
+        "7.4 Társadalmi és életmódbeli változások a dualizmus korában"
+      ],
+      "related_tetelek": [
+        "Budapest társadalma és életmódja a dualizmusban"
+      ],
+      "important_time": [
+        "dualizmus kora",
+        "1880–1900 körüli változások"
+      ],
+      "important_space": [
+        "Budapest"
+      ],
+      "important_people": [
+        "városi polgárság"
+      ],
+      "important_concepts": [
+        "urbanizáció",
+        "asszimiláció",
+        "polgári életmód",
+        "tömegközlekedés",
+        "bérház"
+      ],
+      "causes": [
+        "fővárosi fejlődés",
+        "bevándorlás vidékről és külföldről",
+        "gazdasági modernizáció"
+      ],
+      "processes": [
+        "lakosságnövekedés",
+        "anyanyelvi és társadalmi szerkezet átalakulása",
+        "új fogyasztási és kulturális minták megjelenése"
+      ],
+      "consequences": [
+        "polgáriasodó városi társadalom",
+        "asszimiláció erősödése",
+        "jelentős társadalmi különbségek fennmaradása"
+      ],
+      "long_term_effects": [
+        "Budapest modern nagyvárosi identitása megszilárdult"
+      ],
+      "required_elements_min": {
+        "szemely": [
+          "városi polgárság"
+        ],
+        "evszam": [
+          "dualizmus kora"
+        ],
+        "fogalom": [
+          "urbanizáció",
+          "polgári életmód"
+        ],
+        "ok_vagy_kovetkezmeny": [
+          "lakosságnövekedés",
+          "asszimiláció"
+        ]
+      },
+      "autocomplete_keywords": [
+        "bérház",
+        "kávéház",
+        "villamos",
+        "asszimiláció"
+      ],
+      "common_mistakes": [
+        "csak városfejlesztésről ír, életmódról nem",
+        "nem említi a népesség összetételének változását"
+      ],
+      "minimum_answer": "A dualizmus kori Budapest lakossága gyorsan nőtt, és társadalmi összetétele is átalakult. A polgári életmód terjedését a bérházak, a közlekedés, a kávéházi és kulturális élet, valamint a fogyasztási szokások változása jelezte. A folyamatot ugyanakkor erős asszimiláció és jelentős társadalmi különbségek is kísérték.",
+      "extended_outline": {
+        "bevezetes": "Budapest a dualizmus korában modern nagyvárossá vált.",
+        "elozmenyek": "gazdasági fellendülés és fővárosi szerep.",
+        "targyalas": "népességi változások, asszimiláció, polgári életmód, lakhatás és közlekedés.",
+        "kovetkezmenyek": "modern városi társadalom kialakulása.",
+        "lezaras": "a fővárosi életmód a magyar modernizáció egyik mintája lett."
+      }
+    },
+    {
+      "id": "hun_modern_dualizmus_nemzetisegi_politika",
+      "tema": "A dualizmus kori magyar kormányzat nemzetiségi politikája és a nemzetiségek viszonya ehhez",
+      "essay_type": "hosszu",
+      "era": "A polgárosodás kezdetei és kibontakozása Magyarországon",
+      "past_prompts": [
+        {
+          "exam": "2021. okt.",
+          "prompt": "Mutassa be a dualizmus kori magyar kormányzat nemzetiségi politikáját, valamint azt, hogyan viszonyultak ehhez a nemzetiségek! Válaszában térjen ki a magyar–horvát közjogi viszonyra is!"
+        }
+      ],
+      "requirements_topics": [
+        "7.4 Etnikai viszonyok és a nemzetiségi kérdés a dualizmus korában"
+      ],
+      "related_tetelek": [
+        "A dualizmus nemzetiségi kérdése"
+      ],
+      "important_time": [
+        "1868 nemzetiségi törvény",
+        "1868 horvát–magyar kiegyezés"
+      ],
+      "important_space": [
+        "Magyar Királyság",
+        "Horvátország-Szlavónország"
+      ],
+      "important_people": [
+        "Deák Ferenc",
+        "dualizmus kori kormányok",
+        "nemzetiségi politikusok"
+      ],
+      "important_concepts": [
+        "nemzetiségi törvény",
+        "magyarosítás",
+        "politikai nemzet",
+        "horvát autonómia"
+      ],
+      "causes": [
+        "a történelmi Magyarország soknemzetiségű jellege",
+        "nemzetállami törekvések Európában"
+      ],
+      "processes": [
+        "a politikai nemzet elvének érvényesítése",
+        "korlátozott kulturális jogok biztosítása",
+        "magyarosító törekvések erősödése",
+        "horvát különjogok rendezése"
+      ],
+      "consequences": [
+        "a nemzetiségi elégedetlenség fennmaradt",
+        "a horvát kérdés részben rendeződött, más nemzetiségeké kevésbé"
+      ],
+      "long_term_effects": [
+        "a nemzetiségi ellentétek a Monarchia válságában is fontos szerepet játszottak"
+      ],
+      "required_elements_min": {
+        "szemely": [
+          "Deák Ferenc"
+        ],
+        "evszam": [
+          "1868"
+        ],
+        "fogalom": [
+          "nemzetiségi törvény",
+          "politikai nemzet"
+        ],
+        "ok_vagy_kovetkezmeny": [
+          "magyarosítás",
+          "nemzetiségi elégedetlenség"
+        ]
+      },
+      "autocomplete_keywords": [
+        "horvát–magyar kiegyezés",
+        "politikai nemzet",
+        "autonómia"
+      ],
+      "common_mistakes": [
+        "csak a törvényt ismerteti, de a nemzetiségek reakcióit nem",
+        "kihagyja a horvát viszonyt"
+      ],
+      "minimum_answer": "A dualizmus kori magyar kormányzat a politikai nemzet elvét vallotta, ezért a magyar államot egységesnek tekintette, miközben korlátozott kulturális jogokat adott a nemzetiségeknek. A gyakorlatban azonban erősödtek a magyarosító törekvések, amit a nemzetiségek gyakran elutasítottak. A horvát–magyar kiegyezés részleges különmegoldást jelentett, de a nemzetiségi kérdést összességében nem oldotta meg.",
+      "extended_outline": {
+        "bevezetes": "A dualizmus egyik legnehezebb belpolitikai problémája a nemzetiségi kérdés volt.",
+        "elozmenyek": "soknemzetiségű ország, nemzetállami eszmék terjedése.",
+        "targyalas": "nemzetiségi törvény, politikai nemzet elve, magyarosítás, horvát viszony.",
+        "kovetkezmenyek": "elégedetlenség és tartós konfliktusok.",
+        "lezaras": "a kérdés a Monarchia későbbi válságának egyik fontos tényezőjévé vált."
+      }
+    },
+    {
+      "id": "hun_modern_maria_terezia_ii_jozsef_kozpontositas",
+      "tema": "Mária Terézia és II. József felvilágosult és központosító intézkedései",
+      "essay_type": "hosszu",
+      "era": "Magyarország a kora újkorban",
+      "past_prompts": [
+        {
+          "exam": "2022. máj.",
+          "prompt": "Mutassa be Mária Terézia és II. József felvilágosult és központosító intézkedéseit és azok célját! Tárja fel, hogy a két uralkodó intézkedései miben feleltek meg, illetve hatalomgyakorlásuk módja miben mondott ellent a felvilágosodásnak!"
+        }
+      ],
+      "requirements_topics": [
+        "5.4 Mária Terézia és II. József reformjai"
+      ],
+      "related_tetelek": [
+        "Mária Terézia és II. József reformjai"
+      ],
+      "important_time": [
+        "1740–1780",
+        "1780–1790",
+        "1767",
+        "1781 türelmi rendelet",
+        "1785 jobbágyrendelet"
+      ],
+      "important_space": [
+        "Habsburg Birodalom",
+        "Magyar Királyság"
+      ],
+      "important_people": [
+        "Mária Terézia",
+        "II. József"
+      ],
+      "important_concepts": [
+        "felvilágosult abszolutizmus",
+        "központosítás",
+        "türelmi rendelet",
+        "jobbágyrendelet",
+        "rendeleti kormányzás"
+      ],
+      "causes": [
+        "birodalmi modernizáció",
+        "hatékonyabb kormányzás és adóztatás igénye"
+      ],
+      "processes": [
+        "oktatási, közigazgatási és társadalmi reformok",
+        "II. József erőteljes rendeleti centralizációja"
+      ],
+      "consequences": [
+        "korszerűsödő állam",
+        "a rendekkel való konfliktusok erősödése",
+        "II. József több intézkedésének visszavonása"
+      ],
+      "long_term_effects": [
+        "a reformok még visszavonások után is hatottak a későbbi modernizációra"
+      ],
+      "required_elements_min": {
+        "szemely": [
+          "Mária Terézia",
+          "II. József"
+        ],
+        "evszam": [
+          "1781",
+          "1785"
+        ],
+        "fogalom": [
+          "felvilágosult abszolutizmus",
+          "türelmi rendelet"
+        ],
+        "ok_vagy_kovetkezmeny": [
+          "központosítás",
+          "rendi ellenállás"
+        ]
+      },
+      "autocomplete_keywords": [
+        "kalapos király",
+        "rendeleti kormányzás",
+        "jobbágyrendelet"
+      ],
+      "common_mistakes": [
+        "nem hasonlítja össze a két uralkodót",
+        "nem mutat rá a felvilágosodás és az abszolutizmus ellentmondására"
+      ],
+      "minimum_answer": "Mária Terézia és II. József a felvilágosult abszolutizmus keretében reformokkal kívánták korszerűsíteni a birodalmat. Intézkedéseik szolgálták az oktatás, a közigazgatás és részben a jobbágyok helyzetének javítását, de közben erős központosítást valósítottak meg. Ezért politikájuk egyszerre felelt meg a felvilágosodásnak és mondott ellent annak, különösen II. József rendeleti kormányzása révén.",
+      "extended_outline": {
+        "bevezetes": "A felvilágosult abszolutizmus a 18. századi reformpolitika egyik jellemző formája volt.",
+        "elozmenyek": "modernizációs kényszer és állami centralizáció.",
+        "targyalas": "Mária Terézia reformjai, II. József rendeletei, hasonlóságok és különbségek.",
+        "kovetkezmenyek": "korszerűsítés és ellenállás egyszerre.",
+        "lezaras": "a két uralkodó politikája jól mutatja a felvilágosodás és az abszolutizmus feszültségét."
+      }
+    },
+    {
+      "id": "hun_modern_jobbagyfelszabaditas_fo_osszetevok",
+      "tema": "A jobbágyfelszabadítás kérdésének fő összetevői és jelentősége",
+      "essay_type": "hosszu",
+      "era": "A polgárosodás kezdetei és kibontakozása Magyarországon",
+      "past_prompts": [
+        {
+          "exam": "2022. máj. id.",
+          "prompt": "Mutassa be a jobbágyfelszabadítás kérdésének fő összetevőit! Válaszában világítson rá a kérdés jelentőségére!"
+        }
+      ],
+      "requirements_topics": [
+        "7.1 A reformkor fő kérdései",
+        "7.2 Az áprilisi törvények"
+      ],
+      "related_tetelek": [
+        "Reformkor és jobbágyfelszabadítás"
+      ],
+      "important_time": [
+        "reformkor",
+        "1848 áprilisi törvények"
+      ],
+      "important_space": [
+        "Magyarország"
+      ],
+      "important_people": [
+        "Széchenyi István",
+        "Kossuth Lajos"
+      ],
+      "important_concepts": [
+        "örökváltság",
+        "jobbágyfelszabadítás",
+        "polgári átalakulás",
+        "közteherviselés"
+      ],
+      "causes": [
+        "feudális rendszer válsága",
+        "gazdasági modernizáció igénye",
+        "társadalmi igazságtalanságok"
+      ],
+      "processes": [
+        "az önkéntes, majd kötelező örökváltság kérdése",
+        "politikai viták a reformkorban",
+        "1848-as felszabadítás"
+      ],
+      "consequences": [
+        "a feudális viszonyok felszámolása",
+        "a polgári átalakulás felgyorsulása"
+      ],
+      "long_term_effects": [
+        "a modern társadalom és piacgazdaság egyik alapfeltétele jött létre"
+      ],
+      "required_elements_min": {
+        "szemely": [
+          "Kossuth Lajos",
+          "Széchenyi István"
+        ],
+        "evszam": [
+          "1848"
+        ],
+        "fogalom": [
+          "örökváltság",
+          "jobbágyfelszabadítás"
+        ],
+        "ok_vagy_kovetkezmeny": [
+          "feudális válság",
+          "polgári átalakulás"
+        ]
+      },
+      "autocomplete_keywords": [
+        "örökváltság",
+        "áprilisi törvények",
+        "robot"
+      ],
+      "common_mistakes": [
+        "csak 1848-ról ír, a reformkori vitákról nem",
+        "nem mutatja be a kérdés jelentőségét"
+      ],
+      "minimum_answer": "A jobbágyfelszabadítás a reformkor egyik központi kérdése volt, mert a feudális kötöttségek akadályozták a gazdasági és társadalmi modernizációt. A vita az örökváltság körül zajlott, majd 1848-ban az áprilisi törvények megszüntették a jobbágyrendszert. Ez a polgári átalakulás egyik legfontosabb lépése lett.",
+      "extended_outline": {
+        "bevezetes": "A jobbágyfelszabadítás a magyar polgári átalakulás kulcskérdése volt.",
+        "elozmenyek": "feudális viszonyok, reformkori gazdasági és társadalmi problémák.",
+        "targyalas": "örökváltság vitája, reformprogramok, 1848-as megoldás.",
+        "kovetkezmenyek": "feudalizmus lebontása és polgári fejlődés.",
+        "lezaras": "jelentősége abban áll, hogy alapjaiban alakította át a társadalmat."
+      }
+    },
+    {
+      "id": "hun_ww_interwar_worldcrisis_gombos",
+      "tema": "A gazdasági világválság következményei Magyarországon és Gömbös Gyula válságkezelő politikája",
+      "essay_type": "hosszu",
+      "era": "Magyarország a világháborúk korában",
+      "past_prompts": [
+        {
+          "exam": "2022. máj. id.",
+          "prompt": "Mutassa be a gazdasági világválság gazdasági és társadalmi következményeit, valamint Gömbös Gyula válságkezelő politikáját!"
+        }
+      ],
+      "requirements_topics": [
+        "9.2 A válság és hatása: a belpolitikai élet változásai az 1930-as években"
+      ],
+      "related_tetelek": [
+        "A világválság és Gömbös"
+      ],
+      "important_time": [
+        "1929–1933",
+        "1932 Gömbös kormánya"
+      ],
+      "important_space": [
+        "Magyarország"
+      ],
+      "important_people": [
+        "Gömbös Gyula",
+        "Bethlen István"
+      ],
+      "important_concepts": [
+        "világválság",
+        "munkanélküliség",
+        "állami beavatkozás",
+        "Nemzeti Munkaterv"
+      ],
+      "causes": [
+        "világgazdasági válság begyűrűzése",
+        "exportfüggő mezőgazdasági szerkezet"
+      ],
+      "processes": [
+        "árzuhanás és hitelválság",
+        "munkanélküliség növekedése",
+        "fokozott állami szerepvállalás és korporatív ihletésű programok"
+      ],
+      "consequences": [
+        "romló életszínvonal",
+        "politikai jobbratolódás",
+        "részleges gazdasági stabilizáció"
+      ],
+      "long_term_effects": [
+        "a magyar politika közeledett az autoriter és német orientációhoz"
+      ],
+      "required_elements_min": {
+        "szemely": [
+          "Gömbös Gyula"
+        ],
+        "evszam": [
+          "1929",
+          "1932"
+        ],
+        "fogalom": [
+          "világválság",
+          "Nemzeti Munkaterv"
+        ],
+        "ok_vagy_kovetkezmeny": [
+          "munkanélküliség",
+          "állami beavatkozás"
+        ]
+      },
+      "autocomplete_keywords": [
+        "árzuhanás",
+        "hitelválság",
+        "jobbratolódás"
+      ],
+      "common_mistakes": [
+        "csak a válságot mutatja be, Gömbös politikáját nem",
+        "nem ír társadalmi következményekről"
+      ],
+      "minimum_answer": "A világgazdasági válság Magyarországon különösen erősen sújtotta a mezőgazdasági termelést és rontotta a társadalmi helyzetet. Gömbös Gyula fokozott állami beavatkozással és programalkotással próbált válságkezelést végrehajtani. Politikája ugyan részben stabilizáló hatású volt, de a rendszer jobbratolódását is erősítette.",
+      "extended_outline": {
+        "bevezetes": "A válság a Horthy-korszak egyik fordulópontja volt.",
+        "elozmenyek": "külső piacoktól függő gazdaság és sebezhető szerkezet.",
+        "targyalas": "válságtünetek, társadalmi hatások, Gömbös programja és irányvonala.",
+        "kovetkezmenyek": "részleges stabilizáció, politikai jobbratolódás.",
+        "lezaras": "a válságkezelés gazdasági és politikai következményei egyaránt jelentősek voltak."
+      }
+    },
+    {
+      "id": "hun_post45_kadar_tarsadalompolitika",
+      "tema": "A Kádár-korszak társadalompolitikája, különös tekintettel az oktatásra és kultúrpolitikára",
+      "essay_type": "hosszu",
+      "era": "Magyarország 1945-től a rendszerváltozásig",
+      "past_prompts": [
+        {
+          "exam": "2017. máj. id.",
+          "prompt": "Mutassa be a Kádár-korszak társadalompolitikáját! Válaszában térjen ki az oktatás- és a kultúrpolitikára is!"
+        }
+      ],
+      "requirements_topics": [
+        "11.3 A rendszer jellemzői a Kádár-korszakban, életmód és mindennapok"
+      ],
+      "related_tetelek": [
+        "A Kádár-korszak társadalma"
+      ],
+      "important_time": [
+        "1956 utáni konszolidáció",
+        "1960–1980-as évek"
+      ],
+      "important_space": [
+        "Magyarország"
+      ],
+      "important_people": [
+        "Kádár János",
+        "Aczél György"
+      ],
+      "important_concepts": [
+        "gulyáskommunizmus",
+        "három T",
+        "teljes foglalkoztatottság",
+        "lakásépítés",
+        "tömeges oktatás"
+      ],
+      "causes": [
+        "a rendszer legitimációjának megteremtése 1956 után",
+        "életszínvonal-emelésre építő konszolidáció"
+      ],
+      "processes": [
+        "szociális juttatások bővítése",
+        "lakásépítési programok",
+        "oktatási expanzió",
+        "ellenőrzött kultúrpolitika"
+      ],
+      "consequences": [
+        "emelkedő életszínvonal a korszak jelentős részében",
+        "alkalmazkodó társadalom",
+        "korlátozott kulturális szabadság"
+      ],
+      "long_term_effects": [
+        "fogyasztói szemlélet és eladósodás erősödése",
+        "a rendszer társadalmi kompromisszuma kialakult"
+      ],
+      "required_elements_min": {
+        "szemely": [
+          "Kádár János",
+          "Aczél György"
+        ],
+        "evszam": [
+          "1960-as évek"
+        ],
+        "fogalom": [
+          "három T",
+          "gulyáskommunizmus"
+        ],
+        "ok_vagy_kovetkezmeny": [
+          "konszolidáció",
+          "életszínvonal-emelés"
+        ]
+      },
+      "autocomplete_keywords": [
+        "három T",
+        "lakótelep",
+        "teljes foglalkoztatottság"
+      ],
+      "common_mistakes": [
+        "csak gazdaságról ír és elfelejti az oktatást-kultúrpolitikát"
+      ],
+      "minimum_answer": "A Kádár-korszak társadalompolitikája a rendszer stabilizálását szolgálta, ezért az életszínvonal emelésére, a lakásépítésre és a szociális ellátásokra támaszkodott. Az oktatás bővült, a kultúrpolitikát pedig a három T elve szerint irányították. A rendszer így egyszerre adott viszonylagos jólétet és tartotta fenn a politikai ellenőrzést.",
+      "extended_outline": {
+        "bevezetes": "A Kádár-rendszer legitimációját nagyrészt társadalompolitikai eszközökkel teremtette meg.",
+        "elozmenyek": "1956 leverése és a konszolidáció igénye.",
+        "targyalas": "szociálpolitika, lakásépítés, oktatás, kultúrpolitika, három T.",
+        "kovetkezmenyek": "viszonylagos jólét és alkalmazkodás.",
+        "lezaras": "a társadalompolitika a rendszer egyik legfontosabb tartóoszlopa volt."
+      }
+    },
+    {
+      "id": "hun_post45_kadar_valsag_tenyezoi",
+      "tema": "A Kádár-rendszer válságának gazdasági, külpolitikai és belpolitikai tényezői",
+      "essay_type": "hosszu",
+      "era": "Magyarország 1945-től a rendszerváltozásig",
+      "past_prompts": [
+        {
+          "exam": "2019. máj.",
+          "prompt": "Mutassa be a Kádár-rendszer válságának gazdasági, külpolitikai és belpolitikai tényezőit! A rendszerváltozás folyamatára már ne térjen ki!"
+        }
+      ],
+      "requirements_topics": [
+        "11.3 A Kádár-rendszer válsága, a külpolitikai változások és az ellenzéki mozgalmak"
+      ],
+      "related_tetelek": [
+        "A Kádár-rendszer válsága"
+      ],
+      "important_time": [
+        "1970-es évek végétől",
+        "1980-as évek"
+      ],
+      "important_space": [
+        "Magyarország",
+        "szovjet blokk"
+      ],
+      "important_people": [
+        "Kádár János",
+        "ellenzéki értelmiség"
+      ],
+      "important_concepts": [
+        "eladósodás",
+        "olajválság",
+        "reformkísérletek",
+        "ellenzék",
+        "szovjet blokk válsága"
+      ],
+      "causes": [
+        "a növekedés kifulladása",
+        "külső eladósodás",
+        "nemzetközi környezet változása",
+        "legitimációs válság"
+      ],
+      "processes": [
+        "életszínvonal-romlás",
+        "gazdasági egyensúlytalanság",
+        "ellenzéki mozgalmak megjelenése",
+        "szovjet reformhatások"
+      ],
+      "consequences": [
+        "a rendszer megrendülése",
+        "politikai nyitási kényszer"
+      ],
+      "long_term_effects": [
+        "a rendszerváltozás előfeltételei kialakultak"
+      ],
+      "required_elements_min": {
+        "szemely": [
+          "Kádár János"
+        ],
+        "evszam": [
+          "1980-as évek"
+        ],
+        "fogalom": [
+          "eladósodás",
+          "ellenzék"
+        ],
+        "ok_vagy_kovetkezmeny": [
+          "gazdasági válság",
+          "politikai megrendülés"
+        ]
+      },
+      "autocomplete_keywords": [
+        "olajválság",
+        "adósság",
+        "demokratikus ellenzék"
+      ],
+      "common_mistakes": [
+        "átcsúszik a rendszerváltozás eseményeibe",
+        "nem bontja külön gazdasági, külpolitikai és belpolitikai tényezőkre"
+      ],
+      "minimum_answer": "A Kádár-rendszer válságát az eladósodás, a gazdasági növekedés kifulladása és az életszínvonal romlása okozta. Ezt erősítette a szovjet blokk átalakulása és a hazai ellenzéki mozgalmak megjelenése. A rendszer így a nyolcvanas évekre gazdaságilag és politikailag is megrendült.",
+      "extended_outline": {
+        "bevezetes": "A Kádár-rendszer stabilitása a nyolcvanas évekre meggyengült.",
+        "elozmenyek": "korábbi jóléti kompromisszum és külső hitelek.",
+        "targyalas": "gazdasági, külpolitikai és belpolitikai válságtényezők.",
+        "kovetkezmenyek": "a rendszer legitimitásának eróziója.",
+        "lezaras": "a válság a rendszerváltozás előszobájává tette az 1980-as éveket."
+      }
+    },
+    {
+      "id": "hun_post45_egyparti_diktatura_kiepitese_1947_49",
+      "tema": "Az egypárti diktatúra kiépítése 1947 és 1949 között",
+      "essay_type": "hosszu",
+      "era": "Magyarország 1945-től a rendszerváltozásig",
+      "past_prompts": [
+        {
+          "exam": "2020. máj.",
+          "prompt": "Mutassa be, milyen eszközökkel és intézkedésekkel építették ki az egypárti diktatúrát az 1947-es választásoktól 1949-ig! Válaszában csak a megjelölt időszak politikai és gazdasági változásait vizsgálja!"
+        }
+      ],
+      "requirements_topics": [
+        "11.1 Magyarország szovjetizálása (1945-1949)"
+      ],
+      "related_tetelek": [
+        "A kommunista diktatúra kiépítése"
+      ],
+      "important_time": [
+        "1947 választások",
+        "1948 pártegyesítés",
+        "1949 alkotmány"
+      ],
+      "important_space": [
+        "Magyarország"
+      ],
+      "important_people": [
+        "Rákosi Mátyás",
+        "Gerő Ernő",
+        "Magyar Dolgozók Pártja"
+      ],
+      "important_concepts": [
+        "szalámitaktika",
+        "államosítás",
+        "egypártrendszer",
+        "szovjetizálás"
+      ],
+      "causes": [
+        "szovjet támogatás a kommunisták mögött",
+        "a koalíciós rendszer felszámolásának szándéka"
+      ],
+      "processes": [
+        "ellenfelek félreállítása",
+        "választási manipuláció",
+        "pártegyesítés",
+        "államosítás",
+        "új alkotmány"
+      ],
+      "consequences": [
+        "egypárti diktatúra kiépülése",
+        "gazdaság állami ellenőrzése",
+        "politikai pluralizmus megszűnése"
+      ],
+      "long_term_effects": [
+        "a sztálinista rendszer alapjai megszilárdultak"
+      ],
+      "required_elements_min": {
+        "szemely": [
+          "Rákosi Mátyás"
+        ],
+        "evszam": [
+          "1947",
+          "1948",
+          "1949"
+        ],
+        "fogalom": [
+          "szalámitaktika",
+          "államosítás"
+        ],
+        "ok_vagy_kovetkezmeny": [
+          "kommunista hatalomkoncentráció",
+          "egypártrendszer"
+        ]
+      },
+      "autocomplete_keywords": [
+        "kékcédulás",
+        "pártegyesítés",
+        "MDP"
+      ],
+      "common_mistakes": [
+        "1945–47-re is túl részletesen kitér",
+        "nem kapcsolja össze a politikai és gazdasági változásokat"
+      ],
+      "minimum_answer": "1947 és 1949 között a kommunisták szovjet támogatással felszámolták a többpártrendszert. A szalámitaktika, a választási manipuláció, a pártegyesítés és az államosítások révén kiépült az egypárti diktatúra. Az 1949-es alkotmány már a sztálinista rendszer megszilárdulását jelezte.",
+      "extended_outline": {
+        "bevezetes": "Az 1947–49 közti időszak döntő volt a kommunista diktatúra kiépítésében.",
+        "elozmenyek": "koalíciós korszak és szovjet háttértámogatás.",
+        "targyalas": "szalámitaktika, választások, pártegyesítés, államosítás, alkotmány.",
+        "kovetkezmenyek": "egypártrendszer és szovjet típusú állam.",
+        "lezaras": "rövid idő alatt megszűnt a demokratikus átmenet lehetősége."
+      }
+    },
+    {
+      "id": "hun_post45_rendszervaltozas_politikai_gazdasagi_atalakulas",
+      "tema": "A rendszerváltozás következtében kialakuló politikai és gazdasági rendszer",
+      "essay_type": "hosszu",
+      "era": "Magyarország 1945-től a rendszerváltozásig",
+      "past_prompts": [
+        {
+          "exam": "2020. okt.",
+          "prompt": "Mutassa be, hogyan változott meg Magyarország politikai és gazdasági rendszere a rendszerváltozás következtében! Ne eseménytörténetet írjon!"
+        }
+      ],
+      "requirements_topics": [
+        "11.4 A piacgazdaságra való áttérés és következményei",
+        "11.4 A közjogi rendszer átalakítása"
+      ],
+      "related_tetelek": [
+        "Rendszerváltozás és piacgazdaság"
+      ],
+      "important_time": [
+        "1989–1990"
+      ],
+      "important_space": [
+        "Magyarország"
+      ],
+      "important_people": [
+        "ellenzéki kerekasztal szereplői",
+        "új pártok"
+      ],
+      "important_concepts": [
+        "többpártrendszer",
+        "jogállam",
+        "piacgazdaság",
+        "magántulajdon",
+        "privatizáció"
+      ],
+      "causes": [
+        "a Kádár-rendszer válsága",
+        "nemzetközi blokkátalakulás"
+      ],
+      "processes": [
+        "egypártrendszer lebontása",
+        "alkotmányos átalakítás",
+        "piacgazdasági intézmények kiépítése",
+        "privatizáció"
+      ],
+      "consequences": [
+        "demokratikus politikai rendszer",
+        "kapitalista gazdasági viszonyok",
+        "társadalmi feszültségek és munkanélküliség"
+      ],
+      "long_term_effects": [
+        "a mai magyar politikai és gazdasági rendszer alapjai létrejöttek"
+      ],
+      "required_elements_min": {
+        "szemely": [
+          "ellenzéki szereplők"
+        ],
+        "evszam": [
+          "1989–1990"
+        ],
+        "fogalom": [
+          "jogállam",
+          "piacgazdaság"
+        ],
+        "ok_vagy_kovetkezmeny": [
+          "egypártrendszer megszűnése",
+          "privatizáció"
+        ]
+      },
+      "autocomplete_keywords": [
+        "többpártrendszer",
+        "privatizáció",
+        "Alkotmány"
+      ],
+      "common_mistakes": [
+        "eseménytörténetet ír és nem a rendszerátalakulást mutatja be"
+      ],
+      "minimum_answer": "A rendszerváltozás során Magyarországon megszűnt az egypártrendszer, és demokratikus, többpárti jogállam jött létre. Gazdaságilag a tervgazdaság helyét a piacgazdaság, a magántulajdon és a privatizáció vette át. Az átalakulás ugyanakkor társadalmi feszültségeket és gazdasági nehézségeket is okozott.",
+      "extended_outline": {
+        "bevezetes": "A rendszerváltozás nemcsak politikai fordulat, hanem rendszerszintű átalakulás volt.",
+        "elozmenyek": "a Kádár-rendszer válsága és nemzetközi környezet.",
+        "targyalas": "jogállami-politikai változások és gazdasági átmenet.",
+        "kovetkezmenyek": "demokratikus intézmények, piacgazdaság, társadalmi átrendeződés.",
+        "lezaras": "1989–90 alapvetően új pályára állította Magyarországot."
+      }
+    },
+    {
+      "id": "hun_post45_1956_nemzetkozi_osszefuggesek",
+      "tema": "Az 1956-os forradalom nemzetközi előzményei és összefüggései",
+      "essay_type": "hosszu",
+      "era": "Magyarország 1945-től a rendszerváltozásig",
+      "past_prompts": [
+        {
+          "exam": "2021. máj. id.",
+          "prompt": "Mutassa be az 1956-os forradalom nemzetközi előzményeit és összefüggéseit!"
+        }
+      ],
+      "requirements_topics": [
+        "11.2 A magyar forradalom nemzetközi jelentősége és összefüggései"
+      ],
+      "related_tetelek": [
+        "1956 nemzetközi háttere"
+      ],
+      "important_time": [
+        "1953 Sztálin halála",
+        "1955 Varsói Szerződés",
+        "1956 lengyel események",
+        "1956 szuezi válság"
+      ],
+      "important_space": [
+        "Magyarország",
+        "Lengyelország",
+        "Szovjetunió",
+        "Egyiptom"
+      ],
+      "important_people": [
+        "Nagy Imre",
+        "Hruscsov"
+      ],
+      "important_concepts": [
+        "desztalinizáció",
+        "hidegháború",
+        "szovjet blokk",
+        "szuezi válság"
+      ],
+      "causes": [
+        "a sztálinizmus válsága a szovjet blokkban",
+        "desztalinizáció",
+        "lengyel hatások"
+      ],
+      "processes": [
+        "reformremények erősödése",
+        "szovjet reakció",
+        "nyugati tétlenség részben a szuezi válság miatt"
+      ],
+      "consequences": [
+        "a forradalom elszigetelődött nemzetközileg",
+        "a szovjet beavatkozás sikeres volt"
+      ],
+      "long_term_effects": [
+        "1956 a keleti blokk válságának jelképe lett"
+      ],
+      "required_elements_min": {
+        "szemely": [
+          "Nagy Imre",
+          "Hruscsov"
+        ],
+        "evszam": [
+          "1956"
+        ],
+        "fogalom": [
+          "desztalinizáció",
+          "szuezi válság"
+        ],
+        "ok_vagy_kovetkezmeny": [
+          "lengyel példa",
+          "nyugati segítség hiánya"
+        ]
+      },
+      "autocomplete_keywords": [
+        "XX. pártkongresszus",
+        "Poznań",
+        "szuezi válság"
+      ],
+      "common_mistakes": [
+        "csak a magyar belső eseményeket írja le",
+        "nem említi a szuezi válságot vagy a lengyel hatást"
+      ],
+      "minimum_answer": "Az 1956-os forradalom nemzetközi hátteréhez tartozott a desztalinizáció, a lengyelországi reformfolyamatok és a szovjet blokk megrendülése. A forradalom sorsát befolyásolta, hogy a Nyugat a szuezi válság miatt sem avatkozott be. Ezért Magyarország nemzetközileg elszigetelten maradt a szovjet beavatkozással szemben.",
+      "extended_outline": {
+        "bevezetes": "1956-ot nem lehet pusztán belső magyar eseményként értelmezni.",
+        "elozmenyek": "Sztálin halála, desztalinizáció, lengyel fejlemények.",
+        "targyalas": "a hidegháborús helyzet, szovjet döntések, nyugati reakciók, szuezi válság.",
+        "kovetkezmenyek": "nemzetközi elszigetelődés és leverés.",
+        "lezaras": "1956 világpolitikai összefüggésekben is a hidegháború egyik kulcseseménye."
+      }
+    },
+    {
+      "id": "hun_post45_rakosi_gazdasagpolitika_kovetkezmenyek",
+      "tema": "A Rákosi-korszak gazdaságpolitikája és következményei",
+      "essay_type": "hosszu",
+      "era": "Magyarország 1945-től a rendszerváltozásig",
+      "past_prompts": [
+        {
+          "exam": "2022. máj.",
+          "prompt": "Mutassa be a Rákosi-korszak gazdaságpolitikáját és annak következményeit!"
+        }
+      ],
+      "requirements_topics": [
+        "11.1 Az egypárti diktatúra működése, a gazdasági élet és a mindennapok a Rákosi-korban"
+      ],
+      "related_tetelek": [
+        "Rákosi-rendszer gazdaságpolitikája"
+      ],
+      "important_time": [
+        "1949–1953",
+        "1953 utáni korrekciók"
+      ],
+      "important_space": [
+        "Magyarország"
+      ],
+      "important_people": [
+        "Rákosi Mátyás"
+      ],
+      "important_concepts": [
+        "tervgazdaság",
+        "nehézipar",
+        "beszolgáltatás",
+        "kollektivizálás",
+        "életszínvonal-csökkenés"
+      ],
+      "causes": [
+        "szovjet típusú gazdasági modell átvétele",
+        "erőltetett iparosítás"
+      ],
+      "processes": [
+        "nehézipari fejlesztések",
+        "mezőgazdaság kollektivizálása",
+        "beszolgáltatási rendszer",
+        "fogyasztás háttérbe szorítása"
+      ],
+      "consequences": [
+        "hiánygazdaság",
+        "életszínvonal romlása",
+        "társadalmi elégedetlenség"
+      ],
+      "long_term_effects": [
+        "gazdasági torzulások és politikai elégedetlenség halmozódtak fel"
+      ],
+      "required_elements_min": {
+        "szemely": [
+          "Rákosi Mátyás"
+        ],
+        "evszam": [
+          "1949–1953"
+        ],
+        "fogalom": [
+          "tervgazdaság",
+          "kollektivizálás"
+        ],
+        "ok_vagy_kovetkezmeny": [
+          "erőltetett iparosítás",
+          "életszínvonal romlása"
+        ]
+      },
+      "autocomplete_keywords": [
+        "beszolgáltatás",
+        "nehézipar",
+        "hiánygazdaság"
+      ],
+      "common_mistakes": [
+        "csak politikáról ír, gazdaságpolitikai eszközökről nem",
+        "nem tér ki a következményekre"
+      ],
+      "minimum_answer": "A Rákosi-korszak gazdaságpolitikája a szovjet mintájú tervgazdaságra és az erőltetett nehéziparosításra épült. A kollektivizálás és a beszolgáltatási rendszer súlyos terheket rótt a társadalomra, miközben a fogyasztást háttérbe szorították. Ennek következménye hiánygazdaság, életszínvonal-csökkenés és széles elégedetlenség lett.",
+      "extended_outline": {
+        "bevezetes": "A Rákosi-korszak gazdaságpolitikája a sztálinista modell magyar változata volt.",
+        "elozmenyek": "szovjetizálás és kommunista hatalomátvétel.",
+        "targyalas": "tervgazdaság, nehézipar, kollektivizálás, beszolgáltatás.",
+        "kovetkezmenyek": "hiánygazdaság és társadalmi feszültségek.",
+        "lezaras": "a gazdaságpolitika a rendszer népszerűtlenségének egyik fő oka lett."
+      }
+    },
+    {
+      "id": "hun_post45_haboru_utani_gazdasag_koalicio_kommunista",
+      "tema": "Magyarország háború utáni gazdasági helyzete és gazdaságpolitikája a koalíciós és a kommunista hatalomátvétel időszakában",
+      "essay_type": "hosszu",
+      "era": "Magyarország 1945-től a rendszerváltozásig",
+      "past_prompts": [
+        {
+          "exam": "2022. okt.",
+          "prompt": "Mutassa be Magyarország háború utáni gazdasági helyzetét és gazdaságpolitikáját a koalíciós kormányzás és a kommunista hatalomátvétel időszakában!"
+        }
+      ],
+      "requirements_topics": [
+        "11.1 Magyarország szovjetizálása (1945-1949)"
+      ],
+      "related_tetelek": [
+        "Háború utáni gazdasági újjáépítés"
+      ],
+      "important_time": [
+        "1945 földreform",
+        "1946 forint bevezetése",
+        "1947–1949 államosítások"
+      ],
+      "important_space": [
+        "Magyarország"
+      ],
+      "important_people": [
+        "koalíciós kormányok",
+        "kommunista vezetés"
+      ],
+      "important_concepts": [
+        "újjáépítés",
+        "hiperinfláció",
+        "földreform",
+        "forint",
+        "államosítás"
+      ],
+      "causes": [
+        "háborús pusztítás",
+        "jóvátételek",
+        "szovjet jelenlét"
+      ],
+      "processes": [
+        "újjáépítés és infláció kezelése",
+        "földreform",
+        "forint stabilizációja",
+        "kommunista gazdasági hatalomátvétel és államosítás"
+      ],
+      "consequences": [
+        "a gazdaság stabilizálása után gyors szovjetizálás indult",
+        "a magángazdaság visszaszorult"
+      ],
+      "long_term_effects": [
+        "a tervgazdaság és államszocialista modell alapjai létrejöttek"
+      ],
+      "required_elements_min": {
+        "szemely": [
+          "kommunista vezetés"
+        ],
+        "evszam": [
+          "1945",
+          "1946"
+        ],
+        "fogalom": [
+          "földreform",
+          "forint",
+          "államosítás"
+        ],
+        "ok_vagy_kovetkezmeny": [
+          "háborús pusztítás",
+          "gazdasági szovjetizálás"
+        ]
+      },
+      "autocomplete_keywords": [
+        "hiperinfláció",
+        "jóvátétel",
+        "forint"
+      ],
+      "common_mistakes": [
+        "csak a földreformról ír",
+        "nem mutatja be az átmenetet a koalíciós és kommunista gazdaságpolitika között"
+      ],
+      "minimum_answer": "A háború után Magyarországot súlyos pusztítás, jóvátételi teher és hiperinfláció jellemezte. A koalíciós időszakban újjáépítés, földreform és stabilizáció zajlott, amit 1946-ban a forint bevezetése tett sikeressé. Ezután a kommunista hatalomátvétel idején megindult az államosítás és a gazdaság szovjetizálása.",
+      "extended_outline": {
+        "bevezetes": "A háború utáni gazdasági helyzet válságos volt, de gyors politikai fordulatokkal párosult.",
+        "elozmenyek": "pusztítás, jóvátétel, infláció.",
+        "targyalas": "földreform, stabilizáció, forint, majd államosítás és kommunista átalakítás.",
+        "kovetkezmenyek": "az újjáépítést tervgazdasági fordulat követte.",
+        "lezaras": "1945–49 egyszerre jelentette a helyreállítást és a szovjet típusú gazdaság kialakulását."
+      }
+    },
+    {
+      "id": "civics_nepfelseg_mai_magyarorszag",
+      "tema": "A népfelség érvényesülése a mai Magyarországon",
+      "essay_type": "hosszu",
+      "era": "Társadalmi, állampolgári, pénzügyi és munkavállalói ismeretek",
+      "past_prompts": [
+        {
+          "exam": "2017. máj.",
+          "prompt": "Mutassa be a népfelség érvényesülését a mai Magyarországon! Válaszában térjen ki a választójogra, a választások alapelveire és rendszerére, a népszavazásra és az Országgyűlés jogkörére!"
+        }
+      ],
+      "requirements_topics": [
+        "12.2 Az aktív és felelős állampolgárság alapjai"
+      ],
+      "related_tetelek": [
+        "Állampolgári ismeretek: népfelség"
+      ],
+      "important_time": [
+        "jelenkor"
+      ],
+      "important_space": [
+        "Magyarország"
+      ],
+      "important_people": [
+        "választópolgárok",
+        "Országgyűlés"
+      ],
+      "important_concepts": [
+        "népfelség",
+        "választójog",
+        "általános és egyenlő választójog",
+        "népszavazás",
+        "parlamentáris rendszer"
+      ],
+      "causes": [
+        "demokratikus jogállami berendezkedés"
+      ],
+      "processes": [
+        "választásokon való részvétel",
+        "képviselet útján gyakorolt hatalom",
+        "közvetlen döntés népszavazással"
+      ],
+      "consequences": [
+        "a politikai hatalom legitimációja a népakaratból ered"
+      ],
+      "long_term_effects": [
+        "a demokratikus részvétel a politikai rendszer alapja"
+      ],
+      "required_elements_min": {
+        "szemely": [
+          "választópolgárok"
+        ],
+        "evszam": [
+          "jelenkor"
+        ],
+        "fogalom": [
+          "népfelség",
+          "népszavazás"
+        ],
+        "ok_vagy_kovetkezmeny": [
+          "választások",
+          "parlamenti legitimáció"
+        ]
+      },
+      "autocomplete_keywords": [
+        "általános választójog",
+        "titkos szavazás",
+        "Országgyűlés"
+      ],
+      "common_mistakes": [
+        "alkotmányjogi részletekbe megy, de nem magyarázza a népfelség lényegét"
+      ],
+      "minimum_answer": "A népfelség elve szerint a politikai hatalom forrása a nép, amely Magyarországon elsősorban választások útján gyakorolja akaratát. A választópolgárok az Országgyűlés tagjait választják, meghatározott esetekben pedig népszavazással közvetlenül is dönthetnek. Az Országgyűlés törvényhozó és ellenőrző szerepe így a népakarat képviseletén alapul.",
+      "extended_outline": {
+        "bevezetes": "A népfelség a modern demokrácia egyik alapelve.",
+        "elozmenyek": "jogállami és demokratikus berendezkedés.",
+        "targyalas": "választójog, választási alapelvek, népszavazás, Országgyűlés szerepe.",
+        "kovetkezmenyek": "a hatalom demokratikus legitimációja.",
+        "lezaras": "a népfelség a magyar közjogi rendszer alapvető elve."
+      }
+    },
+    {
+      "id": "civics_demografia_ellatorendszerek",
+      "tema": "Jelenkori magyar demográfiai folyamatok és összefüggésük az ellátórendszerekkel",
+      "essay_type": "hosszu",
+      "era": "Társadalmi, állampolgári, pénzügyi és munkavállalói ismeretek",
+      "past_prompts": [
+        {
+          "exam": "2018. okt.",
+          "prompt": "Mutassa be a jelenkori Magyarországon zajló demográfiai folyamatokat, azok okait, továbbá összefüggéseit az ellátórendszerekkel!"
+        }
+      ],
+      "requirements_topics": [
+        "11.5 Demográfiai változások Magyarországon 1945-től",
+        "12.1 Társadalmi tagozódás és felelősségvállalás"
+      ],
+      "related_tetelek": [
+        "Demográfiai folyamatok a jelenkorban"
+      ],
+      "important_time": [
+        "jelenkor"
+      ],
+      "important_space": [
+        "Magyarország"
+      ],
+      "important_people": [
+        "népesség"
+      ],
+      "important_concepts": [
+        "elöregedés",
+        "természetes fogyás",
+        "migráció",
+        "nyugdíjrendszer",
+        "egészségügy",
+        "családtámogatás"
+      ],
+      "causes": [
+        "alacsony születésszám",
+        "magasabb várható élettartam",
+        "migrációs folyamatok"
+      ],
+      "processes": [
+        "népességfogyás és elöregedés",
+        "munkaerőpiaci és területi egyenlőtlenségek",
+        "ellátórendszerek terhelődése"
+      ],
+      "consequences": [
+        "nő a nyugdíj- és egészségügyi rendszer terhelése",
+        "családpolitikai és munkaerőpiaci válaszok szükségesek"
+      ],
+      "long_term_effects": [
+        "a demográfia tartósan befolyásolja a gazdaságot és a szociális ellátást"
+      ],
+      "required_elements_min": {
+        "szemely": [
+          "népesség"
+        ],
+        "evszam": [
+          "jelenkor"
+        ],
+        "fogalom": [
+          "elöregedés",
+          "természetes fogyás"
+        ],
+        "ok_vagy_kovetkezmeny": [
+          "nyugdíjrendszer terhelése",
+          "egészségügyi nyomás"
+        ]
+      },
+      "autocomplete_keywords": [
+        "természetes fogyás",
+        "elöregedés",
+        "nyugdíjrendszer"
+      ],
+      "common_mistakes": [
+        "csak számokat sorol, az ellátórendszerekre nem tér ki"
+      ],
+      "minimum_answer": "A jelenkori Magyarországot a népességfogyás és az elöregedés jellemzi, amelyet az alacsony születésszám és a migráció is befolyásol. Ezek a folyamatok erősen terhelik a nyugdíj- és egészségügyi rendszert, miközben családpolitikai és gazdasági válaszokat tesznek szükségessé. A demográfia ezért közvetlenül hat az ellátórendszerek fenntarthatóságára.",
+      "extended_outline": {
+        "bevezetes": "A demográfiai folyamatok a jelenkori társadalom egyik legfontosabb kihívását jelentik.",
+        "elozmenyek": "születésszám alakulása, élettartam növekedése, migráció.",
+        "targyalas": "elöregedés, fogyás, ellátórendszerek terhelése, állami válaszok.",
+        "kovetkezmenyek": "fenntarthatósági és munkaerőpiaci problémák.",
+        "lezaras": "a demográfiai helyzet a jövő társadalompolitikáját is meghatározza."
+      }
+    },
+    {
+      "id": "civics_allamhaztartas_szerkezet_bevetelek",
+      "tema": "A mai magyar államháztartás szerkezete és bevételei",
+      "essay_type": "hosszu",
+      "era": "Társadalmi, állampolgári, pénzügyi és munkavállalói ismeretek",
+      "past_prompts": [
+        {
+          "exam": "2020. máj. id.",
+          "prompt": "Mutassa be a mai magyar államháztartás szerkezetét és bevételeit!"
+        }
+      ],
+      "requirements_topics": [
+        "12.3 Az állam gazdasági szerepvállalása",
+        "12.3 Alapvető pénzügyi és gazdasági fogalmak"
+      ],
+      "related_tetelek": [
+        "Államháztartás"
+      ],
+      "important_time": [
+        "jelenkor"
+      ],
+      "important_space": [
+        "Magyarország"
+      ],
+      "important_people": [
+        "állam"
+      ],
+      "important_concepts": [
+        "államháztartás",
+        "központi költségvetés",
+        "adók",
+        "járulékok",
+        "újraelosztás"
+      ],
+      "causes": [
+        "az állami feladatok finanszírozásának szükségessége"
+      ],
+      "processes": [
+        "bevételek beszedése adókból és járulékokból",
+        "kiadások finanszírozása különböző alrendszereken keresztül"
+      ],
+      "consequences": [
+        "az állam képes közszolgáltatásokat és újraelosztást működtetni"
+      ],
+      "long_term_effects": [
+        "az államháztartás egyensúlya kulcsfontosságú a gazdasági stabilitás szempontjából"
+      ],
+      "required_elements_min": {
+        "szemely": [
+          "állam"
+        ],
+        "evszam": [
+          "jelenkor"
+        ],
+        "fogalom": [
+          "államháztartás",
+          "adó",
+          "járulék"
+        ],
+        "ok_vagy_kovetkezmeny": [
+          "közszolgáltatások finanszírozása",
+          "újraelosztás"
+        ]
+      },
+      "autocomplete_keywords": [
+        "áfa",
+        "szja",
+        "tb-járulék",
+        "költségvetés"
+      ],
+      "common_mistakes": [
+        "összekeveri az államháztartást az államadóssággal",
+        "a bevételeket nem bontja kategóriákra"
+      ],
+      "minimum_answer": "A magyar államháztartás a központi költségvetésből és más állami alrendszerekből áll, bevételei főként adókból és járulékokból származnak. Ezekből finanszírozza az állam a közszolgáltatásokat, a szociális rendszereket és egyéb feladatait. Az államháztartás szerkezete ezért az állami újraelosztás működésének alapja.",
+      "extended_outline": {
+        "bevezetes": "Az államháztartás az állam gazdasági működésének pénzügyi kerete.",
+        "elozmenyek": "az állam feladatvállalása és finanszírozási igénye.",
+        "targyalas": "alrendszerek, bevételi források, adók és járulékok szerepe.",
+        "kovetkezmenyek": "közszolgáltatások és újraelosztás finanszírozása.",
+        "lezaras": "a stabil államháztartás a gazdasági egyensúly egyik feltétele."
+      }
+    },
+    {
+      "id": "civics_allam_ujraeloszto_szerep",
+      "tema": "Az állam pénzbeli újraelosztó szerepe a mai Magyarországon",
+      "essay_type": "hosszu",
+      "era": "Társadalmi, állampolgári, pénzügyi és munkavállalói ismeretek",
+      "past_prompts": [
+        {
+          "exam": "2021. máj.",
+          "prompt": "Mutassa be az állam pénzbeli újraelosztó szerepét a mai Magyarországon! Válaszában az újraelosztás céljára, bevételi forrásaira, valamint egyes területeire összpontosítson!"
+        }
+      ],
+      "requirements_topics": [
+        "12.3 Az állam gazdasági szerepvállalása"
+      ],
+      "related_tetelek": [
+        "Az állam újraelosztó szerepe"
+      ],
+      "important_time": [
+        "jelenkor"
+      ],
+      "important_space": [
+        "Magyarország"
+      ],
+      "important_people": [
+        "állam",
+        "adófizetők",
+        "ellátásban részesülők"
+      ],
+      "important_concepts": [
+        "újraelosztás",
+        "adó",
+        "járulék",
+        "szociális ellátás",
+        "nyugdíj",
+        "családtámogatás"
+      ],
+      "causes": [
+        "társadalmi különbségek kezelése",
+        "közszolgáltatások finanszírozása"
+      ],
+      "processes": [
+        "bevételek elvonása adókkal és járulékokkal",
+        "kiadások visszajuttatása nyugdíj, támogatások, egészségügy formájában"
+      ],
+      "consequences": [
+        "csökkenhetnek a társadalmi különbségek",
+        "biztosíthatók az alapvető állami funkciók"
+      ],
+      "long_term_effects": [
+        "az újraelosztás mértéke tartósan befolyásolja a gazdasági és társadalmi szerkezetet"
+      ],
+      "required_elements_min": {
+        "szemely": [
+          "állam"
+        ],
+        "evszam": [
+          "jelenkor"
+        ],
+        "fogalom": [
+          "újraelosztás",
+          "járulék"
+        ],
+        "ok_vagy_kovetkezmeny": [
+          "szociális ellátás",
+          "társadalmi különbségek kezelése"
+        ]
+      },
+      "autocomplete_keywords": [
+        "nyugdíj",
+        "családtámogatás",
+        "adó"
+      ],
+      "common_mistakes": [
+        "csak az adókat sorolja fel, az újraelosztás célját nem fejti ki"
+      ],
+      "minimum_answer": "Az állam pénzbeli újraelosztása azt jelenti, hogy adók és járulékok formájában bevételeket von el, majd ezeket különböző ellátásokra és közfeladatokra fordítja. Ilyen terület például a nyugdíj, a családtámogatás vagy az egészségügy. Az újraelosztás célja egyszerre a közszolgáltatások fenntartása és a társadalmi különbségek mérséklése.",
+      "extended_outline": {
+        "bevezetes": "Az újraelosztás az állam egyik legfontosabb gazdasági funkciója.",
+        "elozmenyek": "állami feladatvállalás és adóztatás.",
+        "targyalas": "bevételi források, célok, fő kiadási területek.",
+        "kovetkezmenyek": "szociális biztonság és társadalompolitikai hatások.",
+        "lezaras": "az újraelosztás mértéke és módja meghatározza az állam szerepét a gazdaságban."
+      }
+    }
+  ]
+}
