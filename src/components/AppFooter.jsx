@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 export default function AppFooter() {
   const [darkMode, setDarkMode] = useState(() => localStorage.getItem('theme') === 'dark')
@@ -26,14 +27,12 @@ export default function AppFooter() {
           </div>
 
           <div className="col-6 col-lg-3">
-            <div className="fw-semibold mb-2">Modulok</div>
+            <div className="fw-semibold mb-2">Fő területek</div>
             <ul className="list-unstyled footer-links mb-0">
-              <li>Tételek</li>
-              <li>Évszám kvíz</li>
-              <li>Személy kvíz</li>
-              <li>Rövid esszék</li>
-              <li>Hosszú esszék</li>
-              <li>Komplex esszék</li>
+              <li><Link to="/tanulas">Tanulás</Link></li>
+              <li><Link to="/gyakorlas">Tesztek</Link></li>
+              <li><Link to="/essze-hub">Esszék</Link></li>
+              <li><Link to="/profil">Profil</Link></li>
             </ul>
           </div>
 
@@ -57,7 +56,7 @@ export default function AppFooter() {
 
         <div className="d-flex flex-column flex-md-row justify-content-between gap-2 text-white-50 small">
           <span>© 2026 TöriTanuló</span>
-          <span>Mobilra hangolt gyakorlófelület</span>
+          <span>Mobilra hangolt tanulófelület</span>
         </div>
       </div>
     </footer>

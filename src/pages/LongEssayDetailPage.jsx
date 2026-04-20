@@ -1,6 +1,7 @@
 import { Link, Navigate, useParams } from 'react-router-dom'
 import AppNavbar from '../components/AppNavbar'
 import AppFooter from '../components/AppFooter'
+import EssayGuidanceCard from '../components/essay/EssayGuidanceCard'
 import KeyElementChip from '../components/essay/KeyElementChip'
 import LongEssayEditor from '../components/longEssay/LongEssayEditor'
 import LongEssayTaskPreview from '../components/longEssay/LongEssayTaskPreview'
@@ -122,6 +123,8 @@ export default function LongEssayDetailPage() {
               <span>Amit ebből biztosan tudnod kell</span>
               <p>{topic.minimum_answer}</p>
             </section>
+
+            <EssayGuidanceCard helper={topic.helperContent} variant="long" typeLabel="Hosszú esszé segéd" />
           </div>
         </section>
       </main>

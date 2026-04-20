@@ -3,6 +3,10 @@ import ProtectedRoute from './components/ProtectedRoute'
 import AdminRoute from './components/AdminRoute'
 import LoginPage from './pages/LoginPage'
 import HomePage from './pages/HomePage'
+import LearnHubPage from './pages/LearnHubPage'
+import TestsHubPage from './pages/TestsHubPage'
+import EssaysHubPage from './pages/EssaysHubPage'
+import ProfileHubPage from './pages/ProfileHubPage'
 import AdminPage from './pages/AdminPage'
 import TetelekPage from './pages/TetelekPage'
 import TetelReaderPage from './pages/TetelReaderPage'
@@ -45,6 +49,42 @@ export default function App() {
         element={
           <ProtectedRoute>
             <TetelReaderPage />
+          </ProtectedRoute>
+        }
+      />
+
+      <Route
+        path="/tanulas"
+        element={
+          <ProtectedRoute>
+            <LearnHubPage />
+          </ProtectedRoute>
+        }
+      />
+
+      <Route
+        path="/gyakorlas"
+        element={
+          <ProtectedRoute>
+            <TestsHubPage />
+          </ProtectedRoute>
+        }
+      />
+
+      <Route
+        path="/essze-hub"
+        element={
+          <ProtectedRoute>
+            <EssaysHubPage />
+          </ProtectedRoute>
+        }
+      />
+
+      <Route
+        path="/profil"
+        element={
+          <ProtectedRoute>
+            <ProfileHubPage />
           </ProtectedRoute>
         }
       />

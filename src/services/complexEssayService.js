@@ -1,4 +1,5 @@
 import complexEssaySource from '../data/complexEssaySource.json'
+import helperSource from '../data/komplexKiegeszitoSegedFogalmazasV2.json'
 import complexEssayTaskPreviews from '../data/complexEssayTaskPreviews.json'
 import { normalizeEssayText } from './essayService'
 
@@ -22,6 +23,14 @@ const previewsByPrompt = (complexEssayTaskPreviews.entries || []).reduce((map, p
   return map
 }, {})
 
+const helperById = [
+  ...(helperSource.korszakokon_ativelo || []),
+  ...(helperSource.osszehasonlito || []),
+].reduce((map, helper) => {
+  map[helper.id] = helper
+  return map
+}, {})
+
 function normalizeEntry(entry) {
   const pastPrompts = (entry.past_prompts || []).map((prompt, promptIndex) => ({
     ...prompt,
@@ -31,6 +40,7 @@ function normalizeEntry(entry) {
   return {
     ...entry,
     past_prompts: pastPrompts,
+    helperContent: helperById[entry.id] || null,
     typeMeta: complexEssayTypeMeta[entry.complexType],
     keyElementCount:
       (entry.required_axes?.length || 0) +

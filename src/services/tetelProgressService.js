@@ -1,44 +1,37 @@
-const API_BASE_URL = 'https://localhost:7072/api'
-
-function getToken() {
-  return localStorage.getItem('token')
-}
-
-async function apiRequest(url, options = {}) {
-  const token = getToken()
-
-  const response = await fetch(url, {
-    ...options,
-    headers: {
-      'Content-Type': 'application/json',
-      Authorization: `Bearer ${token}`,
-      ...(options.headers || {}),
-    },
-  })
-
-  if (!response.ok) {
-    let message = 'Hiba történt a haladás mentése közben.'
-
-    try {
-      const data = await response.json()
-      message = data.message || message
-    } catch {
-      // nincs teendő
-    }
-
-    throw new Error(message)
-  }
-
-  return response.json()
-}
+import { apiRequest } from './apiClient'
 
 export function getTetelProgress(tetelId) {
-  return apiRequest(`${API_BASE_URL}/TetelProgress/${tetelId}`)
+  return apiRequest(`/TetelProgress/${tetelId}`, {
+    errorMessage: 'Hiba történt a haladás betöltése közben.',
+  })
 }
 
-export function saveTetelProgress(tetelId, haladasSzazalek) {
-  return apiRequest(`${API_BASE_URL}/TetelProgress/${tetelId}`, {
+export function getAllTetelProgress() {
+  return apiRequest('/TetelProgress', {
+    errorMessage: 'Hiba történt a haladás betöltése közben.',
+  })
+}
+
+export function getRecentTetelProgress() {
+  return apiRequest('/TetelProgress/recent', {
+    errorMessage: 'Hiba történt a legutóbbi tételek betöltése közben.',
+  })
+}
+
+export function saveTetelProgress(tetelId, progress) {
+  const payload = typeof progress === 'number'
+    ? { haladasSzazalek: progress }
+    : {
+        haladasSzazalek: Number(progress?.haladasSzazalek || 0),
+        lastPage: Number(progress?.lastPage || 1),
+        scrollProgress: Number(progress?.scrollProgress || 0),
+        pageCount: Number(progress?.pageCount || 0),
+        completed: Boolean(progress?.completed),
+      }
+
+  return apiRequest(`/TetelProgress/${tetelId}`, {
     method: 'PUT',
-    body: JSON.stringify({ haladasSzazalek }),
+    body: JSON.stringify(payload),
+    errorMessage: 'Hiba történt a haladás mentése közben.',
   })
 }

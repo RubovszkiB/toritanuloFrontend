@@ -1,0 +1,1240 @@
+{
+  "meta": {
+    "title": "Emelt töri rövid esszé – frissített kiegészítő segédfogalmazások",
+    "version": "v2",
+    "source_files": [
+      "emelt_tori_rovid_essze_forras_v1.json",
+      "tortenelem_2024_e.pdf",
+      "tetelek.zip",
+      "feladatok.zip"
+    ],
+    "description": "A rövid esszé témákhoz készült bővített segédfogalmazások. A szövegek ténylegesen kimondható, esszészerű témamagyarázatot adnak, de nem hivatkoznak konkrét forrásokra.",
+    "new_fields": [
+      "kibovitett_seged_fogalmazas",
+      "kotelezo_mag"
+    ]
+  },
+  "entries": [
+    {
+      "id": "anc_islam_mohamed",
+      "tema": "Mohamed szerepe az iszlám vallás kialakulásában",
+      "essay_type": "rovid",
+      "era": "Az ókor és kultúrája / iszlám kezdetei",
+      "requirements_topics": [
+        "2.4 Az iszlám vallás kialakulása és főbb tanításai"
+      ],
+      "related_tetelek": [
+        "22. Az iszlám vallás és az arab hódítás"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "iszlám",
+          "Allah",
+          "Korán",
+          "umma",
+          "hidzsra",
+          "próféta",
+          "monoteizmus",
+          "öt pillér"
+        ],
+        "szemelyek": [
+          "Mohamed"
+        ],
+        "evszamok": [
+          "570 körül: Mohamed születése",
+          "610: első kinyilatkoztatások",
+          "622: hidzsra (Medina)",
+          "630: Mekka elfoglalása",
+          "632: Mohamed halála"
+        ],
+        "topografia": [
+          "Mekka",
+          "Medina",
+          "Arab-félsziget",
+          "Kába"
+        ]
+      },
+      "minimum_answer": "Mohamed a 7. század elején lépett fel prófétaként, és az egyistenhitre épülő iszlám vallás alapítója lett. A 622-es hidzsra után Medinában vallási és politikai közösséget szervezett, majd 630-ban elfoglalta Mekkát. Működése nyomán az arab törzsek egy része egységbe szerveződött, ami megalapozta az iszlám gyors terjedését.",
+      "kibovitett_seged_fogalmazas": "Ennél a témánál nem elég egy fogalmat vagy egyetlen évszámot megnevezni, hanem röviden végig kell vezetni, hogy miről szól a jelenség, kik a fő szereplők, mikor zajlik, és miért történelmi jelentőségű. A biztos alapot a következő elemek adják: 570 körül: Mohamed születése, 610: első kinyilatkoztatások, 622: hidzsra (Medina), 630: Mekka elfoglalása; a kulcsszereplők közül főleg Mohamed; a szakszavak közül pedig iszlám, Allah, Korán, umma, hidzsra. A válasz elején helyezze el a témát időben és térben, utána 2–3 összefüggő mondatban mutassa be a lényeget. Érdemes kitérni arra, hogy a háttérben Arab-félsziget törzsi széttagoltsága, vallási sokszínűség, de a monoteizmus iránti nyitottság állt, a folyamatban pedig Mohamed prófétai fellépése Mekkában, kivándorlás Medinába és vallási-politikai közösség szervezése volt meghatározó. A lezárásban nevezze meg a következményeket is, például: új világvallás létrejötte, az arab törzsek politikai-vallási egyesítése. A jó rövid esszé nem felsorolás, hanem tömör, de rendezett magyarázat: először a kiinduló helyzet, utána a fő változás vagy intézkedés, végül a történelmi jelentőség."
+    },
+    {
+      "id": "anc_christianity_4th_century",
+      "tema": "A kereszténység helyzetének változása a Római Birodalomban a 4. században",
+      "essay_type": "rovid",
+      "era": "Az ókor és kultúrája",
+      "requirements_topics": [
+        "1.3 A kereszténység kialakulása és főbb tanításai",
+        "1.3 A kereszténység államvallássá válása"
+      ],
+      "related_tetelek": [
+        "21. A kereszténység története"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "türelmi rendelet",
+          "egyházszervezet",
+          "zsinat",
+          "államvallás",
+          "ortodoxia",
+          "eretnekség"
+        ],
+        "szemelyek": [
+          "Nagy Konstantin",
+          "Theodosius"
+        ],
+        "evszamok": [
+          "313: milánói ediktum",
+          "325: niceai zsinat",
+          "380: thesszalonikai ediktum",
+          "395: a birodalom kettéválása"
+        ],
+        "topografia": [
+          "Római Birodalom",
+          "Milánó",
+          "Nikaia",
+          "Konstantinápoly"
+        ]
+      },
+      "minimum_answer": "A 4. században a kereszténység helyzete gyökeresen megváltozott a Római Birodalomban. A 313-as milánói ediktum engedélyezte a vallás szabad gyakorlását, a 325-ös niceai zsinat pedig hozzájárult a hitelvek egységesítéséhez. A 380-as thesszalonikai ediktum után a kereszténység államvallássá vált, így az egyház a birodalom egyik meghatározó intézményévé lett.",
+      "kibovitett_seged_fogalmazas": "Ennél a témánál nem elég egy fogalmat vagy egyetlen évszámot megnevezni, hanem röviden végig kell vezetni, hogy miről szól a jelenség, kik a fő szereplők, mikor zajlik, és miért történelmi jelentőségű. A biztos alapot a következő elemek adják: 313: milánói ediktum, 325: niceai zsinat, 380: thesszalonikai ediktum, 395: a birodalom kettéválása; a kulcsszereplők közül főleg Nagy Konstantin, Theodosius; a szakszavak közül pedig türelmi rendelet, egyházszervezet, zsinat, államvallás, ortodoxia. A válasz elején helyezze el a témát időben és térben, utána 2–3 összefüggő mondatban mutassa be a lényeget. Érdemes kitérni arra, hogy a háttérben a kereszténység terjedése a birodalomban, a császári hatalom egységigénye állt, a folyamatban pedig üldözött vallásból engedélyezett vallás lett, az egyház szervezete megszilárdult volt meghatározó. A lezárásban nevezze meg a következményeket is, például: az egyház politikai súlya megnőtt, a pogány kultuszok háttérbe szorultak. A jó rövid esszé nem felsorolás, hanem tömör, de rendezett magyarázat: először a kiinduló helyzet, utána a fő változás vagy intézkedés, végül a történelmi jelentőség."
+    },
+    {
+      "id": "anc_augustus_principate",
+      "tema": "Augustus uralma és a köztársaság látszatának fenntartása",
+      "essay_type": "rovid",
+      "era": "Az ókor és kultúrája / Róma",
+      "requirements_topics": [
+        "1.2 Octavianus hatalomra jutása és a principátus Augustus idején"
+      ],
+      "related_tetelek": [],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "principátus",
+          "princeps",
+          "senatus",
+          "consul",
+          "tribunusi hatalom",
+          "imperium proconsulare",
+          "köztársasági látszat"
+        ],
+        "szemelyek": [
+          "Octavianus Augustus"
+        ],
+        "evszamok": [
+          "Kr. e. 31: actiumi csata",
+          "Kr. e. 27: Augustus címe, principátus kezdete",
+          "Kr. u. 14: Augustus halála"
+        ],
+        "topografia": [
+          "Róma",
+          "Actium",
+          "Római Birodalom"
+        ]
+      },
+      "minimum_answer": "Augustus úgy építette ki egyeduralmát, hogy közben fenntartotta a köztársaság intézményeinek látszatát. Meghagyta a senatust és a régi tisztségeket, de a hadsereg, a tartományok és a legfontosabb hatáskörök az ő kezében összpontosultak. A principátus ezért formailag köztársaság, valójában császári egyeduralom volt.",
+      "kibovitett_seged_fogalmazas": "Ennél a témánál nem elég egy fogalmat vagy egyetlen évszámot megnevezni, hanem röviden végig kell vezetni, hogy miről szól a jelenség, kik a fő szereplők, mikor zajlik, és miért történelmi jelentőségű. A biztos alapot a következő elemek adják: Kr. e. 31: actiumi csata, Kr. e. 27: Augustus címe, principátus kezdete, Kr. u. 14: Augustus halála; a kulcsszereplők közül főleg Octavianus Augustus; a szakszavak közül pedig principátus, princeps, senatus, consul, tribunusi hatalom. A válasz elején helyezze el a témát időben és térben, utána 2–3 összefüggő mondatban mutassa be a lényeget. Érdemes kitérni arra, hogy a háttérben a köztársaság válsága és a polgárháborúk, stabilitás iránti igény állt, a folyamatban pedig Augustus formálisan meghagyta a régi magistratusokat és a senatust, a tényleges hatalmat saját kezében összpontosította volt meghatározó. A lezárásban nevezze meg a következményeket is, például: császári egyeduralom jött létre köztársasági keretek között, hosszú belső stabilitás kezdődött. A jó rövid esszé nem felsorolás, hanem tömör, de rendezett magyarázat: először a kiinduló helyzet, utána a fő változás vagy intézkedés, végül a történelmi jelentőség."
+    },
+    {
+      "id": "med_serfdom_rights_duties",
+      "tema": "A középkori jobbágyság jogai és kötelességei az uradalomban",
+      "essay_type": "rovid",
+      "era": "A középkor",
+      "requirements_topics": [
+        "2.1 A hűbériség és a jobbágyság jellemzői",
+        "2.1 Az uradalom és a mezőgazdasági technika"
+      ],
+      "related_tetelek": [
+        "1. Mezőgazdasági és ipari termelés, kereskedelem a középkorban és a kora újkori Európában"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "jobbágy",
+          "robot",
+          "kilenced/tized",
+          "telek",
+          "majorság",
+          "szolgáltatások",
+          "személyi függés"
+        ],
+        "szemelyek": [
+          "földesúr",
+          "jobbágy"
+        ],
+        "evszamok": [
+          "9–13. század: a feudális rendszer kiteljesedése"
+        ],
+        "topografia": [
+          "Nyugat-Európa",
+          "földesúri uradalom"
+        ]
+      },
+      "minimum_answer": "A középkori jobbágy a földesúri uradalomban telekhasználatért cserébe különféle szolgáltatásokkal tartozott. Robotot végzett a majorságban, termény- vagy pénzadót fizetett, és egyházi tizedet is adhatott. Ugyanakkor a telek használata, a védelem és bizonyos közösségi jogok biztosították megélhetését.",
+      "kibovitett_seged_fogalmazas": "Ennél a témánál nem elég egy fogalmat vagy egyetlen évszámot megnevezni, hanem röviden végig kell vezetni, hogy miről szól a jelenség, kik a fő szereplők, mikor zajlik, és miért történelmi jelentőségű. A biztos alapot a következő elemek adják: 9–13. század: a feudális rendszer kiteljesedése; a kulcsszereplők közül főleg földesúr, jobbágy; a szakszavak közül pedig jobbágy, robot, kilenced/tized, telek, majorság. A válasz elején helyezze el a témát időben és térben, utána 2–3 összefüggő mondatban mutassa be a lényeget. Érdemes kitérni arra, hogy a háttérben a feudális birtokrendszer kialakulása, védelemért és földhasználatért vállalt szolgáltatások állt, a folyamatban pedig a jobbágy telket használt, termény-, pénz- és munkaszolgáltatásokkal tartozott volt meghatározó. A lezárásban nevezze meg a következményeket is, például: az uradalom önellátó gazdasági egységgé vált, a társadalom rendi tagolódása megszilárdult. A jó rövid esszé nem felsorolás, hanem tömör, de rendezett magyarázat: először a kiinduló helyzet, utána a fő változás vagy intézkedés, végül a történelmi jelentőség."
+    },
+    {
+      "id": "med_guilds_training",
+      "tema": "A céhek szerepe a szakképzésben és a mesterré válásban",
+      "essay_type": "rovid",
+      "era": "A középkor",
+      "requirements_topics": [
+        "2.3 A középkori város és a céhes ipar"
+      ],
+      "related_tetelek": [
+        "1. Mezőgazdasági és ipari termelés, kereskedelem a középkorban és a kora újkori Európában"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "céh",
+          "inasévek",
+          "legényvándorlás",
+          "mesterremek",
+          "monopólium",
+          "városi polgár"
+        ],
+        "szemelyek": [
+          "inas",
+          "legény",
+          "mester"
+        ],
+        "evszamok": [
+          "11–15. század: városfejlődés és céhek megerősödése"
+        ],
+        "topografia": [
+          "középkori városok",
+          "Nyugat- és Közép-Európa"
+        ]
+      },
+      "minimum_answer": "A céhek a középkori városok kézműiparát és szakképzését szabályozták. A pálya általában inasként indult, majd legényévek és sokszor vándorlás után lehetett mesterré válni, gyakran mesterremek készítésével. A céhek egyszerre biztosították a minőséget és korlátozták a versenyt, hogy védjék a mesterek érdekeit.",
+      "kibovitett_seged_fogalmazas": "Ennél a témánál nem elég egy fogalmat vagy egyetlen évszámot megnevezni, hanem röviden végig kell vezetni, hogy miről szól a jelenség, kik a fő szereplők, mikor zajlik, és miért történelmi jelentőségű. A biztos alapot a következő elemek adják: 11–15. század: városfejlődés és céhek megerősödése; a kulcsszereplők közül főleg inas, legény, mester; a szakszavak közül pedig céh, inasévek, legényvándorlás, mesterremek, monopólium. A válasz elején helyezze el a témát időben és térben, utána 2–3 összefüggő mondatban mutassa be a lényeget. Érdemes kitérni arra, hogy a háttérben a minőség ellenőrzésének igénye, a termelés és piac szabályozása állt, a folyamatban pedig inasból legény, majd mesterré válás meghatározott feltételekkel, a céh ellenőrizte a termelést, az árakat és a képzést volt meghatározó. A lezárásban nevezze meg a következményeket is, például: biztosították a szakmai minőséget, lassították a technikai újítások terjedését. A jó rövid esszé nem felsorolás, hanem tömör, de rendezett magyarázat: először a kiinduló helyzet, utána a fő változás vagy intézkedés, végül a történelmi jelentőség."
+    },
+    {
+      "id": "med_eastern_christianity",
+      "tema": "A keleti kereszténység szervezeti sajátosságai",
+      "essay_type": "rovid",
+      "era": "A középkor",
+      "requirements_topics": [
+        "2.2 A nyugati és a keleti kereszténység főbb jellemzői"
+      ],
+      "related_tetelek": [
+        "21. A kereszténység története"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "ortodox",
+          "pátriárka",
+          "caesaropapizmus",
+          "egyházszakadás",
+          "liturgia",
+          "egyházi szláv"
+        ],
+        "szemelyek": [
+          "bizánci császár",
+          "konstantinápolyi pátriárka",
+          "Cirill és Metód"
+        ],
+        "evszamok": [
+          "1054: egyházszakadás"
+        ],
+        "topografia": [
+          "Bizánc",
+          "Konstantinápoly",
+          "Kelet-Európa",
+          "Balkán"
+        ]
+      },
+      "minimum_answer": "A keleti kereszténységet nem egyetlen központ, hanem pátriárkák irányították, miközben a bizánci császárnak is nagy befolyása volt az egyházi ügyekre. A liturgiában a görög mellett a térítés során a szláv nyelvek is megjelentek. Ez a szervezeti és kulturális sajátosság is hozzájárult a nyugati és keleti egyház eltávolodásához.",
+      "kibovitett_seged_fogalmazas": "Ennél a témánál nem elég egy fogalmat vagy egyetlen évszámot megnevezni, hanem röviden végig kell vezetni, hogy miről szól a jelenség, kik a fő szereplők, mikor zajlik, és miért történelmi jelentőségű. A biztos alapot a következő elemek adják: 1054: egyházszakadás; a kulcsszereplők közül főleg bizánci császár, konstantinápolyi pátriárka, Cirill és Metód; a szakszavak közül pedig ortodox, pátriárka, caesaropapizmus, egyházszakadás, liturgia. A válasz elején helyezze el a témát időben és térben, utána 2–3 összefüggő mondatban mutassa be a lényeget. Érdemes kitérni arra, hogy a háttérben kulturális és politikai különbségek Kelet és Nyugat között, a császári hatalom erős szerepe Bizáncban állt, a folyamatban pedig a keleti egyházban nem alakult ki pápai központú szervezet, a császár jelentős befolyást gyakorolt volt meghatározó. A lezárásban nevezze meg a következményeket is, például: tartós különbség alakult ki a katolikus és ortodox kereszténység között, a keleti kereszténység nagy szerepet játszott a szláv népek kultúrájában. A jó rövid esszé nem felsorolás, hanem tömör, de rendezett magyarázat: először a kiinduló helyzet, utána a fő változás vagy intézkedés, végül a történelmi jelentőség."
+    },
+    {
+      "id": "med_estates_france",
+      "tema": "A rendi gyűlés működése és a királyi hatalom korlátai Franciaországban",
+      "essay_type": "rovid",
+      "era": "A középkor",
+      "requirements_topics": [
+        "2.3 A rendi állam kialakulása és működése Angliában és Franciaországban"
+      ],
+      "related_tetelek": [],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "rendi állam",
+          "rendi gyűlés",
+          "adómegajánlás",
+          "három rend",
+          "királyi tanács"
+        ],
+        "szemelyek": [
+          "francia király",
+          "papság",
+          "nemesség",
+          "harmadik rend"
+        ],
+        "evszamok": [
+          "1302: első francia rendi gyűlés"
+        ],
+        "topografia": [
+          "Francia Királyság",
+          "Párizs"
+        ]
+      },
+      "minimum_answer": "A francia rendi gyűlést elsősorban akkor hívták össze, amikor a királynak adóra vagy politikai támogatásra volt szüksége. A papság, a nemesség és a harmadik rend elkülönülten tárgyalt, így a rendi érdekek külön is megjelenhettek. A rendi gyűlés nem szüntette meg a királyi hatalmat, de bizonyos ügyekben korlátot és legitimációs kényszert jelentett.",
+      "kibovitett_seged_fogalmazas": "Ennél a témánál nem elég egy fogalmat vagy egyetlen évszámot megnevezni, hanem röviden végig kell vezetni, hogy miről szól a jelenség, kik a fő szereplők, mikor zajlik, és miért történelmi jelentőségű. A biztos alapot a következő elemek adják: 1302: első francia rendi gyűlés; a kulcsszereplők közül főleg francia király, papság, nemesség; a szakszavak közül pedig rendi állam, rendi gyűlés, adómegajánlás, három rend, királyi tanács. A válasz elején helyezze el a témát időben és térben, utána 2–3 összefüggő mondatban mutassa be a lényeget. Érdemes kitérni arra, hogy a háttérben a király adó- és támogatásigénye, háborúk és belpolitikai konfliktusok állt, a folyamatban pedig a király összehívta a rendeket, a három rend külön ülésezett volt meghatározó. A lezárásban nevezze meg a következményeket is, például: a királyi hatalomnak bizonyos rendi korlátai alakultak ki, a rendiség politikai képviseleti formát kapott. A jó rövid esszé nem felsorolás, hanem tömör, de rendezett magyarázat: először a kiinduló helyzet, utána a fő változás vagy intézkedés, végül a történelmi jelentőség."
+    },
+    {
+      "id": "med_universities",
+      "tema": "A középkori egyetemek kialakulása és működése",
+      "essay_type": "rovid",
+      "era": "A középkor",
+      "requirements_topics": [
+        "2.5 Művelődés és írásbeliség a középkorban"
+      ],
+      "related_tetelek": [],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "egyetem",
+          "universitas",
+          "hét szabad művészet",
+          "latin nyelv",
+          "fakultás",
+          "klerikus"
+        ],
+        "szemelyek": [
+          "tanárok",
+          "diákok",
+          "egyház"
+        ],
+        "evszamok": [
+          "11–13. század: első egyetemek",
+          "1088: Bologna",
+          "12–13. század: Párizs, Oxford"
+        ],
+        "topografia": [
+          "Bologna",
+          "Párizs",
+          "Oxford"
+        ]
+      },
+      "minimum_answer": "A középkori egyetemek a 11–13. században jöttek létre városi és egyházi közegben. A tanítás nyelve latin volt, az oktatás alapját a hét szabad művészet adta, erre épültek a magasabb fakultások. Az egyetemek fontos szerepet játszottak az európai műveltség és az értelmiségi réteg kialakulásában.",
+      "kibovitett_seged_fogalmazas": "Ennél a témánál nem elég egy fogalmat vagy egyetlen évszámot megnevezni, hanem röviden végig kell vezetni, hogy miről szól a jelenség, kik a fő szereplők, mikor zajlik, és miért történelmi jelentőségű. A biztos alapot a következő elemek adják: 11–13. század: első egyetemek, 1088: Bologna, 12–13. század: Párizs, Oxford; a kulcsszereplők közül főleg tanárok, diákok, egyház; a szakszavak közül pedig egyetem, universitas, hét szabad művészet, latin nyelv, fakultás. A válasz elején helyezze el a témát időben és térben, utána 2–3 összefüggő mondatban mutassa be a lényeget. Érdemes kitérni arra, hogy a háttérben városi fejlődés és írásbeliség erősödése, egyház és állam egyre több képzett embert igényelt állt, a folyamatban pedig tanárok és diákok közösségeként jöttek létre, latin volt az oktatás nyelve volt meghatározó. A lezárásban nevezze meg a következményeket is, például: egységesebb európai műveltség jött létre, megnőtt az értelmiség társadalmi szerepe. A jó rövid esszé nem felsorolás, hanem tömör, de rendezett magyarázat: először a kiinduló helyzet, utána a fő változás vagy intézkedés, végül a történelmi jelentőség."
+    },
+    {
+      "id": "med_serfdom_formation",
+      "tema": "A jobbágyság kialakulása és fő jellemzői",
+      "essay_type": "rovid",
+      "era": "A középkor",
+      "requirements_topics": [
+        "2.1 A hűbériség és a jobbágyság jellemzői"
+      ],
+      "related_tetelek": [
+        "1. Mezőgazdasági és ipari termelés, kereskedelem a középkorban és a kora újkori Európában"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "személyi függés",
+          "telek",
+          "robot",
+          "járadék",
+          "földesúri bíráskodás"
+        ],
+        "szemelyek": [
+          "jobbágy",
+          "földesúr"
+        ],
+        "evszamok": [
+          "9–11. század: függő parasztság megszilárdulása"
+        ],
+        "topografia": [
+          "Nyugat-Európa"
+        ]
+      },
+      "minimum_answer": "A jobbágyság a kora középkor során alakult ki, amikor sok paraszt védelemért és földhasználatért cserébe függésbe került a földesúrtól. Helyzetét a telekhasználat, a robot és más szolgáltatások, valamint a földesúri bíráskodás jellemezte. Így a jobbágyság a feudális társadalom alapvető termelő rétegévé vált.",
+      "kibovitett_seged_fogalmazas": "Ennél a témánál nem elég egy fogalmat vagy egyetlen évszámot megnevezni, hanem röviden végig kell vezetni, hogy miről szól a jelenség, kik a fő szereplők, mikor zajlik, és miért történelmi jelentőségű. A biztos alapot a következő elemek adják: 9–11. század: függő parasztság megszilárdulása; a kulcsszereplők közül főleg jobbágy, földesúr; a szakszavak közül pedig személyi függés, telek, robot, járadék, földesúri bíráskodás. A válasz elején helyezze el a témát időben és térben, utána 2–3 összefüggő mondatban mutassa be a lényeget. Érdemes kitérni arra, hogy a háttérben biztonságkeresés a kora középkor zavarai közepette, a nagybirtok és a földesúri hatalom megerősödése állt, a folyamatban pedig szabad és félszabad parasztok fokozatos függésbe kerültek, a földhasználat szolgáltatásokhoz kapcsolódott volt meghatározó. A lezárásban nevezze meg a következményeket is, például: rendi társadalom megerősödése, a parasztság jogilag és gazdaságilag alárendelt helyzete. A jó rövid esszé nem felsorolás, hanem tömör, de rendezett magyarázat: először a kiinduló helyzet, utána a fő változás vagy intézkedés, végül a történelmi jelentőség."
+    },
+    {
+      "id": "med_english_estates_monarchy",
+      "tema": "Az angol rendi monarchia és a parlament működése",
+      "essay_type": "rovid",
+      "era": "A középkor",
+      "requirements_topics": [
+        "2.3 A rendi állam kialakulása és működése Angliában és Franciaországban"
+      ],
+      "related_tetelek": [
+        "15. A modern demokráciák 17-18. századi gyökerei"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "rendi monarchia",
+          "parlament",
+          "felsőház",
+          "alsóház",
+          "adómegajánlás",
+          "Magna Charta"
+        ],
+        "szemelyek": [
+          "angol király",
+          "főurak",
+          "lovagok",
+          "városi polgárok"
+        ],
+        "evszamok": [
+          "1215: Magna Charta",
+          "1265: Simon de Montfort gyűlése",
+          "1295: mintaparlament"
+        ],
+        "topografia": [
+          "Anglia",
+          "London",
+          "Westminster"
+        ]
+      },
+      "minimum_answer": "Az angol rendi monarchiában a király hatalmát a rendek jogai és a parlament működése korlátozta. A 1215-ös Magna Charta, majd a 13. század végétől kialakuló kétkamarás parlament biztosította, hogy főként adóügyekben a rendek beleegyezése is szükséges legyen. Ez a rendszer az angol alkotmányosság egyik alapja lett.",
+      "kibovitett_seged_fogalmazas": "Ennél a témánál nem elég egy fogalmat vagy egyetlen évszámot megnevezni, hanem röviden végig kell vezetni, hogy miről szól a jelenség, kik a fő szereplők, mikor zajlik, és miért történelmi jelentőségű. A biztos alapot a következő elemek adják: 1215: Magna Charta, 1265: Simon de Montfort gyűlése, 1295: mintaparlament; a kulcsszereplők közül főleg angol király, főurak, lovagok; a szakszavak közül pedig rendi monarchia, parlament, felsőház, alsóház, adómegajánlás. A válasz elején helyezze el a témát időben és térben, utána 2–3 összefüggő mondatban mutassa be a lényeget. Érdemes kitérni arra, hogy a háttérben a király pénzigénye, a rendek jogainak védelme állt, a folyamatban pedig a király nem kormányozhatott korlátlanul, a parlament jóváhagyása kellett főként adókhoz volt meghatározó. A lezárásban nevezze meg a következményeket is, például: megerősödött a rendi képviselet, korlátozottabbá vált az uralkodói hatalom. A jó rövid esszé nem felsorolás, hanem tömör, de rendezett magyarázat: először a kiinduló helyzet, utána a fő változás vagy intézkedés, végül a történelmi jelentőség."
+    },
+    {
+      "id": "earlymod_price_revolution",
+      "tema": "A nemesfémbeáramlás hatása a 16. századi európai gazdaságra",
+      "essay_type": "rovid",
+      "era": "Szellemi, társadalmi és politikai változások a kora újkorban",
+      "requirements_topics": [
+        "4.1 A földrajzi felfedezések és a kapitalista gazdaság jellemzői",
+        "4.1 A 16-17. századi gyarmatosítás és a világgazdaság kialakulása"
+      ],
+      "related_tetelek": [
+        "1. Mezőgazdasági és ipari termelés, kereskedelem a középkorban és a kora újkori Európában"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "árforradalom",
+          "nemesfémbeáramlás",
+          "világgazdaság",
+          "munkamegosztás",
+          "kapitalizmus"
+        ],
+        "szemelyek": [
+          "spanyol hódítók",
+          "nyugat-európai kereskedők"
+        ],
+        "evszamok": [
+          "16. század"
+        ],
+        "topografia": [
+          "Spanyol-Amerika",
+          "Nyugat-Európa",
+          "Atlanti-óceán térsége",
+          "Kelet-Közép-Európa"
+        ]
+      },
+      "minimum_answer": "A 16. században az Amerikából beáramló nemesfémek jelentős pénzbőséget okoztak, ami árforradalomhoz vezetett. Az európai kereskedelem súlypontja az Atlanti-óceán térségébe került, és erősödött a nyugati ipari központok és a kelet-európai gabonatermelő térségek közti munkamegosztás. Mindez hozzájárult a kapitalista fejlődés felgyorsulásához.",
+      "kibovitett_seged_fogalmazas": "Ennél a témánál nem elég egy fogalmat vagy egyetlen évszámot megnevezni, hanem röviden végig kell vezetni, hogy miről szól a jelenség, kik a fő szereplők, mikor zajlik, és miért történelmi jelentőségű. A biztos alapot a következő elemek adják: 16. század; a kulcsszereplők közül főleg spanyol hódítók, nyugat-európai kereskedők; a szakszavak közül pedig árforradalom, nemesfémbeáramlás, világgazdaság, munkamegosztás, kapitalizmus. A válasz elején helyezze el a témát időben és térben, utána 2–3 összefüggő mondatban mutassa be a lényeget. Érdemes kitérni arra, hogy a háttérben amerikai arany- és ezüstbeáramlás, atlanti kereskedelem fellendülése állt, a folyamatban pedig emelkedtek az árak, átalakult a kereskedelem súlypontja a Mediterráneumról az Atlanti-térségre volt meghatározó. A lezárásban nevezze meg a következményeket is, például: megerősödött a kereskedő- és pénztőkés réteg, a földesúri és bérből élő csoportok egy része vesztett. A jó rövid esszé nem felsorolás, hanem tömör, de rendezett magyarázat: először a kiinduló helyzet, utána a fő változás vagy intézkedés, végül a történelmi jelentőség."
+    },
+    {
+      "id": "earlymod_louisxiv_political_system",
+      "tema": "XIV. Lajos uralmi rendszerének politikai elemei",
+      "essay_type": "rovid",
+      "era": "Szellemi, társadalmi és politikai változások a kora újkorban",
+      "requirements_topics": [
+        "4.3 A francia abszolutizmus XIV. Lajos korában"
+      ],
+      "related_tetelek": [],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "abszolutizmus",
+          "állandó hadsereg",
+          "intendáns",
+          "udvari nemesség",
+          "centralizáció"
+        ],
+        "szemelyek": [
+          "XIV. Lajos",
+          "intendánsok",
+          "nemesség"
+        ],
+        "evszamok": [
+          "1643–1715: XIV. Lajos uralma"
+        ],
+        "topografia": [
+          "Franciaország",
+          "Versailles"
+        ]
+      },
+      "minimum_answer": "XIV. Lajos uralma a francia abszolutizmus klasszikus példája. A király a kormányzás legfontosabb döntéseit központilag irányította, a tartományokban intendánsok képviselték, a főnemességet pedig a versailles-i udvarhoz kötötte. Így a rendi és helyi hatalmi központok háttérbe szorultak, miközben a király politikai hatalma megerősödött.",
+      "kibovitett_seged_fogalmazas": "Ennél a témánál nem elég egy fogalmat vagy egyetlen évszámot megnevezni, hanem röviden végig kell vezetni, hogy miről szól a jelenség, kik a fő szereplők, mikor zajlik, és miért történelmi jelentőségű. A biztos alapot a következő elemek adják: 1643–1715: XIV. Lajos uralma; a kulcsszereplők közül főleg XIV. Lajos, intendánsok, nemesség; a szakszavak közül pedig abszolutizmus, állandó hadsereg, intendáns, udvari nemesség, centralizáció. A válasz elején helyezze el a témát időben és térben, utána 2–3 összefüggő mondatban mutassa be a lényeget. Érdemes kitérni arra, hogy a háttérben a rendi megosztottság és a vallásháborúk után erős központi hatalom igénye, a királyi hatalom növelésének törekvése állt, a folyamatban pedig a király központosította a kormányzást, az intendánsok a tartományokban érvényesítették az akaratát volt meghatározó. A lezárásban nevezze meg a következményeket is, például: megerősödött a királyi abszolút hatalom, a rendi és helyi önállóság háttérbe szorult. A jó rövid esszé nem felsorolás, hanem tömör, de rendezett magyarázat: először a kiinduló helyzet, utána a fő változás vagy intézkedés, végül a történelmi jelentőség."
+    },
+    {
+      "id": "earlymod_spanish_colonization",
+      "tema": "A 16. századi amerikai gyarmatosítás gazdasági jellemzői és következményei",
+      "essay_type": "rovid",
+      "era": "Szellemi, társadalmi és politikai változások a kora újkorban",
+      "requirements_topics": [
+        "4.1 A földrajzi felfedezések és a kapitalista gazdaság jellemzői",
+        "4.1 A 16-17. századi gyarmatosítás és a világgazdaság kialakulása"
+      ],
+      "related_tetelek": [
+        "1. Mezőgazdasági és ipari termelés, kereskedelem a középkorban és a kora újkori Európában"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "gyarmatosítás",
+          "conquista",
+          "nemesfém",
+          "ültetvény",
+          "világkereskedelem",
+          "árforradalom"
+        ],
+        "szemelyek": [
+          "Kolumbusz",
+          "conquistadorok",
+          "spanyol korona"
+        ],
+        "evszamok": [
+          "1492 után",
+          "16. század"
+        ],
+        "topografia": [
+          "Amerika",
+          "Karib-térség",
+          "Mexikó",
+          "Peru",
+          "Spanyolország"
+        ]
+      },
+      "minimum_answer": "A 16. századi spanyol gyarmatosítás fő célja a nemesfémek, a föld és a kereskedelmi haszon megszerzése volt. A hódítások után Amerikában gyarmati rendszer, bányászat és ültetvényes gazdálkodás épült ki, ami súlyosan érintette az őslakosságot. Az Európába érkező arany és ezüst felgyorsította a kereskedelem átalakulását és hozzájárult az árforradalomhoz.",
+      "kibovitett_seged_fogalmazas": "Ennél a témánál nem elég egy fogalmat vagy egyetlen évszámot megnevezni, hanem röviden végig kell vezetni, hogy miről szól a jelenség, kik a fő szereplők, mikor zajlik, és miért történelmi jelentőségű. A biztos alapot a következő elemek adják: 1492 után, 16. század; a kulcsszereplők közül főleg Kolumbusz, conquistadorok, spanyol korona; a szakszavak közül pedig gyarmatosítás, conquista, nemesfém, ültetvény, világkereskedelem. A válasz elején helyezze el a témát időben és térben, utána 2–3 összefüggő mondatban mutassa be a lényeget. Érdemes kitérni arra, hogy a háttérben nemesfém- és haszonszerzés, új kereskedelmi utak és területek megszerzése állt, a folyamatban pedig hódítás és gyarmati közigazgatás kialakítása, nemesfém-bányászat és ültetvényes termelés volt meghatározó. A lezárásban nevezze meg a következményeket is, például: amerika őslakosságának összeomlása, nagy mennyiségű arany és ezüst érkezett Európába. A jó rövid esszé nem felsorolás, hanem tömör, de rendezett magyarázat: először a kiinduló helyzet, utána a fő változás vagy intézkedés, végül a történelmi jelentőség."
+    },
+    {
+      "id": "earlymod_mercantilism",
+      "tema": "A merkantilista gazdaságpolitika céljai és eszközei",
+      "essay_type": "rovid",
+      "era": "Szellemi, társadalmi és politikai változások a kora újkorban",
+      "requirements_topics": [
+        "4.1 A földrajzi felfedezések és a kapitalista gazdaság jellemzői",
+        "4.4 A felvilágosodás eszmerendszere és főbb képviselői"
+      ],
+      "related_tetelek": [],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "merkantilizmus",
+          "aktív külkereskedelmi mérleg",
+          "vámvédelem",
+          "manufaktúra",
+          "állami beavatkozás",
+          "laissez-faire"
+        ],
+        "szemelyek": [
+          "Colbert",
+          "Adam Smith"
+        ],
+        "evszamok": [
+          "16–18. század",
+          "1776: Adam Smith A nemzetek gazdagsága"
+        ],
+        "topografia": [
+          "Franciaország",
+          "Anglia",
+          "Nyugat-Európa"
+        ]
+      },
+      "minimum_answer": "A merkantilizmus célja az állam gazdasági és politikai erejének növelése volt, ezért az aktív külkereskedelmi mérlegre törekedett. Eszközei közé tartoztak a vámok, az export ösztönzése, a manufaktúrák támogatása és az erős állami beavatkozás. Adam Smith ezzel szemben a szabadabb versenyt és a piac önszabályozó szerepét hangsúlyozta.",
+      "kibovitett_seged_fogalmazas": "Ennél a témánál nem elég egy fogalmat vagy egyetlen évszámot megnevezni, hanem röviden végig kell vezetni, hogy miről szól a jelenség, kik a fő szereplők, mikor zajlik, és miért történelmi jelentőségű. A biztos alapot a következő elemek adják: 16–18. század, 1776: Adam Smith A nemzetek gazdagsága; a kulcsszereplők közül főleg Colbert, Adam Smith; a szakszavak közül pedig merkantilizmus, aktív külkereskedelmi mérleg, vámvédelem, manufaktúra, állami beavatkozás. A válasz elején helyezze el a témát időben és térben, utána 2–3 összefüggő mondatban mutassa be a lényeget. Érdemes kitérni arra, hogy a háttérben az állam bevételeinek és hatalmának növelése, nemzetközi verseny a korai kapitalizmusban állt, a folyamatban pedig az állam támogatta a kivitel növelését és a behozatal korlátozását, vámokkal, monopóliumokkal és manufaktúrák ösztönzésével avatkozott be volt meghatározó. A lezárásban nevezze meg a következményeket is, például: erősödött az ipar és a kereskedelem egyes államokban, megnőtt az állami gazdaságirányítás szerepe. A jó rövid esszé nem felsorolás, hanem tömör, de rendezett magyarázat: először a kiinduló helyzet, utána a fő változás vagy intézkedés, végül a történelmi jelentőség."
+    },
+    {
+      "id": "earlymod_ottoman_revenues",
+      "tema": "A szultáni jövedelmek és ezek problémái a 15–16. századi Oszmán Birodalomban",
+      "essay_type": "rovid",
+      "era": "Szellemi, társadalmi és politikai változások a kora újkorban",
+      "requirements_topics": [
+        "2.4 Az Oszmán Birodalom kialakulása és főbb jellemzői"
+      ],
+      "related_tetelek": [
+        "27. Magyar–török küzdelmek a 15-17. században"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "timár",
+          "adó",
+          "harács",
+          "zsákmány",
+          "janicsár",
+          "szpáhi"
+        ],
+        "szemelyek": [
+          "szultán",
+          "szpáhik",
+          "janicsárok"
+        ],
+        "evszamok": [
+          "15–16. század"
+        ],
+        "topografia": [
+          "Oszmán Birodalom",
+          "Balkán",
+          "Kis-Ázsia",
+          "Földközi-tenger",
+          "fő kereskedelmi útvonalak"
+        ]
+      },
+      "minimum_answer": "Az Oszmán Birodalom bevételei főként adókból, földjövedelmekből és a hódítások zsákmányából származtak. A stratégiai földrajzi helyzet és a hódító hadsereg sokáig erősítette a szultáni hatalmat, de a terjeszkedés lassulása pénzügyi gondokat okozott. A drága hadsereg fenntartása ezért egyre nagyobb terhet jelentett a birodalomnak.",
+      "kibovitett_seged_fogalmazas": "Ennél a témánál nem elég egy fogalmat vagy egyetlen évszámot megnevezni, hanem röviden végig kell vezetni, hogy miről szól a jelenség, kik a fő szereplők, mikor zajlik, és miért történelmi jelentőségű. A biztos alapot a következő elemek adják: 15–16. század; a kulcsszereplők közül főleg szultán, szpáhik, janicsárok; a szakszavak közül pedig timár, adó, harács, zsákmány, janicsár. A válasz elején helyezze el a témát időben és térben, utána 2–3 összefüggő mondatban mutassa be a lényeget. Érdemes kitérni arra, hogy a háttérben katonai terjeszkedésen alapuló állam, stratégiai fekvés a kereskedelmi útvonalak közelében állt, a folyamatban pedig a szultán bevételei földbirtok-jövedelmekből, adókból és hódítási zsákmányból származtak, a hadsereg fenntartása nagy költséget jelentett volt meghatározó. A lezárásban nevezze meg a következményeket is, például: fokozódtak a birodalom pénzügyi feszültségei, a katonai rendszer fenntartása egyre nehezebbé vált. A jó rövid esszé nem felsorolás, hanem tömör, de rendezett magyarázat: először a kiinduló helyzet, utána a fő változás vagy intézkedés, végül a történelmi jelentőség."
+    },
+    {
+      "id": "modern_germany_economic_rise",
+      "tema": "Németország gazdasági nagyhatalommá válása a 19. században",
+      "essay_type": "rovid",
+      "era": "A polgári átalakulás, a nemzetállamok és az imperializmus kora",
+      "requirements_topics": [
+        "6.2 Az egységes Németország létrejötte és nagyhatalommá válása",
+        "6.4 Az ipari forradalmak legjelentősebb területei"
+      ],
+      "related_tetelek": [
+        "24. A XIX. század eszméi",
+        "7. Az ipari forradalmak társadalmi háttere és hatásai"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "Zollverein",
+          "iparosodás",
+          "nehézipar",
+          "vámunió",
+          "nemzetállam",
+          "második ipari forradalom"
+        ],
+        "szemelyek": [
+          "Bismarck"
+        ],
+        "evszamok": [
+          "1834: Zollverein",
+          "1871: Német egység létrejötte"
+        ],
+        "topografia": [
+          "Rajna-vidék",
+          "Ruhr-vidék",
+          "Németország"
+        ]
+      },
+      "minimum_answer": "Németország gazdasági felemelkedését a nyersanyagkészletek, a vámunió és az egységes piac kialakulása, valamint a fejlett oktatás és technika segítette. Az 1871-es egység után a nehézipar és a modern iparágak gyorsan fejlődtek. Ennek eredményeként Németország a 19. század végére vezető gazdasági nagyhatalommá vált.",
+      "kibovitett_seged_fogalmazas": "Ennél a témánál nem elég egy fogalmat vagy egyetlen évszámot megnevezni, hanem röviden végig kell vezetni, hogy miről szól a jelenség, kik a fő szereplők, mikor zajlik, és miért történelmi jelentőségű. A biztos alapot a következő elemek adják: 1834: Zollverein, 1871: Német egység létrejötte; a kulcsszereplők közül főleg Bismarck; a szakszavak közül pedig Zollverein, iparosodás, nehézipar, vámunió, nemzetállam. A válasz elején helyezze el a témát időben és térben, utána 2–3 összefüggő mondatban mutassa be a lényeget. Érdemes kitérni arra, hogy a háttérben gazdag nyersanyagkészletek, magas szintű oktatás és szakképzés állt, a folyamatban pedig vas- és acélipar, gépgyártás, vegyipar gyors fejlődése, a politikai egység fokozta a piac és infrastruktúra egységesülését volt meghatározó. A lezárásban nevezze meg a következményeket is, például: Németország európai gazdasági nagyhatalom lett, nőtt nagyhatalmi és gyarmati igénye. A jó rövid esszé nem felsorolás, hanem tömör, de rendezett magyarázat: először a kiinduló helyzet, utána a fő változás vagy intézkedés, végül a történelmi jelentőség."
+    },
+    {
+      "id": "modern_imperialism",
+      "tema": "A 19. század végi európai gyarmatosítást ösztönző tényezők",
+      "essay_type": "rovid",
+      "era": "A polgári átalakulás, a nemzetállamok és az imperializmus kora",
+      "requirements_topics": [
+        "6.3 Gyarmatok és gyarmattartók a 19. század közepétől az első világháborúig"
+      ],
+      "related_tetelek": [
+        "24. A XIX. század eszméi"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "imperializmus",
+          "gyarmat",
+          "tőkekivitel",
+          "piacszerzés",
+          "civilizációs küldetés",
+          "nacionalizmus"
+        ],
+        "szemelyek": [
+          "európai nagyhatalmak vezetői"
+        ],
+        "evszamok": [
+          "19. század vége",
+          "1884–85: berlini konferencia"
+        ],
+        "topografia": [
+          "Afrika",
+          "Ázsia",
+          "Európa"
+        ]
+      },
+      "minimum_answer": "A 19. század végi gyarmatosítást gazdasági, politikai és technikai tényezők egyszerre ösztönözték. Az európai hatalmak nyersanyagokat, piacokat és befektetési lehetőségeket kerestek, miközben katonai és közlekedési fölényük ezt lehetővé tette. A gyarmatosítás a nagyhatalmi versengést is fokozta, és hozzájárult a nemzetközi feszültségek növekedéséhez.",
+      "kibovitett_seged_fogalmazas": "Ennél a témánál nem elég egy fogalmat vagy egyetlen évszámot megnevezni, hanem röviden végig kell vezetni, hogy miről szól a jelenség, kik a fő szereplők, mikor zajlik, és miért történelmi jelentőségű. A biztos alapot a következő elemek adják: 19. század vége, 1884–85: berlini konferencia; a kulcsszereplők közül főleg európai nagyhatalmak vezetői; a szakszavak közül pedig imperializmus, gyarmat, tőkekivitel, piacszerzés, civilizációs küldetés. A válasz elején helyezze el a témát időben és térben, utána 2–3 összefüggő mondatban mutassa be a lényeget. Érdemes kitérni arra, hogy a háttérben nyersanyag- és piacigény, tőkekivitel állt, a folyamatban pedig Afrika és Ázsia felosztása, katonai, gazdasági és politikai ellenőrzés kiépítése volt meghatározó. A lezárásban nevezze meg a következményeket is, például: éleződtek a nagyhatalmi ellentétek, a gyarmatok gazdasága függő helyzetbe került. A jó rövid esszé nem felsorolás, hanem tömör, de rendezett magyarázat: először a kiinduló helyzet, utána a fő változás vagy intézkedés, végül a történelmi jelentőség."
+    },
+    {
+      "id": "modern_us_federal_legislature",
+      "tema": "Az amerikai szövetségi törvényhozás intézménye és működése",
+      "essay_type": "rovid",
+      "era": "A polgári átalakulás, a nemzetállamok és az imperializmus kora",
+      "requirements_topics": [
+        "4.4 Az Egyesült Államok létrejötte és alkotmánya"
+      ],
+      "related_tetelek": [
+        "15. A modern demokráciák 17-18. századi gyökerei",
+        "23. A francia forradalom és következményei"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "szövetségi állam",
+          "Kongresszus",
+          "Képviselőház",
+          "Szenátus",
+          "hatalmi ágak megosztása",
+          "checks and balances"
+        ],
+        "szemelyek": [
+          "elnök",
+          "kongresszusi képviselők",
+          "szenátorok"
+        ],
+        "evszamok": [
+          "1776: Függetlenségi nyilatkozat",
+          "1787: alkotmány",
+          "1789: alkotmány életbe lépése"
+        ],
+        "topografia": [
+          "Egyesült Államok",
+          "Washington"
+        ]
+      },
+      "minimum_answer": "Az Egyesült Államok alkotmánya kétkamarás szövetségi törvényhozást hozott létre. A Képviselőház a népességhez, a Szenátus a tagállami egyenlőséghez igazodott, így mindkét elv érvényesült. A Kongresszus az elnöki és bírói hatalommal kölcsönös ellenőrzésben működött, ami az amerikai alkotmányos rendszer alapja lett.",
+      "kibovitett_seged_fogalmazas": "Ennél a témánál nem elég egy fogalmat vagy egyetlen évszámot megnevezni, hanem röviden végig kell vezetni, hogy miről szól a jelenség, kik a fő szereplők, mikor zajlik, és miért történelmi jelentőségű. A biztos alapot a következő elemek adják: 1776: Függetlenségi nyilatkozat, 1787: alkotmány, 1789: alkotmány életbe lépése; a kulcsszereplők közül főleg elnök, kongresszusi képviselők, szenátorok; a szakszavak közül pedig szövetségi állam, Kongresszus, Képviselőház, Szenátus, hatalmi ágak megosztása. A válasz elején helyezze el a témát időben és térben, utána 2–3 összefüggő mondatban mutassa be a lényeget. Érdemes kitérni arra, hogy a háttérben a gyarmatok önkormányzati hagyománya, a hatalomkoncentráció elkerülésének igénye állt, a folyamatban pedig kétkamarás törvényhozás jött létre, a Képviselőház népességarányos, a Szenátus tagállamonként egyenlő képviseletet adott volt meghatározó. A lezárásban nevezze meg a következményeket is, például: stabil alkotmányos rendszer alakult ki, egyszerre érvényesült a népképviselet és a tagállami érdek. A jó rövid esszé nem felsorolás, hanem tömör, de rendezett magyarázat: először a kiinduló helyzet, utána a fő változás vagy intézkedés, végül a történelmi jelentőség."
+    },
+    {
+      "id": "modern_second_industrial_revolution",
+      "tema": "A második ipari forradalom fejlődését ösztönző tényezők",
+      "essay_type": "rovid",
+      "era": "A polgári átalakulás, a nemzetállamok és az imperializmus kora",
+      "requirements_topics": [
+        "6.4 Az ipari forradalmak legjelentősebb területei",
+        "6.4 Az ipari forradalmak társadalmi hatásai"
+      ],
+      "related_tetelek": [
+        "7. Az ipari forradalmak társadalmi háttere és hatásai"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "második ipari forradalom",
+          "elektromosság",
+          "vegyipar",
+          "olajipar",
+          "belső égésű motor",
+          "tudomány és technika kapcsolata",
+          "tömegtermelés"
+        ],
+        "szemelyek": [
+          "mérnökök",
+          "feltalálók",
+          "iparmágnások"
+        ],
+        "evszamok": [
+          "19. század második fele",
+          "20. század eleje"
+        ],
+        "topografia": [
+          "Németország",
+          "Egyesült Államok",
+          "Nyugat-Európa"
+        ]
+      },
+      "minimum_answer": "A második ipari forradalmat a tudomány és technika szorosabb kapcsolata, a tőke koncentrációja és a nagy piacok kialakulása segítette. Az elektromosság, a vegyipar, az olajipar és a belső égésű motor új lendületet adott az iparnak. Ennek nyomán felgyorsult a tömegtermelés és átalakult a társadalom is.",
+      "kibovitett_seged_fogalmazas": "Ennél a témánál nem elég egy fogalmat vagy egyetlen évszámot megnevezni, hanem röviden végig kell vezetni, hogy miről szól a jelenség, kik a fő szereplők, mikor zajlik, és miért történelmi jelentőségű. A biztos alapot a következő elemek adják: 19. század második fele, 20. század eleje; a kulcsszereplők közül főleg mérnökök, feltalálók, iparmágnások; a szakszavak közül pedig második ipari forradalom, elektromosság, vegyipar, olajipar, belső égésű motor. A válasz elején helyezze el a témát időben és térben, utána 2–3 összefüggő mondatban mutassa be a lényeget. Érdemes kitérni arra, hogy a háttérben tudományos kutatás erősödése, tőkefelhalmozás állt, a folyamatban pedig új energiaforrások és iparágak jelentek meg, vállalati koncentráció és tömegtermelés erősödött volt meghatározó. A lezárásban nevezze meg a következményeket is, például: gyors ipari növekedés, életmódbeli és társadalmi változások. A jó rövid esszé nem felsorolás, hanem tömör, de rendezett magyarázat: először a kiinduló helyzet, utána a fő változás vagy intézkedés, végül a történelmi jelentőség."
+    },
+    {
+      "id": "ww_mussolini_foreign_policy",
+      "tema": "Mussolini külpolitikájának fő elemei",
+      "essay_type": "rovid",
+      "era": "A világháborúk kora",
+      "requirements_topics": [
+        "8.3 Az olasz fasizmus jellemzői"
+      ],
+      "related_tetelek": [
+        "29. A második világháború (egyetemes, magyar)"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "fasizmus",
+          "imperializmus",
+          "revizionizmus",
+          "tengely",
+          "új Római Birodalom"
+        ],
+        "szemelyek": [
+          "Benito Mussolini",
+          "Hitler"
+        ],
+        "evszamok": [
+          "1922: Mussolini hatalomra jutása",
+          "1935–36: etióp háború",
+          "1939: Albánia megszállása"
+        ],
+        "topografia": [
+          "Olaszország",
+          "Etiópia",
+          "Földközi-tenger",
+          "Balkán"
+        ]
+      },
+      "minimum_answer": "Mussolini külpolitikáját a terjeszkedés és a nagyhatalmi rang visszaszerzésének igénye jellemezte. A fasiszta ideológia igazolta a háborút, az erőt és az imperialista törekvéseket, ezért Olaszország Etiópiában és a Balkánon is terjeszkedett. Mussolini fokozatosan Hitler szövetségese lett, ami tovább növelte az európai feszültséget.",
+      "kibovitett_seged_fogalmazas": "Ennél a témánál nem elég egy fogalmat vagy egyetlen évszámot megnevezni, hanem röviden végig kell vezetni, hogy miről szól a jelenség, kik a fő szereplők, mikor zajlik, és miért történelmi jelentőségű. A biztos alapot a következő elemek adják: 1922: Mussolini hatalomra jutása, 1935–36: etióp háború, 1939: Albánia megszállása; a kulcsszereplők közül főleg Benito Mussolini, Hitler; a szakszavak közül pedig fasizmus, imperializmus, revizionizmus, tengely, új Római Birodalom. A válasz elején helyezze el a témát időben és térben, utána 2–3 összefüggő mondatban mutassa be a lényeget. Érdemes kitérni arra, hogy a háttérben nagyhatalmi presztízsigény, a fasizmus háborút és erőt dicsőítő jellege állt, a folyamatban pedig Mussolini agresszív külpolitikát folytatott, gyarmati és balkáni terjeszkedésre törekedett volt meghatározó. A lezárásban nevezze meg a következményeket is, például: Olaszország hozzájárult a nemzetközi rendszer destabilizálásához, szorosabb lett a tengelyhatalmi együttműködés. A jó rövid esszé nem felsorolás, hanem tömör, de rendezett magyarázat: először a kiinduló helyzet, utána a fő változás vagy intézkedés, végül a történelmi jelentőség."
+    },
+    {
+      "id": "ww_nazi_ideology",
+      "tema": "A nemzetiszocialista ideológia legfontosabb elemei",
+      "essay_type": "rovid",
+      "era": "A világháborúk kora",
+      "requirements_topics": [
+        "8.3 A náci Németország legfőbb jellemzői"
+      ],
+      "related_tetelek": [
+        "29. A második világháború (egyetemes, magyar)"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "nácizmus",
+          "fajelmélet",
+          "antiszemitizmus",
+          "vezérelv",
+          "élettér",
+          "antikommunizmus",
+          "nacionalizmus"
+        ],
+        "szemelyek": [
+          "Adolf Hitler"
+        ],
+        "evszamok": [
+          "1919/1920: NSDAP kezdete",
+          "1933: Hitler hatalomra jutása"
+        ],
+        "topografia": [
+          "Németország"
+        ]
+      },
+      "minimum_answer": "A náci ideológia a szélsőséges nacionalizmust, a fajelméletet és az antiszemitizmust kapcsolta össze. Központi eleme volt a vezérelv, az élettér követelése és a kommunizmus elutasítása. Ez az ideológia legitimálta a diktatúrát, a terjeszkedést és a zsidóellenes üldözéseket.",
+      "kibovitett_seged_fogalmazas": "Ennél a témánál nem elég egy fogalmat vagy egyetlen évszámot megnevezni, hanem röviden végig kell vezetni, hogy miről szól a jelenség, kik a fő szereplők, mikor zajlik, és miért történelmi jelentőségű. A biztos alapot a következő elemek adják: 1919/1920: NSDAP kezdete, 1933: Hitler hatalomra jutása; a kulcsszereplők közül főleg Adolf Hitler; a szakszavak közül pedig nácizmus, fajelmélet, antiszemitizmus, vezérelv, élettér. A válasz elején helyezze el a témát időben és térben, utána 2–3 összefüggő mondatban mutassa be a lényeget. Érdemes kitérni arra, hogy a háttérben versailles-i béke okozta sérelmek, gazdasági és társadalmi válság állt, a folyamatban pedig a nácizmus fajhierarchiát hirdetett, központi szerepet kapott a Führer iránti feltétlen engedelmesség volt meghatározó. A lezárásban nevezze meg a következményeket is, például: diktatórikus rendszer kiépülése, agresszív külpolitika és üldözések. A jó rövid esszé nem felsorolás, hanem tömör, de rendezett magyarázat: először a kiinduló helyzet, utána a fő változás vagy intézkedés, végül a történelmi jelentőség."
+    },
+    {
+      "id": "ww_ww1_home_front",
+      "tema": "Az első világháború hátországa: mindennapok és élelmezési helyzet",
+      "essay_type": "rovid",
+      "era": "A világháborúk kora",
+      "requirements_topics": [
+        "8.1 Az első világháború (hadviselők, frontok, a háború jellege)",
+        "8.2 Életmód és mindennapok a 20. század első felében"
+      ],
+      "related_tetelek": [
+        "28. Az első világháború és következményei"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "hátország",
+          "jegyrendszer",
+          "hadigazdálkodás",
+          "infláció",
+          "hiánygazdaság",
+          "totális háború"
+        ],
+        "szemelyek": [
+          "nők",
+          "gyerekek",
+          "állami hivatalok"
+        ],
+        "evszamok": [
+          "1914–1918"
+        ],
+        "topografia": [
+          "hadviselő államok hátországa",
+          "városok",
+          "falvak"
+        ]
+      },
+      "minimum_answer": "Az első világháború totális jellege miatt a hátország mindennapjai is gyökeresen megváltoztak. Az állam hadigazdálkodást vezetett be, egyre súlyosabb lett az élelmiszerhiány, megjelent a jegyrendszer és nőtt az infláció. A romló ellátás és az életszínvonal csökkenése fokozta a társadalmi elégedetlenséget.",
+      "kibovitett_seged_fogalmazas": "Ennél a témánál nem elég egy fogalmat vagy egyetlen évszámot megnevezni, hanem röviden végig kell vezetni, hogy miről szól a jelenség, kik a fő szereplők, mikor zajlik, és miért történelmi jelentőségű. A biztos alapot a következő elemek adják: 1914–1918; a kulcsszereplők közül főleg nők, gyerekek, állami hivatalok; a szakszavak közül pedig hátország, jegyrendszer, hadigazdálkodás, infláció, hiánygazdaság. A válasz elején helyezze el a témát időben és térben, utána 2–3 összefüggő mondatban mutassa be a lényeget. Érdemes kitérni arra, hogy a háttérben a totális háború minden erőforrást igénybe vett, blokádok és termelési zavarok állt, a folyamatban pedig nők tömegesebben dolgoztak, ellátási gondok, drágulás és jegyrendszer jelent meg volt meghatározó. A lezárásban nevezze meg a következményeket is, például: romlott az életszínvonal, éhezés, elégedetlenség és társadalmi feszültség nőtt. A jó rövid esszé nem felsorolás, hanem tömör, de rendezett magyarázat: először a kiinduló helyzet, utána a fő változás vagy intézkedés, végül a történelmi jelentőség."
+    },
+    {
+      "id": "ww_new_deal",
+      "tema": "Az állam gazdasági szerepe a válságkezelésben a New Deal példáján",
+      "essay_type": "rovid",
+      "era": "A világháborúk kora",
+      "requirements_topics": [
+        "8.2 A világgazdasági válság és a New Deal"
+      ],
+      "related_tetelek": [
+        "29. A második világháború (egyetemes, magyar)"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "New Deal",
+          "állami beavatkozás",
+          "közmunka",
+          "bankreform",
+          "társadalombiztosítás",
+          "keresletélénkítés"
+        ],
+        "szemelyek": [
+          "Franklin D. Roosevelt"
+        ],
+        "evszamok": [
+          "1929: válság kezdete",
+          "1933: Roosevelt",
+          "1930-as évek"
+        ],
+        "topografia": [
+          "Egyesült Államok"
+        ]
+      },
+      "minimum_answer": "A New Deal során Roosevelt kormánya erőteljesebben avatkozott be a gazdaságba, mint korábban. Bankreformokkal, közmunkákkal, támogatásokkal és szociális intézkedésekkel próbálták csökkenteni a válság hatásait. A program nem oldott meg mindent, de mérsékelte a társadalmi feszültségeket és tartósan növelte az állam gazdasági szerepét.",
+      "kibovitett_seged_fogalmazas": "Ennél a témánál nem elég egy fogalmat vagy egyetlen évszámot megnevezni, hanem röviden végig kell vezetni, hogy miről szól a jelenség, kik a fő szereplők, mikor zajlik, és miért történelmi jelentőségű. A biztos alapot a következő elemek adják: 1929: válság kezdete, 1933: Roosevelt, 1930-as évek; a kulcsszereplők közül főleg Franklin D. Roosevelt; a szakszavak közül pedig New Deal, állami beavatkozás, közmunka, bankreform, társadalombiztosítás. A válasz elején helyezze el a témát időben és térben, utána 2–3 összefüggő mondatban mutassa be a lényeget. Érdemes kitérni arra, hogy a háttérben a gazdasági világválság mélysége, piaci önszabályozás elégtelensége állt, a folyamatban pedig az állam bankokat szabályozott és segített, közmunkaprogramokat indított volt meghatározó. A lezárásban nevezze meg a következményeket is, például: enyhült a válság társadalmi hatása, megnőtt az állam gazdasági szerepe. A jó rövid esszé nem felsorolás, hanem tömör, de rendezett magyarázat: először a kiinduló helyzet, utána a fő változás vagy intézkedés, végül a történelmi jelentőség."
+    },
+    {
+      "id": "ww_great_depression_collapse",
+      "tema": "Az amerikai gazdaság összeomlása a nagy gazdasági világválság idején",
+      "essay_type": "rovid",
+      "era": "A világháborúk kora",
+      "requirements_topics": [
+        "8.2 A világgazdasági válság és a New Deal"
+      ],
+      "related_tetelek": [
+        "29. A második világháború (egyetemes, magyar)"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "túltermelés",
+          "hitelválság",
+          "tőzsdekrach",
+          "bankpánik",
+          "munkanélküliség",
+          "defláció"
+        ],
+        "szemelyek": [
+          "befektetők",
+          "bankok",
+          "farmerek"
+        ],
+        "evszamok": [
+          "1929: fekete csütörtök/fekete kedd",
+          "1930-as évek eleje"
+        ],
+        "topografia": [
+          "Egyesült Államok",
+          "New York tőzsde"
+        ]
+      },
+      "minimum_answer": "Az amerikai gazdaság összeomlását a tőzsdei spekuláció, a túltermelés és a hitelre épülő növekedés tette elő. Az 1929-es tőzsdekrach után bankpánik, vállalati csődök és tömeges munkanélküliség következett. A válság hamar túlnőtt az Egyesült Államokon, és világgazdasági válsággá vált.",
+      "kibovitett_seged_fogalmazas": "Ennél a témánál nem elég egy fogalmat vagy egyetlen évszámot megnevezni, hanem röviden végig kell vezetni, hogy miről szól a jelenség, kik a fő szereplők, mikor zajlik, és miért történelmi jelentőségű. A biztos alapot a következő elemek adják: 1929: fekete csütörtök/fekete kedd, 1930-as évek eleje; a kulcsszereplők közül főleg befektetők, bankok, farmerek; a szakszavak közül pedig túltermelés, hitelválság, tőzsdekrach, bankpánik, munkanélküliség. A válasz elején helyezze el a témát időben és térben, utána 2–3 összefüggő mondatban mutassa be a lényeget. Érdemes kitérni arra, hogy a háttérben tőzsdei spekuláció, túltermelés állt, a folyamatban pedig a részvényárak összeomlottak, bankok mentek tönkre volt meghatározó. A lezárásban nevezze meg a következményeket is, például: súlyos társadalmi válság alakult ki, a válság világméretűvé vált. A jó rövid esszé nem felsorolás, hanem tömör, de rendezett magyarázat: először a kiinduló helyzet, utána a fő változás vagy intézkedés, végül a történelmi jelentőség."
+    },
+    {
+      "id": "ww_stalin_industrialization",
+      "tema": "Sztálin iparosítási politikája és annak ára",
+      "essay_type": "rovid",
+      "era": "A világháborúk kora",
+      "requirements_topics": [
+        "8.4 A kommunista ideológia és a sztálini diktatúra a Szovjetunióban"
+      ],
+      "related_tetelek": [
+        "29. A második világháború (egyetemes, magyar)"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "ötéves terv",
+          "tervgazdaság",
+          "nehézipar",
+          "kollektivizálás",
+          "kényszermunka",
+          "GULAG"
+        ],
+        "szemelyek": [
+          "Sztálin"
+        ],
+        "evszamok": [
+          "1928-tól ötéves tervek",
+          "1930-as évek"
+        ],
+        "topografia": [
+          "Szovjetunió"
+        ]
+      },
+      "minimum_answer": "Sztálin a tervgazdaság és az ötéves tervek segítségével gyorsította fel a szovjet iparosítást, elsősorban a nehéziparban. A fejlesztés árát a mezőgazdaság, a fogyasztás és maga a társadalom fizette meg kollektivizálással, kényszermunkával és súlyos elnyomással. Az ipar gyorsan nőtt, de ennek emberi és életminőségi költsége rendkívül magas volt.",
+      "kibovitett_seged_fogalmazas": "Ennél a témánál nem elég egy fogalmat vagy egyetlen évszámot megnevezni, hanem röviden végig kell vezetni, hogy miről szól a jelenség, kik a fő szereplők, mikor zajlik, és miért történelmi jelentőségű. A biztos alapot a következő elemek adják: 1928-tól ötéves tervek, 1930-as évek; a kulcsszereplők közül főleg Sztálin; a szakszavak közül pedig ötéves terv, tervgazdaság, nehézipar, kollektivizálás, kényszermunka. A válasz elején helyezze el a témát időben és térben, utána 2–3 összefüggő mondatban mutassa be a lényeget. Érdemes kitérni arra, hogy a háttérben gyors nagyhatalmi felzárkózás igénye, katonai és ideológiai célok állt, a folyamatban pedig az állam központilag irányította az iparosítást, elsősorban a nehézipart fejlesztették volt meghatározó. A lezárásban nevezze meg a következményeket is, például: gyors ipari növekedés, alacsony fogyasztás és súlyos társadalmi áldozatok. A jó rövid esszé nem felsorolás, hanem tömör, de rendezett magyarázat: először a kiinduló helyzet, utána a fő változás vagy intézkedés, végül a történelmi jelentőség."
+    },
+    {
+      "id": "ww_women_status",
+      "tema": "A nők helyzetének változása a 20. század első felében",
+      "essay_type": "rovid",
+      "era": "A világháborúk kora",
+      "requirements_topics": [
+        "8.2 Életmód és mindennapok a 20. század első felében",
+        "6.4 Az ipari forradalmak társadalmi hatásai (nők helyzete)"
+      ],
+      "related_tetelek": [
+        "8. Életmód és mindennapok Magyarországon a 20. században"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "emancipáció",
+          "női munkavállalás",
+          "választójog",
+          "egyenjogúság",
+          "életmódváltozás"
+        ],
+        "szemelyek": [
+          "nők mint munkavállalók és választópolgárok"
+        ],
+        "evszamok": [
+          "20. század első fele",
+          "I. világháború",
+          "két világháború között",
+          "II. világháború"
+        ],
+        "topografia": [
+          "iparilag fejlett országok",
+          "Egyesült Államok",
+          "Nyugat-Európa"
+        ]
+      },
+      "minimum_answer": "A 20. század első felében a nők helyzete az iparosodás, a háborúk és a nőmozgalmak hatására fokozatosan javult. Egyre többen vállaltak munkát, és sok országban megszerezték a választójogot is. Bár az egyenjogúság nem valósult meg teljesen, az emancipáció fontos előrelépései ekkor történtek.",
+      "kibovitett_seged_fogalmazas": "Ennél a témánál nem elég egy fogalmat vagy egyetlen évszámot megnevezni, hanem röviden végig kell vezetni, hogy miről szól a jelenség, kik a fő szereplők, mikor zajlik, és miért történelmi jelentőségű. A biztos alapot a következő elemek adják: 20. század első fele, I. világháború, két világháború között, II. világháború; a kulcsszereplők közül főleg nők mint munkavállalók és választópolgárok; a szakszavak közül pedig emancipáció, női munkavállalás, választójog, egyenjogúság, életmódváltozás. A válasz elején helyezze el a témát időben és térben, utána 2–3 összefüggő mondatban mutassa be a lényeget. Érdemes kitérni arra, hogy a háttérben iparosodás, háborús munkaerőhiány állt, a folyamatban pedig nőtt a nők munkába állása, több országban választójogot kaptak volt meghatározó. A lezárásban nevezze meg a következményeket is, például: erősödött az emancipáció, de sok területen fennmaradt az egyenlőtlenség. A jó rövid esszé nem felsorolás, hanem tömör, de rendezett magyarázat: először a kiinduló helyzet, utána a fő változás vagy intézkedés, végül a történelmi jelentőség."
+    },
+    {
+      "id": "ww_nazi_antisemitic_policy",
+      "tema": "A náci Németország zsidóellenes politikája a háború előtt",
+      "essay_type": "rovid",
+      "era": "A világháborúk kora",
+      "requirements_topics": [
+        "8.3 A náci Németország legfőbb jellemzői",
+        "8.5 A holokauszt"
+      ],
+      "related_tetelek": [
+        "29. A második világháború (egyetemes, magyar)"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "antiszemitizmus",
+          "faji törvények",
+          "kirekesztés",
+          "propaganda",
+          "gettósítás előzményei",
+          "kristályéjszaka"
+        ],
+        "szemelyek": [
+          "Hitler",
+          "náci államvezetés"
+        ],
+        "evszamok": [
+          "1933: Hitler hatalomra jutása",
+          "1935: nürnbergi törvények",
+          "1938: kristályéjszaka"
+        ],
+        "topografia": [
+          "Németország"
+        ]
+      },
+      "minimum_answer": "A náci Németországban a zsidóellenes politika már a háború előtt fokozatosan épült ki. A propaganda, a bojkottok, majd a nürnbergi törvények jogfosztott helyzetbe taszították a zsidóságot, a kristályéjszaka pedig a nyílt erőszak állami támogatását jelezte. Ezek az intézkedések közvetlen előzményei voltak a holokausztnak.",
+      "kibovitett_seged_fogalmazas": "Ennél a témánál nem elég egy fogalmat vagy egyetlen évszámot megnevezni, hanem röviden végig kell vezetni, hogy miről szól a jelenség, kik a fő szereplők, mikor zajlik, és miért történelmi jelentőségű. A biztos alapot a következő elemek adják: 1933: Hitler hatalomra jutása, 1935: nürnbergi törvények, 1938: kristályéjszaka; a kulcsszereplők közül főleg Hitler, náci államvezetés; a szakszavak közül pedig antiszemitizmus, faji törvények, kirekesztés, propaganda, gettósítás előzményei. A válasz elején helyezze el a témát időben és térben, utána 2–3 összefüggő mondatban mutassa be a lényeget. Érdemes kitérni arra, hogy a háttérben a náci fajelmélet, bűnbakkeresés és szélsőséges nacionalizmus állt, a folyamatban pedig a zsidókat jogilag és társadalmilag fokozatosan kizárták, megfosztották őket jogaiktól, megélhetésüktől és közösségi részvételüktől volt meghatározó. A lezárásban nevezze meg a következményeket is, például: a zsidóság teljes kirekesztése, a későbbi népirtás előkészítése. A jó rövid esszé nem felsorolás, hanem tömör, de rendezett magyarázat: először a kiinduló helyzet, utána a fő változás vagy intézkedés, végül a történelmi jelentőség."
+    },
+    {
+      "id": "ww_versailles_peace",
+      "tema": "Az első világháborút lezáró békerendszer Németországgal szembeni feltételei",
+      "essay_type": "rovid",
+      "era": "A világháborúk kora",
+      "requirements_topics": [
+        "8.1 Az első világháborút lezáró békerendszer"
+      ],
+      "related_tetelek": [
+        "28. Az első világháború és következményei"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "hadijóvátétel",
+          "háborús felelősség",
+          "leszerelés",
+          "területvesztés",
+          "demilitarizált övezet"
+        ],
+        "szemelyek": [
+          "győztes nagyhatalmak vezetői"
+        ],
+        "evszamok": [
+          "1919: versailles-i béke"
+        ],
+        "topografia": [
+          "Versailles",
+          "Rajna-vidék",
+          "Elzász-Lotaringia",
+          "Lengyel korridor"
+        ]
+      },
+      "minimum_answer": "A versailles-i béke Németországra súlyos területi, katonai és pénzügyi feltételeket kényszerített. A hadsereget korlátozták, jóvátételt írtak elő, és több stratégiai területet elveszített vagy demilitarizáltak. A béke ezért nemcsak meggyengítette Németországot, hanem erős revíziós sérelmeket is hagyott maga után.",
+      "kibovitett_seged_fogalmazas": "Ennél a témánál nem elég egy fogalmat vagy egyetlen évszámot megnevezni, hanem röviden végig kell vezetni, hogy miről szól a jelenség, kik a fő szereplők, mikor zajlik, és miért történelmi jelentőségű. A biztos alapot a következő elemek adják: 1919: versailles-i béke; a kulcsszereplők közül főleg győztes nagyhatalmak vezetői; a szakszavak közül pedig hadijóvátétel, háborús felelősség, leszerelés, területvesztés, demilitarizált övezet. A válasz elején helyezze el a témát időben és térben, utána 2–3 összefüggő mondatban mutassa be a lényeget. Érdemes kitérni arra, hogy a háttérben a győztesek biztonsági és megtorló szándékai, Franciaország német fenyegetéstől való félelme állt, a folyamatban pedig Németország területeket vesztett, hadseregét korlátozták volt meghatározó. A lezárásban nevezze meg a következményeket is, például: tartós német sérelmek keletkeztek, megingott a weimari rendszer tekintélye. A jó rövid esszé nem felsorolás, hanem tömör, de rendezett magyarázat: először a kiinduló helyzet, utána a fő változás vagy intézkedés, végül a történelmi jelentőség."
+    },
+    {
+      "id": "present_eu_economic_principles",
+      "tema": "Az európai integráció gazdasági alapelvei és célkitűzései",
+      "essay_type": "rovid",
+      "era": "A jelenkor",
+      "requirements_topics": [
+        "10.4 Az Európai Unió alapelvei, intézményei és működése"
+      ],
+      "related_tetelek": [],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "közös piac",
+          "négy szabadság",
+          "vámunió",
+          "közös politika",
+          "gazdasági integráció",
+          "verseny"
+        ],
+        "szemelyek": [
+          "tagállamok"
+        ],
+        "evszamok": [
+          "1957: Római szerződés",
+          "1992: Maastricht"
+        ],
+        "topografia": [
+          "Európai Unió",
+          "közös piac"
+        ]
+      },
+      "minimum_answer": "Az európai integráció gazdasági alapja a tagállamok közti akadályok lebontása és a közös piac működtetése. Központi cél a négy szabadság érvényesítése, a gazdasági együttműködés mélyítése és a fejlődés elősegítése. Az integráció ezért egyszerre szolgálja a versenyképességet, a jólétet és a stabilitást.",
+      "kibovitett_seged_fogalmazas": "Ennél a témánál nem elég egy fogalmat vagy egyetlen évszámot megnevezni, hanem röviden végig kell vezetni, hogy miről szól a jelenség, kik a fő szereplők, mikor zajlik, és miért történelmi jelentőségű. A biztos alapot a következő elemek adják: 1957: Római szerződés, 1992: Maastricht; a kulcsszereplők közül főleg tagállamok; a szakszavak közül pedig közös piac, négy szabadság, vámunió, közös politika, gazdasági integráció. A válasz elején helyezze el a témát időben és térben, utána 2–3 összefüggő mondatban mutassa be a lényeget. Érdemes kitérni arra, hogy a háttérben háború utáni újjáépítés és együttműködés igénye, gazdasági növekedés és béke erősítése állt, a folyamatban pedig az integráció a tőke, az áru, a szolgáltatás és a munkaerő szabad áramlására épül, egyes területeken közös szabályok és politikák működnek volt meghatározó. A lezárásban nevezze meg a következményeket is, például: szorosabb gazdasági együttműködés, nagyobb belső piac. A jó rövid esszé nem felsorolás, hanem tömör, de rendezett magyarázat: először a kiinduló helyzet, utána a fő változás vagy intézkedés, végül a történelmi jelentőség."
+    },
+    {
+      "id": "present_vietnam_war",
+      "tema": "Az amerikai–vietnámi háború és következményei",
+      "essay_type": "rovid",
+      "era": "A jelenkor",
+      "requirements_topics": [
+        "10.1 Nemzetközi konfliktusok a hidegháború idején (Vietnam)"
+      ],
+      "related_tetelek": [
+        "30. A kétpólusú világrend"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "hidegháború",
+          "feltartóztatás",
+          "dominóelv",
+          "gerillaháború",
+          "vietkong"
+        ],
+        "szemelyek": [
+          "Kennedy",
+          "Johnson",
+          "Nixon",
+          "Ho Si Minh"
+        ],
+        "evszamok": [
+          "1955–1975",
+          "1964: tonkini incidens",
+          "1973: párizsi béke",
+          "1975: Saigon eleste"
+        ],
+        "topografia": [
+          "Észak-Vietnam",
+          "Dél-Vietnam",
+          "Délkelet-Ázsia",
+          "Egyesült Államok"
+        ]
+      },
+      "minimum_answer": "A vietnámi háború a hidegháború egyik legfontosabb helyi konfliktusa volt. Az Egyesült Államok a kommunizmus feltartóztatása érdekében avatkozott be, de a gerillaharc, a nagy veszteségek és a hazai tiltakozás miatt nem tudott győzni. A háború végül amerikai kivonulással és Vietnam kommunista egyesítésével zárult.",
+      "kibovitett_seged_fogalmazas": "Ennél a témánál nem elég egy fogalmat vagy egyetlen évszámot megnevezni, hanem röviden végig kell vezetni, hogy miről szól a jelenség, kik a fő szereplők, mikor zajlik, és miért történelmi jelentőségű. A biztos alapot a következő elemek adják: 1955–1975, 1964: tonkini incidens, 1973: párizsi béke, 1975: Saigon eleste; a kulcsszereplők közül főleg Kennedy, Johnson, Nixon; a szakszavak közül pedig hidegháború, feltartóztatás, dominóelv, gerillaháború, vietkong. A válasz elején helyezze el a témát időben és térben, utána 2–3 összefüggő mondatban mutassa be a lényeget. Érdemes kitérni arra, hogy a háttérben hidegháborús szembenállás, az USA feltartóztatási politikája állt, a folyamatban pedig amerikai katonai beavatkozás fokozódott, a vietkong és Észak-Vietnam gerilla- és reguláris harcot folytatott volt meghatározó. A lezárásban nevezze meg a következményeket is, például: amerikai kivonulás és kommunista győzelem, az USA presztízsvesztesége. A jó rövid esszé nem felsorolás, hanem tömör, de rendezett magyarázat: először a kiinduló helyzet, utána a fő változás vagy intézkedés, végül a történelmi jelentőség."
+    },
+    {
+      "id": "present_eu_member_state_conflicts",
+      "tema": "Tagállami viták az Európai Unión belül 2010-ig",
+      "essay_type": "rovid",
+      "era": "A jelenkor",
+      "requirements_topics": [
+        "10.4 Az Európai Unió alapelvei, intézményei és működése",
+        "10.4 Az európai integráció főbb állomásai"
+      ],
+      "related_tetelek": [],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "nemzeti szuverenitás",
+          "közös költségvetés",
+          "euró",
+          "közös kül- és biztonságpolitika",
+          "mélyítés vs. bővítés"
+        ],
+        "szemelyek": [
+          "tagállami kormányok"
+        ],
+        "evszamok": [
+          "1957 után",
+          "1992: Maastricht",
+          "1999/2002: euró",
+          "2010 előtt"
+        ],
+        "topografia": [
+          "Európai Unió",
+          "eurózóna"
+        ]
+      },
+      "minimum_answer": "Az Európai Unión belül a tagállamok között gyakran alakultak ki viták a költségvetési befizetések, az euró, a szuverenitás és a közös biztonságpolitika kérdéseiben. Ezek hátterében eltérő gazdasági helyzetek és politikai érdekek álltak. Az integráció ezért nem teljesen egységesen, hanem kompromisszumok és eltérő részvételi formák mellett mélyült.",
+      "kibovitett_seged_fogalmazas": "Ennél a témánál nem elég egy fogalmat vagy egyetlen évszámot megnevezni, hanem röviden végig kell vezetni, hogy miről szól a jelenség, kik a fő szereplők, mikor zajlik, és miért történelmi jelentőségű. A biztos alapot a következő elemek adják: 1957 után, 1992: Maastricht, 1999/2002: euró, 2010 előtt; a kulcsszereplők közül főleg tagállami kormányok; a szakszavak közül pedig nemzeti szuverenitás, közös költségvetés, euró, közös kül- és biztonságpolitika, mélyítés vs. bővítés. A válasz elején helyezze el a témát időben és térben, utána 2–3 összefüggő mondatban mutassa be a lényeget. Érdemes kitérni arra, hogy a háttérben eltérő gazdasági érdekek, különböző politikai hagyományok állt, a folyamatban pedig viták alakultak ki a befizető és támogatott államok között, nem minden állam csatlakozott minden közös politikához volt meghatározó. A lezárásban nevezze meg a következményeket is, például: az integráció differenciált lett, kompromisszumokra épülő működés alakult ki. A jó rövid esszé nem felsorolás, hanem tömör, de rendezett magyarázat: először a kiinduló helyzet, utána a fő változás vagy intézkedés, végül a történelmi jelentőség."
+    },
+    {
+      "id": "present_eu_integration_steps",
+      "tema": "Az európai integráció lépései és a Közös Piac működése 1973-ig",
+      "essay_type": "rovid",
+      "era": "A jelenkor",
+      "requirements_topics": [
+        "10.4 Az európai integráció főbb állomásai"
+      ],
+      "related_tetelek": [],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "ESZAK",
+          "EGK",
+          "Euratom",
+          "Közös Piac",
+          "vámunió",
+          "négy szabadság"
+        ],
+        "szemelyek": [
+          "Robert Schuman",
+          "Jean Monnet"
+        ],
+        "evszamok": [
+          "1951: ESZAK",
+          "1957: Római szerződések",
+          "1968: vámunió teljessé válása",
+          "1973: brit csatlakozás"
+        ],
+        "topografia": [
+          "Nyugat-Európa",
+          "EGK"
+        ]
+      },
+      "minimum_answer": "Az európai integráció az 1951-es ESZAK-kal indult, majd az 1957-es Római szerződések hozták létre az EGK-t és a Közös Piacot. A tagállamok fokozatosan lebontották a belső vámokat és közös gazdasági szabályokat alakítottak ki. Ez 1973-ig egy egyre mélyülő nyugat-európai gazdasági együttműködéshez vezetett.",
+      "kibovitett_seged_fogalmazas": "Ennél a témánál nem elég egy fogalmat vagy egyetlen évszámot megnevezni, hanem röviden végig kell vezetni, hogy miről szól a jelenség, kik a fő szereplők, mikor zajlik, és miért történelmi jelentőségű. A biztos alapot a következő elemek adják: 1951: ESZAK, 1957: Római szerződések, 1968: vámunió teljessé válása, 1973: brit csatlakozás; a kulcsszereplők közül főleg Robert Schuman, Jean Monnet; a szakszavak közül pedig ESZAK, EGK, Euratom, Közös Piac, vámunió. A válasz elején helyezze el a témát időben és térben, utána 2–3 összefüggő mondatban mutassa be a lényeget. Érdemes kitérni arra, hogy a háttérben tartós béke és gazdasági együttműködés igénye, francia–német ellentét meghaladása állt, a folyamatban pedig szén- és acélközösségből szélesebb gazdasági integráció lett, lebontották a vámokat és összehangolták a szabályokat volt meghatározó. A lezárásban nevezze meg a következményeket is, például: megerősödött Nyugat-Európa gazdasági integrációja, a tagállamok közti háború esélye csökkent. A jó rövid esszé nem felsorolás, hanem tömör, de rendezett magyarázat: először a kiinduló helyzet, utána a fő változás vagy intézkedés, végül a történelmi jelentőség."
+    },
+    {
+      "id": "present_globalization",
+      "tema": "A gazdasági globalizáció jellemzői",
+      "essay_type": "rovid",
+      "era": "A jelenkor",
+      "requirements_topics": [
+        "10.5 A globális világgazdaság ellentmondásai"
+      ],
+      "related_tetelek": [
+        "4. Magyarország gazdasága 1867-től napjainkig"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "globalizáció",
+          "multinacionális vállalat",
+          "tőkeforgalom",
+          "világkereskedelem",
+          "munkaerőpiac",
+          "pénzügyi integráció"
+        ],
+        "szemelyek": [
+          "multinacionális vállalatok",
+          "nemzetközi szervezetek"
+        ],
+        "evszamok": [
+          "20. század vége",
+          "21. század eleje"
+        ],
+        "topografia": [
+          "világgazdaság",
+          "globális piacok"
+        ]
+      },
+      "minimum_answer": "A gazdasági globalizáció lényege, hogy a világgazdaság szereplői egyre szorosabban kapcsolódnak egymáshoz. A termelés, a kereskedelem, a tőke és az információ áramlása nemzetközi méretűvé vált, ebben a multinacionális vállalatok kulcsszerepet játszanak. A globalizáció egyszerre növeli a lehetőségeket és a gazdasági függőségeket.",
+      "kibovitett_seged_fogalmazas": "Ennél a témánál nem elég egy fogalmat vagy egyetlen évszámot megnevezni, hanem röviden végig kell vezetni, hogy miről szól a jelenség, kik a fő szereplők, mikor zajlik, és miért történelmi jelentőségű. A biztos alapot a következő elemek adják: 20. század vége, 21. század eleje; a kulcsszereplők közül főleg multinacionális vállalatok, nemzetközi szervezetek; a szakszavak közül pedig globalizáció, multinacionális vállalat, tőkeforgalom, világkereskedelem, munkaerőpiac. A válasz elején helyezze el a témát időben és térben, utána 2–3 összefüggő mondatban mutassa be a lényeget. Érdemes kitérni arra, hogy a háttérben technológiai fejlődés, szállítás és kommunikáció felgyorsulása állt, a folyamatban pedig a termelési láncok nemzetközivé váltak, a tőke és információ gyorsan áramlik volt meghatározó. A lezárásban nevezze meg a következményeket is, például: erősödött a gazdasági egymásrautaltság, nőtt a verseny és a sérülékenység. A jó rövid esszé nem felsorolás, hanem tömör, de rendezett magyarázat: először a kiinduló helyzet, utána a fő változás vagy intézkedés, végül a történelmi jelentőség."
+    }
+  ]
+}

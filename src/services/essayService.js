@@ -1,4 +1,5 @@
 import essaySource from '../data/essaySource.json'
+import helperSource from '../data/rovidKiegeszitoSegedFogalmazasV2.json'
 import shortEssayTaskPreviews from '../data/shortEssayTaskPreviews.json'
 
 const CATEGORY_KEYS = [
@@ -67,6 +68,11 @@ const taskPreviewsByPrompt = (shortEssayTaskPreviews.entries || []).reduce((map,
   return map
 }, {})
 
+const helperById = (helperSource.entries || []).reduce((map, helper) => {
+  map[helper.id] = helper
+  return map
+}, {})
+
 function normalizeEntry(entry, index) {
   const keyElementCount = CATEGORY_KEYS.reduce((sum, key) => sum + (entry[key]?.length || 0), 0)
   const pastPrompts = (entry.past_prompts || []).map((prompt, promptIndex) => ({
@@ -79,6 +85,7 @@ function normalizeEntry(entry, index) {
     past_prompts: pastPrompts,
     slug: entry.slug || slugify(entry.id || entry.tema || `essze-${index + 1}`),
     group: getTopicGroup(entry),
+    helperContent: helperById[entry.id] || null,
     keyElementCount,
     pastPromptCount: pastPrompts.length,
     taskPreviewCount: pastPrompts.filter((prompt) => prompt.taskPreview).length,

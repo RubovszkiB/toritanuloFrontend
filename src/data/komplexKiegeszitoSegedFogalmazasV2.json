@@ -1,0 +1,1785 @@
+{
+  "meta": {
+    "title": "Emelt töri komplex esszé – frissített kiegészítő segédfogalmazások",
+    "version": "v2",
+    "source_files": [
+      "emelt_tori_komplex_essze_forras_v1.json",
+      "tortenelem_2024_e.pdf",
+      "tetelek.zip",
+      "feladatok.zip"
+    ],
+    "description": "A komplex esszé témákhoz készült bővített segédfogalmazások. Külön kezeli a korszakokon átívelő és az összehasonlító feladatokat, és a gyakorló bevezető magyarázatok nem hivatkoznak a konkrét forrásokra.",
+    "new_fields": [
+      "kibovitett_seged_fogalmazas",
+      "kotelezo_mag"
+    ]
+  },
+  "korszakokon_ativelo": [
+    {
+      "id": "ka_2017_maj_torok_kuzdelmek",
+      "complex_type": "korszakokon_ativelo",
+      "exam": "2017. máj.",
+      "theme": "Magyar–török küzdelmek a nándorfehérvári diadaltól a Hódoltságig",
+      "period": "1456–1541",
+      "related_tetelek": [
+        27
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "nándorfehérvári diadal és következményei",
+          "Mátyás törökellenes politikája",
+          "Jagelló-kori hanyatlás",
+          "mohácsi csata és következményei",
+          "Hódoltság megalakulása"
+        ],
+        "fogalmak": [
+          "végvárvonal",
+          "fekete sereg",
+          "rendi monarchia",
+          "kettős királyválasztás",
+          "Hódoltság",
+          "váradi egyezmény"
+        ],
+        "szemelyek": [
+          "Hunyadi János",
+          "Kapisztrán János",
+          "Hunyadi Mátyás",
+          "II. Ulászló",
+          "II. Lajos",
+          "Szapolyai János",
+          "I. Ferdinánd",
+          "I. Szulejmán"
+        ],
+        "evszamok": [
+          "1456",
+          "1490",
+          "1526",
+          "1538",
+          "1541"
+        ],
+        "topografia": [
+          "Nándorfehérvár",
+          "Jajca",
+          "Mohács",
+          "Buda"
+        ]
+      },
+      "minimum_answer_focus": "Az esszé gerince: 1456 még sikeres védekezés, Mátyás alatt átmeneti stabilizálás, a Jagelló-korban hanyatlás, Mohács után szétesés, 1541-től tartós oszmán berendezkedés.",
+      "common_mistakes": [
+        "Mátyást ne állítsa be folyamatos felszabadító hadjárat vezetőjeként.",
+        "Ne keverje össze a Hódoltság létrejöttét Moháccsal: a döntő fordulat 1541 Buda elfoglalása."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez a komplex esszé időrendben felépített problémakifejtést vár. A válasz elején nevezze meg a történelmi ívet és a korszakhatárokat, majd haladjon végig a kijelölt csomópontokon: nándorfehérvári diadal és következményei, Mátyás törökellenes politikája, Jagelló-kori hanyatlás, mohácsi csata és következményei, Hódoltság megalakulása. Nem szabad ugrálni az időben, mert ennél a típúsnál a logikus sorrend önmagában is értékelési szempont. A jó megoldásba természetesen be kell épülnie a kulcsszereplőknek (Hunyadi János, Kapisztrán János, Hunyadi Mátyás, II. Ulászló, II. Lajos), a kronológiának (1456, 1490, 1526, 1538, 1541), a topográfiának (Nándorfehérvár, Jajca, Mohács, Buda) és a szakszavaknak (végvárvonal, fekete sereg, rendi monarchia, kettős királyválasztás, Hódoltság, váradi egyezmény). A lényeg, hogy minden szakasznál mutassa meg az okot, a változást és a következményt. A részletes kifejtésnél ügyeljen arra, hogy Ismerje a déli végvárrendszer szerepét és a nándorfehérvári győzelem európai jelentőségét., Mutassa be, hogy Mátyás inkább védelmi egyensúlyra és nyugati hadjárataira támaszkodott, nem döntő törökellenes felszabadító politikára., Értse a Jagelló-kor pénzügyi és katonai gyengülését, a rendek megerősödését.. A minimum biztos gerinc így foglalható össze: Az esszé gerince: 1456 még sikeres védekezés, Mátyás alatt átmeneti stabilizálás, a Jagelló-korban hanyatlás, Mohács után szétesés, 1541-től tartós oszmán berendezkedés. A válasz végén egy rövid mérlegelő mondattal zárjon, amely kimondja, milyen irányba változott a bemutatott történeti probléma. Gyakori hiba, hogy Mátyást ne állítsa be folyamatos felszabadító hadjárat vezetőjeként., Ne keverje össze a Hódoltság létrejöttét Moháccsal: a döntő fordulat 1541 Buda elfoglalása."
+    },
+    {
+      "id": "ka_2017_maj_id_nemzetisegi_politika",
+      "complex_type": "korszakokon_ativelo",
+      "exam": "2017. máj. id.",
+      "theme": "Magyar nemzetiségi politika a reformkortól a dualizmusig",
+      "period": "1830-as évek–1914",
+      "related_tetelek": [
+        9,
+        16
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "etnikai viszonyok és változásuk",
+          "reformellenzék nemzetfogalma",
+          "1848–49 nemzetiségi konfliktusai",
+          "dualizmuskori nemzetiségi politika"
+        ],
+        "fogalmak": [
+          "politikai nemzet",
+          "nemzetiség",
+          "nemzetiségi törvény",
+          "horvát–magyar kiegyezés",
+          "asszimiláció",
+          "pánszlávizmus"
+        ],
+        "szemelyek": [
+          "Kossuth Lajos",
+          "Deák Ferenc",
+          "Eötvös József",
+          "Jelačić",
+          "Ferenc József"
+        ],
+        "evszamok": [
+          "1848",
+          "1849",
+          "1868",
+          "1875"
+        ],
+        "topografia": [
+          "Magyar Királyság",
+          "Horvátország",
+          "Felvidék",
+          "Erdély"
+        ]
+      },
+      "minimum_answer_focus": "A minimum válasz lényege: a magyar elit a politikai nemzet egységében gondolkodott, ami 1848–49-ben konfliktusokhoz, a dualizmusban pedig részleges jogadás és erős magyarosítás együtteséhez vezetett.",
+      "common_mistakes": [
+        "Ne állítsa, hogy a reformkorban teljes nemzetiségi egyenjogúság volt.",
+        "Ne feledje, hogy 1849-ben született engedményeket tartalmazó szabályozás is."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez a komplex esszé időrendben felépített problémakifejtést vár. A válasz elején nevezze meg a történelmi ívet és a korszakhatárokat, majd haladjon végig a kijelölt csomópontokon: etnikai viszonyok és változásuk, reformellenzék nemzetfogalma, 1848–49 nemzetiségi konfliktusai, dualizmuskori nemzetiségi politika. Nem szabad ugrálni az időben, mert ennél a típúsnál a logikus sorrend önmagában is értékelési szempont. A jó megoldásba természetesen be kell épülnie a kulcsszereplőknek (Kossuth Lajos, Deák Ferenc, Eötvös József, Jelačić, Ferenc József), a kronológiának (1848, 1849, 1868, 1875), a topográfiának (Magyar Királyság, Horvátország, Felvidék, Erdély) és a szakszavaknak (politikai nemzet, nemzetiség, nemzetiségi törvény, horvát–magyar kiegyezés, asszimiláció, pánszlávizmus). A lényeg, hogy minden szakasznál mutassa meg az okot, a változást és a következményt. A részletes kifejtésnél ügyeljen arra, hogy Mutassa be a soknemzetiségű ország etnikai arányait és a magyarság kisebbségi vagy relatív többségi helyzetét., Magyarázza el a politikai nemzet fogalmát és hogy a reformellenzék miért nem kollektív nemzetiségi jogokban gondolkodott., Ismertesse az 1848–49-es fegyveres konfliktusokat és az 1849. júliusi nemzetiségi törvényt.. A minimum biztos gerinc így foglalható össze: A minimum válasz lényege: a magyar elit a politikai nemzet egységében gondolkodott, ami 1848–49-ben konfliktusokhoz, a dualizmusban pedig részleges jogadás és erős magyarosítás együtteséhez vezetett. A válasz végén egy rövid mérlegelő mondattal zárjon, amely kimondja, milyen irányba változott a bemutatott történeti probléma. Gyakori hiba, hogy Ne állítsa, hogy a reformkorban teljes nemzetiségi egyenjogúság volt., Ne feledje, hogy 1849-ben született engedményeket tartalmazó szabályozás is."
+    },
+    {
+      "id": "ka_2017_okt_revizios_kulpolitika",
+      "complex_type": "korszakokon_ativelo",
+      "exam": "2017. okt.",
+      "theme": "A történelmi Magyarország területi egységének megőrzése és visszaállítása 1918–1939 között",
+      "period": "1918–1939",
+      "related_tetelek": [
+        9,
+        28
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "Károlyi-kormány külpolitikája",
+          "Tanácsköztársaság külpolitikája és harcai",
+          "trianoni béke és 1920-as évek revíziója",
+          "1930-as évek revíziós eredményei"
+        ],
+        "fogalmak": [
+          "wilsoni elvek",
+          "Vix-jegyzék",
+          "Clemenceau-jegyzék",
+          "trianoni béke",
+          "revízió",
+          "győri program",
+          "bécsi döntés"
+        ],
+        "szemelyek": [
+          "Károlyi Mihály",
+          "Kun Béla",
+          "Bethlen István",
+          "Gömbös Gyula",
+          "Horthy Miklós"
+        ],
+        "evszamok": [
+          "1918",
+          "1919",
+          "1920. június 4.",
+          "1938",
+          "1939"
+        ],
+        "topografia": [
+          "Magyarország",
+          "Felvidék",
+          "Kárpátalja",
+          "Párizs"
+        ]
+      },
+      "minimum_answer_focus": "A fókusz: 1918–20-ban a területi egység megőrzése kudarcba fulladt, utána a politika célja a revízió lett, amely a harmincas évek végén részleges sikereket hozott.",
+      "common_mistakes": [
+        "Ne írjon részletes hadisztorit, a diplomáciai és politikai változás a fontos.",
+        "A győri program ne egyszerűen gazdasági programként jelenjen meg, hanem a revíziós-politikai háttérrel együtt."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez a komplex esszé időrendben felépített problémakifejtést vár. A válasz elején nevezze meg a történelmi ívet és a korszakhatárokat, majd haladjon végig a kijelölt csomópontokon: Károlyi-kormány külpolitikája, Tanácsköztársaság külpolitikája és harcai, trianoni béke és 1920-as évek revíziója, 1930-as évek revíziós eredményei. Nem szabad ugrálni az időben, mert ennél a típúsnál a logikus sorrend önmagában is értékelési szempont. A jó megoldásba természetesen be kell épülnie a kulcsszereplőknek (Károlyi Mihály, Kun Béla, Bethlen István, Gömbös Gyula, Horthy Miklós), a kronológiának (1918, 1919, 1920. június 4., 1938, 1939), a topográfiának (Magyarország, Felvidék, Kárpátalja, Párizs) és a szakszavaknak (wilsoni elvek, Vix-jegyzék, Clemenceau-jegyzék, trianoni béke, revízió, győri program). A lényeg, hogy minden szakasznál mutassa meg az okot, a változást és a következményt. A részletes kifejtésnél ügyeljen arra, hogy Mutassa be a Károlyi-kormány pacifista, antanthoz igazodó, sikertelen külpolitikáját., Ismertesse a Tanácsköztársaság északi hadjáratát és annak külpolitikai korlátait., Magyarázza el Trianon következményeit és a két világháború közötti békés revíziós propagandát.. A minimum biztos gerinc így foglalható össze: A fókusz: 1918–20-ban a területi egység megőrzése kudarcba fulladt, utána a politika célja a revízió lett, amely a harmincas évek végén részleges sikereket hozott. A válasz végén egy rövid mérlegelő mondattal zárjon, amely kimondja, milyen irányba változott a bemutatott történeti probléma. Gyakori hiba, hogy Ne írjon részletes hadisztorit, a diplomáciai és politikai változás a fontos., A győri program ne egyszerűen gazdasági programként jelenjen meg, hanem a revíziós-politikai háttérrel együtt."
+    },
+    {
+      "id": "ka_2018_maj_foldkerdes",
+      "complex_type": "korszakokon_ativelo",
+      "exam": "2018. máj.",
+      "theme": "A földtulajdonviszonyok átalakulása Magyarországon 1918-tól a rendszerváltásig",
+      "period": "1918–1991",
+      "related_tetelek": [
+        4
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "1918–19 földreform-kísérletek",
+          "két világháború közötti reform és kritikája",
+          "1945 utáni földosztás és kollektivizálás",
+          "szocialista tulajdonviszonyok",
+          "kárpótlás"
+        ],
+        "fogalmak": [
+          "nagybirtok",
+          "földosztás",
+          "földreform",
+          "kollektivizálás",
+          "termelőszövetkezet",
+          "tagosítás",
+          "kárpótlás"
+        ],
+        "szemelyek": [
+          "Jászi Oszkár",
+          "Nagyatádi Szabó István",
+          "Gömbös Gyula",
+          "Nagy Imre"
+        ],
+        "evszamok": [
+          "1918",
+          "1919",
+          "1920",
+          "1945",
+          "1948–1961",
+          "1956",
+          "1991"
+        ],
+        "topografia": [
+          "Magyarország"
+        ]
+      },
+      "minimum_answer_focus": "Minimum: a földkérdés végig társadalmi feszültségforrás maradt; a kisbirtokos ígéretet végül az államszocialista kollektivizálás váltotta fel, amit 1991 után kárpótlás követett.",
+      "common_mistakes": [
+        "Ne keverje a földosztást a kollektivizálással.",
+        "A Nagy Imre-féle 1953/56-os korrekciókat ne tekintse a rendszer teljes felszámolásának."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez a komplex esszé időrendben felépített problémakifejtést vár. A válasz elején nevezze meg a történelmi ívet és a korszakhatárokat, majd haladjon végig a kijelölt csomópontokon: 1918–19 földreform-kísérletek, két világháború közötti reform és kritikája, 1945 utáni földosztás és kollektivizálás, szocialista tulajdonviszonyok, kárpótlás. Nem szabad ugrálni az időben, mert ennél a típúsnál a logikus sorrend önmagában is értékelési szempont. A jó megoldásba természetesen be kell épülnie a kulcsszereplőknek (Jászi Oszkár, Nagyatádi Szabó István, Gömbös Gyula, Nagy Imre), a kronológiának (1918, 1919, 1920, 1945, 1948–1961), a topográfiának (Magyarország) és a szakszavaknak (nagybirtok, földosztás, földreform, kollektivizálás, termelőszövetkezet, tagosítás). A lényeg, hogy minden szakasznál mutassa meg az okot, a változást és a következményt. A részletes kifejtésnél ügyeljen arra, hogy Mutassa be, hogy az őszirózsás forradalom alatt a földosztás igénye erős volt, de korlátozottan valósult meg., Különítse el a Tanácsköztársaság szocializáló politikáját a kisbirtokos földreformtól., Térjen ki a Nagyatádi-féle reform korlátaira és a két világháború közti agrárfeszültségekre.. A minimum biztos gerinc így foglalható össze: Minimum: a földkérdés végig társadalmi feszültségforrás maradt; a kisbirtokos ígéretet végül az államszocialista kollektivizálás váltotta fel, amit 1991 után kárpótlás követett. A válasz végén egy rövid mérlegelő mondattal zárjon, amely kimondja, milyen irányba változott a bemutatott történeti probléma. Gyakori hiba, hogy Ne keverje a földosztást a kollektivizálással., A Nagy Imre-féle 1953/56-os korrekciókat ne tekintse a rendszer teljes felszámolásának."
+    },
+    {
+      "id": "ka_2018_maj_id_jobbagysag",
+      "complex_type": "korszakokon_ativelo",
+      "exam": "2018. máj. id.",
+      "theme": "A jobbágyság kérdése a felvilágosult abszolutizmustól a reformkorig",
+      "period": "1767–1848",
+      "related_tetelek": [
+        13,
+        16
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "jobbágyság helyzete és változása",
+          "nemesség álláspontja",
+          "felvilágosult abszolutista reformok",
+          "reformkori viták",
+          "reformországgyűlések törvényhozása"
+        ],
+        "fogalmak": [
+          "úrbérrendezés",
+          "robot",
+          "kilenced",
+          "jobbágyfelszabadítás",
+          "örökváltság",
+          "közteherviselés",
+          "ősiség"
+        ],
+        "szemelyek": [
+          "Mária Terézia",
+          "II. József",
+          "Széchenyi István",
+          "Kossuth Lajos",
+          "Deák Ferenc"
+        ],
+        "evszamok": [
+          "1767",
+          "1785",
+          "1832–36",
+          "1839–40",
+          "1848"
+        ],
+        "topografia": [
+          "Magyar Királyság"
+        ]
+      },
+      "minimum_answer_focus": "A minimum fókusz: a jobbágyság helyzetét a 18. században szabályozni próbálták, a reformkorban pedig a polgári átalakulás kulcskérdésévé vált, amelyet 1848 oldott meg.",
+      "common_mistakes": [
+        "Ne írja, hogy Mária Terézia eltörölte a jobbágyságot.",
+        "Az örökváltság és a jobbágyfelszabadítás nem ugyanaz a lépcső."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez a komplex esszé időrendben felépített problémakifejtést vár. A válasz elején nevezze meg a történelmi ívet és a korszakhatárokat, majd haladjon végig a kijelölt csomópontokon: jobbágyság helyzete és változása, nemesség álláspontja, felvilágosult abszolutista reformok, reformkori viták, reformországgyűlések törvényhozása. Nem szabad ugrálni az időben, mert ennél a típúsnál a logikus sorrend önmagában is értékelési szempont. A jó megoldásba természetesen be kell épülnie a kulcsszereplőknek (Mária Terézia, II. József, Széchenyi István, Kossuth Lajos, Deák Ferenc), a kronológiának (1767, 1785, 1832–36, 1839–40, 1848), a topográfiának (Magyar Királyság) és a szakszavaknak (úrbérrendezés, robot, kilenced, jobbágyfelszabadítás, örökváltság, közteherviselés). A lényeg, hogy minden szakasznál mutassa meg az okot, a változást és a következményt. A részletes kifejtésnél ügyeljen arra, hogy Ismerje az úrbérrendezés célját: a földesúri terhek szabályozását, nem a jobbágyság felszámolását., Mutassa be II. József jobbágyrendeletének jelentőségét és korlátait., Magyarázza el, hogyan lett a jobbágykérdés a reformkor központi vitája.. A minimum biztos gerinc így foglalható össze: A minimum fókusz: a jobbágyság helyzetét a 18. században szabályozni próbálták, a reformkorban pedig a polgári átalakulás kulcskérdésévé vált, amelyet 1848 oldott meg. A válasz végén egy rövid mérlegelő mondattal zárjon, amely kimondja, milyen irányba változott a bemutatott történeti probléma. Gyakori hiba, hogy Ne írja, hogy Mária Terézia eltörölte a jobbágyságot., Az örökváltság és a jobbágyfelszabadítás nem ugyanaz a lépcső."
+    },
+    {
+      "id": "ka_2018_okt_szovjet_kulpolitika",
+      "complex_type": "korszakokon_ativelo",
+      "exam": "2018. okt.",
+      "theme": "A sztálini Szovjetunió külpolitikája az 1920-as évektől a koreai háborúig",
+      "period": "1920-as évek–1953",
+      "related_tetelek": [
+        30
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "1920-as évek külpolitikai helyzete",
+          "Sztálin törekvései a II. világháború végéig",
+          "hidegháborús terjeszkedés",
+          "koreai háború"
+        ],
+        "fogalmak": [
+          "egy országban megvalósuló szocializmus",
+          "kollektív biztonság",
+          "Molotov–Ribbentrop-paktum",
+          "érdekszféra",
+          "hidegháború",
+          "koreai háború"
+        ],
+        "szemelyek": [
+          "Sztálin",
+          "Kim Ir Szen",
+          "Truman"
+        ],
+        "evszamok": [
+          "1924",
+          "1939",
+          "1945",
+          "1947",
+          "1950–1953"
+        ],
+        "topografia": [
+          "Szovjetunió",
+          "Kelet-Közép-Európa",
+          "Korea"
+        ]
+      },
+      "minimum_answer_focus": "A gerinc: elszigetelt forradalmi államból szuperhatalmi érdekszféra-birodalom; a sztálini külpolitika egyszerre volt ideologikus és nagyhatalmi.",
+      "common_mistakes": [
+        "Ne keverje össze Lenin és Sztálin külpolitikai szakaszait.",
+        "A koreai háborúban a szovjet szerep közvetett, nem nyílt szárazföldi tömegháború."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez a komplex esszé időrendben felépített problémakifejtést vár. A válasz elején nevezze meg a történelmi ívet és a korszakhatárokat, majd haladjon végig a kijelölt csomópontokon: 1920-as évek külpolitikai helyzete, Sztálin törekvései a II. világháború végéig, hidegháborús terjeszkedés, koreai háború. Nem szabad ugrálni az időben, mert ennél a típúsnál a logikus sorrend önmagában is értékelési szempont. A jó megoldásba természetesen be kell épülnie a kulcsszereplőknek (Sztálin, Kim Ir Szen, Truman), a kronológiának (1924, 1939, 1945, 1947, 1950–1953), a topográfiának (Szovjetunió, Kelet-Közép-Európa, Korea) és a szakszavaknak (egy országban megvalósuló szocializmus, kollektív biztonság, Molotov–Ribbentrop-paktum, érdekszféra, hidegháború, koreai háború). A lényeg, hogy minden szakasznál mutassa meg az okot, a változást és a következményt. A részletes kifejtésnél ügyeljen arra, hogy Mutassa be a Szovjetunió kezdeti diplomáciai elszigeteltségét és fokozatos elismerését., Ismertesse Sztálin pragmatikus fordulatait: kollektív biztonság, majd náci–szovjet megnemtámadási szerződés., Mutassa be a második világháború utáni szovjet érdekszféra-építést Kelet-Európában.. A minimum biztos gerinc így foglalható össze: A gerinc: elszigetelt forradalmi államból szuperhatalmi érdekszféra-birodalom; a sztálini külpolitika egyszerre volt ideologikus és nagyhatalmi. A válasz végén egy rövid mérlegelő mondattal zárjon, amely kimondja, milyen irányba változott a bemutatott történeti probléma. Gyakori hiba, hogy Ne keverje össze Lenin és Sztálin külpolitikai szakaszait., A koreai háborúban a szovjet szerep közvetett, nem nyílt szárazföldi tömegháború."
+    },
+    {
+      "id": "ka_2019_maj_tavol_kelet_gyarmatositas",
+      "complex_type": "korszakokon_ativelo",
+      "exam": "2019. máj.",
+      "theme": "Kína és Korea a gyarmatosítás és a dekolonizáció korszakában",
+      "period": "19. század második fele–1953",
+      "related_tetelek": [
+        30
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "Kína helyzete a 19. század második felében",
+          "nagyhatalmi befolyás a 20. század elején",
+          "polgárháború Kínában",
+          "Kína a II. világháborúban",
+          "Kínai Népköztársaság",
+          "Koreai háború"
+        ],
+        "fogalmak": [
+          "félgyarmat",
+          "befolyási övezet",
+          "bokszerlázadás",
+          "Kuomintang",
+          "kommunista polgárháború",
+          "Kínai Népköztársaság",
+          "38. szélességi kör"
+        ],
+        "szemelyek": [
+          "Csang Kaj-sek",
+          "Mao Ce-tung",
+          "Kim Ir Szen"
+        ],
+        "evszamok": [
+          "1894–95",
+          "1900",
+          "1911",
+          "1927–49",
+          "1949",
+          "1950–53"
+        ],
+        "topografia": [
+          "Kína",
+          "Korea",
+          "Mandzsúria",
+          "Peking"
+        ]
+      },
+      "minimum_answer_focus": "A minimum fókusz: a távol-keleti térség a klasszikus gyarmati nyomástól a hidegháborús megosztottságig jutott el.",
+      "common_mistakes": [
+        "Ne kezelje Kínát klasszikus teljes gyarmatként; félgyarmati jellegű volt.",
+        "Koreát ne csak japán gyarmatként, hanem hidegháborús törésvonalként is mutassa be."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez a komplex esszé időrendben felépített problémakifejtést vár. A válasz elején nevezze meg a történelmi ívet és a korszakhatárokat, majd haladjon végig a kijelölt csomópontokon: Kína helyzete a 19. század második felében, nagyhatalmi befolyás a 20. század elején, polgárháború Kínában, Kína a II. világháborúban, Kínai Népköztársaság. Nem szabad ugrálni az időben, mert ennél a típúsnál a logikus sorrend önmagában is értékelési szempont. A jó megoldásba természetesen be kell épülnie a kulcsszereplőknek (Csang Kaj-sek, Mao Ce-tung, Kim Ir Szen), a kronológiának (1894–95, 1900, 1911, 1927–49, 1949), a topográfiának (Kína, Korea, Mandzsúria, Peking) és a szakszavaknak (félgyarmat, befolyási övezet, bokszerlázadás, Kuomintang, kommunista polgárháború, Kínai Népköztársaság). A lényeg, hogy minden szakasznál mutassa meg az okot, a változást és a következményt. A részletes kifejtésnél ügyeljen arra, hogy Ismerje Kína félgyarmati helyzetét és az európai, japán, amerikai befolyási övezeteket., Mutassa be Korea japán függésbe kerülését és a második világháború utáni kettészakadását., Térjen ki a kínai polgárháború két nagy szakaszára és a japán háború hatására.. A minimum biztos gerinc így foglalható össze: A minimum fókusz: a távol-keleti térség a klasszikus gyarmati nyomástól a hidegháborús megosztottságig jutott el. A válasz végén egy rövid mérlegelő mondattal zárjon, amely kimondja, milyen irányba változott a bemutatott történeti probléma. Gyakori hiba, hogy Ne kezelje Kínát klasszikus teljes gyarmatként; félgyarmati jellegű volt., Koreát ne csak japán gyarmatként, hanem hidegháborús törésvonalként is mutassa be."
+    },
+    {
+      "id": "ka_2019_maj_id_habsburg_kozjogi_viszony",
+      "complex_type": "korszakokon_ativelo",
+      "exam": "2019. máj. id.",
+      "theme": "Magyarország és a Habsburg Birodalom közjogi viszonya 1687–1790 között",
+      "period": "1687–1790",
+      "related_tetelek": [
+        13
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "közjogi viszony a török kiűzése után",
+          "pragmatica sanctio",
+          "Mária Terézia és a rendek",
+          "II. József kormányzása"
+        ],
+        "fogalmak": [
+          "rendi monarchia",
+          "pragmatica sanctio",
+          "örökös királyság",
+          "kalapos király",
+          "felvilágosult abszolutizmus"
+        ],
+        "szemelyek": [
+          "III. Károly",
+          "Mária Terézia",
+          "II. József"
+        ],
+        "evszamok": [
+          "1687",
+          "1723",
+          "1741",
+          "1780–1790"
+        ],
+        "topografia": [
+          "Magyar Királyság",
+          "Pozsony",
+          "Bécs"
+        ]
+      },
+      "minimum_answer_focus": "A minimum válasz: a 18. században Magyarország rendi különállása megmaradt, de a Habsburg uralkodóházhoz való kötöttség és a birodalmi integráció erősödött.",
+      "common_mistakes": [
+        "Ne nevezze II. Józsefet megkoronázott magyar királynak.",
+        "A Pragmatica Sanctio nem azonos a kiegyezéssel vagy valamiféle modern alkotmánnyal."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez a komplex esszé időrendben felépített problémakifejtést vár. A válasz elején nevezze meg a történelmi ívet és a korszakhatárokat, majd haladjon végig a kijelölt csomópontokon: közjogi viszony a török kiűzése után, pragmatica sanctio, Mária Terézia és a rendek, II. József kormányzása. Nem szabad ugrálni az időben, mert ennél a típúsnál a logikus sorrend önmagában is értékelési szempont. A jó megoldásba természetesen be kell épülnie a kulcsszereplőknek (III. Károly, Mária Terézia, II. József), a kronológiának (1687, 1723, 1741, 1780–1790), a topográfiának (Magyar Királyság, Pozsony, Bécs) és a szakszavaknak (rendi monarchia, pragmatica sanctio, örökös királyság, kalapos király, felvilágosult abszolutizmus). A lényeg, hogy minden szakasznál mutassa meg az okot, a változást és a következményt. A részletes kifejtésnél ügyeljen arra, hogy Mutassa be az 1687-es fordulatot: szabad királyválasztás feladása, Habsburg örökösödés., Magyarázza el a Pragmatica Sanctio kettős jelentését: nőági öröklés és a birodalmi együttmaradás elve., Térjen ki a rendek és Mária Terézia együttműködésére.. A minimum biztos gerinc így foglalható össze: A minimum válasz: a 18. században Magyarország rendi különállása megmaradt, de a Habsburg uralkodóházhoz való kötöttség és a birodalmi integráció erősödött. A válasz végén egy rövid mérlegelő mondattal zárjon, amely kimondja, milyen irányba változott a bemutatott történeti probléma. Gyakori hiba, hogy Ne nevezze II. Józsefet megkoronázott magyar királynak., A Pragmatica Sanctio nem azonos a kiegyezéssel vagy valamiféle modern alkotmánnyal."
+    },
+    {
+      "id": "ka_2019_okt_allamforma_allamfo",
+      "complex_type": "korszakokon_ativelo",
+      "exam": "2019. okt.",
+      "theme": "Államforma és államfői jogkör változásai Magyarországon 1914–1990",
+      "period": "1914–1990",
+      "related_tetelek": [
+        19
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "dualizmus kori államforma",
+          "őszirózsás forradalom változásai",
+          "Tanácsköztársaság",
+          "Horthy-korszak",
+          "koalíciós korszak és kommunista diktatúra",
+          "1989–90 változások"
+        ],
+        "fogalmak": [
+          "alkotmányos monarchia",
+          "népköztársaság",
+          "tanácsköztársaság",
+          "király nélküli királyság",
+          "Elnöki Tanács",
+          "köztársaság"
+        ],
+        "szemelyek": [
+          "Károly IV.",
+          "Károlyi Mihály",
+          "Horthy Miklós",
+          "Rákosi Mátyás",
+          "Kádár János",
+          "Szűrös Mátyás"
+        ],
+        "evszamok": [
+          "1918",
+          "1919",
+          "1920",
+          "1946",
+          "1949",
+          "1989"
+        ],
+        "topografia": [
+          "Magyarország"
+        ]
+      },
+      "minimum_answer_focus": "A gerinc: 1918 után többször radikálisan változott az államforma, az államfői jogkör pedig mindig a rendszer természetét tükrözte.",
+      "common_mistakes": [
+        "Ne keverje a népköztársaságot a Tanácsköztársasággal.",
+        "A Horthy-rendszer nem köztársaság volt."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez a komplex esszé időrendben felépített problémakifejtést vár. A válasz elején nevezze meg a történelmi ívet és a korszakhatárokat, majd haladjon végig a kijelölt csomópontokon: dualizmus kori államforma, őszirózsás forradalom változásai, Tanácsköztársaság, Horthy-korszak, koalíciós korszak és kommunista diktatúra. Nem szabad ugrálni az időben, mert ennél a típúsnál a logikus sorrend önmagában is értékelési szempont. A jó megoldásba természetesen be kell épülnie a kulcsszereplőknek (Károly IV., Károlyi Mihály, Horthy Miklós, Rákosi Mátyás, Kádár János), a kronológiának (1918, 1919, 1920, 1946, 1949), a topográfiának (Magyarország) és a szakszavaknak (alkotmányos monarchia, népköztársaság, tanácsköztársaság, király nélküli királyság, Elnöki Tanács, köztársaság). A lényeg, hogy minden szakasznál mutassa meg az okot, a változást és a következményt. A részletes kifejtésnél ügyeljen arra, hogy Mutassa be a monarchiából köztársaságba, majd tanácsállamba való gyors átmenetet 1918–19-ben., Ismertesse a király nélküli királyság sajátosságát és a kormányzó jogköreit., Térjen ki a második köztársaságra, majd az 1949-es népköztársasági államformára.. A minimum biztos gerinc így foglalható össze: A gerinc: 1918 után többször radikálisan változott az államforma, az államfői jogkör pedig mindig a rendszer természetét tükrözte. A válasz végén egy rövid mérlegelő mondattal zárjon, amely kimondja, milyen irányba változott a bemutatott történeti probléma. Gyakori hiba, hogy Ne keverje a népköztársaságot a Tanácsköztársasággal., A Horthy-rendszer nem köztársaság volt."
+    },
+    {
+      "id": "ka_2020_maj_kiraly_rendek",
+      "complex_type": "korszakokon_ativelo",
+      "exam": "2020. máj.",
+      "theme": "A király és a rendek erőviszonya Hunyadi Mátyástól I. Ferdinándig",
+      "period": "1458–1564",
+      "related_tetelek": [
+        2,
+        27
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "Mátyás trónra kerülése",
+          "Mátyás és a rendek",
+          "rendi törekvések a 16. század elején",
+          "Mohács előzményei",
+          "Szapolyai és Ferdinánd trónra kerülése"
+        ],
+        "fogalmak": [
+          "rendi monarchia",
+          "központosítás",
+          "fekete sereg",
+          "rendi országgyűlés",
+          "Tripartitum",
+          "kettős királyválasztás"
+        ],
+        "szemelyek": [
+          "Hunyadi Mátyás",
+          "Werbőczy István",
+          "II. Ulászló",
+          "II. Lajos",
+          "Szapolyai János",
+          "I. Ferdinánd"
+        ],
+        "evszamok": [
+          "1458",
+          "1490",
+          "1514",
+          "1526",
+          "1538",
+          "1541",
+          "1564"
+        ],
+        "topografia": [
+          "Magyar Királyság",
+          "Buda"
+        ]
+      },
+      "minimum_answer_focus": "Minimum: Mátyás alatt a királyi hatalom erősödött, a Jagelló-korban a rendek kerültek fölénybe, Mohács után pedig a rendi megosztottság az ország széteséséhez vezetett.",
+      "common_mistakes": [
+        "Tripartitumot ne tekintse teljes törvénykönyvnek.",
+        "Mohács előzményei között a rendi megosztottságot is emelje ki, ne csak a haditechnikát."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez a komplex esszé időrendben felépített problémakifejtést vár. A válasz elején nevezze meg a történelmi ívet és a korszakhatárokat, majd haladjon végig a kijelölt csomópontokon: Mátyás trónra kerülése, Mátyás és a rendek, rendi törekvések a 16. század elején, Mohács előzményei, Szapolyai és Ferdinánd trónra kerülése. Nem szabad ugrálni az időben, mert ennél a típúsnál a logikus sorrend önmagában is értékelési szempont. A jó megoldásba természetesen be kell épülnie a kulcsszereplőknek (Hunyadi Mátyás, Werbőczy István, II. Ulászló, II. Lajos, Szapolyai János), a kronológiának (1458, 1490, 1514, 1526, 1538), a topográfiának (Magyar Királyság, Buda) és a szakszavaknak (rendi monarchia, központosítás, fekete sereg, rendi országgyűlés, Tripartitum, kettős királyválasztás). A lényeg, hogy minden szakasznál mutassa meg az okot, a változást és a következményt. A részletes kifejtésnél ügyeljen arra, hogy Mutassa be Mátyás rendekkel kötött kompromisszumos trónra jutását és utána végrehajtott központosítását., Térjen ki a Jagelló-kori rendi visszarendeződésre és a Werbőczy-féle rendi jogfelfogásra., Kapcsolja össze a rendi erősödést a védekezés gyengülésével és Moháccsal.. A minimum biztos gerinc így foglalható össze: Minimum: Mátyás alatt a királyi hatalom erősödött, a Jagelló-korban a rendek kerültek fölénybe, Mohács után pedig a rendi megosztottság az ország széteséséhez vezetett. A válasz végén egy rövid mérlegelő mondattal zárjon, amely kimondja, milyen irányba változott a bemutatott történeti probléma. Gyakori hiba, hogy Tripartitumot ne tekintse teljes törvénykönyvnek., Mohács előzményei között a rendi megosztottságot is emelje ki, ne csak a haditechnikát."
+    },
+    {
+      "id": "ka_2020_maj_id_valasztojog_20sz",
+      "complex_type": "korszakokon_ativelo",
+      "exam": "2020. máj. id.",
+      "theme": "A magyar választójog és választási rendszer alakulása Bethlen Istvántól a rendszerváltásig",
+      "period": "1922–1990",
+      "related_tetelek": [
+        19
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "Bethlen választójogi rendelete",
+          "Horthy-kori rendszer",
+          "választójog a II. vh. után",
+          "1945–49 közti rendszer",
+          "kommunista évtizedek választásai",
+          "rendszerváltás"
+        ],
+        "fogalmak": [
+          "nyílt szavazás",
+          "cenzus",
+          "titkos szavazás",
+          "egypártrendszer",
+          "népfrontlista",
+          "vegyes választási rendszer"
+        ],
+        "szemelyek": [
+          "Bethlen István",
+          "Rákosi Mátyás",
+          "Kádár János"
+        ],
+        "evszamok": [
+          "1922",
+          "1945",
+          "1947",
+          "1949",
+          "1985",
+          "1989–1990"
+        ],
+        "topografia": [
+          "Magyarország"
+        ]
+      },
+      "minimum_answer_focus": "Fókusz: a választójog története a korlátozott parlamentarizmustól a pártállami látszatválasztásokon át a demokratikus többpártrendszerig vezetett.",
+      "common_mistakes": [
+        "Ne állítsa, hogy a Horthy-korban mindenütt titkos volt a szavazás.",
+        "A kommunista korszak választásai formálisak voltak, nem valódi versenyen alapultak."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez a komplex esszé időrendben felépített problémakifejtést vár. A válasz elején nevezze meg a történelmi ívet és a korszakhatárokat, majd haladjon végig a kijelölt csomópontokon: Bethlen választójogi rendelete, Horthy-kori rendszer, választójog a II. vh. után, 1945–49 közti rendszer, kommunista évtizedek választásai. Nem szabad ugrálni az időben, mert ennél a típúsnál a logikus sorrend önmagában is értékelési szempont. A jó megoldásba természetesen be kell épülnie a kulcsszereplőknek (Bethlen István, Rákosi Mátyás, Kádár János), a kronológiának (1922, 1945, 1947, 1949, 1985), a topográfiának (Magyarország) és a szakszavaknak (nyílt szavazás, cenzus, titkos szavazás, egypártrendszer, népfrontlista, vegyes választási rendszer). A lényeg, hogy minden szakasznál mutassa meg az okot, a változást és a következményt. A részletes kifejtésnél ügyeljen arra, hogy Mutassa be, hogyan szűkítette Bethlen a választójogot és hol maradt meg a nyílt szavazás., Térjen ki a háború utáni demokratikusabb fordulatra és a női választójog általánossá válására., Ismertesse, hogyan üresedtek ki a választások az egypártrendszerben.. A minimum biztos gerinc így foglalható össze: Fókusz: a választójog története a korlátozott parlamentarizmustól a pártállami látszatválasztásokon át a demokratikus többpártrendszerig vezetett. A válasz végén egy rövid mérlegelő mondattal zárjon, amely kimondja, milyen irányba változott a bemutatott történeti probléma. Gyakori hiba, hogy Ne állítsa, hogy a Horthy-korban mindenütt titkos volt a szavazás., A kommunista korszak választásai formálisak voltak, nem valódi versenyen alapultak."
+    },
+    {
+      "id": "ka_2020_okt_zsidosag_emancipacio_jogfosztas",
+      "complex_type": "korszakokon_ativelo",
+      "exam": "2020. okt.",
+      "theme": "A magyarországi zsidóság emancipációja és jogfosztása a kiegyezéstől 1939-ig",
+      "period": "1867–1939",
+      "related_tetelek": [
+        8,
+        9
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "dualizmus kori helyzet",
+          "1920-as évek antiszemita intézkedései",
+          "válságkori változások",
+          "jogfosztás a harmincas évek végén"
+        ],
+        "fogalmak": [
+          "emancipáció",
+          "asszimiláció",
+          "antiszemitizmus",
+          "numerus clausus",
+          "zsidótörvény"
+        ],
+        "szemelyek": [
+          "Eötvös József",
+          "Teleki Pál",
+          "Gömbös Gyula",
+          "Horthy Miklós"
+        ],
+        "evszamok": [
+          "1867",
+          "1895",
+          "1920",
+          "1938",
+          "1939"
+        ],
+        "topografia": [
+          "Magyarország",
+          "Budapest"
+        ]
+      },
+      "minimum_answer_focus": "A minimum válasz: a dualizmus kori emancipációt és asszimilációt az első világháború után felerősödő antiszemitizmus váltotta fel, amely 1938–39-ben jogfosztó törvényekben öltött testet.",
+      "common_mistakes": [
+        "Ne vigye túl 1944-re a feladatot.",
+        "A numerus clausus korlátozó, de nem azonos a későbbi zsidótörvényekkel."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez a komplex esszé időrendben felépített problémakifejtést vár. A válasz elején nevezze meg a történelmi ívet és a korszakhatárokat, majd haladjon végig a kijelölt csomópontokon: dualizmus kori helyzet, 1920-as évek antiszemita intézkedései, válságkori változások, jogfosztás a harmincas évek végén. Nem szabad ugrálni az időben, mert ennél a típúsnál a logikus sorrend önmagában is értékelési szempont. A jó megoldásba természetesen be kell épülnie a kulcsszereplőknek (Eötvös József, Teleki Pál, Gömbös Gyula, Horthy Miklós), a kronológiának (1867, 1895, 1920, 1938, 1939), a topográfiának (Magyarország, Budapest) és a szakszavaknak (emancipáció, asszimiláció, antiszemitizmus, numerus clausus, zsidótörvény). A lényeg, hogy minden szakasznál mutassa meg az okot, a változást és a következményt. A részletes kifejtésnél ügyeljen arra, hogy Mutassa be a polgári emancipációt és a zsidóság szerepét a modernizációban., Térjen ki a recepcióra mint vallásjogi elismerésre., Ismertesse a numerus clausust mint első jelentős jogkorlátozást.. A minimum biztos gerinc így foglalható össze: A minimum válasz: a dualizmus kori emancipációt és asszimilációt az első világháború után felerősödő antiszemitizmus váltotta fel, amely 1938–39-ben jogfosztó törvényekben öltött testet. A válasz végén egy rövid mérlegelő mondattal zárjon, amely kimondja, milyen irányba változott a bemutatott történeti probléma. Gyakori hiba, hogy Ne vigye túl 1944-re a feladatot., A numerus clausus korlátozó, de nem azonos a későbbi zsidótörvényekkel."
+    },
+    {
+      "id": "ka_2021_maj_hadero_tortenet",
+      "complex_type": "korszakokon_ativelo",
+      "exam": "2021. máj.",
+      "theme": "A magyar haderő szervezeti keretei 1848 és 1920 között",
+      "period": "1848–1920",
+      "related_tetelek": [
+        16,
+        28
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "magyarok a birodalmi hadseregben",
+          "1848–49 honvédség",
+          "közös hadsereg és Magyar Királyi Honvédség",
+          "Vörös Hadsereg és Nemzeti Hadsereg",
+          "trianoni korlátozások"
+        ],
+        "fogalmak": [
+          "honvédség",
+          "közös hadsereg",
+          "véderővita",
+          "Vörös Hadsereg",
+          "Nemzeti Hadsereg",
+          "trianoni katonai korlátozások"
+        ],
+        "szemelyek": [
+          "Kossuth Lajos",
+          "Görgei Artúr",
+          "Ferenc József",
+          "Horthy Miklós"
+        ],
+        "evszamok": [
+          "1848",
+          "1868",
+          "1918–1919",
+          "1920"
+        ],
+        "topografia": [
+          "Magyarország",
+          "Osztrák–Magyar Monarchia"
+        ]
+      },
+      "minimum_answer_focus": "Fókusz: a magyar fegyveres erő önállósága 1848-ban röviden megjelent, 1867 után korlátozottan tért vissza, 1920-ban pedig súlyosan beszűkült.",
+      "common_mistakes": [
+        "Ne tévessze össze a közös hadsereget a Magyar Királyi Honvédséggel.",
+        "A Vörös Hadsereget és a Nemzeti Hadsereget külön politikai kontextusban mutassa be."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez a komplex esszé időrendben felépített problémakifejtést vár. A válasz elején nevezze meg a történelmi ívet és a korszakhatárokat, majd haladjon végig a kijelölt csomópontokon: magyarok a birodalmi hadseregben, 1848–49 honvédség, közös hadsereg és Magyar Királyi Honvédség, Vörös Hadsereg és Nemzeti Hadsereg, trianoni korlátozások. Nem szabad ugrálni az időben, mert ennél a típúsnál a logikus sorrend önmagában is értékelési szempont. A jó megoldásba természetesen be kell épülnie a kulcsszereplőknek (Kossuth Lajos, Görgei Artúr, Ferenc József, Horthy Miklós), a kronológiának (1848, 1868, 1918–1919, 1920), a topográfiának (Magyarország, Osztrák–Magyar Monarchia) és a szakszavaknak (honvédség, közös hadsereg, véderővita, Vörös Hadsereg, Nemzeti Hadsereg, trianoni katonai korlátozások). A lényeg, hogy minden szakasznál mutassa meg az okot, a változást és a következményt. A részletes kifejtésnél ügyeljen arra, hogy Mutassa be, hogy 1848 előtt a magyarok a császári hadseregben szolgáltak., Ismertesse az önálló honvédség megszervezését 1848-ban és megszűnését a szabadságharc leverése után., Térjen ki a kiegyezés utáni kettős hadseregszerkezetre.. A minimum biztos gerinc így foglalható össze: Fókusz: a magyar fegyveres erő önállósága 1848-ban röviden megjelent, 1867 után korlátozottan tért vissza, 1920-ban pedig súlyosan beszűkült. A válasz végén egy rövid mérlegelő mondattal zárjon, amely kimondja, milyen irányba változott a bemutatott történeti probléma. Gyakori hiba, hogy Ne tévessze össze a közös hadsereget a Magyar Királyi Honvédséggel., A Vörös Hadsereget és a Nemzeti Hadsereget külön politikai kontextusban mutassa be."
+    },
+    {
+      "id": "ka_2021_maj_id_ipar_1867_1929",
+      "complex_type": "korszakokon_ativelo",
+      "exam": "2021. máj. id.",
+      "theme": "Magyar ipar helyzete a kiegyezéstől 1929-ig",
+      "period": "1867–1929",
+      "related_tetelek": [
+        4
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "dualizmuskori fellendülés háttere",
+          "I. világháború hatása",
+          "Trianon hatása",
+          "bethleni konszolidáció"
+        ],
+        "fogalmak": [
+          "iparosodás",
+          "védővám",
+          "infrastruktúra",
+          "hadiipar",
+          "trianoni piacvesztés",
+          "konszolidáció"
+        ],
+        "szemelyek": [
+          "Tisza Kálmán",
+          "Bethlen István"
+        ],
+        "evszamok": [
+          "1867",
+          "1890-es évek",
+          "1914–1918",
+          "1920",
+          "1924–1929"
+        ],
+        "topografia": [
+          "Budapest",
+          "Magyarország"
+        ]
+      },
+      "minimum_answer_focus": "Minimum: a dualizmus ipari fellendülését a világháború és Trianon törte meg, de a húszas évek közepére részleges stabilizáció következett.",
+      "common_mistakes": [
+        "Ne írja, hogy Trianon után az ipar teljesen összeomlott; volt szerkezeti alkalmazkodás is."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez a komplex esszé időrendben felépített problémakifejtést vár. A válasz elején nevezze meg a történelmi ívet és a korszakhatárokat, majd haladjon végig a kijelölt csomópontokon: dualizmuskori fellendülés háttere, I. világháború hatása, Trianon hatása, bethleni konszolidáció. Nem szabad ugrálni az időben, mert ennél a típúsnál a logikus sorrend önmagában is értékelési szempont. A jó megoldásba természetesen be kell épülnie a kulcsszereplőknek (Tisza Kálmán, Bethlen István), a kronológiának (1867, 1890-es évek, 1914–1918, 1920, 1924–1929), a topográfiának (Budapest, Magyarország) és a szakszavaknak (iparosodás, védővám, infrastruktúra, hadiipar, trianoni piacvesztés, konszolidáció). A lényeg, hogy minden szakasznál mutassa meg az okot, a változást és a következményt. A részletes kifejtésnél ügyeljen arra, hogy Mutassa be a kiegyezés gazdasági kereteit, hitelrendszert, közlekedésfejlesztést., Térjen ki a nehézipar, élelmiszeripar, gépgyártás szerepére., Magyarázza el a háborús konjunktúrát és szerkezeti torzulást.. A minimum biztos gerinc így foglalható össze: Minimum: a dualizmus ipari fellendülését a világháború és Trianon törte meg, de a húszas évek közepére részleges stabilizáció következett. A válasz végén egy rövid mérlegelő mondattal zárjon, amely kimondja, milyen irányba változott a bemutatott történeti probléma. Gyakori hiba, hogy Ne írja, hogy Trianon után az ipar teljesen összeomlott; volt szerkezeti alkalmazkodás is."
+    },
+    {
+      "id": "ka_2021_okt_kulpolitika_1944_2000",
+      "complex_type": "korszakokon_ativelo",
+      "exam": "2021. okt.",
+      "theme": "Magyar külpolitikai törekvések a kiugrási kísérlettől az ezredfordulóig",
+      "period": "1944–2004",
+      "related_tetelek": [
+        19,
+        29,
+        30
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "kiugrási kísérlet",
+          "nyilas külpolitika",
+          "szovjet blokkhoz kötöttség",
+          "külpolitikai enyhülés és nyitás",
+          "rendszerváltás utáni nyugati integráció"
+        ],
+        "fogalmak": [
+          "kiugrás",
+          "megszállás",
+          "szuverenitáskorlátozás",
+          "Varsói Szerződés",
+          "ENSZ",
+          "NATO",
+          "Európai Unió"
+        ],
+        "szemelyek": [
+          "Horthy Miklós",
+          "Szálasi Ferenc",
+          "Rákosi Mátyás",
+          "Kádár János",
+          "Antall József"
+        ],
+        "evszamok": [
+          "1944. október 15.",
+          "1945",
+          "1956",
+          "1989",
+          "1999",
+          "2004"
+        ],
+        "topografia": [
+          "Magyarország",
+          "Németország",
+          "Szovjetunió",
+          "NATO",
+          "EU"
+        ]
+      },
+      "minimum_answer_focus": "A minimum gerinc: a német függést a szovjet függés váltotta fel, majd 1989 után a külpolitika fő célja a nyugati integráció lett.",
+      "common_mistakes": [
+        "Ne kezelje 1956-ot sikeres külpolitikai fordulatként.",
+        "Az EU-csatlakozás ne keveredjen a NATO-val."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez a komplex esszé időrendben felépített problémakifejtést vár. A válasz elején nevezze meg a történelmi ívet és a korszakhatárokat, majd haladjon végig a kijelölt csomópontokon: kiugrási kísérlet, nyilas külpolitika, szovjet blokkhoz kötöttség, külpolitikai enyhülés és nyitás, rendszerváltás utáni nyugati integráció. Nem szabad ugrálni az időben, mert ennél a típúsnál a logikus sorrend önmagában is értékelési szempont. A jó megoldásba természetesen be kell épülnie a kulcsszereplőknek (Horthy Miklós, Szálasi Ferenc, Rákosi Mátyás, Kádár János, Antall József), a kronológiának (1944. október 15., 1945, 1956, 1989, 1999), a topográfiának (Magyarország, Németország, Szovjetunió, NATO) és a szakszavaknak (kiugrás, megszállás, szuverenitáskorlátozás, Varsói Szerződés, ENSZ, NATO). A lényeg, hogy minden szakasznál mutassa meg az okot, a változást és a következményt. A részletes kifejtésnél ügyeljen arra, hogy Mutassa be a kiugrás kudarcának okait és következményeit., Ismertesse a nyilas külpolitika teljes német függését., Térjen ki a szovjet blokkba kényszerülésre, 1956 nemzetközi helyzetére, majd a kádári pragmatikus nyitásra.. A minimum biztos gerinc így foglalható össze: A minimum gerinc: a német függést a szovjet függés váltotta fel, majd 1989 után a külpolitika fő célja a nyugati integráció lett. A válasz végén egy rövid mérlegelő mondattal zárjon, amely kimondja, milyen irányba változott a bemutatott történeti probléma. Gyakori hiba, hogy Ne kezelje 1956-ot sikeres külpolitikai fordulatként., Az EU-csatlakozás ne keveredjen a NATO-val."
+    },
+    {
+      "id": "ka_2022_maj_vedekezes_oszmanokkal_szemben",
+      "complex_type": "korszakokon_ativelo",
+      "exam": "2022. máj.",
+      "theme": "Magyarország lehetőségei az Oszmán Birodalom feltartóztatására Zsigmondtól a három részre szakadásig",
+      "period": "1397–1541",
+      "related_tetelek": [
+        27
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "támadó hadjáratok szerepe",
+          "Zsigmond intézkedései",
+          "Mátyás politikája",
+          "katonai szervezet változásai",
+          "erőviszonyok eltolódása",
+          "szövetségi politika",
+          "mohács utáni nehézségek",
+          "Habsburgok törökellenes politikája"
+        ],
+        "fogalmak": [
+          "telekkatonaság",
+          "végvárrendszer",
+          "fekete sereg",
+          "bandérium",
+          "Habsburg dinasztikus politika",
+          "Hódoltság"
+        ],
+        "szemelyek": [
+          "Luxemburgi Zsigmond",
+          "Hunyadi Mátyás",
+          "II. Lajos",
+          "I. Ferdinánd",
+          "Szulejmán"
+        ],
+        "evszamok": [
+          "1397",
+          "1444",
+          "1456",
+          "1526",
+          "1541"
+        ],
+        "topografia": [
+          "Magyar Királyság",
+          "Oszmán Birodalom",
+          "Buda"
+        ]
+      },
+      "minimum_answer_focus": "Minimum: a magyar védekezés egyre kevésbé tudta ellensúlyozni az oszmán túlerőt; a belső megosztottság és az erőforráshiány végül 1541-re az ország széteséséhez vezetett.",
+      "common_mistakes": [
+        "Ne írjon részletes csataleírást; a szerkezeti és politikai változás a lényeg."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez a komplex esszé időrendben felépített problémakifejtést vár. A válasz elején nevezze meg a történelmi ívet és a korszakhatárokat, majd haladjon végig a kijelölt csomópontokon: támadó hadjáratok szerepe, Zsigmond intézkedései, Mátyás politikája, katonai szervezet változásai, erőviszonyok eltolódása. Nem szabad ugrálni az időben, mert ennél a típúsnál a logikus sorrend önmagában is értékelési szempont. A jó megoldásba természetesen be kell épülnie a kulcsszereplőknek (Luxemburgi Zsigmond, Hunyadi Mátyás, II. Lajos, I. Ferdinánd, Szulejmán), a kronológiának (1397, 1444, 1456, 1526, 1541), a topográfiának (Magyar Királyság, Oszmán Birodalom, Buda) és a szakszavaknak (telekkatonaság, végvárrendszer, fekete sereg, bandérium, Habsburg dinasztikus politika, Hódoltság). A lényeg, hogy minden szakasznál mutassa meg az okot, a változást és a következményt. A részletes kifejtésnél ügyeljen arra, hogy Mutassa be a temesvári országgyűlés és a telekkatonaság jelentőségét., Értse a védekező és támadó stratégia váltakozását., Hangsúlyozza az oszmán erőforrásfölényt a 16. század elején.. A minimum biztos gerinc így foglalható össze: Minimum: a magyar védekezés egyre kevésbé tudta ellensúlyozni az oszmán túlerőt; a belső megosztottság és az erőforráshiány végül 1541-re az ország széteséséhez vezetett. A válasz végén egy rövid mérlegelő mondattal zárjon, amely kimondja, milyen irányba változott a bemutatott történeti probléma. Gyakori hiba, hogy Ne írjon részletes csataleírást; a szerkezeti és politikai változás a lényeg."
+    },
+    {
+      "id": "ka_2022_maj_id_habsburg_szovetsegi_politika",
+      "complex_type": "korszakokon_ativelo",
+      "exam": "2022. máj. id.",
+      "theme": "A Habsburg Birodalom és az Osztrák–Magyar Monarchia szövetségi politikája 1740–1914",
+      "period": "1740–1914",
+      "related_tetelek": [
+        13,
+        15,
+        28
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "18. századi háborúk szövetségi rendszere",
+          "napóleoni háborúk",
+          "dinasztikus együttműködés 1849-ig",
+          "szövetségi viszonyok a 19. század második felében"
+        ],
+        "fogalmak": [
+          "diplomáciai forradalom",
+          "Szent Szövetség",
+          "német egységkérdés",
+          "kettős szövetség",
+          "hármas szövetség"
+        ],
+        "szemelyek": [
+          "Mária Terézia",
+          "II. József",
+          "Metternich",
+          "Ferenc József",
+          "Bismarck"
+        ],
+        "evszamok": [
+          "1756",
+          "1815",
+          "1849",
+          "1866",
+          "1879",
+          "1882",
+          "1914"
+        ],
+        "topografia": [
+          "Habsburg Birodalom",
+          "Osztrák–Magyar Monarchia",
+          "Európa"
+        ]
+      },
+      "minimum_answer_focus": "A fókusz: a Habsburgok szövetségi politikája a túlélés, az európai egyensúly és később a német, illetve balkáni erőtérben elfoglalt helyzet megőrzését szolgálta.",
+      "common_mistakes": [
+        "Ne részletezze a háborúk teljes eseménytörténetét.",
+        "A diplomáciai forradalmat időben helyesen használja (1756)."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez a komplex esszé időrendben felépített problémakifejtést vár. A válasz elején nevezze meg a történelmi ívet és a korszakhatárokat, majd haladjon végig a kijelölt csomópontokon: 18. századi háborúk szövetségi rendszere, napóleoni háborúk, dinasztikus együttműködés 1849-ig, szövetségi viszonyok a 19. század második felében. Nem szabad ugrálni az időben, mert ennél a típúsnál a logikus sorrend önmagában is értékelési szempont. A jó megoldásba természetesen be kell épülnie a kulcsszereplőknek (Mária Terézia, II. József, Metternich, Ferenc József, Bismarck), a kronológiának (1756, 1815, 1849, 1866, 1879), a topográfiának (Habsburg Birodalom, Osztrák–Magyar Monarchia, Európa) és a szakszavaknak (diplomáciai forradalom, Szent Szövetség, német egységkérdés, kettős szövetség, hármas szövetség). A lényeg, hogy minden szakasznál mutassa meg az okot, a változást és a következményt. A részletes kifejtésnél ügyeljen arra, hogy Mutassa be az osztrák örökösödési és hétéves háborúk korszakát, különösen a diplomáciai átrendeződést., Térjen ki a napóleoni háborúk és a bécsi kongresszus utáni restaurációs rendszerre., Magyarázza el a dinasztikus-orosz együttműködést 1849-ben.. A minimum biztos gerinc így foglalható össze: A fókusz: a Habsburgok szövetségi politikája a túlélés, az európai egyensúly és később a német, illetve balkáni erőtérben elfoglalt helyzet megőrzését szolgálta. A válasz végén egy rövid mérlegelő mondattal zárjon, amely kimondja, milyen irányba változott a bemutatott történeti probléma. Gyakori hiba, hogy Ne részletezze a háborúk teljes eseménytörténetét., A diplomáciai forradalmat időben helyesen használja (1756)."
+    },
+    {
+      "id": "ka_2022_okt_valasztasi_rendszer_1830_1939",
+      "complex_type": "korszakokon_ativelo",
+      "exam": "2022. okt.",
+      "theme": "Az országgyűlési választási rendszer és a választójog Magyarországon 1830–1939",
+      "period": "1830–1939",
+      "related_tetelek": [
+        16,
+        19
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "reformkori rendszer",
+          "1848-as változások",
+          "dualizmuskori választójog",
+          "Károlyi-kormány szabályozása",
+          "Tanácsköztársaság",
+          "1939-es helyzet"
+        ],
+        "fogalmak": [
+          "cenzus",
+          "rendi képviselet",
+          "népképviselet",
+          "titkos szavazás",
+          "általános választójog",
+          "nyílt szavazás"
+        ],
+        "szemelyek": [
+          "Kossuth Lajos",
+          "Károlyi Mihály",
+          "Bethlen István"
+        ],
+        "evszamok": [
+          "1848",
+          "1867",
+          "1918",
+          "1919",
+          "1922",
+          "1938/1939"
+        ],
+        "topografia": [
+          "Magyarország"
+        ]
+      },
+      "minimum_answer_focus": "Minimum: a rendszer a rendi-cenzusos modelltől lassan haladt a szélesebb választójog felé, de 1939-ig több korlátozás fennmaradt.",
+      "common_mistakes": [
+        "Ne állítsa, hogy 1848-ban teljes általános választójog jött létre."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez a komplex esszé időrendben felépített problémakifejtést vár. A válasz elején nevezze meg a történelmi ívet és a korszakhatárokat, majd haladjon végig a kijelölt csomópontokon: reformkori rendszer, 1848-as változások, dualizmuskori választójog, Károlyi-kormány szabályozása, Tanácsköztársaság. Nem szabad ugrálni az időben, mert ennél a típúsnál a logikus sorrend önmagában is értékelési szempont. A jó megoldásba természetesen be kell épülnie a kulcsszereplőknek (Kossuth Lajos, Károlyi Mihály, Bethlen István), a kronológiának (1848, 1867, 1918, 1919, 1922), a topográfiának (Magyarország) és a szakszavaknak (cenzus, rendi képviselet, népképviselet, titkos szavazás, általános választójog, nyílt szavazás). A lényeg, hogy minden szakasznál mutassa meg az okot, a változást és a következményt. A részletes kifejtésnél ügyeljen arra, hogy Mutassa be a rendi és népképviseleti logika közti különbséget., Térjen ki az 1848-as alapfordulatra, de a korlátozott választójog fennmaradására., Ismertesse a dualizmus cenzusos, szűk rendszerét.. A minimum biztos gerinc így foglalható össze: Minimum: a rendszer a rendi-cenzusos modelltől lassan haladt a szélesebb választójog felé, de 1939-ig több korlátozás fennmaradt. A válasz végén egy rövid mérlegelő mondattal zárjon, amely kimondja, milyen irányba változott a bemutatott történeti probléma. Gyakori hiba, hogy Ne állítsa, hogy 1848-ban teljes általános választójog jött létre."
+    }
+  ],
+  "osszehasonlito": [
+    {
+      "id": "oh_2017_maj_kommunizmus_nemzetiszocializmus",
+      "complex_type": "osszehasonlito",
+      "exam": "2017. máj.",
+      "theme": "A kommunista és a nemzetiszocialista ideológia összehasonlítása",
+      "period": "20. század első fele",
+      "related_tetelek": [
+        24,
+        29
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "szociális törekvések",
+          "nemzethez való viszony",
+          "vezér szerepe",
+          "demokráciafelfogás",
+          "ellenségképek",
+          "jelképek"
+        ],
+        "fogalmak": [
+          "osztályharc",
+          "internacionalizmus",
+          "fajelmélet",
+          "vezérelv",
+          "egypártrendszer",
+          "proletárdiktatúra"
+        ],
+        "szemelyek": [
+          "Lenin",
+          "Hitler",
+          "Marx"
+        ],
+        "evszamok": [
+          "1917",
+          "1920",
+          "1933"
+        ],
+        "topografia": [
+          "Szovjetunió",
+          "Németország"
+        ]
+      },
+      "minimum_answer_focus": "Minimum: a kommunizmus osztályalapon, a nemzetiszocializmus faj- és nemzetalapon szervezte újra a társadalmat; mindkettő elutasította a liberális demokráciát.",
+      "common_mistakes": [
+        "Ne csússzon át a konkrét terrorrendszerek történetébe, ha a feladat ideológiát kér."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez az összehasonlító komplex esszé nem két külön miniesszét kér, hanem közös szempontok mentén felépített párhuzamos elemzést. A válasz elején nevezze meg, mit mivel vet össze, majd szempontonként haladjon: szociális törekvések, nemzethez való viszony, vezér szerepe, demokráciafelfogás, ellenségképek. Minden bekezdésben rögtön jelezze mindkét oldal álláspontját vagy jellemzőjét, és mondja ki a hasonlóságot vagy a különbséget. A biztos megoldáshoz szükségesek a kulcsszereplők (Lenin, Hitler, Marx), a dátumok (1917, 1920, 1933), a helyszínek (Szovjetunió, Németország) és a nélkülözhetetlen fogalmak (osztályharc, internacionalizmus, fajelmélet, vezérelv, egypártrendszer, proletárdiktatúra). A tárgyalásban ne az egyik felet írja le teljesen, majd csak utána a másikat, hanem párhuzamos szerkezetet használjon. Részletesen figyeljen arra, hogy Mutassa be, hogy mindkét ideológia antidemokratikus, de eltérő alapon: osztály vs faj/nemzet., Hangsúlyozza a közösségi célok elsőbbségét az egyénnel szemben., Ismertesse a vezér szerepét és az ellenségképek különbségét.. A minimum biztos fókusz: Minimum: a kommunizmus osztályalapon, a nemzetiszocializmus faj- és nemzetalapon szervezte újra a társadalmat; mindkettő elutasította a liberális demokráciát. A végén egy összegző mondatban vonjon mérleget arról, melyek a legfontosabb közös vonások és eltérések. Gyakori hiba, hogy Ne csússzon át a konkrét terrorrendszerek történetébe, ha a feladat ideológiát kér."
+    },
+    {
+      "id": "oh_2017_maj_id_matyas_esz_oszman",
+      "complex_type": "osszehasonlito",
+      "exam": "2017. máj. id.",
+      "theme": "Hunyadi Mátyás állama és a korabeli Oszmán Birodalom",
+      "period": "15. század második fele",
+      "related_tetelek": [
+        2,
+        27
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "kiterjedés és hatalmi helyzet",
+          "uralkodói hatalom",
+          "hadsereg",
+          "hivatalnokszervezet",
+          "uralkodói bevételek"
+        ],
+        "fogalmak": [
+          "központosítás",
+          "szultáni hatalom",
+          "fekete sereg",
+          "timár-rendszer",
+          "kincstár"
+        ],
+        "szemelyek": [
+          "Hunyadi Mátyás",
+          "II. Mehmed"
+        ],
+        "evszamok": [
+          "1458–1490"
+        ],
+        "topografia": [
+          "Magyar Királyság",
+          "Oszmán Birodalom"
+        ]
+      },
+      "minimum_answer_focus": "Minimum: Mátyás állama központosított, de erőforrásaiban elmaradó keresztény királyság volt, míg az Oszmán Birodalom nagyobb, centralizáltabb és katonailag erősebb államként működött.",
+      "common_mistakes": [
+        "Ne állítsa, hogy Mátyás abszolút uralkodó volt oszmán mintára."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez az összehasonlító komplex esszé nem két külön miniesszét kér, hanem közös szempontok mentén felépített párhuzamos elemzést. A válasz elején nevezze meg, mit mivel vet össze, majd szempontonként haladjon: kiterjedés és hatalmi helyzet, uralkodói hatalom, hadsereg, hivatalnokszervezet, uralkodói bevételek. Minden bekezdésben rögtön jelezze mindkét oldal álláspontját vagy jellemzőjét, és mondja ki a hasonlóságot vagy a különbséget. A biztos megoldáshoz szükségesek a kulcsszereplők (Hunyadi Mátyás, II. Mehmed), a dátumok (1458–1490), a helyszínek (Magyar Királyság, Oszmán Birodalom) és a nélkülözhetetlen fogalmak (központosítás, szultáni hatalom, fekete sereg, timár-rendszer, kincstár). A tárgyalásban ne az egyik felet írja le teljesen, majd csak utána a másikat, hanem párhuzamos szerkezetet használjon. Részletesen figyeljen arra, hogy Mutassa be az oszmán túlsúlyt területben és erőforrásokban., Hangsúlyozza, hogy Mátyás centralizált, de rendi korlátok között mozgó királyságot vezetett, míg a szultáni hatalom koncentráltabb volt., Vesse össze a fekete sereget az oszmán hadszervezet sokrétűségével.. A minimum biztos fókusz: Minimum: Mátyás állama központosított, de erőforrásaiban elmaradó keresztény királyság volt, míg az Oszmán Birodalom nagyobb, centralizáltabb és katonailag erősebb államként működött. A végén egy összegző mondatban vonjon mérleget arról, melyek a legfontosabb közös vonások és eltérések. Gyakori hiba, hogy Ne állítsa, hogy Mátyás abszolút uralkodó volt oszmán mintára."
+    },
+    {
+      "id": "oh_2017_okt_keresztenyseg_iszlam",
+      "complex_type": "osszehasonlito",
+      "exam": "2017. okt.",
+      "theme": "A kereszténység és az iszlám fő tanai és társadalmi tanításai",
+      "period": "ókor–középkor",
+      "related_tetelek": [
+        21,
+        22
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "kialakulás",
+          "alapítók szerepe",
+          "alapvető tanítások és parancsok",
+          "szent könyvek",
+          "társadalmi tanítás"
+        ],
+        "fogalmak": [
+          "monoteizmus",
+          "Biblia",
+          "Korán",
+          "egyház/umma",
+          "szeretetparancs",
+          "öt pillér"
+        ],
+        "szemelyek": [
+          "Jézus Krisztus",
+          "Mohamed"
+        ],
+        "evszamok": [
+          "1. század",
+          "7. század"
+        ],
+        "topografia": [
+          "Palesztina",
+          "Római Birodalom",
+          "Mekka",
+          "Medina"
+        ]
+      },
+      "minimum_answer_focus": "Minimum: a kereszténység és az iszlám is egyistenhívő világvallás, de alapítójuk szerepe, tanrendszerük és intézményi szerkezetük eltérő.",
+      "common_mistakes": [
+        "Mohamedet ne tegye az iszlámban isteni személlyé; próféta.",
+        "A kereszténységben Jézus több, mint próféta."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez az összehasonlító komplex esszé nem két külön miniesszét kér, hanem közös szempontok mentén felépített párhuzamos elemzést. A válasz elején nevezze meg, mit mivel vet össze, majd szempontonként haladjon: kialakulás, alapítók szerepe, alapvető tanítások és parancsok, szent könyvek, társadalmi tanítás. Minden bekezdésben rögtön jelezze mindkét oldal álláspontját vagy jellemzőjét, és mondja ki a hasonlóságot vagy a különbséget. A biztos megoldáshoz szükségesek a kulcsszereplők (Jézus Krisztus, Mohamed), a dátumok (1. század, 7. század), a helyszínek (Palesztina, Római Birodalom, Mekka, Medina) és a nélkülözhetetlen fogalmak (monoteizmus, Biblia, Korán, egyház/umma, szeretetparancs, öt pillér). A tárgyalásban ne az egyik felet írja le teljesen, majd csak utána a másikat, hanem párhuzamos szerkezetet használjon. Részletesen figyeljen arra, hogy Mutassa be a két vallás monoteista jellegét és Ábrahám-hagyományát., Ismertesse a kereszténység megváltástanát és az iszlám teljes alávetettség-elvét., Térjen ki a szent könyvekre és a közösségszervező normákra.. A minimum biztos fókusz: Minimum: a kereszténység és az iszlám is egyistenhívő világvallás, de alapítójuk szerepe, tanrendszerük és intézményi szerkezetük eltérő. A végén egy összegző mondatban vonjon mérleget arról, melyek a legfontosabb közös vonások és eltérések. Gyakori hiba, hogy Mohamedet ne tegye az iszlámban isteni személlyé; próféta., A kereszténységben Jézus több, mint próféta."
+    },
+    {
+      "id": "oh_2018_maj_nagy_karoly_szent_istvan",
+      "complex_type": "osszehasonlito",
+      "exam": "2018. máj.",
+      "theme": "Nagy Károly és Szent István államának berendezkedése",
+      "period": "8–11. század",
+      "related_tetelek": [
+        21
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "előzmények",
+          "legitimáció",
+          "gazdasági korlátok",
+          "királyi birtokok",
+          "közigazgatás",
+          "egyházszervezés"
+        ],
+        "fogalmak": [
+          "keresztény királyság",
+          "koronázás",
+          "vármegye",
+          "grófság",
+          "tized",
+          "püspökség"
+        ],
+        "szemelyek": [
+          "Nagy Károly",
+          "I. (Szent) István",
+          "III. Ottó",
+          "II. Szilveszter"
+        ],
+        "evszamok": [
+          "800",
+          "1000/1001"
+        ],
+        "topografia": [
+          "Frank Birodalom",
+          "Magyar Királyság",
+          "Róma"
+        ]
+      },
+      "minimum_answer_focus": "Minimum: mindkét uralkodó a keresztény államszervezés eszközeivel erősítette meg hatalmát, de eltérő gazdasági és geopolitikai környezetben.",
+      "common_mistakes": [
+        "Ne azonosítsa teljesen a frank és a magyar közigazgatást; analóg, de nem azonos rendszerek."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez az összehasonlító komplex esszé nem két külön miniesszét kér, hanem közös szempontok mentén felépített párhuzamos elemzést. A válasz elején nevezze meg, mit mivel vet össze, majd szempontonként haladjon: előzmények, legitimáció, gazdasági korlátok, királyi birtokok, közigazgatás. Minden bekezdésben rögtön jelezze mindkét oldal álláspontját vagy jellemzőjét, és mondja ki a hasonlóságot vagy a különbséget. A biztos megoldáshoz szükségesek a kulcsszereplők (Nagy Károly, I. (Szent) István, III. Ottó, II. Szilveszter), a dátumok (800, 1000/1001), a helyszínek (Frank Birodalom, Magyar Királyság, Róma) és a nélkülözhetetlen fogalmak (keresztény királyság, koronázás, vármegye, grófság, tized, püspökség). A tárgyalásban ne az egyik felet írja le teljesen, majd csak utána a másikat, hanem párhuzamos szerkezetet használjon. Részletesen figyeljen arra, hogy Mutassa be a legitimáció eltérő formáit, de a pápasággal való kapcsolat közös szerepét., Vesse össze a grófsági és vármegyei rendszert., Térjen ki a kereszténység államszervező erejére és az egyházszervezet kiépítésére.. A minimum biztos fókusz: Minimum: mindkét uralkodó a keresztény államszervezés eszközeivel erősítette meg hatalmát, de eltérő gazdasági és geopolitikai környezetben. A végén egy összegző mondatban vonjon mérleget arról, melyek a legfontosabb közös vonások és eltérések. Gyakori hiba, hogy Ne azonosítsa teljesen a frank és a magyar közigazgatást; analóg, de nem azonos rendszerek."
+    },
+    {
+      "id": "oh_2018_maj_id_keleti_nyugati_blokk",
+      "complex_type": "osszehasonlito",
+      "exam": "2018. máj. id.",
+      "theme": "A keleti és a nyugati blokk főbb jellemzői",
+      "period": "1945 utáni évtizedek",
+      "related_tetelek": [
+        30
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "politikai berendezkedés",
+          "gazdasági rendszer és integráció",
+          "katonai szembenállás"
+        ],
+        "fogalmak": [
+          "demokrácia",
+          "diktatúra",
+          "piacgazdaság",
+          "tervgazdaság",
+          "NATO",
+          "Varsói Szerződés",
+          "KGST",
+          "Marshall-segély"
+        ],
+        "szemelyek": [
+          "Truman",
+          "Sztálin"
+        ],
+        "evszamok": [
+          "1947",
+          "1949",
+          "1955"
+        ],
+        "topografia": [
+          "NSZK",
+          "NDK",
+          "USA",
+          "Szovjetunió",
+          "Európa"
+        ]
+      },
+      "minimum_answer_focus": "Minimum: a nyugati blokk pluralista és piacgazdasági, a keleti blokk egypárti és tervgazdasági volt; kapcsolatukat a hidegháborús katonai szembenállás határozta meg.",
+      "common_mistakes": [
+        "Ne írja, hogy az NDK valódi liberális demokrácia volt."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez az összehasonlító komplex esszé nem két külön miniesszét kér, hanem közös szempontok mentén felépített párhuzamos elemzést. A válasz elején nevezze meg, mit mivel vet össze, majd szempontonként haladjon: politikai berendezkedés, gazdasági rendszer és integráció, katonai szembenállás. Minden bekezdésben rögtön jelezze mindkét oldal álláspontját vagy jellemzőjét, és mondja ki a hasonlóságot vagy a különbséget. A biztos megoldáshoz szükségesek a kulcsszereplők (Truman, Sztálin), a dátumok (1947, 1949, 1955), a helyszínek (NSZK, NDK, USA, Szovjetunió) és a nélkülözhetetlen fogalmak (demokrácia, diktatúra, piacgazdaság, tervgazdaság, NATO, Varsói Szerződés). A tárgyalásban ne az egyik felet írja le teljesen, majd csak utána a másikat, hanem párhuzamos szerkezetet használjon. Részletesen figyeljen arra, hogy Vesse össze a többpárti parlamentáris rendszert az egypárti diktatúrával., Mutassa be a piacgazdaság és tervgazdaság különbségeit., Térjen ki a két blokk integrációs és katonai szervezeteire.. A minimum biztos fókusz: Minimum: a nyugati blokk pluralista és piacgazdasági, a keleti blokk egypárti és tervgazdasági volt; kapcsolatukat a hidegháborús katonai szembenállás határozta meg. A végén egy összegző mondatban vonjon mérleget arról, melyek a legfontosabb közös vonások és eltérések. Gyakori hiba, hogy Ne írja, hogy az NDK valódi liberális demokrácia volt."
+    },
+    {
+      "id": "oh_2018_okt_xiv_lajos_ii_jozsef",
+      "complex_type": "osszehasonlito",
+      "exam": "2018. okt.",
+      "theme": "XIV. Lajos abszolutizmusa és II. József felvilágosult abszolutizmusa",
+      "period": "17–18. század",
+      "related_tetelek": [
+        13,
+        15
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "eszmei alapok",
+          "vámpolitika",
+          "vallási kérdések",
+          "közigazgatás",
+          "hatalom támaszai"
+        ],
+        "fogalmak": [
+          "abszolutizmus",
+          "felvilágosult abszolutizmus",
+          "merkantilizmus",
+          "türelmi rendelet",
+          "rendeleti kormányzás"
+        ],
+        "szemelyek": [
+          "XIV. Lajos",
+          "II. József",
+          "Colbert"
+        ],
+        "evszamok": [
+          "1661–1715",
+          "1780–1790"
+        ],
+        "topografia": [
+          "Franciaország",
+          "Magyarország",
+          "Habsburg Birodalom"
+        ]
+      },
+      "minimum_answer_focus": "Minimum: mindkettő központosító rendszer, de XIV. Lajos klasszikus abszolutizmusa és II. József felvilágosult reformabszolutizmusa eltérő eszmei alapokon állt.",
+      "common_mistakes": [
+        "II. Józsefet ne nevezze klasszikus abszolút uralkodónak XIV. Lajossal azonos értelemben."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez az összehasonlító komplex esszé nem két külön miniesszét kér, hanem közös szempontok mentén felépített párhuzamos elemzést. A válasz elején nevezze meg, mit mivel vet össze, majd szempontonként haladjon: eszmei alapok, vámpolitika, vallási kérdések, közigazgatás, hatalom támaszai. Minden bekezdésben rögtön jelezze mindkét oldal álláspontját vagy jellemzőjét, és mondja ki a hasonlóságot vagy a különbséget. A biztos megoldáshoz szükségesek a kulcsszereplők (XIV. Lajos, II. József, Colbert), a dátumok (1661–1715, 1780–1790), a helyszínek (Franciaország, Magyarország, Habsburg Birodalom) és a nélkülözhetetlen fogalmak (abszolutizmus, felvilágosult abszolutizmus, merkantilizmus, türelmi rendelet, rendeleti kormányzás). A tárgyalásban ne az egyik felet írja le teljesen, majd csak utána a másikat, hanem párhuzamos szerkezetet használjon. Részletesen figyeljen arra, hogy Mutassa be az uralkodói hatalom isteni eredetének francia modelljét., Vesse össze a merkantilista gazdaságpolitikát és a felvilágosult racionalizáló reformokat., Térjen ki a valláspolitika különbségeire: francia korlátozás vs türelmi rendelet.. A minimum biztos fókusz: Minimum: mindkettő központosító rendszer, de XIV. Lajos klasszikus abszolutizmusa és II. József felvilágosult reformabszolutizmusa eltérő eszmei alapokon állt. A végén egy összegző mondatban vonjon mérleget arról, melyek a legfontosabb közös vonások és eltérések. Gyakori hiba, hogy II. Józsefet ne nevezze klasszikus abszolút uralkodónak XIV. Lajossal azonos értelemben."
+    },
+    {
+      "id": "oh_2019_maj_rakoczi_amerikai_fuggetlenseg",
+      "complex_type": "osszehasonlito",
+      "exam": "2019. máj.",
+      "theme": "A Rákóczi-szabadságharc és az amerikai függetlenségi háború",
+      "period": "1703–1711 és 1775–1783",
+      "related_tetelek": [
+        13,
+        15
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "hatalmi helyzet",
+          "társadalmi elégedetlenség okai",
+          "társadalomképek",
+          "függetlenség kérdése",
+          "lezárás"
+        ],
+        "fogalmak": [
+          "szabadságharc",
+          "függetlenség",
+          "kuruc",
+          "gyarmatok",
+          "alkotmányosság",
+          "szuverenitás"
+        ],
+        "szemelyek": [
+          "II. Rákóczi Ferenc",
+          "XIV. Lajos",
+          "George Washington"
+        ],
+        "evszamok": [
+          "1703–1711",
+          "1776",
+          "1783"
+        ],
+        "topografia": [
+          "Magyarország",
+          "Észak-Amerika"
+        ]
+      },
+      "minimum_answer_focus": "Minimum: mindkettő birodalomellenes küzdelem volt, de az amerikai háború sikeres államalapításhoz, a Rákóczi-szabadságharc pedig kompromisszumos lezáráshoz vezetett.",
+      "common_mistakes": [
+        "Ne kezelje a Rákóczi-szabadságharcot modern polgári forradalomként."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez az összehasonlító komplex esszé nem két külön miniesszét kér, hanem közös szempontok mentén felépített párhuzamos elemzést. A válasz elején nevezze meg, mit mivel vet össze, majd szempontonként haladjon: hatalmi helyzet, társadalmi elégedetlenség okai, társadalomképek, függetlenség kérdése, lezárás. Minden bekezdésben rögtön jelezze mindkét oldal álláspontját vagy jellemzőjét, és mondja ki a hasonlóságot vagy a különbséget. A biztos megoldáshoz szükségesek a kulcsszereplők (II. Rákóczi Ferenc, XIV. Lajos, George Washington), a dátumok (1703–1711, 1776, 1783), a helyszínek (Magyarország, Észak-Amerika) és a nélkülözhetetlen fogalmak (szabadságharc, függetlenség, kuruc, gyarmatok, alkotmányosság, szuverenitás). A tárgyalásban ne az egyik felet írja le teljesen, majd csak utána a másikat, hanem párhuzamos szerkezetet használjon. Részletesen figyeljen arra, hogy Mutassa be a két mozgalom eltérő nemzetközi környezetét., Térjen ki a rendi és polgári társadalomkép különbségeire., Vesse össze a lezárást: szatmári béke vs függetlenség kivívása.. A minimum biztos fókusz: Minimum: mindkettő birodalomellenes küzdelem volt, de az amerikai háború sikeres államalapításhoz, a Rákóczi-szabadságharc pedig kompromisszumos lezáráshoz vezetett. A végén egy összegző mondatban vonjon mérleget arról, melyek a legfontosabb közös vonások és eltérések. Gyakori hiba, hogy Ne kezelje a Rákóczi-szabadságharcot modern polgári forradalomként."
+    },
+    {
+      "id": "oh_2019_maj_id_luther_katolikus_megujulas",
+      "complex_type": "osszehasonlito",
+      "exam": "2019. máj. id.",
+      "theme": "A lutheri reformáció és a katolikus megújulás",
+      "period": "16. század",
+      "related_tetelek": [
+        21
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "hitbéli kérdések",
+          "egyházszervezet",
+          "anyanyelvű igehirdetés",
+          "oktatás",
+          "templomépítészet"
+        ],
+        "fogalmak": [
+          "búcsú",
+          "hit általi megigazulás",
+          "hét szentség",
+          "Tridenti zsinat",
+          "jezsuiták",
+          "barokk"
+        ],
+        "szemelyek": [
+          "Luther Márton",
+          "Kálvin János",
+          "Loyolai Szent Ignác"
+        ],
+        "evszamok": [
+          "1517",
+          "1545–1563"
+        ],
+        "topografia": [
+          "Német-római Birodalom",
+          "Róma"
+        ]
+      },
+      "minimum_answer_focus": "Minimum: a reformáció egyszerűbb hitgyakorlatot és új tanokat hangsúlyozott, a katolikus megújulás pedig részben válaszolt a kritikákra, miközben megőrizte a hagyományos dogmákat.",
+      "common_mistakes": [
+        "A katolikus megújulást ne azonosítsa teljesen a reformációval; ellenreformáció és belső reform egyszerre."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez az összehasonlító komplex esszé nem két külön miniesszét kér, hanem közös szempontok mentén felépített párhuzamos elemzést. A válasz elején nevezze meg, mit mivel vet össze, majd szempontonként haladjon: hitbéli kérdések, egyházszervezet, anyanyelvű igehirdetés, oktatás, templomépítészet. Minden bekezdésben rögtön jelezze mindkét oldal álláspontját vagy jellemzőjét, és mondja ki a hasonlóságot vagy a különbséget. A biztos megoldáshoz szükségesek a kulcsszereplők (Luther Márton, Kálvin János, Loyolai Szent Ignác), a dátumok (1517, 1545–1563), a helyszínek (Német-római Birodalom, Róma) és a nélkülözhetetlen fogalmak (búcsú, hit általi megigazulás, hét szentség, Tridenti zsinat, jezsuiták, barokk). A tárgyalásban ne az egyik felet írja le teljesen, majd csak utána a másikat, hanem párhuzamos szerkezetet használjon. Részletesen figyeljen arra, hogy Mutassa be a búcsúcédula-vita és a szentségtan eltéréseit., Vesse össze a decentralizáltabb protestáns és a pápai központú katolikus szervezetet., Térjen ki az anyanyelvű igehirdetés, iskolarendszer és nevelés jelentőségére.. A minimum biztos fókusz: Minimum: a reformáció egyszerűbb hitgyakorlatot és új tanokat hangsúlyozott, a katolikus megújulás pedig részben válaszolt a kritikákra, miközben megőrizte a hagyományos dogmákat. A végén egy összegző mondatban vonjon mérleget arról, melyek a legfontosabb közös vonások és eltérések. Gyakori hiba, hogy A katolikus megújulást ne azonosítsa teljesen a reformációval; ellenreformáció és belső reform egyszerre."
+    },
+    {
+      "id": "oh_2019_okt_szechenyi_kossuth",
+      "complex_type": "osszehasonlito",
+      "exam": "2019. okt.",
+      "theme": "Széchenyi és Kossuth reformprogramja",
+      "period": "reformkor",
+      "related_tetelek": [
+        16
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "társadalmi háttér",
+          "jobbágykérdés",
+          "gazdaságpolitika",
+          "nemzetiségi kérdés",
+          "társadalmi bázis",
+          "udvarhoz való viszony"
+        ],
+        "fogalmak": [
+          "reformkor",
+          "örökváltság",
+          "védegylet",
+          "hitel",
+          "politikai nemzet"
+        ],
+        "szemelyek": [
+          "Széchenyi István",
+          "Kossuth Lajos"
+        ],
+        "evszamok": [
+          "1830",
+          "1841",
+          "1844"
+        ],
+        "topografia": [
+          "Magyarország"
+        ]
+      },
+      "minimum_answer_focus": "Minimum: mindketten a polgári átalakulást akarták, de Széchenyi óvatosabb, Kossuth radikálisabb és mozgósítóbb programot képviselt.",
+      "common_mistakes": [
+        "Ne csak életrajzi összehasonlítást írjon; a programok a lényeg."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez az összehasonlító komplex esszé nem két külön miniesszét kér, hanem közös szempontok mentén felépített párhuzamos elemzést. A válasz elején nevezze meg, mit mivel vet össze, majd szempontonként haladjon: társadalmi háttér, jobbágykérdés, gazdaságpolitika, nemzetiségi kérdés, társadalmi bázis. Minden bekezdésben rögtön jelezze mindkét oldal álláspontját vagy jellemzőjét, és mondja ki a hasonlóságot vagy a különbséget. A biztos megoldáshoz szükségesek a kulcsszereplők (Széchenyi István, Kossuth Lajos), a dátumok (1830, 1841, 1844), a helyszínek (Magyarország) és a nélkülözhetetlen fogalmak (reformkor, örökváltság, védegylet, hitel, politikai nemzet). A tárgyalásban ne az egyik felet írja le teljesen, majd csak utána a másikat, hanem párhuzamos szerkezetet használjon. Részletesen figyeljen arra, hogy Mutassa be az óvatos, felülről reformáló és a szélesebb társadalmi mozgósításra építő program különbségét., Térjen ki a gazdasági modernizáció és védővámvita kérdéseire., Vesse össze a bécsi udvarhoz való viszonyukat.. A minimum biztos fókusz: Minimum: mindketten a polgári átalakulást akarták, de Széchenyi óvatosabb, Kossuth radikálisabb és mozgósítóbb programot képviselt. A végén egy összegző mondatban vonjon mérleget arról, melyek a legfontosabb közös vonások és eltérések. Gyakori hiba, hogy Ne csak életrajzi összehasonlítást írjon; a programok a lényeg."
+    },
+    {
+      "id": "oh_2020_maj_trianon_parizs",
+      "complex_type": "osszehasonlito",
+      "exam": "2020. máj.",
+      "theme": "A trianoni és a párizsi béke összehasonlítása",
+      "period": "1920 és 1947",
+      "related_tetelek": [
+        9,
+        28,
+        29
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "nemzetközi körülmények",
+          "magyar törekvések",
+          "területi rendelkezések",
+          "etnikai következmények",
+          "kisebbségvédelem",
+          "korabeli visszhang"
+        ],
+        "fogalmak": [
+          "trianoni béke",
+          "párizsi béke",
+          "revízió",
+          "kitelepítés",
+          "kisebbségvédelem"
+        ],
+        "szemelyek": [
+          "Apponyi Albert",
+          "Nagy Ferenc"
+        ],
+        "evszamok": [
+          "1920",
+          "1947"
+        ],
+        "topografia": [
+          "Magyarország",
+          "Párizs"
+        ]
+      },
+      "minimum_answer_focus": "Minimum: a párizsi béke nagyrészt helyreállította Trianont; mindkét béke súlyos szuverenitási és nemzetpolitikai következményekkel járt.",
+      "common_mistakes": [
+        "Ne nevezze a párizsi békét egyszerűen „második Trianonnak” magyarázat nélkül."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez az összehasonlító komplex esszé nem két külön miniesszét kér, hanem közös szempontok mentén felépített párhuzamos elemzést. A válasz elején nevezze meg, mit mivel vet össze, majd szempontonként haladjon: nemzetközi körülmények, magyar törekvések, területi rendelkezések, etnikai következmények, kisebbségvédelem. Minden bekezdésben rögtön jelezze mindkét oldal álláspontját vagy jellemzőjét, és mondja ki a hasonlóságot vagy a különbséget. A biztos megoldáshoz szükségesek a kulcsszereplők (Apponyi Albert, Nagy Ferenc), a dátumok (1920, 1947), a helyszínek (Magyarország, Párizs) és a nélkülözhetetlen fogalmak (trianoni béke, párizsi béke, revízió, kitelepítés, kisebbségvédelem). A tárgyalásban ne az egyik felet írja le teljesen, majd csak utána a másikat, hanem párhuzamos szerkezetet használjon. Részletesen figyeljen arra, hogy Mutassa be, hogy 1920-ban a háborús vereség és birodalomszétesés, 1947-ben a náci szövetségesi szerep határozta meg a békét., Vesse össze a határokat: 1947 lényegében Trianon helyreállítása kisebb módosítással., Térjen ki a kisebbségi kérdés és a lakosságmozgások eltéréseire.. A minimum biztos fókusz: Minimum: a párizsi béke nagyrészt helyreállította Trianont; mindkét béke súlyos szuverenitási és nemzetpolitikai következményekkel járt. A végén egy összegző mondatban vonjon mérleget arról, melyek a legfontosabb közös vonások és eltérések. Gyakori hiba, hogy Ne nevezze a párizsi békét egyszerűen „második Trianonnak” magyarázat nélkül."
+    },
+    {
+      "id": "oh_2020_maj_id_nemet_magyar_nemzetallam",
+      "complex_type": "osszehasonlito",
+      "exam": "2020. máj. id.",
+      "theme": "A polgári nemzetállam megteremtése Németországban és Magyarországon",
+      "period": "19. század utolsó harmada",
+      "related_tetelek": [
+        24,
+        25
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "törvényes megalakítás",
+          "uralkodó szerepe",
+          "népképviselet",
+          "etnikai viszonyok",
+          "egyház–állam viszony",
+          "területi felépítés"
+        ],
+        "fogalmak": [
+          "nemzetállam",
+          "alkotmányos monarchia",
+          "föderalizmus",
+          "dualizmus",
+          "kultúrharc"
+        ],
+        "szemelyek": [
+          "Bismarck",
+          "Ferenc József",
+          "Andrássy Gyula"
+        ],
+        "evszamok": [
+          "1867",
+          "1871"
+        ],
+        "topografia": [
+          "Németország",
+          "Magyarország",
+          "Osztrák–Magyar Monarchia"
+        ]
+      },
+      "minimum_answer_focus": "Minimum: Németország nemzetállama egységes birodalmi keretben, Magyarországé a Monarchián belüli részleges szuverenitással jött létre.",
+      "common_mistakes": [
+        "Ne nevezze Magyarországot teljesen független nemzetállamnak 1867 után."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez az összehasonlító komplex esszé nem két külön miniesszét kér, hanem közös szempontok mentén felépített párhuzamos elemzést. A válasz elején nevezze meg, mit mivel vet össze, majd szempontonként haladjon: törvényes megalakítás, uralkodó szerepe, népképviselet, etnikai viszonyok, egyház–állam viszony. Minden bekezdésben rögtön jelezze mindkét oldal álláspontját vagy jellemzőjét, és mondja ki a hasonlóságot vagy a különbséget. A biztos megoldáshoz szükségesek a kulcsszereplők (Bismarck, Ferenc József, Andrássy Gyula), a dátumok (1867, 1871), a helyszínek (Németország, Magyarország, Osztrák–Magyar Monarchia) és a nélkülözhetetlen fogalmak (nemzetállam, alkotmányos monarchia, föderalizmus, dualizmus, kultúrharc). A tárgyalásban ne az egyik felet írja le teljesen, majd csak utána a másikat, hanem párhuzamos szerkezetet használjon. Részletesen figyeljen arra, hogy Mutassa be, hogy Németország egységes nemzetállamként, Magyarország pedig a Monarchia részeként, korlátozottan valósította meg a nemzetállami törekvéseket., Vesse össze a föderális német és a centralizáltabb magyar államszerkezetet., Térjen ki az etnikai sokszínűség problémájára.. A minimum biztos fókusz: Minimum: Németország nemzetállama egységes birodalmi keretben, Magyarországé a Monarchián belüli részleges szuverenitással jött létre. A végén egy összegző mondatban vonjon mérleget arról, melyek a legfontosabb közös vonások és eltérések. Gyakori hiba, hogy Ne nevezze Magyarországot teljesen független nemzetállamnak 1867 után."
+    },
+    {
+      "id": "oh_2020_okt_amerika_india_gyarmatositas",
+      "complex_type": "osszehasonlito",
+      "exam": "2020. okt.",
+      "theme": "Amerika 16. századi és India 18–19. századi gyarmatosítása",
+      "period": "16. század és 18–19. század",
+      "related_tetelek": [
+        1,
+        7
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "gyarmatosító hatalmak",
+          "ideológiai háttér",
+          "gazdasági okok és szerep",
+          "gazdasági következmények",
+          "eredményesség okai"
+        ],
+        "fogalmak": [
+          "gyarmatosítás",
+          "konkvisztádor",
+          "kereskedelmi társaság",
+          "kolonializmus",
+          "világgazdaság"
+        ],
+        "szemelyek": [
+          "Kolumbusz Kristóf",
+          "Cortés",
+          "Pizarro",
+          "Robert Clive"
+        ],
+        "evszamok": [
+          "1492",
+          "16. század",
+          "1757",
+          "1858"
+        ],
+        "topografia": [
+          "Amerika",
+          "India",
+          "Spanyolország",
+          "Brit Birodalom"
+        ]
+      },
+      "minimum_answer_focus": "Minimum: Amerika gyarmatosítása gyors katonai hódítással, India gyarmatosítása fokozatos kereskedelmi és politikai alárendeléssel zajlott.",
+      "common_mistakes": [
+        "Ne mossa össze a 16. századi spanyol gyarmatosítást a 19. századi brit gyarmati rendszerrel."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez az összehasonlító komplex esszé nem két külön miniesszét kér, hanem közös szempontok mentén felépített párhuzamos elemzést. A válasz elején nevezze meg, mit mivel vet össze, majd szempontonként haladjon: gyarmatosító hatalmak, ideológiai háttér, gazdasági okok és szerep, gazdasági következmények, eredményesség okai. Minden bekezdésben rögtön jelezze mindkét oldal álláspontját vagy jellemzőjét, és mondja ki a hasonlóságot vagy a különbséget. A biztos megoldáshoz szükségesek a kulcsszereplők (Kolumbusz Kristóf, Cortés, Pizarro, Robert Clive), a dátumok (1492, 16. század, 1757, 1858), a helyszínek (Amerika, India, Spanyolország, Brit Birodalom) és a nélkülözhetetlen fogalmak (gyarmatosítás, konkvisztádor, kereskedelmi társaság, kolonializmus, világgazdaság). A tárgyalásban ne az egyik felet írja le teljesen, majd csak utána a másikat, hanem párhuzamos szerkezetet használjon. Részletesen figyeljen arra, hogy Mutassa be a spanyol hódítás és a brit kereskedelmi-birodalmi terjeszkedés közti különbséget., Vesse össze a gyarmatosítás gazdasági motivációit és következményeit., Térjen ki a technikai, járványügyi, politikai feltételekre.. A minimum biztos fókusz: Minimum: Amerika gyarmatosítása gyors katonai hódítással, India gyarmatosítása fokozatos kereskedelmi és politikai alárendeléssel zajlott. A végén egy összegző mondatban vonjon mérleget arról, melyek a legfontosabb közös vonások és eltérések. Gyakori hiba, hogy Ne mossa össze a 16. századi spanyol gyarmatosítást a 19. századi brit gyarmati rendszerrel."
+    },
+    {
+      "id": "oh_2021_maj_nyugati_keleti_egyhaz",
+      "complex_type": "osszehasonlito",
+      "exam": "2021. máj.",
+      "theme": "A nyugati és a keleti egyház szervezete és működése",
+      "period": "középkor",
+      "related_tetelek": [
+        21
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "egyházi központ és hierarchia",
+          "nyelvhasználat",
+          "szerzetesség",
+          "cölibátus",
+          "építészet",
+          "világi hatalomhoz való viszony"
+        ],
+        "fogalmak": [
+          "pápa",
+          "patriarcha",
+          "latin",
+          "görög",
+          "cölibátus",
+          "ortodoxia",
+          "román/gótika",
+          "bizánci"
+        ],
+        "szemelyek": [
+          "pápa",
+          "konstantinápolyi pátriárka"
+        ],
+        "evszamok": [
+          "1054"
+        ],
+        "topografia": [
+          "Róma",
+          "Konstantinápoly"
+        ]
+      },
+      "minimum_answer_focus": "Minimum: a nyugati és keleti egyház közös keresztény alapokon állt, de szervezetük, nyelvük és államhoz való viszonyuk eltérően fejlődött.",
+      "common_mistakes": [
+        "Ne írja, hogy az ortodox egyházban is a pápa a legfőbb vezető."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez az összehasonlító komplex esszé nem két külön miniesszét kér, hanem közös szempontok mentén felépített párhuzamos elemzést. A válasz elején nevezze meg, mit mivel vet össze, majd szempontonként haladjon: egyházi központ és hierarchia, nyelvhasználat, szerzetesség, cölibátus, építészet. Minden bekezdésben rögtön jelezze mindkét oldal álláspontját vagy jellemzőjét, és mondja ki a hasonlóságot vagy a különbséget. A biztos megoldáshoz szükségesek a kulcsszereplők (pápa, konstantinápolyi pátriárka), a dátumok (1054), a helyszínek (Róma, Konstantinápoly) és a nélkülözhetetlen fogalmak (pápa, patriarcha, latin, görög, cölibátus, ortodoxia). A tárgyalásban ne az egyik felet írja le teljesen, majd csak utána a másikat, hanem párhuzamos szerkezetet használjon. Részletesen figyeljen arra, hogy Mutassa be a pápai primátus és a patriarcha-rendszer közti különbséget., Térjen ki a liturgikus nyelvekre és az egyházi kultúrára., Vesse össze a világi hatalomhoz fűződő viszonyt, különösen a cezaropapizmus kérdését.. A minimum biztos fókusz: Minimum: a nyugati és keleti egyház közös keresztény alapokon állt, de szervezetük, nyelvük és államhoz való viszonyuk eltérően fejlődött. A végén egy összegző mondatban vonjon mérleget arról, melyek a legfontosabb közös vonások és eltérések. Gyakori hiba, hogy Ne írja, hogy az ortodox egyházban is a pápa a legfőbb vezető."
+    },
+    {
+      "id": "oh_2021_maj_id_anglia_franciaorszag_17_18",
+      "complex_type": "osszehasonlito",
+      "exam": "2021. máj. id.",
+      "theme": "Anglia és Franciaország helyzete a XVII–XVIII. század fordulóján",
+      "period": "17–18. század fordulója",
+      "related_tetelek": [
+        15
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "európai hatalmi politika és gyarmatosítás",
+          "kormányzati rendszer",
+          "társadalmi tagozódás",
+          "vallási helyzet"
+        ],
+        "fogalmak": [
+          "alkotmányos monarchia",
+          "abszolutizmus",
+          "gyarmatosítás",
+          "polgárság",
+          "államegyház"
+        ],
+        "szemelyek": [
+          "XIV. Lajos",
+          "Orániai Vilmos"
+        ],
+        "evszamok": [
+          "1688",
+          "1701–1714"
+        ],
+        "topografia": [
+          "Anglia",
+          "Franciaország"
+        ]
+      },
+      "minimum_answer_focus": "Minimum: Anglia alkotmányos-monarchikus és kereskedőbb, Franciaország abszolutista és kontinentális hatalmi orientációjú állam volt.",
+      "common_mistakes": [
+        "Ne állítsa, hogy Franciaországban alkotmányos monarchia működött XIV. Lajos alatt."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez az összehasonlító komplex esszé nem két külön miniesszét kér, hanem közös szempontok mentén felépített párhuzamos elemzést. A válasz elején nevezze meg, mit mivel vet össze, majd szempontonként haladjon: európai hatalmi politika és gyarmatosítás, kormányzati rendszer, társadalmi tagozódás, vallási helyzet. Minden bekezdésben rögtön jelezze mindkét oldal álláspontját vagy jellemzőjét, és mondja ki a hasonlóságot vagy a különbséget. A biztos megoldáshoz szükségesek a kulcsszereplők (XIV. Lajos, Orániai Vilmos), a dátumok (1688, 1701–1714), a helyszínek (Anglia, Franciaország) és a nélkülözhetetlen fogalmak (alkotmányos monarchia, abszolutizmus, gyarmatosítás, polgárság, államegyház). A tárgyalásban ne az egyik felet írja le teljesen, majd csak utána a másikat, hanem párhuzamos szerkezetet használjon. Részletesen figyeljen arra, hogy Mutassa be a parlamentáris-angol és abszolút-francia modellt., Vesse össze a társadalmi szerkezetet és a vallási tolerancia/korlátozás kérdését., Térjen ki a gyarmatosítás és tengeri hatalom jelentőségére.. A minimum biztos fókusz: Minimum: Anglia alkotmányos-monarchikus és kereskedőbb, Franciaország abszolutista és kontinentális hatalmi orientációjú állam volt. A végén egy összegző mondatban vonjon mérleget arról, melyek a legfontosabb közös vonások és eltérések. Gyakori hiba, hogy Ne állítsa, hogy Franciaországban alkotmányos monarchia működött XIV. Lajos alatt."
+    },
+    {
+      "id": "oh_2021_okt_harminceves_vs_spanyol_orokosodesi",
+      "complex_type": "osszehasonlito",
+      "exam": "2021. okt.",
+      "theme": "A harmincéves háború és a spanyol örökösödési háború a Habsburg–francia vetélkedés szempontjából",
+      "period": "17–18. század",
+      "related_tetelek": [
+        15
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "Habsburg célok",
+          "francia célok",
+          "Habsburg szövetségesek",
+          "francia szövetségesek",
+          "eredmények"
+        ],
+        "fogalmak": [
+          "hatalmi egyensúly",
+          "Habsburg hegemónia",
+          "vesztfáliai béke",
+          "utrechti béke"
+        ],
+        "szemelyek": [
+          "Richelieu",
+          "XIV. Lajos",
+          "Habsburg uralkodók"
+        ],
+        "evszamok": [
+          "1618–1648",
+          "1701–1714"
+        ],
+        "topografia": [
+          "Német-római Birodalom",
+          "Franciaország",
+          "Spanyolország"
+        ]
+      },
+      "minimum_answer_focus": "Minimum: mindkét háború a hatalmi egyensúlyról szólt, Franciaország fokozatosan előnybe került a Habsburgokkal szemben.",
+      "common_mistakes": [
+        "Ne írjon csak hadieseményeket; a diplomáciai célok és eredmények a fontosak."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez az összehasonlító komplex esszé nem két külön miniesszét kér, hanem közös szempontok mentén felépített párhuzamos elemzést. A válasz elején nevezze meg, mit mivel vet össze, majd szempontonként haladjon: Habsburg célok, francia célok, Habsburg szövetségesek, francia szövetségesek, eredmények. Minden bekezdésben rögtön jelezze mindkét oldal álláspontját vagy jellemzőjét, és mondja ki a hasonlóságot vagy a különbséget. A biztos megoldáshoz szükségesek a kulcsszereplők (Richelieu, XIV. Lajos, Habsburg uralkodók), a dátumok (1618–1648, 1701–1714), a helyszínek (Német-római Birodalom, Franciaország, Spanyolország) és a nélkülözhetetlen fogalmak (hatalmi egyensúly, Habsburg hegemónia, vesztfáliai béke, utrechti béke). A tárgyalásban ne az egyik felet írja le teljesen, majd csak utána a másikat, hanem párhuzamos szerkezetet használjon. Részletesen figyeljen arra, hogy Mutassa be a francia külpolitika alapcélját: a Habsburg bekerítés megtörését., Vesse össze a két háború szövetségi rendszereit és kimenetelét., Térjen ki arra, hogy a Habsburgok helyzete a két háború végén eltérő módon alakult.. A minimum biztos fókusz: Minimum: mindkét háború a hatalmi egyensúlyról szólt, Franciaország fokozatosan előnybe került a Habsburgokkal szemben. A végén egy összegző mondatban vonjon mérleget arról, melyek a legfontosabb közös vonások és eltérések. Gyakori hiba, hogy Ne írjon csak hadieseményeket; a diplomáciai célok és eredmények a fontosak."
+    },
+    {
+      "id": "oh_2022_maj_nemetorszag_ww1_ww2",
+      "complex_type": "osszehasonlito",
+      "exam": "2022. máj.",
+      "theme": "Németország helyzete és céljai az első és a második világháború kitörésekor",
+      "period": "1914 és 1939",
+      "related_tetelek": [
+        28,
+        29
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "politikai berendezkedés",
+          "terjeszkedés ideológiája",
+          "háborús tervek",
+          "szövetségesek",
+          "gazdasági erőforrások",
+          "szerep a kirobbanásban"
+        ],
+        "fogalmak": [
+          "császárság",
+          "nemzetiszocializmus",
+          "villámháború",
+          "Schlieffen-terv",
+          "élettér"
+        ],
+        "szemelyek": [
+          "II. Vilmos",
+          "Hitler"
+        ],
+        "evszamok": [
+          "1914",
+          "1939"
+        ],
+        "topografia": [
+          "Németország",
+          "Európa"
+        ]
+      },
+      "minimum_answer_focus": "Minimum: 1914-ben Németország nagyhatalmi helyzetét akarta biztosítani, 1939-ben ideologikus hódító háborút indított.",
+      "common_mistakes": [
+        "Ne állítsa, hogy az első világháborús Németország nemzetiszocialista volt."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez az összehasonlító komplex esszé nem két külön miniesszét kér, hanem közös szempontok mentén felépített párhuzamos elemzést. A válasz elején nevezze meg, mit mivel vet össze, majd szempontonként haladjon: politikai berendezkedés, terjeszkedés ideológiája, háborús tervek, szövetségesek, gazdasági erőforrások. Minden bekezdésben rögtön jelezze mindkét oldal álláspontját vagy jellemzőjét, és mondja ki a hasonlóságot vagy a különbséget. A biztos megoldáshoz szükségesek a kulcsszereplők (II. Vilmos, Hitler), a dátumok (1914, 1939), a helyszínek (Németország, Európa) és a nélkülözhetetlen fogalmak (császárság, nemzetiszocializmus, villámháború, Schlieffen-terv, élettér). A tárgyalásban ne az egyik felet írja le teljesen, majd csak utána a másikat, hanem párhuzamos szerkezetet használjon. Részletesen figyeljen arra, hogy Mutassa be az autoriter császári és a totális náci rendszer közti különbséget., Vesse össze a háborús célokat és stratégiákat., Térjen ki a szövetségi rendszerek eltérő logikájára.. A minimum biztos fókusz: Minimum: 1914-ben Németország nagyhatalmi helyzetét akarta biztosítani, 1939-ben ideologikus hódító háborút indított. A végén egy összegző mondatban vonjon mérleget arról, melyek a legfontosabb közös vonások és eltérések. Gyakori hiba, hogy Ne állítsa, hogy az első világháborús Németország nemzetiszocialista volt."
+    },
+    {
+      "id": "oh_2022_maj_id_liberalizmus_marxizmus",
+      "complex_type": "osszehasonlito",
+      "exam": "2022. máj. id.",
+      "theme": "A liberalizmus és a marxizmus eszméje",
+      "period": "19. század",
+      "related_tetelek": [
+        24
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "kialakulás körülményei",
+          "fő célok",
+          "eszközök",
+          "egyénhez való viszony",
+          "ideális politikai berendezkedés",
+          "ideális gazdasági berendezkedés"
+        ],
+        "fogalmak": [
+          "liberalizmus",
+          "marxizmus",
+          "magántulajdon",
+          "szabadverseny",
+          "osztályharc",
+          "forradalom"
+        ],
+        "szemelyek": [
+          "John Locke",
+          "Adam Smith",
+          "Karl Marx",
+          "Friedrich Engels"
+        ],
+        "evszamok": [
+          "18–19. század"
+        ],
+        "topografia": [
+          "Nyugat-Európa"
+        ]
+      },
+      "minimum_answer_focus": "Minimum: a liberalizmus a szabadságjogokra és a magántulajdonra, a marxizmus az osztályellentétek felszámolására és a közösségi tulajdonra épült.",
+      "common_mistakes": [
+        "A marxizmust ne szűkítse le puszta gazdaságkritikára; teljes társadalomelmélet."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez az összehasonlító komplex esszé nem két külön miniesszét kér, hanem közös szempontok mentén felépített párhuzamos elemzést. A válasz elején nevezze meg, mit mivel vet össze, majd szempontonként haladjon: kialakulás körülményei, fő célok, eszközök, egyénhez való viszony, ideális politikai berendezkedés. Minden bekezdésben rögtön jelezze mindkét oldal álláspontját vagy jellemzőjét, és mondja ki a hasonlóságot vagy a különbséget. A biztos megoldáshoz szükségesek a kulcsszereplők (John Locke, Adam Smith, Karl Marx, Friedrich Engels), a dátumok (18–19. század), a helyszínek (Nyugat-Európa) és a nélkülözhetetlen fogalmak (liberalizmus, marxizmus, magántulajdon, szabadverseny, osztályharc, forradalom). A tárgyalásban ne az egyik felet írja le teljesen, majd csak utána a másikat, hanem párhuzamos szerkezetet használjon. Részletesen figyeljen arra, hogy Mutassa be a polgári és ipari társadalom eltérő problémáira adott válaszokat., Vesse össze az egyén és közösség szerepét, a tulajdonhoz való viszonyt, valamint az államról alkotott képet.. A minimum biztos fókusz: Minimum: a liberalizmus a szabadságjogokra és a magántulajdonra, a marxizmus az osztályellentétek felszámolására és a közösségi tulajdonra épült. A végén egy összegző mondatban vonjon mérleget arról, melyek a legfontosabb közös vonások és eltérések. Gyakori hiba, hogy A marxizmust ne szűkítse le puszta gazdaságkritikára; teljes társadalomelmélet."
+    },
+    {
+      "id": "oh_2022_okt_kozepkori_vs_felvilagosult_vilagkep",
+      "complex_type": "osszehasonlito",
+      "exam": "2022. okt.",
+      "theme": "A középkori vallásos és a felvilágosult világkép összehasonlítása",
+      "period": "középkor és 18. század",
+      "related_tetelek": [
+        14,
+        21,
+        23
+      ],
+      "kotelezo_mag": {
+        "szempontok": [
+          "tekintélyforrás",
+          "emberkép",
+          "természetfelfogás",
+          "társadalmi és politikai következmények",
+          "oktatás és tudás"
+        ],
+        "fogalmak": [
+          "világkép",
+          "tekintély",
+          "ész",
+          "empirizmus",
+          "szekularizáció",
+          "természetjog"
+        ],
+        "szemelyek": [
+          "Aquinói Tamás",
+          "Voltaire",
+          "Montesquieu",
+          "Rousseau"
+        ],
+        "evszamok": [
+          "középkor",
+          "18. század"
+        ],
+        "topografia": [
+          "Európa"
+        ]
+      },
+      "minimum_answer_focus": "Minimum: a középkori világkép teocentrikus és tekintélyelvű, a felvilágosult világkép antropocentrikusabb, racionalista és kritikus.",
+      "common_mistakes": [
+        "Ne azonosítsa a felvilágosodást vallástalansággal; inkább a vallási tekintély kritikája jellemző."
+      ],
+      "kibovitett_seged_fogalmazas": "Ez az összehasonlító komplex esszé nem két külön miniesszét kér, hanem közös szempontok mentén felépített párhuzamos elemzést. A válasz elején nevezze meg, mit mivel vet össze, majd szempontonként haladjon: tekintélyforrás, emberkép, természetfelfogás, társadalmi és politikai következmények, oktatás és tudás. Minden bekezdésben rögtön jelezze mindkét oldal álláspontját vagy jellemzőjét, és mondja ki a hasonlóságot vagy a különbséget. A biztos megoldáshoz szükségesek a kulcsszereplők (Aquinói Tamás, Voltaire, Montesquieu, Rousseau), a dátumok (középkor, 18. század), a helyszínek (Európa) és a nélkülözhetetlen fogalmak (világkép, tekintély, ész, empirizmus, szekularizáció, természetjog). A tárgyalásban ne az egyik felet írja le teljesen, majd csak utána a másikat, hanem párhuzamos szerkezetet használjon. Részletesen figyeljen arra, hogy Mutassa be a kinyilatkoztatásra és tekintélyre épülő középkori szemléletet., Vesse össze ezt a felvilágosodás ész-, tapasztalat- és haladásközpontú nézetrendszerével., Térjen ki a politikai gondolkodás következményeire is.. A minimum biztos fókusz: Minimum: a középkori világkép teocentrikus és tekintélyelvű, a felvilágosult világkép antropocentrikusabb, racionalista és kritikus. A végén egy összegző mondatban vonjon mérleget arról, melyek a legfontosabb közös vonások és eltérések. Gyakori hiba, hogy Ne azonosítsa a felvilágosodást vallástalansággal; inkább a vallási tekintély kritikája jellemző."
+    }
+  ]
+}

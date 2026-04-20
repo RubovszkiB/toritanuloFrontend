@@ -2,6 +2,7 @@ import { Link, Navigate, useParams } from 'react-router-dom'
 import AppFooter from '../components/AppFooter'
 import AppNavbar from '../components/AppNavbar'
 import ComplexEssayTaskPreview from '../components/complexEssay/ComplexEssayTaskPreview'
+import EssayGuidanceCard from '../components/essay/EssayGuidanceCard'
 import KeyElementChip from '../components/essay/KeyElementChip'
 import { getComplexEssayTopicBySlug } from '../services/complexEssayService'
 
@@ -127,6 +128,12 @@ export default function ComplexEssayDetailPage() {
               <span>Minimum fókusz</span>
               <p>{topic.minimum_answer_focus}</p>
             </section>
+
+            <EssayGuidanceCard
+              helper={topic.helperContent}
+              variant={topic.complexType === 'osszehasonlito' ? 'comparison' : 'timeline'}
+              typeLabel={topic.complexType === 'osszehasonlito' ? 'Összehasonlító segéd' : 'Átívelő segéd'}
+            />
           </div>
         </section>
       </main>

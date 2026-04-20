@@ -1,4 +1,5 @@
 import longEssaySource from '../data/longEssaySource.json'
+import helperSource from '../data/hosszuKiegeszitoSegedFogalmazasV2.json'
 import longEssayTaskPreviews from '../data/longEssayTaskPreviews.json'
 import { normalizeEssayText } from './essayService'
 
@@ -54,6 +55,11 @@ const taskPreviewsByPrompt = (longEssayTaskPreviews.entries || []).reduce((map, 
   return map
 }, {})
 
+const helperById = (helperSource.entries || []).reduce((map, helper) => {
+  map[helper.id] = helper
+  return map
+}, {})
+
 function normalizeEntry(entry, index) {
   const keyElementCount = CATEGORY_KEYS.reduce((sum, key) => sum + (entry[key]?.length || 0), 0)
   const requiredCount = Object.values(entry.required_elements_min || {}).reduce((sum, items) => sum + (items?.length || 0), 0)
@@ -67,6 +73,7 @@ function normalizeEntry(entry, index) {
     past_prompts: pastPrompts,
     slug: entry.slug || slugify(entry.id || entry.tema || `hosszu-essze-${index + 1}`),
     group: getGroup(entry),
+    helperContent: helperById[entry.id] || null,
     keyElementCount,
     requiredCount,
     pastPromptCount: pastPrompts.length,

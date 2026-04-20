@@ -2,6 +2,7 @@ import { Link, Navigate, useParams } from 'react-router-dom'
 import AppNavbar from '../components/AppNavbar'
 import AppFooter from '../components/AppFooter'
 import EssayEditor from '../components/essay/EssayEditor'
+import EssayGuidanceCard from '../components/essay/EssayGuidanceCard'
 import EssayTaskPreview from '../components/essay/EssayTaskPreview'
 import KeyElementChip from '../components/essay/KeyElementChip'
 import { getEssayTopicBySlug } from '../services/essayService'
@@ -94,6 +95,8 @@ export default function EssayDetailPage() {
               <span>Amit ebből biztosan tudnod kell</span>
               <p>{topic.minimum_answer}</p>
             </section>
+
+            <EssayGuidanceCard helper={topic.helperContent} variant="short" typeLabel="Rövid esszé segéd" />
           </div>
         </section>
       </main>

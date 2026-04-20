@@ -1,0 +1,1838 @@
+{
+  "meta": {
+    "title": "Emelt töri hosszú esszé – frissített kiegészítő segédfogalmazások",
+    "version": "v2",
+    "source_files": [
+      "emelt_tori_hosszu_essze_forras_v1.json",
+      "tortenelem_2024_e.pdf",
+      "tetelek.zip",
+      "feladatok.zip"
+    ],
+    "description": "A hosszú esszé témákhoz készült bővített segédfogalmazások. A szövegek esszészerű háttérmagyarázatot adnak forráshivatkozás nélkül, és segítik a bevezetés–tárgyalás–lezárás felépítését.",
+    "new_fields": [
+      "kibovitett_seged_fogalmazas",
+      "kotelezo_mag"
+    ]
+  },
+  "entries": [
+    {
+      "id": "hun_med_tatarjaras_ujjaepites",
+      "tema": "A tatárjárás menete, pusztítása és IV. Béla újjáépítő politikája",
+      "essay_type": "hosszu",
+      "era": "A középkori magyar állam megteremtése és virágkora",
+      "requirements_topics": [
+        "3.2 A tatárjárás és az ország újjáépítése IV. Béla idején"
+      ],
+      "related_tetelek": [
+        "Az Árpád-ház: tatárjárás és újjáépítés"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "tatárjárás",
+          "mongol invázió",
+          "kővárépítés",
+          "telepítés",
+          "hospesek",
+          "második honalapító"
+        ],
+        "szemelyek": [
+          "IV. Béla",
+          "Batu kán"
+        ],
+        "evszamok": [
+          "1241–1242",
+          "1241. április 11. muhi csata",
+          "1242 tatár kivonulás"
+        ],
+        "topografia": [
+          "Muhi",
+          "Sajó",
+          "Magyar Királyság",
+          "kővárak"
+        ],
+        "okok": [
+          "mongol világbirodalmi terjeszkedés",
+          "a keleti határ védelmének gyengesége",
+          "a kunok befogadása miatti belső feszültségek"
+        ],
+        "folyamatok": [
+          "a tatárok betörése",
+          "muhi vereség",
+          "országos pusztítás",
+          "népességveszteség és gazdasági visszaesés",
+          "újjáépítés várakkal és telepítésekkel"
+        ],
+        "kovetkezmenyek": [
+          "súlyos demográfiai és gazdasági veszteség",
+          "a védelem és közigazgatás átalakulása",
+          "a királyi politika a várépítés és a városok erősítése felé fordult"
+        ]
+      },
+      "minimum_answer": "A tatárjárás 1241–1242-ben pusztította el az ország nagy részét, a muhi csatában a magyar sereg vereséget szenvedett. IV. Béla a katasztrófa után kővárépítésekkel, telepítésekkel és a városok, hospesek támogatásával újjászervezte az országot. Emiatt gyakran második honalapítónak nevezik.",
+      "extended_outline": {
+        "bevezetes": "A tatárjárás a középkori magyar állam egyik legsúlyosabb válsága volt.",
+        "elozmenyek": "mongol terjeszkedés, keleti veszély, kunkérdés, a védelem hiányosságai.",
+        "targyalas": "betörés, muhi csata, pusztítás, király menekülése, tatár kivonulás.",
+        "kovetkezmenyek": "népességveszteség, pusztulás, várépítés, telepítések, városfejlődés.",
+        "lezaras": "IV. Béla politikája hosszú távon megerősítette az országot."
+      },
+      "kibovitett_seged_fogalmazas": "Ennél a hosszú esszénél a cél nem pusztán az, hogy adatokat soroljon fel, hanem hogy végigvezessen egy történelmi problémát. A bevezetésben röviden rögzítse a témát és a korszakot: A tatárjárás a középkori magyar állam egyik legsúlyosabb válsága volt. Ezután mutassa be az előzményeket, vagyis azt, hogy milyen helyzetből indult a folyamat: mongol terjeszkedés, keleti veszély, kunkérdés, a védelem hiányosságai. A tárgyalás legyen a válasz gerince, itt kell a legtöbb konkrétumot elhelyezni. Építse be a kulcsdátumokat (1241–1242, 1241. április 11. muhi csata, 1242 tatár kivonulás), a meghatározó szereplőket (IV. Béla, Batu kán) és a nélkülözhetetlen fogalmakat (tatárjárás, mongol invázió, kővárépítés, telepítés, hospesek, második honalapító). Ne csak neveket írjon, hanem mutassa meg az összefüggést is: a háttérben mongol világbirodalmi terjeszkedés, a keleti határ védelmének gyengesége, a kunok befogadása miatti belső feszültségek állt, a folyamatot pedig a tatárok betörése, muhi vereség, országos pusztítás jellemezte. A következmények részben különítse el a közvetlen hatásokat (súlyos demográfiai és gazdasági veszteség, a védelem és közigazgatás átalakulása, a királyi politika a várépítés és a városok erősítése felé fordult) és a hosszabb távú eredményeket vagy problémákat (megerősödött a kővárhálózat, nőtt a városok és hospesek szerepe). A lezárásban foglalja össze, miért volt fordulópont vagy miért maradt tartós hatása a témának: IV. Béla politikája hosszú távon megerősítette az országot. A jó hosszú esszé szerkezete tehát: világos bevezetés, rendezett előzmények, konkrét példákkal alátámasztott tárgyalás, majd rövid mérlegelő befejezés."
+    },
+    {
+      "id": "hun_med_szent_laszlo_megszilarditas",
+      "tema": "A magyar állami és társadalmi rend megszilárdulása Szent László idején",
+      "essay_type": "hosszu",
+      "era": "A középkori magyar állam megteremtése és virágkora",
+      "requirements_topics": [
+        "3.2 Az új rend megszilárdulása Szent László és Könyves Kálmán idején"
+      ],
+      "related_tetelek": [
+        "Szent László és a keresztény királyság megszilárdítása"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "államszilárdítás",
+          "vármegye",
+          "törvénykönyvek",
+          "lovagkirály",
+          "perszonálunió Horvátországgal"
+        ],
+        "szemelyek": [
+          "I. (Szent) László"
+        ],
+        "evszamok": [
+          "1077–1095 Szent László uralkodása"
+        ],
+        "topografia": [
+          "Magyar Királyság",
+          "Horvátország",
+          "Ladomér/Havasalföld határvidékei"
+        ],
+        "okok": [
+          "trónviszályok a XI. században",
+          "a keresztény királyság rendjének megerősítése",
+          "külső fenyegetések"
+        ],
+        "folyamatok": [
+          "szigorú törvényhozás",
+          "magántulajdon védelme",
+          "egyház támogatása",
+          "külpolitikai terjeszkedés és befolyásszerzés"
+        ],
+        "kovetkezmenyek": [
+          "stabilabb belső rend",
+          "megerősödő királyi hatalom",
+          "horvát kapcsolatok erősödése"
+        ]
+      },
+      "minimum_answer": "Szent László szigorú törvényekkel és az egyház támogatásával megszilárdította a keresztény királyság rendjét. Uralkodása alatt erősödött a királyi hatalom, védték a tulajdont és a társadalmi rendet. Külpolitikájában is eredményes volt, különösen a horvát kapcsolatok terén.",
+      "extended_outline": {
+        "bevezetes": "Szent László uralkodása az államalapítás utáni megszilárdítás korszaka.",
+        "elozmenyek": "trónharcok és belső bizonytalanság.",
+        "targyalas": "törvények, egyházpolitika, rendvédelem, külpolitikai lépések.",
+        "kovetkezmenyek": "stabilabb belső rend és erősebb királyság.",
+        "lezaras": "uralkodása hosszú távon a magyar középkori állam alapjait erősítette meg."
+      },
+      "kibovitett_seged_fogalmazas": "Ennél a hosszú esszénél a cél nem pusztán az, hogy adatokat soroljon fel, hanem hogy végigvezessen egy történelmi problémát. A bevezetésben röviden rögzítse a témát és a korszakot: Szent László uralkodása az államalapítás utáni megszilárdítás korszaka. Ezután mutassa be az előzményeket, vagyis azt, hogy milyen helyzetből indult a folyamat: trónharcok és belső bizonytalanság. A tárgyalás legyen a válasz gerince, itt kell a legtöbb konkrétumot elhelyezni. Építse be a kulcsdátumokat (1077–1095 Szent László uralkodása), a meghatározó szereplőket (I. (Szent) László) és a nélkülözhetetlen fogalmakat (államszilárdítás, vármegye, törvénykönyvek, lovagkirály, perszonálunió Horvátországgal). Ne csak neveket írjon, hanem mutassa meg az összefüggést is: a háttérben trónviszályok a XI. században, a keresztény királyság rendjének megerősítése, külső fenyegetések állt, a folyamatot pedig szigorú törvényhozás, magántulajdon védelme, egyház támogatása jellemezte. A következmények részben különítse el a közvetlen hatásokat (stabilabb belső rend, megerősödő királyi hatalom, horvát kapcsolatok erősödése) és a hosszabb távú eredményeket vagy problémákat (a keresztény magyar állam tartós megszilárdulása, Szent László kultuszának kialakulása). A lezárásban foglalja össze, miért volt fordulópont vagy miért maradt tartós hatása a témának: uralkodása hosszú távon a magyar középkori állam alapjait erősítette meg. A jó hosszú esszé szerkezete tehát: világos bevezetés, rendezett előzmények, konkrét példákkal alátámasztott tárgyalás, majd rövid mérlegelő befejezés."
+    },
+    {
+      "id": "hun_med_matyas_kulpolitika",
+      "tema": "Hunyadi Mátyás külpolitikája és dinasztikus politikája",
+      "essay_type": "hosszu",
+      "era": "A középkori magyar állam megteremtése és virágkora",
+      "requirements_topics": [
+        "3.4 Hunyadi Mátyás reformjai és külpolitikája"
+      ],
+      "related_tetelek": [
+        "Mátyás külpolitikája"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "fekete sereg",
+          "dinasztikus politika",
+          "perszonálunió kísérlete",
+          "nyugati expanzió"
+        ],
+        "szemelyek": [
+          "Hunyadi Mátyás",
+          "III. Frigyes",
+          "Podjebrád György",
+          "Jagellók"
+        ],
+        "evszamok": [
+          "1458–1490 Mátyás uralkodása",
+          "1463 bécsújhelyi egyezmény",
+          "1485 Bécs elfoglalása"
+        ],
+        "topografia": [
+          "Csehország",
+          "Ausztria",
+          "Bécs",
+          "Magyar Királyság"
+        ],
+        "okok": [
+          "a török veszély mellett nyugati nagyhatalmi ambíciók",
+          "a királyi hatalom erősítése",
+          "dinasztiaalapítás szándéka"
+        ],
+        "folyamatok": [
+          "cseh és osztrák hadjáratok",
+          "a fekete sereg alkalmazása",
+          "házassági és öröklési politika",
+          "Bécs elfoglalása"
+        ],
+        "kovetkezmenyek": [
+          "rövid távú területi sikerek",
+          "nőtt a király tekintélye",
+          "nem jött létre tartós dinasztiaalapítás"
+        ]
+      },
+      "minimum_answer": "Mátyás külpolitikájának célja a királyi hatalom és a nemzetközi tekintély növelése volt, ezért főként nyugat felé terjeszkedett. A fekete seregre támaszkodva sikeresen lépett fel Csehországban és Ausztriában, 1485-ben elfoglalta Bécset is. Dinasztikus céljait azonban nem tudta tartósan megvalósítani.",
+      "extended_outline": {
+        "bevezetes": "Mátyás külpolitikája eltért apjáétól: fő célja sokszor nem a török, hanem a nyugati hatalmi egyensúly alakítása volt.",
+        "elozmenyek": "megerősödő királyi hatalom, európai dinasztikus verseny.",
+        "targyalas": "cseh és osztrák politika, fekete sereg, Bécs elfoglalása, dinasztikus tervek.",
+        "kovetkezmenyek": "jelentős presztízs, de átmeneti eredmények.",
+        "lezaras": "Mátyás külpolitikája erős uralkodói teljesítmény volt, de halála után nem maradt tartós örökség."
+      },
+      "kibovitett_seged_fogalmazas": "Ennél a hosszú esszénél a cél nem pusztán az, hogy adatokat soroljon fel, hanem hogy végigvezessen egy történelmi problémát. A bevezetésben röviden rögzítse a témát és a korszakot: Mátyás külpolitikája eltért apjáétól: fő célja sokszor nem a török, hanem a nyugati hatalmi egyensúly alakítása volt. Ezután mutassa be az előzményeket, vagyis azt, hogy milyen helyzetből indult a folyamat: megerősödő királyi hatalom, európai dinasztikus verseny. A tárgyalás legyen a válasz gerince, itt kell a legtöbb konkrétumot elhelyezni. Építse be a kulcsdátumokat (1458–1490 Mátyás uralkodása, 1463 bécsújhelyi egyezmény, 1485 Bécs elfoglalása), a meghatározó szereplőket (Hunyadi Mátyás, III. Frigyes, Podjebrád György, Jagellók) és a nélkülözhetetlen fogalmakat (fekete sereg, dinasztikus politika, perszonálunió kísérlete, nyugati expanzió). Ne csak neveket írjon, hanem mutassa meg az összefüggést is: a háttérben a török veszély mellett nyugati nagyhatalmi ambíciók, a királyi hatalom erősítése, dinasztiaalapítás szándéka állt, a folyamatot pedig cseh és osztrák hadjáratok, a fekete sereg alkalmazása, házassági és öröklési politika jellemezte. A következmények részben különítse el a közvetlen hatásokat (rövid távú területi sikerek, nőtt a király tekintélye, nem jött létre tartós dinasztiaalapítás) és a hosszabb távú eredményeket vagy problémákat (a nyugati expanzió erőforrásokat vont el, Mátyás halála után összeomlottak a hódítások). A lezárásban foglalja össze, miért volt fordulópont vagy miért maradt tartós hatása a témának: Mátyás külpolitikája erős uralkodói teljesítmény volt, de halála után nem maradt tartós örökség. A jó hosszú esszé szerkezete tehát: világos bevezetés, rendezett előzmények, konkrét példákkal alátámasztott tárgyalás, majd rövid mérlegelő befejezés."
+    },
+    {
+      "id": "hun_med_anjou_tarsadalom_varosfejlodes",
+      "tema": "Az Anjou-kori társadalom jellemzői és a hazai városfejlődés",
+      "essay_type": "hosszu",
+      "era": "A középkori magyar állam megteremtése és virágkora",
+      "requirements_topics": [
+        "3.3 I. (Nagy) Lajos törvényei és az Anjou-kori társadalom"
+      ],
+      "related_tetelek": [
+        "Az Anjou-kor társadalma és gazdasága"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "nemesség",
+          "jobbágyság",
+          "ősiség",
+          "kilenced",
+          "szabad királyi város",
+          "bányászat"
+        ],
+        "szemelyek": [
+          "I. Károly",
+          "I. (Nagy) Lajos"
+        ],
+        "evszamok": [
+          "1308–1342 I. Károly",
+          "1342–1382 I. (Nagy) Lajos",
+          "1351-es törvények"
+        ],
+        "topografia": [
+          "Magyar Királyság",
+          "bányavárosok",
+          "szabad királyi városok"
+        ],
+        "okok": [
+          "a királyi hatalom helyreállítása az oligarchák leverése után",
+          "gazdasági fellendülés",
+          "nemesi társadalom egységesülése"
+        ],
+        "folyamatok": [
+          "1351-es törvényekkel a nemesség jogainak megerősítése",
+          "jobbágyság terheinek rendezése",
+          "bányavárosok és kereskedelem fejlődése"
+        ],
+        "kovetkezmenyek": [
+          "egységesebb nemesség",
+          "erősödő királyi jövedelmek",
+          "városi fejlődés, de nyugathoz képest korlátozott urbanizáció"
+        ]
+      },
+      "minimum_answer": "Az Anjou-korban megerősödött a királyi hatalom és egységesedett a nemesség. Nagy Lajos 1351-es törvényei rögzítették a nemesi jogokat, az ősiséget és a jobbágyi kilencedet. A korszakban fejlődtek a bányavárosok és a szabad királyi városok is, bár a magyar urbanizáció mérsékeltebb maradt, mint Nyugat-Európában.",
+      "extended_outline": {
+        "bevezetes": "Az Anjou-kor a középkori magyar állam megerősödésének időszaka volt.",
+        "elozmenyek": "az oligarchák hatalmának felszámolása, központi hatalom helyreállítása.",
+        "targyalas": "nemesség, jobbágyság, 1351-es törvények, városok és bányászat.",
+        "kovetkezmenyek": "erősebb királyi állam és rendezettebb társadalmi viszonyok.",
+        "lezaras": "a korszak tartósan meghatározta a késő középkori magyar társadalom kereteit."
+      },
+      "kibovitett_seged_fogalmazas": "Ennél a hosszú esszénél a cél nem pusztán az, hogy adatokat soroljon fel, hanem hogy végigvezessen egy történelmi problémát. A bevezetésben röviden rögzítse a témát és a korszakot: Az Anjou-kor a középkori magyar állam megerősödésének időszaka volt. Ezután mutassa be az előzményeket, vagyis azt, hogy milyen helyzetből indult a folyamat: az oligarchák hatalmának felszámolása, központi hatalom helyreállítása. A tárgyalás legyen a válasz gerince, itt kell a legtöbb konkrétumot elhelyezni. Építse be a kulcsdátumokat (1308–1342 I. Károly, 1342–1382 I. (Nagy) Lajos, 1351-es törvények), a meghatározó szereplőket (I. Károly, I. (Nagy) Lajos) és a nélkülözhetetlen fogalmakat (nemesség, jobbágyság, ősiség, kilenced, szabad királyi város, bányászat). Ne csak neveket írjon, hanem mutassa meg az összefüggést is: a háttérben a királyi hatalom helyreállítása az oligarchák leverése után, gazdasági fellendülés, nemesi társadalom egységesülése állt, a folyamatot pedig 1351-es törvényekkel a nemesség jogainak megerősítése, jobbágyság terheinek rendezése, bányavárosok és kereskedelem fejlődése jellemezte. A következmények részben különítse el a közvetlen hatásokat (egységesebb nemesség, erősödő királyi jövedelmek, városi fejlődés, de nyugathoz képest korlátozott urbanizáció) és a hosszabb távú eredményeket vagy problémákat (az ősiség hosszú távon gátolta a földforgalmat, a városok gazdasági szerepe nőtt). A lezárásban foglalja össze, miért volt fordulópont vagy miért maradt tartós hatása a témának: a korszak tartósan meghatározta a késő középkori magyar társadalom kereteit. A jó hosszú esszé szerkezete tehát: világos bevezetés, rendezett előzmények, konkrét példákkal alátámasztott tárgyalás, majd rövid mérlegelő befejezés."
+    },
+    {
+      "id": "hun_med_laszlo_kalman_intezkedesek",
+      "tema": "I. László és Könyves Kálmán intézkedései és jelentőségük",
+      "essay_type": "hosszu",
+      "era": "A középkori magyar állam megteremtése és virágkora",
+      "requirements_topics": [
+        "3.2 Az új rend megszilárdulása Szent László és Könyves Kálmán idején"
+      ],
+      "related_tetelek": [
+        "Szent László és Könyves Kálmán belpolitikája"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "törvényhozás",
+          "egyházszervezet",
+          "keresztény államrend",
+          "központi hatalom"
+        ],
+        "szemelyek": [
+          "Szent László",
+          "Könyves Kálmán"
+        ],
+        "evszamok": [
+          "1077–1095",
+          "1095–1116"
+        ],
+        "topografia": [
+          "Magyar Királyság"
+        ],
+        "okok": [
+          "az államszervezet megszilárdításának igénye",
+          "belső rend és keresztény normák megerősítése"
+        ],
+        "folyamatok": [
+          "Szent László szigorúbb rendvédelmi törvényei",
+          "Kálmán mérsékeltebb, fejlettebb szabályozása",
+          "egyház és királyi hatalom támogatása"
+        ],
+        "kovetkezmenyek": [
+          "stabilabb jogrend",
+          "erősebb állam és egyház",
+          "a keresztény királyság tartós megszilárdulása"
+        ]
+      },
+      "minimum_answer": "Szent László és Könyves Kálmán törvényekkel és az egyház támogatásával szilárdították meg a magyar keresztény államot. Szent László szigorúbban lépett fel a rend védelmében, míg Kálmán szabályozása fejlettebb és mérsékeltebb volt. Intézkedéseik hosszú távon megerősítették a királyi hatalmat és a jogrendet.",
+      "extended_outline": {
+        "bevezetes": "Az államalapítást követően kulcsfeladat volt a rend megszilárdítása.",
+        "elozmenyek": "trónharcok, pogány hagyományok továbbélése.",
+        "targyalas": "László szigorú törvényei, Kálmán egyház- és jogpolitikája.",
+        "kovetkezmenyek": "stabil államrend és keresztény királyság.",
+        "lezaras": "a két uralkodó együtt teremtette meg a tartós megszilárdulás alapjait."
+      },
+      "kibovitett_seged_fogalmazas": "Ennél a hosszú esszénél a cél nem pusztán az, hogy adatokat soroljon fel, hanem hogy végigvezessen egy történelmi problémát. A bevezetésben röviden rögzítse a témát és a korszakot: Az államalapítást követően kulcsfeladat volt a rend megszilárdítása. Ezután mutassa be az előzményeket, vagyis azt, hogy milyen helyzetből indult a folyamat: trónharcok, pogány hagyományok továbbélése. A tárgyalás legyen a válasz gerince, itt kell a legtöbb konkrétumot elhelyezni. Építse be a kulcsdátumokat (1077–1095, 1095–1116), a meghatározó szereplőket (Szent László, Könyves Kálmán) és a nélkülözhetetlen fogalmakat (törvényhozás, egyházszervezet, keresztény államrend, központi hatalom). Ne csak neveket írjon, hanem mutassa meg az összefüggést is: a háttérben az államszervezet megszilárdításának igénye, belső rend és keresztény normák megerősítése állt, a folyamatot pedig Szent László szigorúbb rendvédelmi törvényei, Kálmán mérsékeltebb, fejlettebb szabályozása, egyház és királyi hatalom támogatása jellemezte. A következmények részben különítse el a közvetlen hatásokat (stabilabb jogrend, erősebb állam és egyház, a keresztény királyság tartós megszilárdulása) és a hosszabb távú eredményeket vagy problémákat (a középkori magyar államrend alapjai tartóssá váltak). A lezárásban foglalja össze, miért volt fordulópont vagy miért maradt tartós hatása a témának: a két uralkodó együtt teremtette meg a tartós megszilárdulás alapjait. A jó hosszú esszé szerkezete tehát: világos bevezetés, rendezett előzmények, konkrét példákkal alátámasztott tárgyalás, majd rövid mérlegelő befejezés."
+    },
+    {
+      "id": "hun_med_aranybulla_hatter_nemesseg",
+      "tema": "Az Aranybulla intézkedései, háttere és szerepe a nemesség kialakulásában",
+      "essay_type": "hosszu",
+      "era": "A középkori magyar állam megteremtése és virágkora",
+      "requirements_topics": [
+        "3.2 Az Aranybulla"
+      ],
+      "related_tetelek": [
+        "Az Aranybulla és a rendi fejlődés"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "Aranybulla",
+          "ellenállási záradék",
+          "szerviensek",
+          "nemesség",
+          "adómentesség"
+        ],
+        "szemelyek": [
+          "II. András"
+        ],
+        "evszamok": [
+          "1222 Aranybulla"
+        ],
+        "topografia": [
+          "Magyar Királyság"
+        ],
+        "okok": [
+          "II. András birtokadományozó politikája",
+          "királyi hatalom és jövedelmek gyengülése",
+          "szerviensek érdekvédelme"
+        ],
+        "folyamatok": [
+          "az oklevél kiadása",
+          "a királyi hatalom korlátozása",
+          "a szerviensek jogainak rögzítése"
+        ],
+        "kovetkezmenyek": [
+          "a rendi fejlődés fontos állomása",
+          "a nemesi jogok megerősítése",
+          "a királyi hatalom jogi korlátozása"
+        ]
+      },
+      "minimum_answer": "Az Aranybullát II. András adta ki 1222-ben a királyi hatalom túlzott birtokadományozása és a szerviensek elégedetlensége miatt. Az oklevél rögzítette a szerviensek jogait, korlátozta a királyt és kimondta az ellenállási záradékot is. Emiatt a rendi fejlődés és a nemesség kialakulásának egyik alapdokumentuma lett.",
+      "extended_outline": {
+        "bevezetes": "Az Aranybulla a magyar rendi fejlődés egyik kulcsdokumentuma.",
+        "elozmenyek": "II. András politikája, jövedelemcsökkenés, szerviensek panaszai.",
+        "targyalas": "intézkedések, jogok, ellenállási záradék, a szerviensek helyzete.",
+        "kovetkezmenyek": "királyi hatalom korlátozása és a nemesi jogok megerősödése.",
+        "lezaras": "az Aranybulla évszázadokra meghatározta a magyar rendi gondolkodást."
+      },
+      "kibovitett_seged_fogalmazas": "Ennél a hosszú esszénél a cél nem pusztán az, hogy adatokat soroljon fel, hanem hogy végigvezessen egy történelmi problémát. A bevezetésben röviden rögzítse a témát és a korszakot: Az Aranybulla a magyar rendi fejlődés egyik kulcsdokumentuma. Ezután mutassa be az előzményeket, vagyis azt, hogy milyen helyzetből indult a folyamat: II. András politikája, jövedelemcsökkenés, szerviensek panaszai. A tárgyalás legyen a válasz gerince, itt kell a legtöbb konkrétumot elhelyezni. Építse be a kulcsdátumokat (1222 Aranybulla), a meghatározó szereplőket (II. András) és a nélkülözhetetlen fogalmakat (Aranybulla, ellenállási záradék, szerviensek, nemesség, adómentesség). Ne csak neveket írjon, hanem mutassa meg az összefüggést is: a háttérben II. András birtokadományozó politikája, királyi hatalom és jövedelmek gyengülése, szerviensek érdekvédelme állt, a folyamatot pedig az oklevél kiadása, a királyi hatalom korlátozása, a szerviensek jogainak rögzítése jellemezte. A következmények részben különítse el a közvetlen hatásokat (a rendi fejlődés fontos állomása, a nemesi jogok megerősítése, a királyi hatalom jogi korlátozása) és a hosszabb távú eredményeket vagy problémákat (a nemesség kialakulásának egyik alapdokumentuma, későbbi rendi jogfejlődés hivatkozási alapja). A lezárásban foglalja össze, miért volt fordulópont vagy miért maradt tartós hatása a témának: az Aranybulla évszázadokra meghatározta a magyar rendi gondolkodást. A jó hosszú esszé szerkezete tehát: világos bevezetés, rendezett előzmények, konkrét példákkal alátámasztott tárgyalás, majd rövid mérlegelő befejezés."
+    },
+    {
+      "id": "hun_med_hunyadi_janos_torokellenes_harcok",
+      "tema": "Hunyadi János törökellenes harcai 1443-tól haláláig",
+      "essay_type": "hosszu",
+      "era": "A középkori magyar állam megteremtése és virágkora",
+      "requirements_topics": [
+        "3.4 Hunyadi János törökellenes harcai"
+      ],
+      "related_tetelek": [
+        "Hunyadi János hadjáratai"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "törökellenes harcok",
+          "végvári védelem",
+          "keresztes hadjárat",
+          "hosszú hadjárat"
+        ],
+        "szemelyek": [
+          "Hunyadi János",
+          "II. Murád",
+          "Kapisztrán János"
+        ],
+        "evszamok": [
+          "1443–1444 hosszú hadjárat",
+          "1444 Várna",
+          "1448 Rigómező",
+          "1456 Nándorfehérvár"
+        ],
+        "topografia": [
+          "Balkán",
+          "Várna",
+          "Rigómező",
+          "Nándorfehérvár"
+        ],
+        "okok": [
+          "oszmán terjeszkedés a Balkánon",
+          "Magyarország védelme",
+          "nemzetközi keresztény összefogás kísérlete"
+        ],
+        "folyamatok": [
+          "támadó hadjáratok a Balkánon",
+          "várnai vereség",
+          "rigómezei vereség",
+          "védekező stratégia Nándorfehérvárnál"
+        ],
+        "kovetkezmenyek": [
+          "a déli védelem időleges megmentése",
+          "1456-ban jelentős győzelem",
+          "Hunyadi halála után csökkent a lendület"
+        ]
+      },
+      "minimum_answer": "Hunyadi János 1443 után előbb támadó jellegű balkáni hadjáratokkal próbálta visszaszorítani az oszmánokat, de Várnánál és Rigómezőnél vereséget szenvedett. A harcok később védekezőbb jelleget öltöttek, csúcspontjuk Nándorfehérvár 1456-os megvédése lett. Ez a győzelem hosszabb időre feltartóztatta a török előrenyomulást.",
+      "extended_outline": {
+        "bevezetes": "Hunyadi János a 15. századi magyar törökellenes küzdelmek központi alakja volt.",
+        "elozmenyek": "oszmán előrenyomulás, balkáni helyzet, keresztény összefogás reménye.",
+        "targyalas": "hosszú hadjárat, Várna, Rigómező, majd Nándorfehérvár.",
+        "kovetkezmenyek": "a déli védelem átmeneti megerősítése.",
+        "lezaras": "Hunyadi küzdelmei egyszerre mutatják a magyar ellenállás korlátait és eredményeit."
+      },
+      "kibovitett_seged_fogalmazas": "Ennél a hosszú esszénél a cél nem pusztán az, hogy adatokat soroljon fel, hanem hogy végigvezessen egy történelmi problémát. A bevezetésben röviden rögzítse a témát és a korszakot: Hunyadi János a 15. századi magyar törökellenes küzdelmek központi alakja volt. Ezután mutassa be az előzményeket, vagyis azt, hogy milyen helyzetből indult a folyamat: oszmán előrenyomulás, balkáni helyzet, keresztény összefogás reménye. A tárgyalás legyen a válasz gerince, itt kell a legtöbb konkrétumot elhelyezni. Építse be a kulcsdátumokat (1443–1444 hosszú hadjárat, 1444 Várna, 1448 Rigómező, 1456 Nándorfehérvár), a meghatározó szereplőket (Hunyadi János, II. Murád, Kapisztrán János) és a nélkülözhetetlen fogalmakat (törökellenes harcok, végvári védelem, keresztes hadjárat, hosszú hadjárat). Ne csak neveket írjon, hanem mutassa meg az összefüggést is: a háttérben oszmán terjeszkedés a Balkánon, Magyarország védelme, nemzetközi keresztény összefogás kísérlete állt, a folyamatot pedig támadó hadjáratok a Balkánon, várnai vereség, rigómezei vereség jellemezte. A következmények részben különítse el a közvetlen hatásokat (a déli védelem időleges megmentése, 1456-ban jelentős győzelem, Hunyadi halála után csökkent a lendület) és a hosszabb távú eredményeket vagy problémákat (Nándorfehérvár megvédése hosszabb időre feltartóztatta a törököt, erősödött Hunyadi emlékezete és politikai öröksége). A lezárásban foglalja össze, miért volt fordulópont vagy miért maradt tartós hatása a témának: Hunyadi küzdelmei egyszerre mutatják a magyar ellenállás korlátait és eredményeit. A jó hosszú esszé szerkezete tehát: világos bevezetés, rendezett előzmények, konkrét példákkal alátámasztott tárgyalás, majd rövid mérlegelő befejezés."
+    },
+    {
+      "id": "hun_med_matyas_reformok_hatasok",
+      "tema": "Mátyás kormányzati és pénzügyi reformjai, valamint hatásaik",
+      "essay_type": "hosszu",
+      "era": "A középkori magyar állam megteremtése és virágkora",
+      "requirements_topics": [
+        "3.4 Hunyadi Mátyás reformjai és külpolitikája"
+      ],
+      "related_tetelek": [
+        "Mátyás belpolitikája és reformjai"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "rendkívüli hadiadó",
+          "füstadó helyett királyi kincstár adója",
+          "kincstartó",
+          "fekete sereg",
+          "központosítás"
+        ],
+        "szemelyek": [
+          "Hunyadi Mátyás"
+        ],
+        "evszamok": [
+          "1458–1490",
+          "1467 adóreform"
+        ],
+        "topografia": [
+          "Magyar Királyság"
+        ],
+        "okok": [
+          "a királyi hatalom megerősítésének igénye",
+          "állandó hadsereg finanszírozása"
+        ],
+        "folyamatok": [
+          "kormányzati centralizáció",
+          "adóreformok",
+          "a királyi tanács háttérbe szorítása",
+          "szakképzett hivatalnokok alkalmazása"
+        ],
+        "kovetkezmenyek": [
+          "nőttek a királyi bevételek",
+          "erősebb központi hatalom",
+          "nőtt az adóterhelés"
+        ]
+      },
+      "minimum_answer": "Mátyás központosította a kormányzatot és átalakította az adórendszert, hogy biztosítsa a királyi hatalom és a fekete sereg fenntartásának pénzügyi alapjait. A reformok növelték a királyi bevételeket és erősítették az uralkodót, ugyanakkor fokozott terheket róttak az országra. Mivel sok intézkedés személyéhez kötődött, halála után tartósságuk korlátozott volt.",
+      "extended_outline": {
+        "bevezetes": "Mátyás reformjai a késő középkori magyar állam központosításának csúcspontját jelentették.",
+        "elozmenyek": "erős királyi hatalom és hadszervezési igény.",
+        "targyalas": "kormányzati reformok, adóreform, fekete sereg finanszírozása.",
+        "kovetkezmenyek": "növekvő bevételek, erős uralkodói hatalom, nagyobb terhek.",
+        "lezaras": "a reformok jelentősek voltak, de hosszú távon nem bizonyultak teljesen tartósnak."
+      },
+      "kibovitett_seged_fogalmazas": "Ennél a hosszú esszénél a cél nem pusztán az, hogy adatokat soroljon fel, hanem hogy végigvezessen egy történelmi problémát. A bevezetésben röviden rögzítse a témát és a korszakot: Mátyás reformjai a késő középkori magyar állam központosításának csúcspontját jelentették. Ezután mutassa be az előzményeket, vagyis azt, hogy milyen helyzetből indult a folyamat: erős királyi hatalom és hadszervezési igény. A tárgyalás legyen a válasz gerince, itt kell a legtöbb konkrétumot elhelyezni. Építse be a kulcsdátumokat (1458–1490, 1467 adóreform), a meghatározó szereplőket (Hunyadi Mátyás) és a nélkülözhetetlen fogalmakat (rendkívüli hadiadó, füstadó helyett királyi kincstár adója, kincstartó, fekete sereg, központosítás). Ne csak neveket írjon, hanem mutassa meg az összefüggést is: a háttérben a királyi hatalom megerősítésének igénye, állandó hadsereg finanszírozása állt, a folyamatot pedig kormányzati centralizáció, adóreformok, a királyi tanács háttérbe szorítása jellemezte. A következmények részben különítse el a közvetlen hatásokat (nőttek a királyi bevételek, erősebb központi hatalom, nőtt az adóterhelés) és a hosszabb távú eredményeket vagy problémákat (a reformok Mátyás személyéhez kötődtek, ezért halála után részben szétestek). A lezárásban foglalja össze, miért volt fordulópont vagy miért maradt tartós hatása a témának: a reformok jelentősek voltak, de hosszú távon nem bizonyultak teljesen tartósnak. A jó hosszú esszé szerkezete tehát: világos bevezetés, rendezett előzmények, konkrét példákkal alátámasztott tárgyalás, majd rövid mérlegelő befejezés."
+    },
+    {
+      "id": "hun_early_modern_szapolyai_ferdinand_harom_resz",
+      "tema": "Szapolyai János és I. Ferdinánd küzdelmei, valamint az ország három részre szakadása",
+      "essay_type": "hosszu",
+      "era": "Magyarország a kora újkorban",
+      "requirements_topics": [
+        "5.1 A mohácsi vész és az ország három részre szakadása",
+        "5.1 A három országrész berendezkedése"
+      ],
+      "related_tetelek": [
+        "Mohács és a három részre szakadás"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "kettős királyválasztás",
+          "váradi béke",
+          "három országrész",
+          "hódoltság"
+        ],
+        "szemelyek": [
+          "Szapolyai János",
+          "I. Ferdinánd",
+          "I. Szulejmán"
+        ],
+        "evszamok": [
+          "1526 Mohács",
+          "1526 kettős királyválasztás",
+          "1538 váradi béke",
+          "1541 Buda elfoglalása"
+        ],
+        "topografia": [
+          "Mohács",
+          "Buda",
+          "Erdély",
+          "Királyi Magyarország",
+          "Hódoltság"
+        ],
+        "okok": [
+          "mohácsi vereség",
+          "trónöröklési vita",
+          "Habsburg–török rivalizálás"
+        ],
+        "folyamatok": [
+          "Szapolyai és Ferdinánd harca",
+          "török beavatkozás",
+          "Buda elfoglalása 1541-ben",
+          "a három országrész kialakulása"
+        ],
+        "kovetkezmenyek": [
+          "az ország tartós megosztottsága",
+          "különböző berendezkedések kialakulása",
+          "a török jelenlét megszilárdulása"
+        ]
+      },
+      "minimum_answer": "A mohácsi vereség után 1526-ban kettős királyválasztás alakult ki Szapolyai János és I. Ferdinánd között. Harcukba a török is beavatkozott, és 1541-ben Buda elfoglalásával kialakult a három országrész rendszere: a Hódoltság, a Habsburg uralta Királyi Magyarország és Erdély. Ez a megosztottság hosszú időre meghatározta a magyar történelmet.",
+      "extended_outline": {
+        "bevezetes": "Mohács után a magyar állam súlyos politikai válságba került.",
+        "elozmenyek": "trónválság, Habsburg-igények, török nyomás.",
+        "targyalas": "kettős királyválasztás, váradi béke, Buda elfoglalása, három országrész.",
+        "kovetkezmenyek": "tartós megosztottság és eltérő berendezkedések.",
+        "lezaras": "a három részre szakadás a kora újkori magyar történelem egyik alaphelyzete lett."
+      },
+      "kibovitett_seged_fogalmazas": "Ennél a hosszú esszénél a cél nem pusztán az, hogy adatokat soroljon fel, hanem hogy végigvezessen egy történelmi problémát. A bevezetésben röviden rögzítse a témát és a korszakot: Mohács után a magyar állam súlyos politikai válságba került. Ezután mutassa be az előzményeket, vagyis azt, hogy milyen helyzetből indult a folyamat: trónválság, Habsburg-igények, török nyomás. A tárgyalás legyen a válasz gerince, itt kell a legtöbb konkrétumot elhelyezni. Építse be a kulcsdátumokat (1526 Mohács, 1526 kettős királyválasztás, 1538 váradi béke, 1541 Buda elfoglalása), a meghatározó szereplőket (Szapolyai János, I. Ferdinánd, I. Szulejmán) és a nélkülözhetetlen fogalmakat (kettős királyválasztás, váradi béke, három országrész, hódoltság). Ne csak neveket írjon, hanem mutassa meg az összefüggést is: a háttérben mohácsi vereség, trónöröklési vita, Habsburg–török rivalizálás állt, a folyamatot pedig Szapolyai és Ferdinánd harca, török beavatkozás, Buda elfoglalása 1541-ben jellemezte. A következmények részben különítse el a közvetlen hatásokat (az ország tartós megosztottsága, különböző berendezkedések kialakulása, a török jelenlét megszilárdulása) és a hosszabb távú eredményeket vagy problémákat (a magyar fejlődés tartósan eltérő pályákra szakadt, Erdély sajátos politikai szerephez jutott). A lezárásban foglalja össze, miért volt fordulópont vagy miért maradt tartós hatása a témának: a három részre szakadás a kora újkori magyar történelem egyik alaphelyzete lett. A jó hosszú esszé szerkezete tehát: világos bevezetés, rendezett előzmények, konkrét példákkal alátámasztott tárgyalás, majd rövid mérlegelő befejezés."
+    },
+    {
+      "id": "hun_early_modern_rakoczi_szatmari_beke",
+      "tema": "A Rákóczi-szabadságharc katonai vereségének okai és a szatmári béke értékelése",
+      "essay_type": "hosszu",
+      "era": "Magyarország a kora újkorban",
+      "requirements_topics": [
+        "5.3 A Rákóczi-szabadságharc okai, főbb eseményei és eredményei"
+      ],
+      "related_tetelek": [
+        "Rákóczi-szabadságharc"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "kuruc",
+          "labanc",
+          "rendi jogok",
+          "szatmári béke"
+        ],
+        "szemelyek": [
+          "II. Rákóczi Ferenc",
+          "Károlyi Sándor"
+        ],
+        "evszamok": [
+          "1703–1711",
+          "1711 szatmári béke"
+        ],
+        "topografia": [
+          "Magyarország",
+          "Erdély",
+          "Szatmár"
+        ],
+        "okok": [
+          "nemzetközi támogatás elégtelensége",
+          "a Habsburgok erőfölénye",
+          "gazdasági és társadalmi korlátok"
+        ],
+        "folyamatok": [
+          "kezdeti sikerek",
+          "katonai kifulladás",
+          "külső segítség elmaradása",
+          "békekötés"
+        ],
+        "kovetkezmenyek": [
+          "a szabadságharc katonai veresége",
+          "a rendi jogok részleges biztosítása",
+          "Habsburg uralom megszilárdulása"
+        ]
+      },
+      "minimum_answer": "A Rákóczi-szabadságharc vereségéhez hozzájárult a Habsburgok erőfölénye, a külső támogatás hiánya és a kuruc állam korlátozott erőforrásai. Az 1711-es szatmári béke nem hozott függetlenséget, de biztosította a rendi jogok egy részét és amnesztiát adott. Így a béke katonai vereséget, de részleges politikai kompromisszumot jelentett.",
+      "extended_outline": {
+        "bevezetes": "A Rákóczi-szabadságharc a Habsburg-ellenes magyar rendi küzdelmek csúcspontja volt.",
+        "elozmenyek": "Habsburg centralizáció, adóterhek, rendi elégedetlenség.",
+        "targyalas": "a vereség katonai és politikai okai, a szatmári béke tartalma.",
+        "kovetkezmenyek": "függetlenség elmaradása, kompromisszumos rendezés.",
+        "lezaras": "a szabadságharc veresége ellenére a béke fontos rendi garanciákat őrzött meg."
+      },
+      "kibovitett_seged_fogalmazas": "Ennél a hosszú esszénél a cél nem pusztán az, hogy adatokat soroljon fel, hanem hogy végigvezessen egy történelmi problémát. A bevezetésben röviden rögzítse a témát és a korszakot: A Rákóczi-szabadságharc a Habsburg-ellenes magyar rendi küzdelmek csúcspontja volt. Ezután mutassa be az előzményeket, vagyis azt, hogy milyen helyzetből indult a folyamat: Habsburg centralizáció, adóterhek, rendi elégedetlenség. A tárgyalás legyen a válasz gerince, itt kell a legtöbb konkrétumot elhelyezni. Építse be a kulcsdátumokat (1703–1711, 1711 szatmári béke), a meghatározó szereplőket (II. Rákóczi Ferenc, Károlyi Sándor) és a nélkülözhetetlen fogalmakat (kuruc, labanc, rendi jogok, szatmári béke). Ne csak neveket írjon, hanem mutassa meg az összefüggést is: a háttérben nemzetközi támogatás elégtelensége, a Habsburgok erőfölénye, gazdasági és társadalmi korlátok állt, a folyamatot pedig kezdeti sikerek, katonai kifulladás, külső segítség elmaradása jellemezte. A következmények részben különítse el a közvetlen hatásokat (a szabadságharc katonai veresége, a rendi jogok részleges biztosítása, Habsburg uralom megszilárdulása) és a hosszabb távú eredményeket vagy problémákat (a kompromisszumos Habsburg–magyar együttélés egyik alapja lett, Rákóczi emlékezete a függetlenségi hagyomány része). A lezárásban foglalja össze, miért volt fordulópont vagy miért maradt tartós hatása a témának: a szabadságharc veresége ellenére a béke fontos rendi garanciákat őrzött meg. A jó hosszú esszé szerkezete tehát: világos bevezetés, rendezett előzmények, konkrét példákkal alátámasztott tárgyalás, majd rövid mérlegelő befejezés."
+    },
+    {
+      "id": "hun_early_modern_torok_berendezkedes_egyutteles",
+      "tema": "A török berendezkedés jellemzői és a török–magyar együttélés sajátosságai",
+      "essay_type": "hosszu",
+      "era": "Magyarország a kora újkorban",
+      "requirements_topics": [
+        "5.1 A három országrész berendezkedése"
+      ],
+      "related_tetelek": [
+        "A török hódoltság rendszere"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "hódoltság",
+          "vilajet",
+          "szandzsák",
+          "adóztatás",
+          "kettős adózás",
+          "dzsámi",
+          "fürdők"
+        ],
+        "szemelyek": [
+          "török pasa",
+          "szpáhik",
+          "bég"
+        ],
+        "evszamok": [
+          "1541–1699"
+        ],
+        "topografia": [
+          "Hódoltság",
+          "Buda",
+          "vilajetek és szandzsákok"
+        ],
+        "okok": [
+          "török hódítás és katonai megszállás",
+          "az ország megosztottsága"
+        ],
+        "folyamatok": [
+          "oszmán közigazgatás kiépítése",
+          "adóztatás",
+          "helyi együttélés és alkalmazkodás",
+          "kulturális érintkezés"
+        ],
+        "kovetkezmenyek": [
+          "népességfogyás és pusztulás bizonyos térségekben",
+          "kettős adóztatás",
+          "új kulturális elemek megjelenése"
+        ]
+      },
+      "minimum_answer": "A török hódoltságban az oszmánok saját közigazgatást és adórendszert vezettek be, a területet vilajetekre és szandzsákokra osztották. A lakosságot gyakran kettős adózás sújtotta, mégis kialakultak együttélési formák a helyi társadalom és a megszállók között. A korszak kulturális öröksége ma is látható például fürdőkben és dzsámikban.",
+      "extended_outline": {
+        "bevezetes": "A török hódoltság nem csak hadiesemény, hanem sajátos társadalmi és közigazgatási rendszer is volt.",
+        "elozmenyek": "Buda elfoglalása és az ország három részre szakadása.",
+        "targyalas": "oszmán közigazgatás, adóztatás, együttélés, kulturális hatások.",
+        "kovetkezmenyek": "pusztulás, népességmozgás, kettős adózás, kulturális örökség.",
+        "lezaras": "a hódoltság mélyen átalakította a középső országrész viszonyait."
+      },
+      "kibovitett_seged_fogalmazas": "Ennél a hosszú esszénél a cél nem pusztán az, hogy adatokat soroljon fel, hanem hogy végigvezessen egy történelmi problémát. A bevezetésben röviden rögzítse a témát és a korszakot: A török hódoltság nem csak hadiesemény, hanem sajátos társadalmi és közigazgatási rendszer is volt. Ezután mutassa be az előzményeket, vagyis azt, hogy milyen helyzetből indult a folyamat: Buda elfoglalása és az ország három részre szakadása. A tárgyalás legyen a válasz gerince, itt kell a legtöbb konkrétumot elhelyezni. Építse be a kulcsdátumokat (1541–1699), a meghatározó szereplőket (török pasa, szpáhik, bég) és a nélkülözhetetlen fogalmakat (hódoltság, vilajet, szandzsák, adóztatás, kettős adózás, dzsámi). Ne csak neveket írjon, hanem mutassa meg az összefüggést is: a háttérben török hódítás és katonai megszállás, az ország megosztottsága állt, a folyamatot pedig oszmán közigazgatás kiépítése, adóztatás, helyi együttélés és alkalmazkodás jellemezte. A következmények részben különítse el a közvetlen hatásokat (népességfogyás és pusztulás bizonyos térségekben, kettős adóztatás, új kulturális elemek megjelenése) és a hosszabb távú eredményeket vagy problémákat (etnikai és településszerkezeti változások, a török korszak épített öröksége). A lezárásban foglalja össze, miért volt fordulópont vagy miért maradt tartós hatása a témának: a hódoltság mélyen átalakította a középső országrész viszonyait. A jó hosszú esszé szerkezete tehát: világos bevezetés, rendezett előzmények, konkrét példákkal alátámasztott tárgyalás, majd rövid mérlegelő befejezés."
+    },
+    {
+      "id": "hun_early_modern_maria_terezia_reformok_magyar_nemesek",
+      "tema": "Mária Terézia reformjai és viszonya a magyar nemességhez",
+      "essay_type": "hosszu",
+      "era": "Magyarország a kora újkorban",
+      "requirements_topics": [
+        "5.4 Mária Terézia és II. József reformjai"
+      ],
+      "related_tetelek": [
+        "Mária Terézia reformjai"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "felvilágosult abszolutizmus",
+          "úrbéri rendelet",
+          "Ratio Educationis",
+          "rendi kompromisszum"
+        ],
+        "szemelyek": [
+          "Mária Terézia"
+        ],
+        "evszamok": [
+          "1740–1780",
+          "1767 úrbéri rendelet",
+          "1777 Ratio Educationis"
+        ],
+        "topografia": [
+          "Habsburg Birodalom",
+          "Magyar Királyság"
+        ],
+        "okok": [
+          "a birodalom modernizációjának igénye",
+          "az állami bevételek és hadsereg erősítése"
+        ],
+        "folyamatok": [
+          "adó- és igazgatási reformok",
+          "jobbágyterhek szabályozása",
+          "oktatási reform"
+        ],
+        "kovetkezmenyek": [
+          "hatékonyabb államigazgatás",
+          "jobbágyok terheinek részleges rendezése",
+          "a magyar rendekkel együttműködés és feszültség egyszerre"
+        ]
+      },
+      "minimum_answer": "Mária Terézia a felvilágosult abszolutizmus szellemében reformokkal igyekezett megerősíteni a Habsburg államot. Magyarországon szabályozta a jobbágyterheket az úrbéri rendelettel és oktatási reformot vezetett be a Ratio Educationisszal. A magyar nemességgel egyszerre törekedett együttműködésre és központi irányításra, ezért kapcsolata velük kettős volt.",
+      "extended_outline": {
+        "bevezetes": "Mária Terézia reformjai a Habsburg Birodalom megerősítését szolgálták.",
+        "elozmenyek": "örökösödési háború, állami modernizáció szükségessége.",
+        "targyalas": "úrbéri rendelet, oktatásügy, igazgatási reformok, a rendekkel való viszony.",
+        "kovetkezmenyek": "hatékonyabb állam és szabályozottabb társadalmi viszonyok.",
+        "lezaras": "politikája kompromisszumokra épült, de a központosítás irányába mutatott."
+      },
+      "kibovitett_seged_fogalmazas": "Ennél a hosszú esszénél a cél nem pusztán az, hogy adatokat soroljon fel, hanem hogy végigvezessen egy történelmi problémát. A bevezetésben röviden rögzítse a témát és a korszakot: Mária Terézia reformjai a Habsburg Birodalom megerősítését szolgálták. Ezután mutassa be az előzményeket, vagyis azt, hogy milyen helyzetből indult a folyamat: örökösödési háború, állami modernizáció szükségessége. A tárgyalás legyen a válasz gerince, itt kell a legtöbb konkrétumot elhelyezni. Építse be a kulcsdátumokat (1740–1780, 1767 úrbéri rendelet, 1777 Ratio Educationis), a meghatározó szereplőket (Mária Terézia) és a nélkülözhetetlen fogalmakat (felvilágosult abszolutizmus, úrbéri rendelet, Ratio Educationis, rendi kompromisszum). Ne csak neveket írjon, hanem mutassa meg az összefüggést is: a háttérben a birodalom modernizációjának igénye, az állami bevételek és hadsereg erősítése állt, a folyamatot pedig adó- és igazgatási reformok, jobbágyterhek szabályozása, oktatási reform jellemezte. A következmények részben különítse el a közvetlen hatásokat (hatékonyabb államigazgatás, jobbágyok terheinek részleges rendezése, a magyar rendekkel együttműködés és feszültség egyszerre) és a hosszabb távú eredményeket vagy problémákat (erősebb központosító állam, későbbi reformok alapjainak megteremtése). A lezárásban foglalja össze, miért volt fordulópont vagy miért maradt tartós hatása a témának: politikája kompromisszumokra épült, de a központosítás irányába mutatott. A jó hosszú esszé szerkezete tehát: világos bevezetés, rendezett előzmények, konkrét példákkal alátámasztott tárgyalás, majd rövid mérlegelő befejezés."
+    },
+    {
+      "id": "hun_early_modern_18sz_nepessegnovekedes",
+      "tema": "A 18. századi magyarországi népességnövekedés folyamatai és következményei",
+      "essay_type": "hosszu",
+      "era": "Magyarország a kora újkorban",
+      "requirements_topics": [
+        "5.4 Demográfiai és etnikai változások a 18. században"
+      ],
+      "related_tetelek": [
+        "18. századi demográfiai és etnikai változások"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "újranépesítés",
+          "betelepítés",
+          "természetes szaporodás",
+          "etnikai átalakulás"
+        ],
+        "szemelyek": [
+          "Mária Terézia",
+          "telepesek"
+        ],
+        "evszamok": [
+          "18. század",
+          "török kiűzése utáni időszak"
+        ],
+        "topografia": [
+          "Magyar Királyság",
+          "Bánság",
+          "Délvidék"
+        ],
+        "okok": [
+          "a török háborúk utáni elnéptelenedés",
+          "birodalmi telepítési politika",
+          "járványok csökkenése és békésebb viszonyok"
+        ],
+        "folyamatok": [
+          "belső vándorlás",
+          "külső telepítések német, szerb, román és más csoportokkal",
+          "természetes szaporodás"
+        ],
+        "kovetkezmenyek": [
+          "gyors népességnövekedés",
+          "soknemzetiségűbb ország",
+          "a magyarok arányának csökkenése egyes térségekben"
+        ]
+      },
+      "minimum_answer": "A 18. században a török háborúk utáni elnéptelenedett területek újranépesítése, a telepítések és a természetes szaporodás gyors népességnövekedést hoztak Magyarországon. A folyamat következtében az ország etnikailag sokszínűbbé vált, és több térségben csökkent a magyarok aránya. Ez hosszú távon a nemzetiségi kérdés jelentőségét is növelte.",
+      "extended_outline": {
+        "bevezetes": "A 18. századi demográfiai változások mélyen átalakították Magyarországot.",
+        "elozmenyek": "török háborúk, elnéptelenedés, pusztítás.",
+        "targyalas": "telepítések, természetes szaporodás, belső vándorlás, etnikai átrendeződés.",
+        "kovetkezmenyek": "népességnövekedés és soknemzetiségűbb társadalom.",
+        "lezaras": "a későbbi nemzetiségi konfliktusok gyökerei részben ebben a korszakban kereshetők."
+      },
+      "kibovitett_seged_fogalmazas": "Ennél a hosszú esszénél a cél nem pusztán az, hogy adatokat soroljon fel, hanem hogy végigvezessen egy történelmi problémát. A bevezetésben röviden rögzítse a témát és a korszakot: A 18. századi demográfiai változások mélyen átalakították Magyarországot. Ezután mutassa be az előzményeket, vagyis azt, hogy milyen helyzetből indult a folyamat: török háborúk, elnéptelenedés, pusztítás. A tárgyalás legyen a válasz gerince, itt kell a legtöbb konkrétumot elhelyezni. Építse be a kulcsdátumokat (18. század, török kiűzése utáni időszak), a meghatározó szereplőket (Mária Terézia, telepesek) és a nélkülözhetetlen fogalmakat (újranépesítés, betelepítés, természetes szaporodás, etnikai átalakulás). Ne csak neveket írjon, hanem mutassa meg az összefüggést is: a háttérben a török háborúk utáni elnéptelenedés, birodalmi telepítési politika, járványok csökkenése és békésebb viszonyok állt, a folyamatot pedig belső vándorlás, külső telepítések német, szerb, román és más csoportokkal, természetes szaporodás jellemezte. A következmények részben különítse el a közvetlen hatásokat (gyors népességnövekedés, soknemzetiségűbb ország, a magyarok arányának csökkenése egyes térségekben) és a hosszabb távú eredményeket vagy problémákat (a nemzetiségi kérdés kiéleződésének alapjai részben ekkor alakultak ki). A lezárásban foglalja össze, miért volt fordulópont vagy miért maradt tartós hatása a témának: a későbbi nemzetiségi konfliktusok gyökerei részben ebben a korszakban kereshetők. A jó hosszú esszé szerkezete tehát: világos bevezetés, rendezett előzmények, konkrét példákkal alátámasztott tárgyalás, majd rövid mérlegelő befejezés."
+    },
+    {
+      "id": "hun_early_modern_erdely_berendezkedes_vallas_etnikum",
+      "tema": "Az Erdélyi Fejedelemség politikai berendezkedése, etnikai és vallási viszonyai",
+      "essay_type": "hosszu",
+      "era": "Magyarország a kora újkorban",
+      "requirements_topics": [
+        "5.2 Erdély sajátos etnikai és vallási helyzete",
+        "5.2 Bethlen Gábor fejedelemsége"
+      ],
+      "related_tetelek": [
+        "Erdély sajátos helyzete a kora újkorban"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "fejedelmi állam",
+          "rendi dualizmus",
+          "három nemzet",
+          "bevett vallások",
+          "vallási türelem"
+        ],
+        "szemelyek": [
+          "erdélyi fejedelmek",
+          "Bethlen Gábor"
+        ],
+        "evszamok": [
+          "16–17. század"
+        ],
+        "topografia": [
+          "Erdély",
+          "Partium",
+          "Gyulafehérvár"
+        ],
+        "okok": [
+          "az ország három részre szakadása",
+          "különálló politikai fejlődés"
+        ],
+        "folyamatok": [
+          "fejedelemségi berendezkedés kialakulása",
+          "rendi és fejedelmi hatalom együttélése",
+          "többnemzetiségű és többvallású társadalom"
+        ],
+        "kovetkezmenyek": [
+          "Erdély önálló politikai szereplővé vált",
+          "a vallási türelem és sokszínűség erősödött"
+        ]
+      },
+      "minimum_answer": "Az Erdélyi Fejedelemség az ország három részre szakadása után sajátos rendi-fejedelmi állammá vált. Többnemzetiségű és többvallású társadalom jellemezte, ahol a bevett vallások rendszere viszonylagos vallási türelmet biztosított. Politikai berendezkedése ezért eltért mind a Hódoltságétól, mind a Királyi Magyarországétól.",
+      "extended_outline": {
+        "bevezetes": "Erdély a kora újkorban sajátos magyar államalakulat volt.",
+        "elozmenyek": "három részre szakadás és a térség különálló fejlődése.",
+        "targyalas": "fejedelemségi berendezkedés, rendi tényezők, nemzetiségek, vallások.",
+        "kovetkezmenyek": "önálló politikai szerep és vallási sokszínűség.",
+        "lezaras": "Erdély különállása a magyar történelem egyik sajátos jelensége lett."
+      },
+      "kibovitett_seged_fogalmazas": "Ennél a hosszú esszénél a cél nem pusztán az, hogy adatokat soroljon fel, hanem hogy végigvezessen egy történelmi problémát. A bevezetésben röviden rögzítse a témát és a korszakot: Erdély a kora újkorban sajátos magyar államalakulat volt. Ezután mutassa be az előzményeket, vagyis azt, hogy milyen helyzetből indult a folyamat: három részre szakadás és a térség különálló fejlődése. A tárgyalás legyen a válasz gerince, itt kell a legtöbb konkrétumot elhelyezni. Építse be a kulcsdátumokat (16–17. század), a meghatározó szereplőket (erdélyi fejedelmek, Bethlen Gábor) és a nélkülözhetetlen fogalmakat (fejedelmi állam, rendi dualizmus, három nemzet, bevett vallások, vallási türelem). Ne csak neveket írjon, hanem mutassa meg az összefüggést is: a háttérben az ország három részre szakadása, különálló politikai fejlődés állt, a folyamatot pedig fejedelemségi berendezkedés kialakulása, rendi és fejedelmi hatalom együttélése, többnemzetiségű és többvallású társadalom jellemezte. A következmények részben különítse el a közvetlen hatásokat (Erdély önálló politikai szereplővé vált, a vallási türelem és sokszínűség erősödött) és a hosszabb távú eredményeket vagy problémákat (Erdély különállása fontos eleme lett a magyar politikai hagyománynak). A lezárásban foglalja össze, miért volt fordulópont vagy miért maradt tartós hatása a témának: Erdély különállása a magyar történelem egyik sajátos jelensége lett. A jó hosszú esszé szerkezete tehát: világos bevezetés, rendezett előzmények, konkrét példákkal alátámasztott tárgyalás, majd rövid mérlegelő befejezés."
+    },
+    {
+      "id": "hun_modern_bp_vilagvaros",
+      "tema": "Budapest világvárossá válásának fő összetevői",
+      "essay_type": "hosszu",
+      "era": "A polgárosodás kezdetei és kibontakozása Magyarországon",
+      "requirements_topics": [
+        "7.4 Budapest világvárossá fejlődése"
+      ],
+      "related_tetelek": [
+        "Budapest fejlődése a dualizmus korában"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "urbanizáció",
+          "iparosodás",
+          "közlekedésfejlesztés",
+          "közművesítés",
+          "millenniumi építkezések"
+        ],
+        "szemelyek": [
+          "városegyesítést támogató politikai elit"
+        ],
+        "evszamok": [
+          "1873 egyesítés",
+          "millennium 1896",
+          "dualizmus kora"
+        ],
+        "topografia": [
+          "Budapest",
+          "Andrássy út",
+          "Városliget"
+        ],
+        "okok": [
+          "kiegyezés utáni gazdasági fellendülés",
+          "központi állami szerepkör erősödése",
+          "népességáramlás"
+        ],
+        "folyamatok": [
+          "Pest, Buda és Óbuda egyesítése",
+          "infrastruktúra-fejlesztés",
+          "közlekedési hálózat és reprezentatív építkezések",
+          "lakosságnövekedés"
+        ],
+        "kovetkezmenyek": [
+          "Budapest a Monarchia egyik legfontosabb metropoliszává vált",
+          "gazdasági és kulturális központi szerep erősödött"
+        ]
+      },
+      "minimum_answer": "Budapest világvárossá válását a kiegyezés utáni gazdasági fellendülés, az 1873-as városegyesítés és a gyors népességnövekedés segítette. A korszakban kiépült a modern infrastruktúra, a közművek és a reprezentatív városkép. Budapest így gazdasági, kulturális és politikai központtá vált.",
+      "extended_outline": {
+        "bevezetes": "A dualizmus korában Budapest gyors fejlődésen ment át.",
+        "elozmenyek": "kiegyezés, gazdasági növekedés, közigazgatási központi szerep.",
+        "targyalas": "városegyesítés, közlekedés, közművek, építkezések, népességnövekedés.",
+        "kovetkezmenyek": "metropolisz és országos központ szerep.",
+        "lezaras": "Budapest fejlődése a modern magyar polgárosodás látványos jelképe lett."
+      },
+      "kibovitett_seged_fogalmazas": "Ennél a hosszú esszénél a cél nem pusztán az, hogy adatokat soroljon fel, hanem hogy végigvezessen egy történelmi problémát. A bevezetésben röviden rögzítse a témát és a korszakot: A dualizmus korában Budapest gyors fejlődésen ment át. Ezután mutassa be az előzményeket, vagyis azt, hogy milyen helyzetből indult a folyamat: kiegyezés, gazdasági növekedés, közigazgatási központi szerep. A tárgyalás legyen a válasz gerince, itt kell a legtöbb konkrétumot elhelyezni. Építse be a kulcsdátumokat (1873 egyesítés, millennium 1896, dualizmus kora), a meghatározó szereplőket (városegyesítést támogató politikai elit) és a nélkülözhetetlen fogalmakat (urbanizáció, iparosodás, közlekedésfejlesztés, közművesítés, millenniumi építkezések). Ne csak neveket írjon, hanem mutassa meg az összefüggést is: a háttérben kiegyezés utáni gazdasági fellendülés, központi állami szerepkör erősödése, népességáramlás állt, a folyamatot pedig Pest, Buda és Óbuda egyesítése, infrastruktúra-fejlesztés, közlekedési hálózat és reprezentatív építkezések jellemezte. A következmények részben különítse el a közvetlen hatásokat (Budapest a Monarchia egyik legfontosabb metropoliszává vált, gazdasági és kulturális központi szerep erősödött) és a hosszabb távú eredményeket vagy problémákat (tartós fővárosi túlsúly alakult ki Magyarországon). A lezárásban foglalja össze, miért volt fordulópont vagy miért maradt tartós hatása a témának: Budapest fejlődése a modern magyar polgárosodás látványos jelképe lett. A jó hosszú esszé szerkezete tehát: világos bevezetés, rendezett előzmények, konkrét példákkal alátámasztott tárgyalás, majd rövid mérlegelő befejezés."
+    },
+    {
+      "id": "hun_modern_polgari_allam_reformok",
+      "tema": "A polgári állam feladatai a közigazgatás, egészségügy és oktatás reformján keresztül",
+      "essay_type": "hosszu",
+      "era": "A polgárosodás kezdetei és kibontakozása Magyarországon",
+      "requirements_topics": [
+        "7.3 A polgári állam kiépülése Magyarországon"
+      ],
+      "related_tetelek": [
+        "A polgári állam kiépülése"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "polgári állam",
+          "közigazgatási reform",
+          "népoktatás",
+          "közegészségügy"
+        ],
+        "szemelyek": [
+          "Eötvös József",
+          "Tisza Kálmán-korszak politikusai"
+        ],
+        "evszamok": [
+          "1867 után",
+          "1876 közigazgatási reform",
+          "1868 népoktatási törvény"
+        ],
+        "topografia": [
+          "Magyarország"
+        ],
+        "okok": [
+          "modern államigazgatás igénye",
+          "iparosodás és urbanizáció",
+          "nemzetállami törekvések"
+        ],
+        "folyamatok": [
+          "egységesebb közigazgatás",
+          "iskolahálózat bővítése",
+          "járványügyi és egészségügyi intézkedések"
+        ],
+        "kovetkezmenyek": [
+          "hatékonyabb állam",
+          "műveltebb társadalom",
+          "javuló közegészségügyi viszonyok"
+        ]
+      },
+      "minimum_answer": "A dualizmus korában a polgári állam feladata lett a modern közigazgatás, az oktatás és a közegészségügy megszervezése. A népoktatási és közigazgatási reformok, valamint az egészségügyi intézkedések hatékonyabb államot és korszerűbb társadalmat hoztak létre. Ezek a változások a magyar polgári átalakulás alapvető elemei voltak.",
+      "extended_outline": {
+        "bevezetes": "A polgári állam nemcsak politikai rendszer, hanem intézményi modernizáció is.",
+        "elozmenyek": "kiegyezés utáni államépítés.",
+        "targyalas": "közigazgatási reformok, oktatás, közegészségügy.",
+        "kovetkezmenyek": "hatékonyabb működés, társadalmi modernizáció.",
+        "lezaras": "a polgári állam a mindennapi életet is átalakította Magyarországon."
+      },
+      "kibovitett_seged_fogalmazas": "Ennél a hosszú esszénél a cél nem pusztán az, hogy adatokat soroljon fel, hanem hogy végigvezessen egy történelmi problémát. A bevezetésben röviden rögzítse a témát és a korszakot: A polgári állam nemcsak politikai rendszer, hanem intézményi modernizáció is. Ezután mutassa be az előzményeket, vagyis azt, hogy milyen helyzetből indult a folyamat: kiegyezés utáni államépítés. A tárgyalás legyen a válasz gerince, itt kell a legtöbb konkrétumot elhelyezni. Építse be a kulcsdátumokat (1867 után, 1876 közigazgatási reform, 1868 népoktatási törvény), a meghatározó szereplőket (Eötvös József, Tisza Kálmán-korszak politikusai) és a nélkülözhetetlen fogalmakat (polgári állam, közigazgatási reform, népoktatás, közegészségügy). Ne csak neveket írjon, hanem mutassa meg az összefüggést is: a háttérben modern államigazgatás igénye, iparosodás és urbanizáció, nemzetállami törekvések állt, a folyamatot pedig egységesebb közigazgatás, iskolahálózat bővítése, járványügyi és egészségügyi intézkedések jellemezte. A következmények részben különítse el a közvetlen hatásokat (hatékonyabb állam, műveltebb társadalom, javuló közegészségügyi viszonyok) és a hosszabb távú eredményeket vagy problémákat (a modern magyar állam intézményi alapjai megszilárdultak). A lezárásban foglalja össze, miért volt fordulópont vagy miért maradt tartós hatása a témának: a polgári állam a mindennapi életet is átalakította Magyarországon. A jó hosszú esszé szerkezete tehát: világos bevezetés, rendezett előzmények, konkrét példákkal alátámasztott tárgyalás, majd rövid mérlegelő befejezés."
+    },
+    {
+      "id": "hun_modern_dualizmus_bp_eletmod",
+      "tema": "Népességi és polgári életmódbeli változások a dualizmus kori Budapesten",
+      "essay_type": "hosszu",
+      "era": "A polgárosodás kezdetei és kibontakozása Magyarországon",
+      "requirements_topics": [
+        "7.4 Budapest világvárossá fejlődése",
+        "7.4 Társadalmi és életmódbeli változások a dualizmus korában"
+      ],
+      "related_tetelek": [
+        "Budapest társadalma és életmódja a dualizmusban"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "urbanizáció",
+          "asszimiláció",
+          "polgári életmód",
+          "tömegközlekedés",
+          "bérház"
+        ],
+        "szemelyek": [
+          "városi polgárság"
+        ],
+        "evszamok": [
+          "dualizmus kora",
+          "1880–1900 körüli változások"
+        ],
+        "topografia": [
+          "Budapest"
+        ],
+        "okok": [
+          "fővárosi fejlődés",
+          "bevándorlás vidékről és külföldről",
+          "gazdasági modernizáció"
+        ],
+        "folyamatok": [
+          "lakosságnövekedés",
+          "anyanyelvi és társadalmi szerkezet átalakulása",
+          "új fogyasztási és kulturális minták megjelenése"
+        ],
+        "kovetkezmenyek": [
+          "polgáriasodó városi társadalom",
+          "asszimiláció erősödése",
+          "jelentős társadalmi különbségek fennmaradása"
+        ]
+      },
+      "minimum_answer": "A dualizmus kori Budapest lakossága gyorsan nőtt, és társadalmi összetétele is átalakult. A polgári életmód terjedését a bérházak, a közlekedés, a kávéházi és kulturális élet, valamint a fogyasztási szokások változása jelezte. A folyamatot ugyanakkor erős asszimiláció és jelentős társadalmi különbségek is kísérték.",
+      "extended_outline": {
+        "bevezetes": "Budapest a dualizmus korában modern nagyvárossá vált.",
+        "elozmenyek": "gazdasági fellendülés és fővárosi szerep.",
+        "targyalas": "népességi változások, asszimiláció, polgári életmód, lakhatás és közlekedés.",
+        "kovetkezmenyek": "modern városi társadalom kialakulása.",
+        "lezaras": "a fővárosi életmód a magyar modernizáció egyik mintája lett."
+      },
+      "kibovitett_seged_fogalmazas": "Ennél a hosszú esszénél a cél nem pusztán az, hogy adatokat soroljon fel, hanem hogy végigvezessen egy történelmi problémát. A bevezetésben röviden rögzítse a témát és a korszakot: Budapest a dualizmus korában modern nagyvárossá vált. Ezután mutassa be az előzményeket, vagyis azt, hogy milyen helyzetből indult a folyamat: gazdasági fellendülés és fővárosi szerep. A tárgyalás legyen a válasz gerince, itt kell a legtöbb konkrétumot elhelyezni. Építse be a kulcsdátumokat (dualizmus kora, 1880–1900 körüli változások), a meghatározó szereplőket (városi polgárság) és a nélkülözhetetlen fogalmakat (urbanizáció, asszimiláció, polgári életmód, tömegközlekedés, bérház). Ne csak neveket írjon, hanem mutassa meg az összefüggést is: a háttérben fővárosi fejlődés, bevándorlás vidékről és külföldről, gazdasági modernizáció állt, a folyamatot pedig lakosságnövekedés, anyanyelvi és társadalmi szerkezet átalakulása, új fogyasztási és kulturális minták megjelenése jellemezte. A következmények részben különítse el a közvetlen hatásokat (polgáriasodó városi társadalom, asszimiláció erősödése, jelentős társadalmi különbségek fennmaradása) és a hosszabb távú eredményeket vagy problémákat (Budapest modern nagyvárosi identitása megszilárdult). A lezárásban foglalja össze, miért volt fordulópont vagy miért maradt tartós hatása a témának: a fővárosi életmód a magyar modernizáció egyik mintája lett. A jó hosszú esszé szerkezete tehát: világos bevezetés, rendezett előzmények, konkrét példákkal alátámasztott tárgyalás, majd rövid mérlegelő befejezés."
+    },
+    {
+      "id": "hun_modern_dualizmus_nemzetisegi_politika",
+      "tema": "A dualizmus kori magyar kormányzat nemzetiségi politikája és a nemzetiségek viszonya ehhez",
+      "essay_type": "hosszu",
+      "era": "A polgárosodás kezdetei és kibontakozása Magyarországon",
+      "requirements_topics": [
+        "7.4 Etnikai viszonyok és a nemzetiségi kérdés a dualizmus korában"
+      ],
+      "related_tetelek": [
+        "A dualizmus nemzetiségi kérdése"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "nemzetiségi törvény",
+          "magyarosítás",
+          "politikai nemzet",
+          "horvát autonómia"
+        ],
+        "szemelyek": [
+          "Deák Ferenc",
+          "dualizmus kori kormányok",
+          "nemzetiségi politikusok"
+        ],
+        "evszamok": [
+          "1868 nemzetiségi törvény",
+          "1868 horvát–magyar kiegyezés"
+        ],
+        "topografia": [
+          "Magyar Királyság",
+          "Horvátország-Szlavónország"
+        ],
+        "okok": [
+          "a történelmi Magyarország soknemzetiségű jellege",
+          "nemzetállami törekvések Európában"
+        ],
+        "folyamatok": [
+          "a politikai nemzet elvének érvényesítése",
+          "korlátozott kulturális jogok biztosítása",
+          "magyarosító törekvések erősödése",
+          "horvát különjogok rendezése"
+        ],
+        "kovetkezmenyek": [
+          "a nemzetiségi elégedetlenség fennmaradt",
+          "a horvát kérdés részben rendeződött, más nemzetiségeké kevésbé"
+        ]
+      },
+      "minimum_answer": "A dualizmus kori magyar kormányzat a politikai nemzet elvét vallotta, ezért a magyar államot egységesnek tekintette, miközben korlátozott kulturális jogokat adott a nemzetiségeknek. A gyakorlatban azonban erősödtek a magyarosító törekvések, amit a nemzetiségek gyakran elutasítottak. A horvát–magyar kiegyezés részleges különmegoldást jelentett, de a nemzetiségi kérdést összességében nem oldotta meg.",
+      "extended_outline": {
+        "bevezetes": "A dualizmus egyik legnehezebb belpolitikai problémája a nemzetiségi kérdés volt.",
+        "elozmenyek": "soknemzetiségű ország, nemzetállami eszmék terjedése.",
+        "targyalas": "nemzetiségi törvény, politikai nemzet elve, magyarosítás, horvát viszony.",
+        "kovetkezmenyek": "elégedetlenség és tartós konfliktusok.",
+        "lezaras": "a kérdés a Monarchia későbbi válságának egyik fontos tényezőjévé vált."
+      },
+      "kibovitett_seged_fogalmazas": "Ennél a hosszú esszénél a cél nem pusztán az, hogy adatokat soroljon fel, hanem hogy végigvezessen egy történelmi problémát. A bevezetésben röviden rögzítse a témát és a korszakot: A dualizmus egyik legnehezebb belpolitikai problémája a nemzetiségi kérdés volt. Ezután mutassa be az előzményeket, vagyis azt, hogy milyen helyzetből indult a folyamat: soknemzetiségű ország, nemzetállami eszmék terjedése. A tárgyalás legyen a válasz gerince, itt kell a legtöbb konkrétumot elhelyezni. Építse be a kulcsdátumokat (1868 nemzetiségi törvény, 1868 horvát–magyar kiegyezés), a meghatározó szereplőket (Deák Ferenc, dualizmus kori kormányok, nemzetiségi politikusok) és a nélkülözhetetlen fogalmakat (nemzetiségi törvény, magyarosítás, politikai nemzet, horvát autonómia). Ne csak neveket írjon, hanem mutassa meg az összefüggést is: a háttérben a történelmi Magyarország soknemzetiségű jellege, nemzetállami törekvések Európában állt, a folyamatot pedig a politikai nemzet elvének érvényesítése, korlátozott kulturális jogok biztosítása, magyarosító törekvések erősödése jellemezte. A következmények részben különítse el a közvetlen hatásokat (a nemzetiségi elégedetlenség fennmaradt, a horvát kérdés részben rendeződött, más nemzetiségeké kevésbé) és a hosszabb távú eredményeket vagy problémákat (a nemzetiségi ellentétek a Monarchia válságában is fontos szerepet játszottak). A lezárásban foglalja össze, miért volt fordulópont vagy miért maradt tartós hatása a témának: a kérdés a Monarchia későbbi válságának egyik fontos tényezőjévé vált. A jó hosszú esszé szerkezete tehát: világos bevezetés, rendezett előzmények, konkrét példákkal alátámasztott tárgyalás, majd rövid mérlegelő befejezés."
+    },
+    {
+      "id": "hun_modern_maria_terezia_ii_jozsef_kozpontositas",
+      "tema": "Mária Terézia és II. József felvilágosult és központosító intézkedései",
+      "essay_type": "hosszu",
+      "era": "Magyarország a kora újkorban",
+      "requirements_topics": [
+        "5.4 Mária Terézia és II. József reformjai"
+      ],
+      "related_tetelek": [
+        "Mária Terézia és II. József reformjai"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "felvilágosult abszolutizmus",
+          "központosítás",
+          "türelmi rendelet",
+          "jobbágyrendelet",
+          "rendeleti kormányzás"
+        ],
+        "szemelyek": [
+          "Mária Terézia",
+          "II. József"
+        ],
+        "evszamok": [
+          "1740–1780",
+          "1780–1790",
+          "1767",
+          "1781 türelmi rendelet",
+          "1785 jobbágyrendelet"
+        ],
+        "topografia": [
+          "Habsburg Birodalom",
+          "Magyar Királyság"
+        ],
+        "okok": [
+          "birodalmi modernizáció",
+          "hatékonyabb kormányzás és adóztatás igénye"
+        ],
+        "folyamatok": [
+          "oktatási, közigazgatási és társadalmi reformok",
+          "II. József erőteljes rendeleti centralizációja"
+        ],
+        "kovetkezmenyek": [
+          "korszerűsödő állam",
+          "a rendekkel való konfliktusok erősödése",
+          "II. József több intézkedésének visszavonása"
+        ]
+      },
+      "minimum_answer": "Mária Terézia és II. József a felvilágosult abszolutizmus keretében reformokkal kívánták korszerűsíteni a birodalmat. Intézkedéseik szolgálták az oktatás, a közigazgatás és részben a jobbágyok helyzetének javítását, de közben erős központosítást valósítottak meg. Ezért politikájuk egyszerre felelt meg a felvilágosodásnak és mondott ellent annak, különösen II. József rendeleti kormányzása révén.",
+      "extended_outline": {
+        "bevezetes": "A felvilágosult abszolutizmus a 18. századi reformpolitika egyik jellemző formája volt.",
+        "elozmenyek": "modernizációs kényszer és állami centralizáció.",
+        "targyalas": "Mária Terézia reformjai, II. József rendeletei, hasonlóságok és különbségek.",
+        "kovetkezmenyek": "korszerűsítés és ellenállás egyszerre.",
+        "lezaras": "a két uralkodó politikája jól mutatja a felvilágosodás és az abszolutizmus feszültségét."
+      },
+      "kibovitett_seged_fogalmazas": "Ennél a hosszú esszénél a cél nem pusztán az, hogy adatokat soroljon fel, hanem hogy végigvezessen egy történelmi problémát. A bevezetésben röviden rögzítse a témát és a korszakot: A felvilágosult abszolutizmus a 18. századi reformpolitika egyik jellemző formája volt. Ezután mutassa be az előzményeket, vagyis azt, hogy milyen helyzetből indult a folyamat: modernizációs kényszer és állami centralizáció. A tárgyalás legyen a válasz gerince, itt kell a legtöbb konkrétumot elhelyezni. Építse be a kulcsdátumokat (1740–1780, 1780–1790, 1767, 1781 türelmi rendelet), a meghatározó szereplőket (Mária Terézia, II. József) és a nélkülözhetetlen fogalmakat (felvilágosult abszolutizmus, központosítás, türelmi rendelet, jobbágyrendelet, rendeleti kormányzás). Ne csak neveket írjon, hanem mutassa meg az összefüggést is: a háttérben birodalmi modernizáció, hatékonyabb kormányzás és adóztatás igénye állt, a folyamatot pedig oktatási, közigazgatási és társadalmi reformok, II. József erőteljes rendeleti centralizációja jellemezte. A következmények részben különítse el a közvetlen hatásokat (korszerűsödő állam, a rendekkel való konfliktusok erősödése, II. József több intézkedésének visszavonása) és a hosszabb távú eredményeket vagy problémákat (a reformok még visszavonások után is hatottak a későbbi modernizációra). A lezárásban foglalja össze, miért volt fordulópont vagy miért maradt tartós hatása a témának: a két uralkodó politikája jól mutatja a felvilágosodás és az abszolutizmus feszültségét. A jó hosszú esszé szerkezete tehát: világos bevezetés, rendezett előzmények, konkrét példákkal alátámasztott tárgyalás, majd rövid mérlegelő befejezés."
+    },
+    {
+      "id": "hun_modern_jobbagyfelszabaditas_fo_osszetevok",
+      "tema": "A jobbágyfelszabadítás kérdésének fő összetevői és jelentősége",
+      "essay_type": "hosszu",
+      "era": "A polgárosodás kezdetei és kibontakozása Magyarországon",
+      "requirements_topics": [
+        "7.1 A reformkor fő kérdései",
+        "7.2 Az áprilisi törvények"
+      ],
+      "related_tetelek": [
+        "Reformkor és jobbágyfelszabadítás"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "örökváltság",
+          "jobbágyfelszabadítás",
+          "polgári átalakulás",
+          "közteherviselés"
+        ],
+        "szemelyek": [
+          "Széchenyi István",
+          "Kossuth Lajos"
+        ],
+        "evszamok": [
+          "reformkor",
+          "1848 áprilisi törvények"
+        ],
+        "topografia": [
+          "Magyarország"
+        ],
+        "okok": [
+          "feudális rendszer válsága",
+          "gazdasági modernizáció igénye",
+          "társadalmi igazságtalanságok"
+        ],
+        "folyamatok": [
+          "az önkéntes, majd kötelező örökváltság kérdése",
+          "politikai viták a reformkorban",
+          "1848-as felszabadítás"
+        ],
+        "kovetkezmenyek": [
+          "a feudális viszonyok felszámolása",
+          "a polgári átalakulás felgyorsulása"
+        ]
+      },
+      "minimum_answer": "A jobbágyfelszabadítás a reformkor egyik központi kérdése volt, mert a feudális kötöttségek akadályozták a gazdasági és társadalmi modernizációt. A vita az örökváltság körül zajlott, majd 1848-ban az áprilisi törvények megszüntették a jobbágyrendszert. Ez a polgári átalakulás egyik legfontosabb lépése lett.",
+      "extended_outline": {
+        "bevezetes": "A jobbágyfelszabadítás a magyar polgári átalakulás kulcskérdése volt.",
+        "elozmenyek": "feudális viszonyok, reformkori gazdasági és társadalmi problémák.",
+        "targyalas": "örökváltság vitája, reformprogramok, 1848-as megoldás.",
+        "kovetkezmenyek": "feudalizmus lebontása és polgári fejlődés.",
+        "lezaras": "jelentősége abban áll, hogy alapjaiban alakította át a társadalmat."
+      },
+      "kibovitett_seged_fogalmazas": "Ennél a hosszú esszénél a cél nem pusztán az, hogy adatokat soroljon fel, hanem hogy végigvezessen egy történelmi problémát. A bevezetésben röviden rögzítse a témát és a korszakot: A jobbágyfelszabadítás a magyar polgári átalakulás kulcskérdése volt. Ezután mutassa be az előzményeket, vagyis azt, hogy milyen helyzetből indult a folyamat: feudális viszonyok, reformkori gazdasági és társadalmi problémák. A tárgyalás legyen a válasz gerince, itt kell a legtöbb konkrétumot elhelyezni. Építse be a kulcsdátumokat (reformkor, 1848 áprilisi törvények), a meghatározó szereplőket (Széchenyi István, Kossuth Lajos) és a nélkülözhetetlen fogalmakat (örökváltság, jobbágyfelszabadítás, polgári átalakulás, közteherviselés). Ne csak neveket írjon, hanem mutassa meg az összefüggést is: a háttérben feudális rendszer válsága, gazdasági modernizáció igénye, társadalmi igazságtalanságok állt, a folyamatot pedig az önkéntes, majd kötelező örökváltság kérdése, politikai viták a reformkorban, 1848-as felszabadítás jellemezte. A következmények részben különítse el a közvetlen hatásokat (a feudális viszonyok felszámolása, a polgári átalakulás felgyorsulása) és a hosszabb távú eredményeket vagy problémákat (a modern társadalom és piacgazdaság egyik alapfeltétele jött létre). A lezárásban foglalja össze, miért volt fordulópont vagy miért maradt tartós hatása a témának: jelentősége abban áll, hogy alapjaiban alakította át a társadalmat. A jó hosszú esszé szerkezete tehát: világos bevezetés, rendezett előzmények, konkrét példákkal alátámasztott tárgyalás, majd rövid mérlegelő befejezés."
+    },
+    {
+      "id": "hun_ww_interwar_worldcrisis_gombos",
+      "tema": "A gazdasági világválság következményei Magyarországon és Gömbös Gyula válságkezelő politikája",
+      "essay_type": "hosszu",
+      "era": "Magyarország a világháborúk korában",
+      "requirements_topics": [
+        "9.2 A válság és hatása: a belpolitikai élet változásai az 1930-as években"
+      ],
+      "related_tetelek": [
+        "A világválság és Gömbös"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "világválság",
+          "munkanélküliség",
+          "állami beavatkozás",
+          "Nemzeti Munkaterv"
+        ],
+        "szemelyek": [
+          "Gömbös Gyula",
+          "Bethlen István"
+        ],
+        "evszamok": [
+          "1929–1933",
+          "1932 Gömbös kormánya"
+        ],
+        "topografia": [
+          "Magyarország"
+        ],
+        "okok": [
+          "világgazdasági válság begyűrűzése",
+          "exportfüggő mezőgazdasági szerkezet"
+        ],
+        "folyamatok": [
+          "árzuhanás és hitelválság",
+          "munkanélküliség növekedése",
+          "fokozott állami szerepvállalás és korporatív ihletésű programok"
+        ],
+        "kovetkezmenyek": [
+          "romló életszínvonal",
+          "politikai jobbratolódás",
+          "részleges gazdasági stabilizáció"
+        ]
+      },
+      "minimum_answer": "A világgazdasági válság Magyarországon különösen erősen sújtotta a mezőgazdasági termelést és rontotta a társadalmi helyzetet. Gömbös Gyula fokozott állami beavatkozással és programalkotással próbált válságkezelést végrehajtani. Politikája ugyan részben stabilizáló hatású volt, de a rendszer jobbratolódását is erősítette.",
+      "extended_outline": {
+        "bevezetes": "A válság a Horthy-korszak egyik fordulópontja volt.",
+        "elozmenyek": "külső piacoktól függő gazdaság és sebezhető szerkezet.",
+        "targyalas": "válságtünetek, társadalmi hatások, Gömbös programja és irányvonala.",
+        "kovetkezmenyek": "részleges stabilizáció, politikai jobbratolódás.",
+        "lezaras": "a válságkezelés gazdasági és politikai következményei egyaránt jelentősek voltak."
+      },
+      "kibovitett_seged_fogalmazas": "Ennél a hosszú esszénél a cél nem pusztán az, hogy adatokat soroljon fel, hanem hogy végigvezessen egy történelmi problémát. A bevezetésben röviden rögzítse a témát és a korszakot: A válság a Horthy-korszak egyik fordulópontja volt. Ezután mutassa be az előzményeket, vagyis azt, hogy milyen helyzetből indult a folyamat: külső piacoktól függő gazdaság és sebezhető szerkezet. A tárgyalás legyen a válasz gerince, itt kell a legtöbb konkrétumot elhelyezni. Építse be a kulcsdátumokat (1929–1933, 1932 Gömbös kormánya), a meghatározó szereplőket (Gömbös Gyula, Bethlen István) és a nélkülözhetetlen fogalmakat (világválság, munkanélküliség, állami beavatkozás, Nemzeti Munkaterv). Ne csak neveket írjon, hanem mutassa meg az összefüggést is: a háttérben világgazdasági válság begyűrűzése, exportfüggő mezőgazdasági szerkezet állt, a folyamatot pedig árzuhanás és hitelválság, munkanélküliség növekedése, fokozott állami szerepvállalás és korporatív ihletésű programok jellemezte. A következmények részben különítse el a közvetlen hatásokat (romló életszínvonal, politikai jobbratolódás, részleges gazdasági stabilizáció) és a hosszabb távú eredményeket vagy problémákat (a magyar politika közeledett az autoriter és német orientációhoz). A lezárásban foglalja össze, miért volt fordulópont vagy miért maradt tartós hatása a témának: a válságkezelés gazdasági és politikai következményei egyaránt jelentősek voltak. A jó hosszú esszé szerkezete tehát: világos bevezetés, rendezett előzmények, konkrét példákkal alátámasztott tárgyalás, majd rövid mérlegelő befejezés."
+    },
+    {
+      "id": "hun_post45_kadar_tarsadalompolitika",
+      "tema": "A Kádár-korszak társadalompolitikája, különös tekintettel az oktatásra és kultúrpolitikára",
+      "essay_type": "hosszu",
+      "era": "Magyarország 1945-től a rendszerváltozásig",
+      "requirements_topics": [
+        "11.3 A rendszer jellemzői a Kádár-korszakban, életmód és mindennapok"
+      ],
+      "related_tetelek": [
+        "A Kádár-korszak társadalma"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "gulyáskommunizmus",
+          "három T",
+          "teljes foglalkoztatottság",
+          "lakásépítés",
+          "tömeges oktatás"
+        ],
+        "szemelyek": [
+          "Kádár János",
+          "Aczél György"
+        ],
+        "evszamok": [
+          "1956 utáni konszolidáció",
+          "1960–1980-as évek"
+        ],
+        "topografia": [
+          "Magyarország"
+        ],
+        "okok": [
+          "a rendszer legitimációjának megteremtése 1956 után",
+          "életszínvonal-emelésre építő konszolidáció"
+        ],
+        "folyamatok": [
+          "szociális juttatások bővítése",
+          "lakásépítési programok",
+          "oktatási expanzió",
+          "ellenőrzött kultúrpolitika"
+        ],
+        "kovetkezmenyek": [
+          "emelkedő életszínvonal a korszak jelentős részében",
+          "alkalmazkodó társadalom",
+          "korlátozott kulturális szabadság"
+        ]
+      },
+      "minimum_answer": "A Kádár-korszak társadalompolitikája a rendszer stabilizálását szolgálta, ezért az életszínvonal emelésére, a lakásépítésre és a szociális ellátásokra támaszkodott. Az oktatás bővült, a kultúrpolitikát pedig a három T elve szerint irányították. A rendszer így egyszerre adott viszonylagos jólétet és tartotta fenn a politikai ellenőrzést.",
+      "extended_outline": {
+        "bevezetes": "A Kádár-rendszer legitimációját nagyrészt társadalompolitikai eszközökkel teremtette meg.",
+        "elozmenyek": "1956 leverése és a konszolidáció igénye.",
+        "targyalas": "szociálpolitika, lakásépítés, oktatás, kultúrpolitika, három T.",
+        "kovetkezmenyek": "viszonylagos jólét és alkalmazkodás.",
+        "lezaras": "a társadalompolitika a rendszer egyik legfontosabb tartóoszlopa volt."
+      },
+      "kibovitett_seged_fogalmazas": "Ennél a hosszú esszénél a cél nem pusztán az, hogy adatokat soroljon fel, hanem hogy végigvezessen egy történelmi problémát. A bevezetésben röviden rögzítse a témát és a korszakot: A Kádár-rendszer legitimációját nagyrészt társadalompolitikai eszközökkel teremtette meg. Ezután mutassa be az előzményeket, vagyis azt, hogy milyen helyzetből indult a folyamat: 1956 leverése és a konszolidáció igénye. A tárgyalás legyen a válasz gerince, itt kell a legtöbb konkrétumot elhelyezni. Építse be a kulcsdátumokat (1956 utáni konszolidáció, 1960–1980-as évek), a meghatározó szereplőket (Kádár János, Aczél György) és a nélkülözhetetlen fogalmakat (gulyáskommunizmus, három T, teljes foglalkoztatottság, lakásépítés, tömeges oktatás). Ne csak neveket írjon, hanem mutassa meg az összefüggést is: a háttérben a rendszer legitimációjának megteremtése 1956 után, életszínvonal-emelésre építő konszolidáció állt, a folyamatot pedig szociális juttatások bővítése, lakásépítési programok, oktatási expanzió jellemezte. A következmények részben különítse el a közvetlen hatásokat (emelkedő életszínvonal a korszak jelentős részében, alkalmazkodó társadalom, korlátozott kulturális szabadság) és a hosszabb távú eredményeket vagy problémákat (fogyasztói szemlélet és eladósodás erősödése, a rendszer társadalmi kompromisszuma kialakult). A lezárásban foglalja össze, miért volt fordulópont vagy miért maradt tartós hatása a témának: a társadalompolitika a rendszer egyik legfontosabb tartóoszlopa volt. A jó hosszú esszé szerkezete tehát: világos bevezetés, rendezett előzmények, konkrét példákkal alátámasztott tárgyalás, majd rövid mérlegelő befejezés."
+    },
+    {
+      "id": "hun_post45_kadar_valsag_tenyezoi",
+      "tema": "A Kádár-rendszer válságának gazdasági, külpolitikai és belpolitikai tényezői",
+      "essay_type": "hosszu",
+      "era": "Magyarország 1945-től a rendszerváltozásig",
+      "requirements_topics": [
+        "11.3 A Kádár-rendszer válsága, a külpolitikai változások és az ellenzéki mozgalmak"
+      ],
+      "related_tetelek": [
+        "A Kádár-rendszer válsága"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "eladósodás",
+          "olajválság",
+          "reformkísérletek",
+          "ellenzék",
+          "szovjet blokk válsága"
+        ],
+        "szemelyek": [
+          "Kádár János",
+          "ellenzéki értelmiség"
+        ],
+        "evszamok": [
+          "1970-es évek végétől",
+          "1980-as évek"
+        ],
+        "topografia": [
+          "Magyarország",
+          "szovjet blokk"
+        ],
+        "okok": [
+          "a növekedés kifulladása",
+          "külső eladósodás",
+          "nemzetközi környezet változása",
+          "legitimációs válság"
+        ],
+        "folyamatok": [
+          "életszínvonal-romlás",
+          "gazdasági egyensúlytalanság",
+          "ellenzéki mozgalmak megjelenése",
+          "szovjet reformhatások"
+        ],
+        "kovetkezmenyek": [
+          "a rendszer megrendülése",
+          "politikai nyitási kényszer"
+        ]
+      },
+      "minimum_answer": "A Kádár-rendszer válságát az eladósodás, a gazdasági növekedés kifulladása és az életszínvonal romlása okozta. Ezt erősítette a szovjet blokk átalakulása és a hazai ellenzéki mozgalmak megjelenése. A rendszer így a nyolcvanas évekre gazdaságilag és politikailag is megrendült.",
+      "extended_outline": {
+        "bevezetes": "A Kádár-rendszer stabilitása a nyolcvanas évekre meggyengült.",
+        "elozmenyek": "korábbi jóléti kompromisszum és külső hitelek.",
+        "targyalas": "gazdasági, külpolitikai és belpolitikai válságtényezők.",
+        "kovetkezmenyek": "a rendszer legitimitásának eróziója.",
+        "lezaras": "a válság a rendszerváltozás előszobájává tette az 1980-as éveket."
+      },
+      "kibovitett_seged_fogalmazas": "Ennél a hosszú esszénél a cél nem pusztán az, hogy adatokat soroljon fel, hanem hogy végigvezessen egy történelmi problémát. A bevezetésben röviden rögzítse a témát és a korszakot: A Kádár-rendszer stabilitása a nyolcvanas évekre meggyengült. Ezután mutassa be az előzményeket, vagyis azt, hogy milyen helyzetből indult a folyamat: korábbi jóléti kompromisszum és külső hitelek. A tárgyalás legyen a válasz gerince, itt kell a legtöbb konkrétumot elhelyezni. Építse be a kulcsdátumokat (1970-es évek végétől, 1980-as évek), a meghatározó szereplőket (Kádár János, ellenzéki értelmiség) és a nélkülözhetetlen fogalmakat (eladósodás, olajválság, reformkísérletek, ellenzék, szovjet blokk válsága). Ne csak neveket írjon, hanem mutassa meg az összefüggést is: a háttérben a növekedés kifulladása, külső eladósodás, nemzetközi környezet változása állt, a folyamatot pedig életszínvonal-romlás, gazdasági egyensúlytalanság, ellenzéki mozgalmak megjelenése jellemezte. A következmények részben különítse el a közvetlen hatásokat (a rendszer megrendülése, politikai nyitási kényszer) és a hosszabb távú eredményeket vagy problémákat (a rendszerváltozás előfeltételei kialakultak). A lezárásban foglalja össze, miért volt fordulópont vagy miért maradt tartós hatása a témának: a válság a rendszerváltozás előszobájává tette az 1980-as éveket. A jó hosszú esszé szerkezete tehát: világos bevezetés, rendezett előzmények, konkrét példákkal alátámasztott tárgyalás, majd rövid mérlegelő befejezés."
+    },
+    {
+      "id": "hun_post45_egyparti_diktatura_kiepitese_1947_49",
+      "tema": "Az egypárti diktatúra kiépítése 1947 és 1949 között",
+      "essay_type": "hosszu",
+      "era": "Magyarország 1945-től a rendszerváltozásig",
+      "requirements_topics": [
+        "11.1 Magyarország szovjetizálása (1945-1949)"
+      ],
+      "related_tetelek": [
+        "A kommunista diktatúra kiépítése"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "szalámitaktika",
+          "államosítás",
+          "egypártrendszer",
+          "szovjetizálás"
+        ],
+        "szemelyek": [
+          "Rákosi Mátyás",
+          "Gerő Ernő",
+          "Magyar Dolgozók Pártja"
+        ],
+        "evszamok": [
+          "1947 választások",
+          "1948 pártegyesítés",
+          "1949 alkotmány"
+        ],
+        "topografia": [
+          "Magyarország"
+        ],
+        "okok": [
+          "szovjet támogatás a kommunisták mögött",
+          "a koalíciós rendszer felszámolásának szándéka"
+        ],
+        "folyamatok": [
+          "ellenfelek félreállítása",
+          "választási manipuláció",
+          "pártegyesítés",
+          "államosítás",
+          "új alkotmány"
+        ],
+        "kovetkezmenyek": [
+          "egypárti diktatúra kiépülése",
+          "gazdaság állami ellenőrzése",
+          "politikai pluralizmus megszűnése"
+        ]
+      },
+      "minimum_answer": "1947 és 1949 között a kommunisták szovjet támogatással felszámolták a többpártrendszert. A szalámitaktika, a választási manipuláció, a pártegyesítés és az államosítások révén kiépült az egypárti diktatúra. Az 1949-es alkotmány már a sztálinista rendszer megszilárdulását jelezte.",
+      "extended_outline": {
+        "bevezetes": "Az 1947–49 közti időszak döntő volt a kommunista diktatúra kiépítésében.",
+        "elozmenyek": "koalíciós korszak és szovjet háttértámogatás.",
+        "targyalas": "szalámitaktika, választások, pártegyesítés, államosítás, alkotmány.",
+        "kovetkezmenyek": "egypártrendszer és szovjet típusú állam.",
+        "lezaras": "rövid idő alatt megszűnt a demokratikus átmenet lehetősége."
+      },
+      "kibovitett_seged_fogalmazas": "Ennél a hosszú esszénél a cél nem pusztán az, hogy adatokat soroljon fel, hanem hogy végigvezessen egy történelmi problémát. A bevezetésben röviden rögzítse a témát és a korszakot: Az 1947–49 közti időszak döntő volt a kommunista diktatúra kiépítésében. Ezután mutassa be az előzményeket, vagyis azt, hogy milyen helyzetből indult a folyamat: koalíciós korszak és szovjet háttértámogatás. A tárgyalás legyen a válasz gerince, itt kell a legtöbb konkrétumot elhelyezni. Építse be a kulcsdátumokat (1947 választások, 1948 pártegyesítés, 1949 alkotmány), a meghatározó szereplőket (Rákosi Mátyás, Gerő Ernő, Magyar Dolgozók Pártja) és a nélkülözhetetlen fogalmakat (szalámitaktika, államosítás, egypártrendszer, szovjetizálás). Ne csak neveket írjon, hanem mutassa meg az összefüggést is: a háttérben szovjet támogatás a kommunisták mögött, a koalíciós rendszer felszámolásának szándéka állt, a folyamatot pedig ellenfelek félreállítása, választási manipuláció, pártegyesítés jellemezte. A következmények részben különítse el a közvetlen hatásokat (egypárti diktatúra kiépülése, gazdaság állami ellenőrzése, politikai pluralizmus megszűnése) és a hosszabb távú eredményeket vagy problémákat (a sztálinista rendszer alapjai megszilárdultak). A lezárásban foglalja össze, miért volt fordulópont vagy miért maradt tartós hatása a témának: rövid idő alatt megszűnt a demokratikus átmenet lehetősége. A jó hosszú esszé szerkezete tehát: világos bevezetés, rendezett előzmények, konkrét példákkal alátámasztott tárgyalás, majd rövid mérlegelő befejezés."
+    },
+    {
+      "id": "hun_post45_rendszervaltozas_politikai_gazdasagi_atalakulas",
+      "tema": "A rendszerváltozás következtében kialakuló politikai és gazdasági rendszer",
+      "essay_type": "hosszu",
+      "era": "Magyarország 1945-től a rendszerváltozásig",
+      "requirements_topics": [
+        "11.4 A piacgazdaságra való áttérés és következményei",
+        "11.4 A közjogi rendszer átalakítása"
+      ],
+      "related_tetelek": [
+        "Rendszerváltozás és piacgazdaság"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "többpártrendszer",
+          "jogállam",
+          "piacgazdaság",
+          "magántulajdon",
+          "privatizáció"
+        ],
+        "szemelyek": [
+          "ellenzéki kerekasztal szereplői",
+          "új pártok"
+        ],
+        "evszamok": [
+          "1989–1990"
+        ],
+        "topografia": [
+          "Magyarország"
+        ],
+        "okok": [
+          "a Kádár-rendszer válsága",
+          "nemzetközi blokkátalakulás"
+        ],
+        "folyamatok": [
+          "egypártrendszer lebontása",
+          "alkotmányos átalakítás",
+          "piacgazdasági intézmények kiépítése",
+          "privatizáció"
+        ],
+        "kovetkezmenyek": [
+          "demokratikus politikai rendszer",
+          "kapitalista gazdasági viszonyok",
+          "társadalmi feszültségek és munkanélküliség"
+        ]
+      },
+      "minimum_answer": "A rendszerváltozás során Magyarországon megszűnt az egypártrendszer, és demokratikus, többpárti jogállam jött létre. Gazdaságilag a tervgazdaság helyét a piacgazdaság, a magántulajdon és a privatizáció vette át. Az átalakulás ugyanakkor társadalmi feszültségeket és gazdasági nehézségeket is okozott.",
+      "extended_outline": {
+        "bevezetes": "A rendszerváltozás nemcsak politikai fordulat, hanem rendszerszintű átalakulás volt.",
+        "elozmenyek": "a Kádár-rendszer válsága és nemzetközi környezet.",
+        "targyalas": "jogállami-politikai változások és gazdasági átmenet.",
+        "kovetkezmenyek": "demokratikus intézmények, piacgazdaság, társadalmi átrendeződés.",
+        "lezaras": "1989–90 alapvetően új pályára állította Magyarországot."
+      },
+      "kibovitett_seged_fogalmazas": "Ennél a hosszú esszénél a cél nem pusztán az, hogy adatokat soroljon fel, hanem hogy végigvezessen egy történelmi problémát. A bevezetésben röviden rögzítse a témát és a korszakot: A rendszerváltozás nemcsak politikai fordulat, hanem rendszerszintű átalakulás volt. Ezután mutassa be az előzményeket, vagyis azt, hogy milyen helyzetből indult a folyamat: a Kádár-rendszer válsága és nemzetközi környezet. A tárgyalás legyen a válasz gerince, itt kell a legtöbb konkrétumot elhelyezni. Építse be a kulcsdátumokat (1989–1990), a meghatározó szereplőket (ellenzéki kerekasztal szereplői, új pártok) és a nélkülözhetetlen fogalmakat (többpártrendszer, jogállam, piacgazdaság, magántulajdon, privatizáció). Ne csak neveket írjon, hanem mutassa meg az összefüggést is: a háttérben a Kádár-rendszer válsága, nemzetközi blokkátalakulás állt, a folyamatot pedig egypártrendszer lebontása, alkotmányos átalakítás, piacgazdasági intézmények kiépítése jellemezte. A következmények részben különítse el a közvetlen hatásokat (demokratikus politikai rendszer, kapitalista gazdasági viszonyok, társadalmi feszültségek és munkanélküliség) és a hosszabb távú eredményeket vagy problémákat (a mai magyar politikai és gazdasági rendszer alapjai létrejöttek). A lezárásban foglalja össze, miért volt fordulópont vagy miért maradt tartós hatása a témának: 1989–90 alapvetően új pályára állította Magyarországot. A jó hosszú esszé szerkezete tehát: világos bevezetés, rendezett előzmények, konkrét példákkal alátámasztott tárgyalás, majd rövid mérlegelő befejezés."
+    },
+    {
+      "id": "hun_post45_1956_nemzetkozi_osszefuggesek",
+      "tema": "Az 1956-os forradalom nemzetközi előzményei és összefüggései",
+      "essay_type": "hosszu",
+      "era": "Magyarország 1945-től a rendszerváltozásig",
+      "requirements_topics": [
+        "11.2 A magyar forradalom nemzetközi jelentősége és összefüggései"
+      ],
+      "related_tetelek": [
+        "1956 nemzetközi háttere"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "desztalinizáció",
+          "hidegháború",
+          "szovjet blokk",
+          "szuezi válság"
+        ],
+        "szemelyek": [
+          "Nagy Imre",
+          "Hruscsov"
+        ],
+        "evszamok": [
+          "1953 Sztálin halála",
+          "1955 Varsói Szerződés",
+          "1956 lengyel események",
+          "1956 szuezi válság"
+        ],
+        "topografia": [
+          "Magyarország",
+          "Lengyelország",
+          "Szovjetunió",
+          "Egyiptom"
+        ],
+        "okok": [
+          "a sztálinizmus válsága a szovjet blokkban",
+          "desztalinizáció",
+          "lengyel hatások"
+        ],
+        "folyamatok": [
+          "reformremények erősödése",
+          "szovjet reakció",
+          "nyugati tétlenség részben a szuezi válság miatt"
+        ],
+        "kovetkezmenyek": [
+          "a forradalom elszigetelődött nemzetközileg",
+          "a szovjet beavatkozás sikeres volt"
+        ]
+      },
+      "minimum_answer": "Az 1956-os forradalom nemzetközi hátteréhez tartozott a desztalinizáció, a lengyelországi reformfolyamatok és a szovjet blokk megrendülése. A forradalom sorsát befolyásolta, hogy a Nyugat a szuezi válság miatt sem avatkozott be. Ezért Magyarország nemzetközileg elszigetelten maradt a szovjet beavatkozással szemben.",
+      "extended_outline": {
+        "bevezetes": "1956-ot nem lehet pusztán belső magyar eseményként értelmezni.",
+        "elozmenyek": "Sztálin halála, desztalinizáció, lengyel fejlemények.",
+        "targyalas": "a hidegháborús helyzet, szovjet döntések, nyugati reakciók, szuezi válság.",
+        "kovetkezmenyek": "nemzetközi elszigetelődés és leverés.",
+        "lezaras": "1956 világpolitikai összefüggésekben is a hidegháború egyik kulcseseménye."
+      },
+      "kibovitett_seged_fogalmazas": "Ennél a hosszú esszénél a cél nem pusztán az, hogy adatokat soroljon fel, hanem hogy végigvezessen egy történelmi problémát. A bevezetésben röviden rögzítse a témát és a korszakot: 1956-ot nem lehet pusztán belső magyar eseményként értelmezni. Ezután mutassa be az előzményeket, vagyis azt, hogy milyen helyzetből indult a folyamat: Sztálin halála, desztalinizáció, lengyel fejlemények. A tárgyalás legyen a válasz gerince, itt kell a legtöbb konkrétumot elhelyezni. Építse be a kulcsdátumokat (1953 Sztálin halála, 1955 Varsói Szerződés, 1956 lengyel események, 1956 szuezi válság), a meghatározó szereplőket (Nagy Imre, Hruscsov) és a nélkülözhetetlen fogalmakat (desztalinizáció, hidegháború, szovjet blokk, szuezi válság). Ne csak neveket írjon, hanem mutassa meg az összefüggést is: a háttérben a sztálinizmus válsága a szovjet blokkban, desztalinizáció, lengyel hatások állt, a folyamatot pedig reformremények erősödése, szovjet reakció, nyugati tétlenség részben a szuezi válság miatt jellemezte. A következmények részben különítse el a közvetlen hatásokat (a forradalom elszigetelődött nemzetközileg, a szovjet beavatkozás sikeres volt) és a hosszabb távú eredményeket vagy problémákat (1956 a keleti blokk válságának jelképe lett). A lezárásban foglalja össze, miért volt fordulópont vagy miért maradt tartós hatása a témának: 1956 világpolitikai összefüggésekben is a hidegháború egyik kulcseseménye. A jó hosszú esszé szerkezete tehát: világos bevezetés, rendezett előzmények, konkrét példákkal alátámasztott tárgyalás, majd rövid mérlegelő befejezés."
+    },
+    {
+      "id": "hun_post45_rakosi_gazdasagpolitika_kovetkezmenyek",
+      "tema": "A Rákosi-korszak gazdaságpolitikája és következményei",
+      "essay_type": "hosszu",
+      "era": "Magyarország 1945-től a rendszerváltozásig",
+      "requirements_topics": [
+        "11.1 Az egypárti diktatúra működése, a gazdasági élet és a mindennapok a Rákosi-korban"
+      ],
+      "related_tetelek": [
+        "Rákosi-rendszer gazdaságpolitikája"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "tervgazdaság",
+          "nehézipar",
+          "beszolgáltatás",
+          "kollektivizálás",
+          "életszínvonal-csökkenés"
+        ],
+        "szemelyek": [
+          "Rákosi Mátyás"
+        ],
+        "evszamok": [
+          "1949–1953",
+          "1953 utáni korrekciók"
+        ],
+        "topografia": [
+          "Magyarország"
+        ],
+        "okok": [
+          "szovjet típusú gazdasági modell átvétele",
+          "erőltetett iparosítás"
+        ],
+        "folyamatok": [
+          "nehézipari fejlesztések",
+          "mezőgazdaság kollektivizálása",
+          "beszolgáltatási rendszer",
+          "fogyasztás háttérbe szorítása"
+        ],
+        "kovetkezmenyek": [
+          "hiánygazdaság",
+          "életszínvonal romlása",
+          "társadalmi elégedetlenség"
+        ]
+      },
+      "minimum_answer": "A Rákosi-korszak gazdaságpolitikája a szovjet mintájú tervgazdaságra és az erőltetett nehéziparosításra épült. A kollektivizálás és a beszolgáltatási rendszer súlyos terheket rótt a társadalomra, miközben a fogyasztást háttérbe szorították. Ennek következménye hiánygazdaság, életszínvonal-csökkenés és széles elégedetlenség lett.",
+      "extended_outline": {
+        "bevezetes": "A Rákosi-korszak gazdaságpolitikája a sztálinista modell magyar változata volt.",
+        "elozmenyek": "szovjetizálás és kommunista hatalomátvétel.",
+        "targyalas": "tervgazdaság, nehézipar, kollektivizálás, beszolgáltatás.",
+        "kovetkezmenyek": "hiánygazdaság és társadalmi feszültségek.",
+        "lezaras": "a gazdaságpolitika a rendszer népszerűtlenségének egyik fő oka lett."
+      },
+      "kibovitett_seged_fogalmazas": "Ennél a hosszú esszénél a cél nem pusztán az, hogy adatokat soroljon fel, hanem hogy végigvezessen egy történelmi problémát. A bevezetésben röviden rögzítse a témát és a korszakot: A Rákosi-korszak gazdaságpolitikája a sztálinista modell magyar változata volt. Ezután mutassa be az előzményeket, vagyis azt, hogy milyen helyzetből indult a folyamat: szovjetizálás és kommunista hatalomátvétel. A tárgyalás legyen a válasz gerince, itt kell a legtöbb konkrétumot elhelyezni. Építse be a kulcsdátumokat (1949–1953, 1953 utáni korrekciók), a meghatározó szereplőket (Rákosi Mátyás) és a nélkülözhetetlen fogalmakat (tervgazdaság, nehézipar, beszolgáltatás, kollektivizálás, életszínvonal-csökkenés). Ne csak neveket írjon, hanem mutassa meg az összefüggést is: a háttérben szovjet típusú gazdasági modell átvétele, erőltetett iparosítás állt, a folyamatot pedig nehézipari fejlesztések, mezőgazdaság kollektivizálása, beszolgáltatási rendszer jellemezte. A következmények részben különítse el a közvetlen hatásokat (hiánygazdaság, életszínvonal romlása, társadalmi elégedetlenség) és a hosszabb távú eredményeket vagy problémákat (gazdasági torzulások és politikai elégedetlenség halmozódtak fel). A lezárásban foglalja össze, miért volt fordulópont vagy miért maradt tartós hatása a témának: a gazdaságpolitika a rendszer népszerűtlenségének egyik fő oka lett. A jó hosszú esszé szerkezete tehát: világos bevezetés, rendezett előzmények, konkrét példákkal alátámasztott tárgyalás, majd rövid mérlegelő befejezés."
+    },
+    {
+      "id": "hun_post45_haboru_utani_gazdasag_koalicio_kommunista",
+      "tema": "Magyarország háború utáni gazdasági helyzete és gazdaságpolitikája a koalíciós és a kommunista hatalomátvétel időszakában",
+      "essay_type": "hosszu",
+      "era": "Magyarország 1945-től a rendszerváltozásig",
+      "requirements_topics": [
+        "11.1 Magyarország szovjetizálása (1945-1949)"
+      ],
+      "related_tetelek": [
+        "Háború utáni gazdasági újjáépítés"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "újjáépítés",
+          "hiperinfláció",
+          "földreform",
+          "forint",
+          "államosítás"
+        ],
+        "szemelyek": [
+          "koalíciós kormányok",
+          "kommunista vezetés"
+        ],
+        "evszamok": [
+          "1945 földreform",
+          "1946 forint bevezetése",
+          "1947–1949 államosítások"
+        ],
+        "topografia": [
+          "Magyarország"
+        ],
+        "okok": [
+          "háborús pusztítás",
+          "jóvátételek",
+          "szovjet jelenlét"
+        ],
+        "folyamatok": [
+          "újjáépítés és infláció kezelése",
+          "földreform",
+          "forint stabilizációja",
+          "kommunista gazdasági hatalomátvétel és államosítás"
+        ],
+        "kovetkezmenyek": [
+          "a gazdaság stabilizálása után gyors szovjetizálás indult",
+          "a magángazdaság visszaszorult"
+        ]
+      },
+      "minimum_answer": "A háború után Magyarországot súlyos pusztítás, jóvátételi teher és hiperinfláció jellemezte. A koalíciós időszakban újjáépítés, földreform és stabilizáció zajlott, amit 1946-ban a forint bevezetése tett sikeressé. Ezután a kommunista hatalomátvétel idején megindult az államosítás és a gazdaság szovjetizálása.",
+      "extended_outline": {
+        "bevezetes": "A háború utáni gazdasági helyzet válságos volt, de gyors politikai fordulatokkal párosult.",
+        "elozmenyek": "pusztítás, jóvátétel, infláció.",
+        "targyalas": "földreform, stabilizáció, forint, majd államosítás és kommunista átalakítás.",
+        "kovetkezmenyek": "az újjáépítést tervgazdasági fordulat követte.",
+        "lezaras": "1945–49 egyszerre jelentette a helyreállítást és a szovjet típusú gazdaság kialakulását."
+      },
+      "kibovitett_seged_fogalmazas": "Ennél a hosszú esszénél a cél nem pusztán az, hogy adatokat soroljon fel, hanem hogy végigvezessen egy történelmi problémát. A bevezetésben röviden rögzítse a témát és a korszakot: A háború utáni gazdasági helyzet válságos volt, de gyors politikai fordulatokkal párosult. Ezután mutassa be az előzményeket, vagyis azt, hogy milyen helyzetből indult a folyamat: pusztítás, jóvátétel, infláció. A tárgyalás legyen a válasz gerince, itt kell a legtöbb konkrétumot elhelyezni. Építse be a kulcsdátumokat (1945 földreform, 1946 forint bevezetése, 1947–1949 államosítások), a meghatározó szereplőket (koalíciós kormányok, kommunista vezetés) és a nélkülözhetetlen fogalmakat (újjáépítés, hiperinfláció, földreform, forint, államosítás). Ne csak neveket írjon, hanem mutassa meg az összefüggést is: a háttérben háborús pusztítás, jóvátételek, szovjet jelenlét állt, a folyamatot pedig újjáépítés és infláció kezelése, földreform, forint stabilizációja jellemezte. A következmények részben különítse el a közvetlen hatásokat (a gazdaság stabilizálása után gyors szovjetizálás indult, a magángazdaság visszaszorult) és a hosszabb távú eredményeket vagy problémákat (a tervgazdaság és államszocialista modell alapjai létrejöttek). A lezárásban foglalja össze, miért volt fordulópont vagy miért maradt tartós hatása a témának: 1945–49 egyszerre jelentette a helyreállítást és a szovjet típusú gazdaság kialakulását. A jó hosszú esszé szerkezete tehát: világos bevezetés, rendezett előzmények, konkrét példákkal alátámasztott tárgyalás, majd rövid mérlegelő befejezés."
+    },
+    {
+      "id": "civics_nepfelseg_mai_magyarorszag",
+      "tema": "A népfelség érvényesülése a mai Magyarországon",
+      "essay_type": "hosszu",
+      "era": "Társadalmi, állampolgári, pénzügyi és munkavállalói ismeretek",
+      "requirements_topics": [
+        "12.2 Az aktív és felelős állampolgárság alapjai"
+      ],
+      "related_tetelek": [
+        "Állampolgári ismeretek: népfelség"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "népfelség",
+          "választójog",
+          "általános és egyenlő választójog",
+          "népszavazás",
+          "parlamentáris rendszer"
+        ],
+        "szemelyek": [
+          "választópolgárok",
+          "Országgyűlés"
+        ],
+        "evszamok": [
+          "jelenkor"
+        ],
+        "topografia": [
+          "Magyarország"
+        ],
+        "okok": [
+          "demokratikus jogállami berendezkedés"
+        ],
+        "folyamatok": [
+          "választásokon való részvétel",
+          "képviselet útján gyakorolt hatalom",
+          "közvetlen döntés népszavazással"
+        ],
+        "kovetkezmenyek": [
+          "a politikai hatalom legitimációja a népakaratból ered"
+        ]
+      },
+      "minimum_answer": "A népfelség elve szerint a politikai hatalom forrása a nép, amely Magyarországon elsősorban választások útján gyakorolja akaratát. A választópolgárok az Országgyűlés tagjait választják, meghatározott esetekben pedig népszavazással közvetlenül is dönthetnek. Az Országgyűlés törvényhozó és ellenőrző szerepe így a népakarat képviseletén alapul.",
+      "extended_outline": {
+        "bevezetes": "A népfelség a modern demokrácia egyik alapelve.",
+        "elozmenyek": "jogállami és demokratikus berendezkedés.",
+        "targyalas": "választójog, választási alapelvek, népszavazás, Országgyűlés szerepe.",
+        "kovetkezmenyek": "a hatalom demokratikus legitimációja.",
+        "lezaras": "a népfelség a magyar közjogi rendszer alapvető elve."
+      },
+      "kibovitett_seged_fogalmazas": "Ennél a hosszú esszénél a cél nem pusztán az, hogy adatokat soroljon fel, hanem hogy végigvezessen egy történelmi problémát. A bevezetésben röviden rögzítse a témát és a korszakot: A népfelség a modern demokrácia egyik alapelve. Ezután mutassa be az előzményeket, vagyis azt, hogy milyen helyzetből indult a folyamat: jogállami és demokratikus berendezkedés. A tárgyalás legyen a válasz gerince, itt kell a legtöbb konkrétumot elhelyezni. Építse be a kulcsdátumokat (jelenkor), a meghatározó szereplőket (választópolgárok, Országgyűlés) és a nélkülözhetetlen fogalmakat (népfelség, választójog, általános és egyenlő választójog, népszavazás, parlamentáris rendszer). Ne csak neveket írjon, hanem mutassa meg az összefüggést is: a háttérben demokratikus jogállami berendezkedés állt, a folyamatot pedig választásokon való részvétel, képviselet útján gyakorolt hatalom, közvetlen döntés népszavazással jellemezte. A következmények részben különítse el a közvetlen hatásokat (a politikai hatalom legitimációja a népakaratból ered) és a hosszabb távú eredményeket vagy problémákat (a demokratikus részvétel a politikai rendszer alapja). A lezárásban foglalja össze, miért volt fordulópont vagy miért maradt tartós hatása a témának: a népfelség a magyar közjogi rendszer alapvető elve. A jó hosszú esszé szerkezete tehát: világos bevezetés, rendezett előzmények, konkrét példákkal alátámasztott tárgyalás, majd rövid mérlegelő befejezés."
+    },
+    {
+      "id": "civics_demografia_ellatorendszerek",
+      "tema": "Jelenkori magyar demográfiai folyamatok és összefüggésük az ellátórendszerekkel",
+      "essay_type": "hosszu",
+      "era": "Társadalmi, állampolgári, pénzügyi és munkavállalói ismeretek",
+      "requirements_topics": [
+        "11.5 Demográfiai változások Magyarországon 1945-től",
+        "12.1 Társadalmi tagozódás és felelősségvállalás"
+      ],
+      "related_tetelek": [
+        "Demográfiai folyamatok a jelenkorban"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "elöregedés",
+          "természetes fogyás",
+          "migráció",
+          "nyugdíjrendszer",
+          "egészségügy",
+          "családtámogatás"
+        ],
+        "szemelyek": [
+          "népesség"
+        ],
+        "evszamok": [
+          "jelenkor"
+        ],
+        "topografia": [
+          "Magyarország"
+        ],
+        "okok": [
+          "alacsony születésszám",
+          "magasabb várható élettartam",
+          "migrációs folyamatok"
+        ],
+        "folyamatok": [
+          "népességfogyás és elöregedés",
+          "munkaerőpiaci és területi egyenlőtlenségek",
+          "ellátórendszerek terhelődése"
+        ],
+        "kovetkezmenyek": [
+          "nő a nyugdíj- és egészségügyi rendszer terhelése",
+          "családpolitikai és munkaerőpiaci válaszok szükségesek"
+        ]
+      },
+      "minimum_answer": "A jelenkori Magyarországot a népességfogyás és az elöregedés jellemzi, amelyet az alacsony születésszám és a migráció is befolyásol. Ezek a folyamatok erősen terhelik a nyugdíj- és egészségügyi rendszert, miközben családpolitikai és gazdasági válaszokat tesznek szükségessé. A demográfia ezért közvetlenül hat az ellátórendszerek fenntarthatóságára.",
+      "extended_outline": {
+        "bevezetes": "A demográfiai folyamatok a jelenkori társadalom egyik legfontosabb kihívását jelentik.",
+        "elozmenyek": "születésszám alakulása, élettartam növekedése, migráció.",
+        "targyalas": "elöregedés, fogyás, ellátórendszerek terhelése, állami válaszok.",
+        "kovetkezmenyek": "fenntarthatósági és munkaerőpiaci problémák.",
+        "lezaras": "a demográfiai helyzet a jövő társadalompolitikáját is meghatározza."
+      },
+      "kibovitett_seged_fogalmazas": "Ennél a hosszú esszénél a cél nem pusztán az, hogy adatokat soroljon fel, hanem hogy végigvezessen egy történelmi problémát. A bevezetésben röviden rögzítse a témát és a korszakot: A demográfiai folyamatok a jelenkori társadalom egyik legfontosabb kihívását jelentik. Ezután mutassa be az előzményeket, vagyis azt, hogy milyen helyzetből indult a folyamat: születésszám alakulása, élettartam növekedése, migráció. A tárgyalás legyen a válasz gerince, itt kell a legtöbb konkrétumot elhelyezni. Építse be a kulcsdátumokat (jelenkor), a meghatározó szereplőket (népesség) és a nélkülözhetetlen fogalmakat (elöregedés, természetes fogyás, migráció, nyugdíjrendszer, egészségügy, családtámogatás). Ne csak neveket írjon, hanem mutassa meg az összefüggést is: a háttérben alacsony születésszám, magasabb várható élettartam, migrációs folyamatok állt, a folyamatot pedig népességfogyás és elöregedés, munkaerőpiaci és területi egyenlőtlenségek, ellátórendszerek terhelődése jellemezte. A következmények részben különítse el a közvetlen hatásokat (nő a nyugdíj- és egészségügyi rendszer terhelése, családpolitikai és munkaerőpiaci válaszok szükségesek) és a hosszabb távú eredményeket vagy problémákat (a demográfia tartósan befolyásolja a gazdaságot és a szociális ellátást). A lezárásban foglalja össze, miért volt fordulópont vagy miért maradt tartós hatása a témának: a demográfiai helyzet a jövő társadalompolitikáját is meghatározza. A jó hosszú esszé szerkezete tehát: világos bevezetés, rendezett előzmények, konkrét példákkal alátámasztott tárgyalás, majd rövid mérlegelő befejezés."
+    },
+    {
+      "id": "civics_allamhaztartas_szerkezet_bevetelek",
+      "tema": "A mai magyar államháztartás szerkezete és bevételei",
+      "essay_type": "hosszu",
+      "era": "Társadalmi, állampolgári, pénzügyi és munkavállalói ismeretek",
+      "requirements_topics": [
+        "12.3 Az állam gazdasági szerepvállalása",
+        "12.3 Alapvető pénzügyi és gazdasági fogalmak"
+      ],
+      "related_tetelek": [
+        "Államháztartás"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "államháztartás",
+          "központi költségvetés",
+          "adók",
+          "járulékok",
+          "újraelosztás"
+        ],
+        "szemelyek": [
+          "állam"
+        ],
+        "evszamok": [
+          "jelenkor"
+        ],
+        "topografia": [
+          "Magyarország"
+        ],
+        "okok": [
+          "az állami feladatok finanszírozásának szükségessége"
+        ],
+        "folyamatok": [
+          "bevételek beszedése adókból és járulékokból",
+          "kiadások finanszírozása különböző alrendszereken keresztül"
+        ],
+        "kovetkezmenyek": [
+          "az állam képes közszolgáltatásokat és újraelosztást működtetni"
+        ]
+      },
+      "minimum_answer": "A magyar államháztartás a központi költségvetésből és más állami alrendszerekből áll, bevételei főként adókból és járulékokból származnak. Ezekből finanszírozza az állam a közszolgáltatásokat, a szociális rendszereket és egyéb feladatait. Az államháztartás szerkezete ezért az állami újraelosztás működésének alapja.",
+      "extended_outline": {
+        "bevezetes": "Az államháztartás az állam gazdasági működésének pénzügyi kerete.",
+        "elozmenyek": "az állam feladatvállalása és finanszírozási igénye.",
+        "targyalas": "alrendszerek, bevételi források, adók és járulékok szerepe.",
+        "kovetkezmenyek": "közszolgáltatások és újraelosztás finanszírozása.",
+        "lezaras": "a stabil államháztartás a gazdasági egyensúly egyik feltétele."
+      },
+      "kibovitett_seged_fogalmazas": "Ennél a hosszú esszénél a cél nem pusztán az, hogy adatokat soroljon fel, hanem hogy végigvezessen egy történelmi problémát. A bevezetésben röviden rögzítse a témát és a korszakot: Az államháztartás az állam gazdasági működésének pénzügyi kerete. Ezután mutassa be az előzményeket, vagyis azt, hogy milyen helyzetből indult a folyamat: az állam feladatvállalása és finanszírozási igénye. A tárgyalás legyen a válasz gerince, itt kell a legtöbb konkrétumot elhelyezni. Építse be a kulcsdátumokat (jelenkor), a meghatározó szereplőket (állam) és a nélkülözhetetlen fogalmakat (államháztartás, központi költségvetés, adók, járulékok, újraelosztás). Ne csak neveket írjon, hanem mutassa meg az összefüggést is: a háttérben az állami feladatok finanszírozásának szükségessége állt, a folyamatot pedig bevételek beszedése adókból és járulékokból, kiadások finanszírozása különböző alrendszereken keresztül jellemezte. A következmények részben különítse el a közvetlen hatásokat (az állam képes közszolgáltatásokat és újraelosztást működtetni) és a hosszabb távú eredményeket vagy problémákat (az államháztartás egyensúlya kulcsfontosságú a gazdasági stabilitás szempontjából). A lezárásban foglalja össze, miért volt fordulópont vagy miért maradt tartós hatása a témának: a stabil államháztartás a gazdasági egyensúly egyik feltétele. A jó hosszú esszé szerkezete tehát: világos bevezetés, rendezett előzmények, konkrét példákkal alátámasztott tárgyalás, majd rövid mérlegelő befejezés."
+    },
+    {
+      "id": "civics_allam_ujraeloszto_szerep",
+      "tema": "Az állam pénzbeli újraelosztó szerepe a mai Magyarországon",
+      "essay_type": "hosszu",
+      "era": "Társadalmi, állampolgári, pénzügyi és munkavállalói ismeretek",
+      "requirements_topics": [
+        "12.3 Az állam gazdasági szerepvállalása"
+      ],
+      "related_tetelek": [
+        "Az állam újraelosztó szerepe"
+      ],
+      "kotelezo_mag": {
+        "fogalmak": [
+          "újraelosztás",
+          "adó",
+          "járulék",
+          "szociális ellátás",
+          "nyugdíj",
+          "családtámogatás"
+        ],
+        "szemelyek": [
+          "állam",
+          "adófizetők",
+          "ellátásban részesülők"
+        ],
+        "evszamok": [
+          "jelenkor"
+        ],
+        "topografia": [
+          "Magyarország"
+        ],
+        "okok": [
+          "társadalmi különbségek kezelése",
+          "közszolgáltatások finanszírozása"
+        ],
+        "folyamatok": [
+          "bevételek elvonása adókkal és járulékokkal",
+          "kiadások visszajuttatása nyugdíj, támogatások, egészségügy formájában"
+        ],
+        "kovetkezmenyek": [
+          "csökkenhetnek a társadalmi különbségek",
+          "biztosíthatók az alapvető állami funkciók"
+        ]
+      },
+      "minimum_answer": "Az állam pénzbeli újraelosztása azt jelenti, hogy adók és járulékok formájában bevételeket von el, majd ezeket különböző ellátásokra és közfeladatokra fordítja. Ilyen terület például a nyugdíj, a családtámogatás vagy az egészségügy. Az újraelosztás célja egyszerre a közszolgáltatások fenntartása és a társadalmi különbségek mérséklése.",
+      "extended_outline": {
+        "bevezetes": "Az újraelosztás az állam egyik legfontosabb gazdasági funkciója.",
+        "elozmenyek": "állami feladatvállalás és adóztatás.",
+        "targyalas": "bevételi források, célok, fő kiadási területek.",
+        "kovetkezmenyek": "szociális biztonság és társadalompolitikai hatások.",
+        "lezaras": "az újraelosztás mértéke és módja meghatározza az állam szerepét a gazdaságban."
+      },
+      "kibovitett_seged_fogalmazas": "Ennél a hosszú esszénél a cél nem pusztán az, hogy adatokat soroljon fel, hanem hogy végigvezessen egy történelmi problémát. A bevezetésben röviden rögzítse a témát és a korszakot: Az újraelosztás az állam egyik legfontosabb gazdasági funkciója. Ezután mutassa be az előzményeket, vagyis azt, hogy milyen helyzetből indult a folyamat: állami feladatvállalás és adóztatás. A tárgyalás legyen a válasz gerince, itt kell a legtöbb konkrétumot elhelyezni. Építse be a kulcsdátumokat (jelenkor), a meghatározó szereplőket (állam, adófizetők, ellátásban részesülők) és a nélkülözhetetlen fogalmakat (újraelosztás, adó, járulék, szociális ellátás, nyugdíj, családtámogatás). Ne csak neveket írjon, hanem mutassa meg az összefüggést is: a háttérben társadalmi különbségek kezelése, közszolgáltatások finanszírozása állt, a folyamatot pedig bevételek elvonása adókkal és járulékokkal, kiadások visszajuttatása nyugdíj, támogatások, egészségügy formájában jellemezte. A következmények részben különítse el a közvetlen hatásokat (csökkenhetnek a társadalmi különbségek, biztosíthatók az alapvető állami funkciók) és a hosszabb távú eredményeket vagy problémákat (az újraelosztás mértéke tartósan befolyásolja a gazdasági és társadalmi szerkezetet). A lezárásban foglalja össze, miért volt fordulópont vagy miért maradt tartós hatása a témának: az újraelosztás mértéke és módja meghatározza az állam szerepét a gazdaságban. A jó hosszú esszé szerkezete tehát: világos bevezetés, rendezett előzmények, konkrét példákkal alátámasztott tárgyalás, majd rövid mérlegelő befejezés."
+    }
+  ]
+}

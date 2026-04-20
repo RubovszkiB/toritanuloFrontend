@@ -1,0 +1,63 @@
+{
+  "title": "Codex segédfájl – PDF alapú tételolvasó modul",
+  "goal": "A meglévő tételolvasó modult alakítsd át úgy, hogy a tételek eredeti PDF-ekből jelenjenek meg, a képek is látszódjanak, és az olvasási állapot menthető legyen felhasználónként.",
+  "input_files": [
+    "manifest.json",
+    "tetelek PDF mappa"
+  ],
+  "principles": [
+    "Ne új projektet készíts, hanem a meglévő appot bővítsd.",
+    "A jelenlegi tétellista és olvasási logika mintáját használd, de a tartalmat PDF-ből jelenítsd meg.",
+    "A PDF-ek maradjanak az elsődleges források, ne szedd újra plain text adatbázisba a teljes tételt.",
+    "A képeknek is látszódniuk kell a viewerben."
+  ],
+  "expected_manifest_fields": [
+    "id",
+    "order",
+    "title",
+    "pdfFile",
+    "pdfPath",
+    "sourceDocx"
+  ],
+  "ui_requirements": {
+    "list_page": [
+      "tétel sorszáma",
+      "tétel címe",
+      "olvasási állapot / haladás",
+      "folytatás gomb"
+    ],
+    "reader_page": [
+      "beépített PDF viewer",
+      "olvasási állapot jelző a bal oldali margóban vagy progress sávban",
+      "utolsó pozíció automatikus mentése",
+      "visszanyitáskor folytatás ugyanonnan"
+    ]
+  },
+  "reading_progress": {
+    "store_per_user": true,
+    "fields": [
+      "userId",
+      "tetelId",
+      "lastPage",
+      "scrollProgress",
+      "lastViewedAt"
+    ],
+    "preferred_ui": "bal oldali keskeny margó vagy progress-sáv kis jelölőponttal, ami mutatja, hol tart az olvasásban"
+  },
+  "implementation_notes": [
+    "Ha van meglévő tételolvasó oldal, azt alakítsd át, ne külön új modult készíts.",
+    "A PDF-eket a public vagy statikus fájlkezelési mintához illeszd.",
+    "A manifest alapján listázd a tételeket.",
+    "A progress mentése legyen stabil és felhasználóhoz kötött."
+  ],
+  "suggested_routes": [
+    "/tetelek",
+    "/tetelek/:id"
+  ],
+  "end_summary_expected": [
+    "mely fájlok újak",
+    "mely fájlok módosultak",
+    "hogyan lett megoldva a PDF viewer",
+    "hogyan mentődik az olvasási állapot"
+  ]
+}

@@ -1,58 +1,28 @@
 import { useEffect, useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
-import AppNavbar from '../components/AppNavbar'
-import AppFooter from '../components/AppFooter'
-import { getQuizTests, getQuizTopics } from '../services/quizService'
-
-const benefits = [
-  'most már csak évszámteszteket mutat a kvízközpont',
-  'külön témakör- és külön tesztblokk lett a jobb átláthatóságért',
-  'a társadalmi, állampolgári, pénzügyi és munkavállalói blokk is bekerült',
-  'később könnyű lesz külön személy, helyszín és fogalom modulokat hozzáadni',
-]
-
-function getSourceLabel(topicSource, testSource) {
-  if (topicSource === 'mixed' || testSource === 'mixed') {
-    return 'Backend + fallback'
-  }
-
-  if (topicSource === 'api' || testSource === 'api') {
-    return 'Backend'
-  }
-
-  return 'Fallback'
-}
-
-function getTopicStats(topics, tests) {
-  return topics
-    .map((topic) => {
-      const topicTests = tests.filter((test) => String(test.topicId) === String(topic.id))
-      return {
-        ...topic,
-        testCount: topicTests.length,
-        questionCount: topicTests.reduce((sum, test) => sum + (test.questionCount || 0), 0),
-      }
-    })
-    .filter((topic) => topic.testCount > 0)
-}
+import AppShell from '../components/AppShell'
+import HubCard from '../components/hub/HubCard'
+import SwipeScreenContainer from '../components/SwipeScreenContainer'
+import { getRecentTetelProgress } from '../services/tetelProgressService'
+import { getTetelek } from '../services/tetelService'
+import { enrichTetelWithPdf, formatLastOpened } from '../services/tetelPdfService'
 
 export default function HomePage() {
   const username = localStorage.getItem('username') || 'Felhasználó'
-  const role = localStorage.getItem('role') || 'Student'
-  const isAdmin = role.toLowerCase() === 'admin'
-  const [topicsState, setTopicsState] = useState({ source: 'loading', items: [] })
-  const [testsState, setTestsState] = useState({ source: 'loading', items: [] })
+  const [tetelek, setTetelek] = useState([])
+  const [recentProgress, setRecentProgress] = useState([])
 
   useEffect(() => {
     let cancelled = false
 
-    Promise.all([getQuizTopics(), getQuizTests()]).then(([topics, tests]) => {
-      if (cancelled) {
-        return
+    Promise.all([
+      getTetelek('').catch(() => []),
+      getRecentTetelProgress().catch(() => []),
+    ]).then(([tetelData, progressData]) => {
+      if (!cancelled) {
+        setTetelek(tetelData)
+        setRecentProgress(progressData)
       }
-
-      setTopicsState(topics)
-      setTestsState(tests)
     })
 
     return () => {
@@ -60,187 +30,106 @@ export default function HomePage() {
     }
   }, [])
 
-  const topicStats = useMemo(
-    () => getTopicStats(topicsState.items, testsState.items),
-    [testsState.items, topicsState.items],
-  )
-
-  const totalQuestions = useMemo(
-    () => testsState.items.reduce((sum, test) => sum + (test.questionCount || 0), 0),
-    [testsState.items],
-  )
-
-  const featuredTests = useMemo(() => {
-    const seenTopics = new Set()
-    const ordered = [...testsState.items].sort((first, second) => {
-      const topicDelta = (second.topicId || 0) - (first.topicId || 0)
-      if (topicDelta !== 0) {
-        return topicDelta
-      }
-
-      return first.title.localeCompare(second.title, 'hu')
-    })
-
-    return ordered.filter((test) => {
-      if (seenTopics.has(test.topicId)) {
-        return false
-      }
-      seenTopics.add(test.topicId)
-      return true
-    }).slice(0, 6)
-  }, [testsState.items])
-
-  const sourceLabel = getSourceLabel(topicsState.source, testsState.source)
+  const continueTetel = useMemo(() => {
+    const recent = recentProgress.find((item) => Number(item.haladasSzazalek || 0) < 100) || recentProgress[0]
+    const tetel = tetelek.find((item) => Number(item.id) === Number(recent?.tetelId))
+    return tetel ? enrichTetelWithPdf(tetel, recent) : null
+  }, [recentProgress, tetelek])
 
   return (
-    <div className="app-shell d-flex flex-column">
-      <AppNavbar />
-
-      <main>
-        <section className="hero-section py-5 py-lg-6">
+    <AppShell>
+      <SwipeScreenContainer activeRoute="/home">
+        <section className="home-screen-hero">
           <div className="container">
-            <div className="row g-4 align-items-center">
-              <div className="col-12 col-lg-7">
-                <span className="badge rounded-pill section-badge px-3 py-2 mb-3">Tételolvasó + évszámkvíz</span>
-                <h1 className="display-5 fw-bold mb-3 text-white">Szia, {username}! Innen egyből mehetsz a csak évszámos gyakorlásra.</h1>
-                <p className="lead text-white-50 mb-4">
-                  Az ókortól a jelenkorig már 12 külön témakörből lehet évszámteszteket indítani.
-                  A kvízközpontba most már a társadalmi, állampolgári, pénzügyi és munkavállalói blokk is bekerült.
+            <div className="home-screen-grid">
+              <div>
+                <span className="hub-eyebrow">Kezdőlap</span>
+                <h1>Szia, {username}! Mit gyakoroljunk ma?</h1>
+                <p>
+                  Folytasd az olvasást, indíts egy gyors tesztet, vagy lépj be az esszéfelkészítőbe.
+                  Minden fő útvonal egy érintésre van.
                 </p>
-                <div className="d-flex flex-column flex-sm-row gap-3">
-                  <Link to="/tesztek" className="btn btn-warning btn-lg fw-semibold px-4 rounded-4">
-                    Kvízközpont megnyitása
-                  </Link>
-                  <Link to="/tetelek" className="btn btn-outline-light btn-lg px-4 rounded-4">
-                    Tételek olvasása
-                  </Link>
-                </div>
               </div>
 
-              <div className="col-12 col-lg-5">
-                <div className="card hero-info-card border-0 shadow-lg rounded-5">
-                  <div className="card-body p-4 p-md-5">
-                    <div className="d-flex justify-content-between align-items-start gap-3 mb-4">
-                      <div>
-                        <div className="text-muted small mb-1">Aktív fiók</div>
-                        <h2 className="h4 fw-bold mb-0">{username}</h2>
-                      </div>
-                      <span className="badge text-bg-dark rounded-pill px-3 py-2">{role}</span>
-                    </div>
-
-                    <div className="row g-3">
-                      <div className="col-6">
-                        <div className="mini-stat rounded-4 p-3 h-100">
-                          <div className="mini-stat-value">{topicStats.length}</div>
-                          <div className="mini-stat-label">Témakör</div>
-                        </div>
-                      </div>
-                      <div className="col-6">
-                        <div className="mini-stat rounded-4 p-3 h-100">
-                          <div className="mini-stat-value">{testsState.items.length}</div>
-                          <div className="mini-stat-label">Évszámteszt</div>
-                        </div>
-                      </div>
-                      <div className="col-6">
-                        <div className="mini-stat rounded-4 p-3 h-100">
-                          <div className="mini-stat-value">{totalQuestions}</div>
-                          <div className="mini-stat-label">Kérdés</div>
-                        </div>
-                      </div>
-                      <div className="col-6">
-                        <div className="mini-stat rounded-4 p-3 h-100">
-                          <div className="mini-stat-value">{sourceLabel}</div>
-                          <div className="mini-stat-label">Forrás</div>
-                        </div>
-                      </div>
-                    </div>
-
-                    {isAdmin && (
-                      <div className="alert alert-warning rounded-4 mt-4 mb-0">
-                        Admin vagy, ezért külön adminoldal is elérhető a menüből.
-                      </div>
-                    )}
-                  </div>
-                </div>
+              <div className="home-focus-card">
+                <span>Mai fókusz</span>
+                <strong>25 perc</strong>
+                <p>Olvass egy tételt, majd zárd le egy rövid évszámkvízzel.</p>
               </div>
             </div>
           </div>
         </section>
 
-        <section className="content-section py-5">
+        <section className="hub-section">
           <div className="container">
-            <div className="row g-4">
-              <div className="col-12 col-xl-7">
-                <div className="card border-0 shadow-sm rounded-5 h-100 module-card">
-                  <div className="card-body p-4 p-md-5">
-                    <span className="section-kicker">Friss bővítés</span>
-                    <h2 className="fw-bold mb-3">Már a végső állampolgári és pénzügyi blokk is bent van</h2>
-                    <p className="text-muted mb-4">
-                      A rendszer most már az ókortól a társadalmi, állampolgári, pénzügyi és munkavállalói ismeretekig külön, csak évszámokra épülő tesztekkel dolgozik.
-                      Nincsenek benne kevert személy-, fogalom- vagy helyszínkérdések.
-                    </p>
-
-                    <div className="row g-3">
-                      {featuredTests.map((test) => (
-                        <div className="col-12" key={test.slug}>
-                          <div className="dashboard-test-card rounded-4 p-3 p-md-4 border">
-                            <div className="d-flex flex-column flex-md-row justify-content-between gap-3">
-                              <div>
-                                <div className="d-flex flex-wrap gap-2 mb-2">
-                                  <span className="badge text-bg-light rounded-pill px-3 py-2 text-uppercase">évszám</span>
-                                  <span className="badge text-bg-warning rounded-pill px-3 py-2 text-uppercase">{test.difficulty}</span>
-                                </div>
-                                <h3 className="h5 fw-bold mb-2">{test.title}</h3>
-                                <p className="text-muted mb-0">{test.description}</p>
-                              </div>
-                              <div className="text-md-end d-flex flex-md-column gap-2 align-items-md-end justify-content-between">
-                                <div className="small text-muted">{test.questionCount} kérdés</div>
-                                <Link to={`/tesztek/${test.slug}`} className="btn btn-primary rounded-4 fw-semibold">
-                                  Indítás
-                                </Link>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
+            {continueTetel ? (
+              <div className="home-continue-panel">
+                <div>
+                  <span className="hub-eyebrow">Folytasd itt</span>
+                  <h2>{continueTetel.cim}</h2>
+                  <p>
+                    {continueTetel.progress?.lastPage || 1}. oldal · {continueTetel.progress?.haladasSzazalek || 0}% ·{' '}
+                    {formatLastOpened(continueTetel.progress?.utolsoMentesAt)}
+                  </p>
                 </div>
+                <Link to={`/tetelek/${continueTetel.id}`} className="btn btn-primary rounded-4 fw-bold px-4">
+                  Folytatás
+                </Link>
               </div>
-
-              <div className="col-12 col-xl-5">
-                <div className="card border-0 shadow-sm rounded-5 h-100 faq-card">
-                  <div className="card-body p-4 p-md-5">
-                    <span className="section-kicker">Mi változott?</span>
-                    <h2 className="fw-bold mb-3">Átláthatóbb gyakorlás</h2>
-                    <div className="list-group list-group-flush benefit-list">
-                      {benefits.map((benefit) => (
-                        <div className="list-group-item px-0 py-3" key={benefit}>
-                          <div className="d-flex align-items-start gap-3">
-                            <span className="check-bubble">✓</span>
-                            <span>{benefit}</span>
-                          </div>
-                        </div>
-                      ))}
-                    </div>
-
-                    <div className="topic-summary-grid mt-4">
-                      {topicStats.map((topic) => (
-                        <div className="topic-summary-pill" key={topic.id}>
-                          <strong>{topic.title}</strong>
-                          <span>{topic.testCount} teszt</span>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
+            ) : (
+              <div className="home-continue-panel">
+                <div>
+                  <span className="hub-eyebrow">Első lépés</span>
+                  <h2>Nyiss meg egy tételt PDF-ben</h2>
+                  <p>A rendszer ezután automatikusan menti, hol tartasz.</p>
                 </div>
+                <Link to="/tetelek" className="btn btn-primary rounded-4 fw-bold px-4">
+                  Tételolvasó
+                </Link>
+              </div>
+            )}
+
+            <div className="home-action-grid">
+              <HubCard
+                to="/tanulas"
+                kicker="Tanulás"
+                title="Tételek és olvasás"
+                description="PDF-alapú tételolvasó, automatikus folytatással."
+                meta="Hosszabb tanuláshoz"
+              />
+              <HubCard
+                to="/gyakorlas"
+                kicker="Tesztek"
+                title="Napi gyors gyakorlás"
+                description="Évszámok és személyek rövid, célzott ellenőrzése."
+                meta="Pár perces körök"
+                tone="amber"
+              />
+              <HubCard
+                to="/essze-hub"
+                kicker="Esszék"
+                title="Segédfogalmazások"
+                description="Rövid, hosszú és komplex esszék tanulható mintagondolatokkal."
+                meta="Emelt felkészülés"
+                tone="rose"
+              />
+            </div>
+
+            <div className="home-insight-grid">
+              <div className="home-insight-card">
+                <span>Ismétlendő</span>
+                <strong>Évszámok</strong>
+                <p>Ha bizonytalan vagy egy korszakban, indíts egy célzott évszámtesztet.</p>
+              </div>
+              <div className="home-insight-card">
+                <span>Esszé tipp</span>
+                <strong>Minimum + segéd</strong>
+                <p>Először olvasd el a minimum választ, utána a kibővített segédfogalmazást.</p>
               </div>
             </div>
           </div>
         </section>
-      </main>
-
-      <AppFooter />
-    </div>
+      </SwipeScreenContainer>
+    </AppShell>
   )
 }
