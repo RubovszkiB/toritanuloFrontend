@@ -126,6 +126,42 @@ export default function App() {
       />
 
       <Route
+        path="/nagy-tesztek"
+        element={
+          <ProtectedRoute>
+            <QuizHubPage quizType="nagy" />
+          </ProtectedRoute>
+        }
+      />
+
+      <Route
+        path="/nagy-tesztek/:slug"
+        element={
+          <ProtectedRoute>
+            <QuizPlayPage quizType="nagy" />
+          </ProtectedRoute>
+        }
+      />
+
+      <Route
+        path="/kerdesbank"
+        element={
+          <ProtectedRoute>
+            <QuizHubPage quizType="kerdesbank" />
+          </ProtectedRoute>
+        }
+      />
+
+      <Route
+        path="/kerdesbank/:slug"
+        element={
+          <ProtectedRoute>
+            <QuizPlayPage quizType="kerdesbank" />
+          </ProtectedRoute>
+        }
+      />
+
+      <Route
         path="/esszek"
         element={
           <ProtectedRoute>

@@ -1,4 +1,6 @@
 import { fallbackQuizData } from '../data/fallbackQuizData'
+import { largeQuizData } from '../data/largeQuizData'
+import { questionBankData } from '../data/questionBankData'
 
 const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://localhost:7072'
 
@@ -117,6 +119,9 @@ function normalizeQuestion(rawQuestion, index = 0) {
     difficulty: pick(rawQuestion, ['difficulty', 'nehezseg'], 2),
     points: pick(rawQuestion, ['points', 'pontszam'], 1),
     order: pick(rawQuestion, ['order', 'sorszam'], index + 1),
+    category: pickText(rawQuestion, ['category', 'kategoria'], 'általános'),
+    skill: pickText(rawQuestion, ['skill', 'kompetencia'], ''),
+    sourceHint: pickText(rawQuestion, ['sourceHint', 'forrasTipp'], ''),
     chronologyEvent: pick(rawQuestion, ['chronologyEvent', 'kronologiaEsemeny'], null),
     options: rawOptions.map((option, optionIndex) => ({
       id: pick(option, ['id', 'valaszId'], optionIndex + 1),
@@ -166,11 +171,11 @@ function filterTestsByType(tests = [], quizType = 'evszam') {
 }
 
 function findFallbackTopicById(topicId) {
-  return fallbackQuizData.topics.find((topic) => String(topic.id) === String(topicId)) || null
+  return [...fallbackQuizData.topics, ...largeQuizData.topics, ...questionBankData.topics].find((topic) => String(topic.id) === String(topicId)) || null
 }
 
 function findFallbackTestBySlug(slug) {
-  return fallbackQuizData.tests.find((test) => test.slug === slug) || null
+  return [...fallbackQuizData.tests, ...largeQuizData.tests, ...questionBankData.tests].find((test) => test.slug === slug) || null
 }
 
 function getTopicKey(topic) {
@@ -181,10 +186,26 @@ function getTestKey(test) {
   return String(test.slug || test.id)
 }
 
+function getQuizDataByType(quizType = 'evszam') {
+  if (quizType === 'kerdesbank') {
+    return questionBankData
+  }
+
+  return quizType === 'nagy' ? largeQuizData : fallbackQuizData
+}
+
 function mergeTopics(apiTopics = []) {
   const merged = new Map()
 
   fallbackQuizData.topics.forEach((topic) => {
+    merged.set(getTopicKey(topic), { ...topic })
+  })
+
+  largeQuizData.topics.forEach((topic) => {
+    merged.set(getTopicKey(topic), { ...topic })
+  })
+
+  questionBankData.topics.forEach((topic) => {
     merged.set(getTopicKey(topic), { ...topic })
   })
 
@@ -214,6 +235,14 @@ function mergeTests(apiTests = []) {
   const merged = new Map()
 
   fallbackQuizData.tests.forEach((test) => {
+    merged.set(getTestKey(test), { ...test })
+  })
+
+  largeQuizData.tests.forEach((test) => {
+    merged.set(getTestKey(test), { ...test })
+  })
+
+  questionBankData.tests.forEach((test) => {
     merged.set(getTestKey(test), { ...test })
   })
 
@@ -252,7 +281,21 @@ function getSourceLabel(apiCount, mergedCount) {
   return 'fallback'
 }
 
-export async function getQuizTopics() {
+export async function getQuizTopics(quizType = null) {
+  if (quizType === 'kerdesbank') {
+    return {
+      source: 'fallback',
+      items: questionBankData.topics,
+    }
+  }
+
+  if (quizType === 'nagy') {
+    return {
+      source: 'fallback',
+      items: largeQuizData.topics,
+    }
+  }
+
   try {
     const rawData = await fetchJsonCandidate([
       '/api/TesztTemakorok',
@@ -269,9 +312,10 @@ export async function getQuizTopics() {
       items: mergedTopics,
     }
   } catch {
+    const quizData = getQuizDataByType(quizType || 'evszam')
     return {
       source: 'fallback',
-      items: fallbackQuizData.topics,
+      items: quizData.topics,
     }
   }
 }
@@ -302,7 +346,8 @@ export async function getQuizTests(topicId = null, quizType = 'evszam') {
       })),
     }
   } catch {
-    let tests = filterTestsByType([...fallbackQuizData.tests], quizType)
+    const quizData = getQuizDataByType(quizType)
+    let tests = filterTestsByType([...quizData.tests], quizType)
     if (topicId) {
       tests = tests.filter((test) => String(test.topicId) === String(topicId))
     }

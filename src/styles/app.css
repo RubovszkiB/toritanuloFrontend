@@ -2,6 +2,32 @@
   box-sizing: border-box;
 }
 
+.large-result-panel {
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+.large-result-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.75rem 0.9rem;
+  border-radius: 1rem;
+  background: rgba(15, 23, 42, 0.04);
+}
+
+[data-bs-theme='dark'] .large-result-panel,
+.dark .large-result-panel {
+  background: rgba(15, 23, 42, 0.66);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+[data-bs-theme='dark'] .large-result-row,
+.dark .large-result-row {
+  background: rgba(255, 255, 255, 0.08);
+}
+
 html,
 body,
 #root {

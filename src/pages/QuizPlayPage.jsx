@@ -160,7 +160,53 @@ function evaluateQuestion(question, answer) {
     userAnswerLabel,
     correctAnswerLabel,
     explanation: question.explanation,
+    category: question.category || 'általános',
+    skill: question.skill || '',
+    sourceHint: question.sourceHint || '',
   }
+}
+
+function prepareQuestionOrder(questions) {
+  return questions.map((question) => {
+    if (question.type === 'single_choice' || question.type === 'multi_choice' || question.type === 'true_false') {
+      return {
+        ...question,
+        options: shuffleArray(question.options || []),
+      }
+    }
+
+    if (question.type === 'matching') {
+      return {
+        ...question,
+        matchingChoices: shuffleArray((question.pairs || []).map((pair) => pair.right)),
+      }
+    }
+
+    return question
+  })
+}
+
+function buildCategoryStats(results) {
+  const stats = new Map()
+
+  results.forEach((result) => {
+    const key = result.category || 'általános'
+    const current = stats.get(key) || { category: key, earned: 0, max: 0, correct: 0, total: 0 }
+    current.earned += result.earnedPoints
+    current.max += result.maxPoints
+    current.correct += result.correct ? 1 : 0
+    current.total += 1
+    stats.set(key, current)
+  })
+
+  return [...stats.values()].sort((first, second) => (first.earned / first.max) - (second.earned / second.max))
+}
+
+function getLargeQuizAdvice(categoryStats) {
+  return categoryStats
+    .filter((item) => item.max > 0 && item.earned / item.max < 0.7)
+    .slice(0, 3)
+    .map((item) => item.category)
 }
 
 function QuestionRenderer({ question, answer, onAnswerChange, submitted, evaluation }) {
@@ -300,7 +346,7 @@ function QuestionRenderer({ question, answer, onAnswerChange, submitted, evaluat
   }
 
   if (question.type === 'matching') {
-    const choices = question.pairs.map((pair) => pair.right)
+    const choices = question.matchingChoices?.length ? question.matchingChoices : shuffleArray(question.pairs.map((pair) => pair.right))
     return (
       <div className="d-grid gap-3">
         {question.pairs.map((pair) => (
@@ -338,8 +384,8 @@ function QuestionRenderer({ question, answer, onAnswerChange, submitted, evaluat
 
 export default function QuizPlayPage({ quizType = null }) {
   const { slug } = useParams()
-  const hubPath = quizType === 'szemely' ? '/szemely-kviz' : '/tesztek'
-  const hubLabel = quizType === 'szemely' ? 'személykvízekhez' : 'évszám kvízekhez'
+  const hubPath = quizType === 'szemely' ? '/szemely-kviz' : quizType === 'nagy' ? '/nagy-tesztek' : quizType === 'kerdesbank' ? '/kerdesbank' : '/tesztek'
+  const hubLabel = quizType === 'szemely' ? 'személykvízekhez' : quizType === 'nagy' ? 'nagy témaköri tesztekhez' : quizType === 'kerdesbank' ? 'kérdésbankhoz' : 'évszám kvízekhez'
   const [quizState, setQuizState] = useState({ source: 'loading', item: null })
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
@@ -360,8 +406,16 @@ export default function QuizPlayPage({ quizType = null }) {
           return
         }
 
-        setQuizState(state)
-        setAnswers(buildInitialAnswers(state.item.questions))
+        const sourceQuestions = state.item.type === 'kerdesbank' ? shuffleArray(state.item.questions) : state.item.questions
+        const preparedQuestions = prepareQuestionOrder(sourceQuestions)
+        setQuizState({
+          ...state,
+          item: {
+            ...state.item,
+            questions: preparedQuestions,
+          },
+        })
+        setAnswers(buildInitialAnswers(preparedQuestions))
         setCurrentIndex(0)
         setSubmitted(false)
         setResults([])
@@ -424,6 +478,9 @@ export default function QuizPlayPage({ quizType = null }) {
 
   const totalScore = results.reduce((sum, result) => sum + result.earnedPoints, 0)
   const maxScore = questions.reduce((sum, question) => sum + question.points, 0)
+  const scorePercent = maxScore ? Math.round((totalScore / maxScore) * 100) : 0
+  const categoryStats = useMemo(() => buildCategoryStats(results), [results])
+  const largeQuizAdvice = useMemo(() => getLargeQuizAdvice(categoryStats), [categoryStats])
   const activeEvaluation = results.find((result) => result.questionId === activeQuestion?.id) || null
 
   function handleAnswerChange(questionId, value) {
@@ -444,7 +501,16 @@ export default function QuizPlayPage({ quizType = null }) {
       return
     }
 
-    setAnswers(buildInitialAnswers(quizState.item.questions))
+    const sourceQuestions = quizState.item.type === 'kerdesbank' ? shuffleArray(quizState.item.questions) : quizState.item.questions
+    const preparedQuestions = prepareQuestionOrder(sourceQuestions)
+    setQuizState((current) => ({
+      ...current,
+      item: {
+        ...current.item,
+        questions: preparedQuestions,
+      },
+    }))
+    setAnswers(buildInitialAnswers(preparedQuestions))
     setResults([])
     setSubmitted(false)
     setCurrentIndex(0)
@@ -522,7 +588,7 @@ export default function QuizPlayPage({ quizType = null }) {
                       <div className="d-flex flex-column flex-md-row justify-content-between gap-3 align-items-md-center">
                         <div>
                           <div className="small text-uppercase text-muted mb-2">Eredmény</div>
-                          <h2 className="fw-bold mb-2">{totalScore} / {maxScore} pont</h2>
+                          <h2 className="fw-bold mb-2">{totalScore} / {maxScore} pont · {scorePercent}%</h2>
                           <p className="mb-0 text-muted">
                             {results.filter((result) => result.correct).length} helyes válasz a {questions.length} kérdésből.
                           </p>
@@ -531,6 +597,27 @@ export default function QuizPlayPage({ quizType = null }) {
                           Újrapróbálom
                         </button>
                       </div>
+                      {(quizType === 'nagy' || quizType === 'kerdesbank') && (
+                        <div className="large-result-panel rounded-4 p-3 mt-4">
+                          <div className="fw-semibold mb-3">Tudásterületi bontás</div>
+                          <div className="d-grid gap-2">
+                            {categoryStats.map((item) => {
+                              const percent = item.max ? Math.round((item.earned / item.max) * 100) : 0
+                              return (
+                                <div key={item.category} className="large-result-row">
+                                  <span>{item.category}</span>
+                                  <strong>{percent}%</strong>
+                                </div>
+                              )
+                            })}
+                          </div>
+                          <div className="small text-muted mt-3">
+                            {largeQuizAdvice.length
+                              ? `Ezt érdemes újravenni: ${largeQuizAdvice.join(', ')}.`
+                              : 'Stabil teljesítmény: a fő tudásterületek legalább 70% körül sikerültek.'}
+                          </div>
+                        </div>
+                      )}
                     </div>
                   )}
 
@@ -566,6 +653,9 @@ export default function QuizPlayPage({ quizType = null }) {
                           </div>
                           <div className="small mb-2"><strong>A te válaszod:</strong> {activeEvaluation.userAnswerLabel}</div>
                           <div className="small mb-2"><strong>Helyes megoldás:</strong> {activeEvaluation.correctAnswerLabel}</div>
+                          {activeEvaluation.category && (
+                            <div className="small mb-2"><strong>Mért terület:</strong> {activeEvaluation.category}</div>
+                          )}
                           {activeEvaluation.explanation && (
                             <div className="small text-muted mb-0">{activeEvaluation.explanation}</div>
                           )}

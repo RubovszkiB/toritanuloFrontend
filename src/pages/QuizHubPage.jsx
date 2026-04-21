@@ -35,6 +35,24 @@ const quizCopy = {
     empty: 'Nincs személykvíz ehhez a szűréshez.',
     playPath: '/szemely-kviz',
   },
+  nagy: {
+    badge: 'Nagy témaköri tesztek',
+    navLabel: 'nagyteszt',
+    title: 'Komoly ismétlőtesztek emelt történelemhez: mély, nehéz, forráslogikára építő kérdéssorok.',
+    lead: 'A nagytesztek a saját tételek hangsúlyait, a részletes érettségi követelmény kompetenciáit és az emelt feladatok gondolkodásmódját kapcsolják össze.',
+    stepTwoTitle: 'Komoly témaköri tesztek',
+    empty: 'Nincs nagy témaköri teszt ehhez a szűréshez.',
+    playPath: '/nagy-tesztek',
+  },
+  kerdesbank: {
+    badge: 'Részletes témaköri kérdésbank',
+    navLabel: 'kérdésbank',
+    title: 'Emelt szintű mini kérdésbank: tételfókusz, forráslogika, tipikus hibák és gyors gyakorlókörök.',
+    lead: 'A kérdésbank a segéd JSON témavázára, a saját tételek hangsúlyaira és az emelt feladatok vizsgalogikájára épül.',
+    stepTwoTitle: 'Mini kérdésbank módok',
+    empty: 'Nincs kérdésbank teszt ehhez a szűréshez.',
+    playPath: '/kerdesbank',
+  },
 }
 
 function getTopicStats(topics, tests) {
@@ -84,7 +102,7 @@ export default function QuizHubPage({ quizType = 'evszam' }) {
   useEffect(() => {
     let cancelled = false
 
-    Promise.all([getQuizTopics(), getQuizTests(null, quizType)]).then(([topics, tests]) => {
+    Promise.all([getQuizTopics(quizType), getQuizTests(null, quizType)]).then(([topics, tests]) => {
       if (cancelled) {
         return
       }

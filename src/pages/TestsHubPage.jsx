@@ -9,19 +9,27 @@ export default function TestsHubPage() {
       <SwipeScreenContainer activeRoute="/gyakorlas">
         <HubHero
           eyebrow="Tesztek"
-          title="Rövid gyakorlás, gyors visszajelzés."
-          description="Válassz célzott gyakorlást: évszám, személy vagy vegyes ismétlés. A mélyebb tesztoldalak változatlanul megmaradtak."
+          title="Gyakorlás gyors körökkel, kérdésbankkal és komoly nagytesztekkel."
+          description="Válassz célzott évszám- vagy személygyakorlást, kérdésbankos mini kört, vagy indíts nagy témaköri tesztet emelt szintű ismétléshez."
         >
           <div className="hub-stat-card">
-            <strong>2</strong>
-            <span>aktív kvíztípus</span>
-            <small>évszám és személy alapú gyakorlás</small>
+            <strong>4</strong>
+            <span>aktív tesztréteg</span>
+            <small>gyors gyakorlás, kérdésbank és nagytesztek</small>
           </div>
         </HubHero>
 
         <section className="hub-section">
           <div className="container">
             <div className="hub-grid">
+              <HubCard
+                to="/kerdesbank"
+                kicker="Mini kérdésbank"
+                title="Részletes témaköri kérdésbank"
+                description="Tételfókuszú, forráslogikás, tipikus hibákra építő emelt mini kérdések több gyakorlási móddal."
+                meta="48 mini mód"
+                tone="violet"
+              />
               <HubCard
                 to="/tesztek"
                 kicker="Kronológia"
@@ -38,11 +46,11 @@ export default function TestsHubPage() {
                 tone="amber"
               />
               <HubCard
-                to="/tesztek"
-                kicker="Napi kör"
-                title="Gyors ismétlés"
-                description="Indíts egy rövid tesztet, ha csak pár perced van, de szeretnél haladni."
-                meta="Telefonon is gyors"
+                to="/nagy-tesztek"
+                kicker="Emelt ismétlés"
+                title="Nagy témaköri tesztek"
+                description="Hosszabb, nehezebb, forráslogikára építő témaköri tesztek a saját tételek és a követelmény alapján."
+                meta="Komoly felkészülés"
                 tone="green"
               />
             </div>
