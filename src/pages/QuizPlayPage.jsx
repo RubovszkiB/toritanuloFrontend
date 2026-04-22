@@ -36,21 +36,47 @@ function normalizeText(value) {
     .replace(/\s+/g, '')
 }
 
+function isSingleType(type) {
+  return ['single_choice', 'source_single_choice', 'true_false'].includes(type)
+}
+
+function isMultiType(type) {
+  return ['multi_choice', 'multiple_choice', 'source_multiple_choice'].includes(type)
+}
+
+function isOrderingType(type) {
+  return ['chronology_order', 'ordering', 'ordering_exam_style'].includes(type)
+}
+
+function isMatchingType(type) {
+  return ['matching', 'source_statement_match'].includes(type)
+}
+
+function isMatrixType(type) {
+  return type === 'true_false_matrix'
+}
+
+function isFillOptionsType(type) {
+  return type === 'fill_in_options'
+}
+
 function buildInitialAnswers(questions) {
   const result = {}
 
   for (const question of questions) {
-    if (question.type === 'multi_choice') {
+    if (isMultiType(question.type)) {
       result[question.id] = []
     } else if (question.type === 'year_input') {
       result[question.id] = {
         year: '',
         era: question.acceptedAnswers[0]?.era || 'NONE',
       }
-    } else if (question.type === 'chronology_order') {
-      result[question.id] = shuffleArray(question.options.map((option) => option.id))
-    } else if (question.type === 'matching') {
+    } else if (isOrderingType(question.type)) {
+      result[question.id] = shuffleArray((question.items?.length ? question.items : question.options).map((option) => option.id))
+    } else if (isMatchingType(question.type)) {
       result[question.id] = Object.fromEntries(question.pairs.map((pair) => [pair.id, '']))
+    } else if (isMatrixType(question.type)) {
+      result[question.id] = Object.fromEntries((question.statements || []).map((statement) => [statement.id, '']))
     } else {
       result[question.id] = null
     }
@@ -60,7 +86,7 @@ function buildInitialAnswers(questions) {
 }
 
 function isQuestionAnswered(question, answer) {
-  if (question.type === 'multi_choice') {
+  if (isMultiType(question.type)) {
     return Array.isArray(answer) && answer.length > 0
   }
 
@@ -68,12 +94,17 @@ function isQuestionAnswered(question, answer) {
     return Boolean(answer?.year?.trim())
   }
 
-  if (question.type === 'matching') {
+  if (isMatchingType(question.type)) {
     return Object.values(answer || {}).every(Boolean)
   }
 
-  if (question.type === 'chronology_order') {
-    return Array.isArray(answer) && answer.length === question.options.length
+  if (isOrderingType(question.type)) {
+    const items = question.items?.length ? question.items : question.options
+    return Array.isArray(answer) && answer.length === items.length
+  }
+
+  if (isMatrixType(question.type)) {
+    return Object.values(answer || {}).every((value) => value === 'true' || value === 'false')
   }
 
   return answer !== null && answer !== undefined && answer !== ''
@@ -94,7 +125,7 @@ function evaluateQuestion(question, answer) {
   let userAnswerLabel = 'Nincs válasz'
   let correctAnswerLabel = ''
 
-  if (question.type === 'single_choice' || question.type === 'true_false') {
+  if (isSingleType(question.type) || isFillOptionsType(question.type)) {
     const correctOption = question.options.find((option) => option.isCorrect)
     const selectedOption = question.options.find((option) => option.id === answer)
     correct = Boolean(correctOption && selectedOption && correctOption.id === selectedOption.id)
@@ -102,9 +133,9 @@ function evaluateQuestion(question, answer) {
     correctAnswerLabel = correctOption?.text || '—'
   }
 
-  if (question.type === 'multi_choice') {
-    const expectedIds = getCorrectOptionIds(question).sort((first, second) => first - second)
-    const selectedIds = [...(answer || [])].sort((first, second) => first - second)
+  if (isMultiType(question.type)) {
+    const expectedIds = getCorrectOptionIds(question).sort()
+    const selectedIds = [...(answer || [])].sort()
     correct = JSON.stringify(expectedIds) === JSON.stringify(selectedIds)
     userAnswerLabel = question.options
       .filter((option) => (answer || []).includes(option.id))
@@ -130,26 +161,34 @@ function evaluateQuestion(question, answer) {
       .join(' / ')
   }
 
-  if (question.type === 'chronology_order') {
-    const expected = getCorrectChronologyOrder(question)
+  if (isOrderingType(question.type)) {
+    const items = question.items?.length ? question.items : question.options
+    const expected = question.correctOrderIds?.length ? question.correctOrderIds : getCorrectChronologyOrder(question)
     correct = JSON.stringify(expected) === JSON.stringify(answer || [])
     userAnswerLabel = (answer || [])
-      .map((optionId) => question.options.find((option) => option.id === optionId)?.text)
+      .map((optionId) => items.find((option) => option.id === optionId)?.text)
       .filter(Boolean)
       .join(' → ')
     correctAnswerLabel = expected
-      .map((optionId) => question.options.find((option) => option.id === optionId)?.text)
+      .map((optionId) => items.find((option) => option.id === optionId)?.text)
       .filter(Boolean)
       .join(' → ')
   }
 
-  if (question.type === 'matching') {
+  if (isMatchingType(question.type)) {
     const userMap = answer || {}
     correct = question.pairs.every((pair) => userMap[pair.id] === pair.right)
     userAnswerLabel = question.pairs
       .map((pair) => `${pair.left} → ${userMap[pair.id] || '—'}`)
       .join(' | ')
     correctAnswerLabel = question.pairs.map((pair) => `${pair.left} → ${pair.right}`).join(' | ')
+  }
+
+  if (isMatrixType(question.type)) {
+    const userMap = answer || {}
+    correct = (question.statements || []).every((statement) => String(statement.correctValue) === userMap[statement.id])
+    userAnswerLabel = (question.statements || []).map((statement) => `${statement.text}: ${userMap[statement.id] === 'true' ? 'igaz' : userMap[statement.id] === 'false' ? 'hamis' : '—'}`).join(' | ')
+    correctAnswerLabel = (question.statements || []).map((statement) => `${statement.text}: ${statement.correctValue ? 'igaz' : 'hamis'}`).join(' | ')
   }
 
   return {
@@ -168,14 +207,14 @@ function evaluateQuestion(question, answer) {
 
 function prepareQuestionOrder(questions) {
   return questions.map((question) => {
-    if (question.type === 'single_choice' || question.type === 'multi_choice' || question.type === 'true_false') {
+    if (isSingleType(question.type) || isMultiType(question.type) || isFillOptionsType(question.type)) {
       return {
         ...question,
         options: shuffleArray(question.options || []),
       }
     }
 
-    if (question.type === 'matching') {
+    if (isMatchingType(question.type)) {
       return {
         ...question,
         matchingChoices: shuffleArray((question.pairs || []).map((pair) => pair.right)),
@@ -210,9 +249,14 @@ function getLargeQuizAdvice(categoryStats) {
 }
 
 function QuestionRenderer({ question, answer, onAnswerChange, submitted, evaluation }) {
-  if (question.type === 'single_choice' || question.type === 'true_false') {
+  if (isSingleType(question.type) || isFillOptionsType(question.type)) {
     return (
       <div className="d-grid gap-3">
+        {isFillOptionsType(question.type) && question.sentenceWithBlank && (
+          <div className="source-block rounded-4 p-3 mb-1">
+            {question.sentenceWithBlank}
+          </div>
+        )}
         {question.options.map((option) => (
           <label key={option.id} className={`quiz-option rounded-4 p-3 ${answer === option.id ? 'is-selected' : ''}`}>
             <input
@@ -230,7 +274,7 @@ function QuestionRenderer({ question, answer, onAnswerChange, submitted, evaluat
     )
   }
 
-  if (question.type === 'multi_choice') {
+  if (isMultiType(question.type)) {
     return (
       <div className="d-grid gap-3">
         {question.options.map((option) => {
@@ -293,11 +337,12 @@ function QuestionRenderer({ question, answer, onAnswerChange, submitted, evaluat
     )
   }
 
-  if (question.type === 'chronology_order') {
+  if (isOrderingType(question.type)) {
+    const items = question.items?.length ? question.items : question.options
     return (
       <div className="d-grid gap-3">
         {(answer || []).map((optionId, index) => {
-          const option = question.options.find((item) => item.id === optionId)
+          const option = items.find((item) => item.id === optionId)
           if (!option) {
             return null
           }
@@ -345,7 +390,7 @@ function QuestionRenderer({ question, answer, onAnswerChange, submitted, evaluat
     )
   }
 
-  if (question.type === 'matching') {
+  if (isMatchingType(question.type)) {
     const choices = question.matchingChoices?.length ? question.matchingChoices : shuffleArray(question.pairs.map((pair) => pair.right))
     return (
       <div className="d-grid gap-3">
@@ -368,6 +413,34 @@ function QuestionRenderer({ question, answer, onAnswerChange, submitted, evaluat
                   ))}
                 </select>
               </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    )
+  }
+
+  if (isMatrixType(question.type)) {
+    return (
+      <div className="d-grid gap-3">
+        {(question.statements || []).map((statement) => (
+          <div key={statement.id} className="matching-row rounded-4 p-3">
+            <div className="fw-semibold mb-3">{statement.text}</div>
+            <div className="d-flex flex-wrap gap-2">
+              {[
+                ['true', 'Igaz'],
+                ['false', 'Hamis'],
+              ].map(([value, label]) => (
+                <button
+                  key={value}
+                  type="button"
+                  className={`btn rounded-pill ${answer?.[statement.id] === value ? 'btn-primary' : 'btn-outline-secondary'}`}
+                  disabled={submitted}
+                  onClick={() => onAnswerChange({ ...(answer || {}), [statement.id]: value })}
+                >
+                  {label}
+                </button>
+              ))}
             </div>
           </div>
         ))}
@@ -637,6 +710,17 @@ export default function QuizPlayPage({ quizType = null }) {
                           {activeQuestion.points} pont
                         </div>
                       </div>
+
+                      {activeQuestion.sourceBlocks?.length > 0 && (
+                        <div className="quiz-source-stack mb-4">
+                          {activeQuestion.sourceBlocks.map((source, index) => (
+                            <section className="quiz-source-block rounded-4 p-3 p-md-4" key={source.id || index}>
+                              <div className="source-kicker mb-2">Forrás {source.id || index + 1}</div>
+                              <div>{source.content}</div>
+                            </section>
+                          ))}
+                        </div>
+                      )}
 
                       <QuestionRenderer
                         question={activeQuestion}

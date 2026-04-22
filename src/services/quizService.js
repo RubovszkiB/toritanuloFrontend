@@ -107,6 +107,7 @@ function normalizeQuestion(rawQuestion, index = 0) {
     rawQuestion?.answers ||
     []
   const rawPairs = rawQuestion?.pairs || rawQuestion?.parok || []
+  const correctOptionIds = rawQuestion?.correctOptionIds || rawQuestion?.interaction?.correctOptionIds || []
 
   return {
     id: pick(rawQuestion, ['id', 'kerdesId'], index + 1),
@@ -122,11 +123,21 @@ function normalizeQuestion(rawQuestion, index = 0) {
     category: pickText(rawQuestion, ['category', 'kategoria'], 'általános'),
     skill: pickText(rawQuestion, ['skill', 'kompetencia'], ''),
     sourceHint: pickText(rawQuestion, ['sourceHint', 'forrasTipp'], ''),
+    sourceBlocks: rawQuestion?.sourceBlocks || [],
+    interaction: rawQuestion?.interaction || {},
+    statements: rawQuestion?.statements || rawQuestion?.interaction?.statements || [],
+    items: rawQuestion?.items || rawQuestion?.interaction?.items || [],
+    correctOptionIds,
+    correctOrderIds: rawQuestion?.correctOrderIds || rawQuestion?.interaction?.correctOrderIds || [],
+    correctPairs: rawQuestion?.correctPairs || rawQuestion?.interaction?.correctPairs || [],
+    sentenceWithBlank: rawQuestion?.sentenceWithBlank || rawQuestion?.interaction?.sentenceWithBlank || '',
+    knowledgeElements: rawQuestion?.knowledgeElements || {},
+    tags: rawQuestion?.tags || [],
     chronologyEvent: pick(rawQuestion, ['chronologyEvent', 'kronologiaEsemeny'], null),
     options: rawOptions.map((option, optionIndex) => ({
       id: pick(option, ['id', 'valaszId'], optionIndex + 1),
       text: pickText(option, ['text', 'valaszSzoveg'], `Opció ${optionIndex + 1}`),
-      isCorrect: Boolean(pick(option, ['isCorrect', 'helyes'], false)),
+      isCorrect: Boolean(pick(option, ['isCorrect', 'helyes'], false)) || correctOptionIds.includes(option.id),
       correctOrder: pick(option, ['correctOrder', 'helyesSorrend'], null),
       order: pick(option, ['order', 'sorszam'], optionIndex + 1),
     })),
@@ -283,9 +294,17 @@ function getSourceLabel(apiCount, mergedCount) {
 
 export async function getQuizTopics(quizType = null) {
   if (quizType === 'kerdesbank') {
-    return {
-      source: 'fallback',
-      items: questionBankData.topics,
+    try {
+      const rawData = await fetchJsonCandidate(['/api/emelt-kerdesbank/temak'])
+      return {
+        source: 'api',
+        items: normalizeTopics(rawData),
+      }
+    } catch {
+      return {
+        source: 'fallback',
+        items: questionBankData.topics,
+      }
     }
   }
 
@@ -325,6 +344,9 @@ export async function getQuizTests(topicId = null, quizType = 'evszam') {
     const typeQuery = `type=${encodeURIComponent(quizType)}`
     const separator = topicId ? '&' : '?'
     const rawData = await fetchJsonCandidate([
+      ...(quizType === 'kerdesbank'
+        ? [topicId ? `/api/emelt-kerdesbank/tests?topicId=${topicId}` : '/api/emelt-kerdesbank/tests']
+        : []),
       topicId ? `/api/Tesztek?temakorId=${topicId}${separator}${typeQuery}` : `/api/Tesztek?${typeQuery}`,
       topicId ? `/api/tesztek?temakorId=${topicId}${separator}${typeQuery}` : `/api/tesztek?${typeQuery}`,
       topicId ? `/api/Quiz/tests?topicId=${topicId}${separator}${typeQuery}` : `/api/Quiz/tests?${typeQuery}`,
@@ -367,6 +389,7 @@ export async function getQuizBySlug(slug, quizType = null) {
 
   try {
     const rawData = await fetchJsonCandidate([
+      ...(quizType === 'kerdesbank' ? [`/api/emelt-kerdesbank/tests/${slug}`] : []),
       `/api/Tesztek/slug/${slug}`,
       `/api/tesztek/slug/${slug}`,
       `/api/Tesztek/${slug}`,
