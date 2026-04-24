@@ -490,6 +490,59 @@ body {
   font-weight: 800;
 }
 
+.chronology-help-text {
+  color: var(--text-soft);
+  font-size: 0.92rem;
+  font-weight: 700;
+}
+
+.chronology-drag-handle {
+  display: inline-grid;
+  gap: 0.18rem;
+  place-items: center;
+  width: 2.4rem;
+  height: 2.4rem;
+  padding: 0;
+  border: 1px dashed rgba(91, 108, 255, 0.28);
+  border-radius: 0.95rem;
+  background: rgba(91, 108, 255, 0.08);
+  color: var(--primary);
+  touch-action: none;
+  transition: transform 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.chronology-drag-handle span {
+  display: block;
+  width: 0.8rem;
+  height: 2px;
+  border-radius: 999px;
+  background: currentColor;
+}
+
+.chronology-drag-handle:hover,
+.chronology-drag-handle:focus-visible {
+  transform: translateY(-1px);
+  border-color: rgba(91, 108, 255, 0.42);
+  background: rgba(91, 108, 255, 0.14);
+}
+
+.chronology-drag-handle.is-disabled,
+.chronology-drag-handle:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+
+.chronology-item.is-dragging {
+  border-color: rgba(91, 108, 255, 0.45);
+  background: linear-gradient(180deg, rgba(91, 108, 255, 0.12), rgba(91, 108, 255, 0.05));
+  box-shadow: 0 1rem 2.25rem rgba(91, 108, 255, 0.16);
+}
+
+.chronology-item-text {
+  min-width: 0;
+  line-height: 1.55;
+}
+
 .quiz-nav-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(3rem, 1fr));
@@ -2842,77 +2895,78 @@ body {
 .tetel-reader-layout {
   position: relative;
   display: grid;
-  grid-template-columns: 88px minmax(0, 1fr);
-  gap: 1.25rem;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1rem;
   align-items: start;
 }
 
-.tetel-reader-rail {
+.tetel-reader-controls {
   position: sticky;
-  top: 96px;
-  display: grid;
-  justify-items: center;
+  top: 92px;
+  z-index: 8;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
   gap: 0.9rem;
-  min-height: 420px;
-  padding: 1rem 0.5rem;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.78);
+}
+
+.tetel-reader-floating-card {
+  min-width: 180px;
+  padding: 0.95rem 1rem;
   border: 1px solid var(--border-soft);
+  border-radius: 1.2rem;
+  background: rgba(255, 255, 255, 0.92);
   box-shadow: 0 18px 44px rgba(15, 23, 42, 0.08);
+  backdrop-filter: blur(14px);
 }
 
-.tetel-reader-rail-track {
-  position: relative;
-  width: 8px;
-  height: 320px;
-  border-radius: 999px;
-  background: rgba(91, 108, 255, 0.12);
-}
-
-.tetel-reader-rail-fill {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  border-radius: 999px;
-  background: linear-gradient(180deg, var(--accent), var(--primary));
-  transition: height 0.25s ease;
-}
-
-.tetel-reader-rail-dot {
-  position: absolute;
-  left: 50%;
-  width: 18px;
-  height: 18px;
-  border: 4px solid #fff;
-  border-radius: 50%;
-  background: var(--primary);
-  box-shadow: 0 0 0 8px rgba(91, 108, 255, 0.12);
-  transform: translate(-50%, -50%);
-  transition: top 0.25s ease;
-}
-
-.tetel-reader-rail-label {
-  text-align: center;
+.tetel-reader-floating-label {
   color: var(--text-soft);
   font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.tetel-reader-floating-value {
+  margin-top: 0.3rem;
+  color: var(--text-dark);
+  font-size: 1.1rem;
+  font-weight: 950;
+}
+
+.tetel-reader-floating-meta {
+  margin-top: 0.2rem;
+  color: var(--text-soft);
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.tetel-reader-zoom-card {
+  flex: 1 1 220px;
+}
+
+.tetel-reader-zoom-group {
+  display: flex;
+  gap: 0.55rem;
+  margin-top: 0.55rem;
+}
+
+.tetel-reader-zoom-group .btn {
+  min-width: 2.8rem;
+}
+
+.tetel-reader-zoom-reset {
+  min-width: 5.4rem !important;
   font-weight: 800;
 }
 
-.tetel-reader-rail-label strong,
-.tetel-reader-rail-label span {
-  display: block;
-}
-
-.tetel-mobile-progress {
-  position: sticky;
-  top: 0;
-  z-index: 20;
-  display: none;
-  height: 5px;
-  overflow: hidden;
-  border-radius: 999px;
-  background: rgba(91, 108, 255, 0.12);
+.tetel-reader-fullscreen-toggle {
+  min-height: 3.2rem;
+  padding-inline: 1rem;
+  font-weight: 800;
+  box-shadow: 0 16px 40px rgba(91, 108, 255, 0.16);
 }
 
 .tetel-reader-content {
@@ -2942,6 +2996,7 @@ body {
 .tetel-pdf-scroll {
   max-height: calc(100vh - 170px);
   overflow-y: auto;
+  overflow-x: auto;
   scroll-behavior: smooth;
   background:
     radial-gradient(circle at top, rgba(91, 108, 255, 0.08), transparent 22%),
@@ -2951,7 +3006,8 @@ body {
 .tetel-pdf-measure {
   display: grid;
   gap: 1rem;
-  width: min(100%, 980px);
+  width: fit-content;
+  min-width: min(100%, 980px);
   margin: 0 auto;
   padding: 1rem;
 }
@@ -2967,7 +3023,7 @@ body {
 }
 
 .tetel-pdf-page canvas {
-  max-width: 100%;
+  max-width: none;
   height: auto !important;
   border-radius: 0.65rem;
   background: #fff;
@@ -3008,6 +3064,73 @@ body {
 
 .tetel-save-state.is-error {
   color: #dc2626;
+}
+
+.tetel-reader-main.is-fullscreen {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top, rgba(91, 108, 255, 0.08), transparent 24%),
+    #0b1220;
+}
+
+.tetel-reader-section.is-fullscreen {
+  padding: 0;
+}
+
+.tetel-reader-section.is-fullscreen .container {
+  width: 100%;
+  max-width: 100%;
+  padding-inline: 0;
+}
+
+.tetel-pdf-viewer-shell.is-fullscreen {
+  border-radius: 0;
+  border-left: 0;
+  border-right: 0;
+  min-height: 100vh;
+}
+
+.tetel-pdf-viewer-shell.is-fullscreen .tetel-pdf-scroll {
+  max-height: calc(100vh - 64px);
+}
+
+body.tetel-reader-fullscreen-active {
+  overflow: hidden;
+}
+
+.profile-logout-panel {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1.25rem;
+  padding: 1.25rem 1.35rem;
+  border: 1px solid var(--border-soft);
+  border-radius: 1.5rem;
+  background:
+    linear-gradient(145deg, rgba(239, 68, 68, 0.08), transparent 48%),
+    rgba(255, 255, 255, 0.94);
+  box-shadow: 0 22px 56px rgba(15, 23, 42, 0.09);
+}
+
+.profile-logout-panel span {
+  color: #dc2626;
+  font-size: 0.78rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.profile-logout-panel h2 {
+  margin: 0.45rem 0 0.35rem;
+  font-size: 1.25rem;
+  font-weight: 900;
+}
+
+.profile-logout-panel p {
+  margin: 0;
+  color: var(--text-soft);
+  line-height: 1.6;
 }
 
 @keyframes tetelShimmer {
@@ -3120,7 +3243,8 @@ body {
 [data-theme='dark'] .tetel-continue-card,
 [data-theme='dark'] .tetel-pdf-card,
 [data-theme='dark'] .tetel-pdf-viewer-shell,
-[data-theme='dark'] .tetel-reader-rail {
+[data-theme='dark'] .tetel-reader-floating-card,
+[data-theme='dark'] .profile-logout-panel {
   background: rgba(17, 26, 43, 0.92);
   border-color: rgba(255, 255, 255, 0.11);
   box-shadow: 0 26px 70px rgba(0, 0, 0, 0.26);
@@ -3134,8 +3258,18 @@ body {
 [data-theme='dark'] .tetel-pdf-card p,
 [data-theme='dark'] .tetel-continue-card p,
 [data-theme='dark'] .tetel-card-meta,
-[data-theme='dark'] .tetel-reader-rail-label,
+[data-theme='dark'] .tetel-reader-floating-label,
+[data-theme='dark'] .tetel-reader-floating-meta,
 [data-theme='dark'] .tetel-save-state {
+  color: #aeb9cc;
+}
+
+[data-theme='dark'] .tetel-reader-floating-value,
+[data-theme='dark'] .profile-logout-panel h2 {
+  color: #eef3ff;
+}
+
+[data-theme='dark'] .profile-logout-panel p {
   color: #aeb9cc;
 }
 
@@ -3250,18 +3384,9 @@ body {
 
   .tetel-list-hero-grid,
   .tetel-pdf-hero-grid,
-  .tetel-reader-layout,
   .hub-hero-grid,
   .home-screen-grid {
     grid-template-columns: 1fr;
-  }
-
-  .tetel-reader-rail {
-    display: none;
-  }
-
-  .tetel-mobile-progress {
-    display: block;
   }
 
   body {
@@ -3381,6 +3506,22 @@ body {
   .tetel-pdf-viewer-shell {
     margin-inline: -0.75rem;
     border-radius: 1.1rem;
+  }
+
+  .tetel-reader-controls {
+    top: 0.75rem;
+    gap: 0.75rem;
+  }
+
+  .tetel-reader-floating-card,
+  .tetel-reader-zoom-card,
+  .tetel-reader-fullscreen-toggle {
+    width: 100%;
+  }
+
+  .profile-logout-panel {
+    align-items: stretch;
+    flex-direction: column;
   }
 
   .tetel-pdf-scroll {

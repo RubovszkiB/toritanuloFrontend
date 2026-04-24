@@ -3,8 +3,8 @@ import { useParams } from 'react-router-dom'
 import AppFooter from '../components/AppFooter'
 import AppNavbar from '../components/AppNavbar'
 import TetelPdfViewer from '../components/tetel/TetelPdfViewer'
+import TetelReaderControls from '../components/tetel/TetelReaderControls'
 import TetelReaderHeader from '../components/tetel/TetelReaderHeader'
-import TetelReadingProgressBar from '../components/tetel/TetelReadingProgressBar'
 import { getTetelProgress, saveTetelProgress } from '../services/tetelProgressService'
 import { getTetelById } from '../services/tetelService'
 import { enrichTetelWithPdf } from '../services/tetelPdfService'
@@ -26,6 +26,8 @@ export default function TetelReaderPage() {
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState('')
   const [saveState, setSaveState] = useState('')
+  const [zoomLevel, setZoomLevel] = useState(1)
+  const [isFullscreen, setIsFullscreen] = useState(false)
   const progressReadyRef = useRef(false)
   const lastSavedRef = useRef('')
 
@@ -92,6 +94,26 @@ export default function TetelReaderPage() {
     return () => clearTimeout(timeoutId)
   }, [id, progress])
 
+  useEffect(() => {
+    function onKeyDown(event) {
+      if (event.key === 'Escape') {
+        setIsFullscreen(false)
+      }
+    }
+
+    if (isFullscreen) {
+      document.body.classList.add('tetel-reader-fullscreen-active')
+      window.addEventListener('keydown', onKeyDown)
+    } else {
+      document.body.classList.remove('tetel-reader-fullscreen-active')
+    }
+
+    return () => {
+      document.body.classList.remove('tetel-reader-fullscreen-active')
+      window.removeEventListener('keydown', onKeyDown)
+    }
+  }, [isFullscreen])
+
   const currentPage = Number(progress.lastPage || 1)
   const pageCount = Number(progress.pageCount || 0)
 
@@ -137,21 +159,35 @@ export default function TetelReaderPage() {
     }))
   }
 
+  function handleZoomIn() {
+    setZoomLevel((current) => Math.min(2.4, Number((current + 0.2).toFixed(2))))
+  }
+
+  function handleZoomOut() {
+    setZoomLevel((current) => Math.max(0.8, Number((current - 0.2).toFixed(2))))
+  }
+
+  function handleZoomReset() {
+    setZoomLevel(1)
+  }
+
   return (
     <div className="app-shell">
-      <AppNavbar />
+      {!isFullscreen && <AppNavbar />}
 
-      <main className="tetel-reader-main">
-        <TetelReaderHeader
-          tetel={tetel}
-          progress={progressForHeader}
-          saveState={saveState}
-          currentPage={currentPage}
-          pageCount={pageCount}
-          onComplete={handleComplete}
-        />
+      <main className={`tetel-reader-main ${isFullscreen ? 'is-fullscreen' : ''}`}>
+        {!isFullscreen && (
+          <TetelReaderHeader
+            tetel={tetel}
+            progress={progressForHeader}
+            saveState={saveState}
+            currentPage={currentPage}
+            pageCount={pageCount}
+            onComplete={handleComplete}
+          />
+        )}
 
-        <section className="tetel-reader-section">
+        <section className={`tetel-reader-section ${isFullscreen ? 'is-fullscreen' : ''}`}>
           <div className="container">
             {error && (
               <div className="alert alert-danger rounded-4" role="alert">
@@ -166,10 +202,16 @@ export default function TetelReaderPage() {
               </div>
             ) : tetel ? (
               <div className="tetel-reader-layout">
-                <TetelReadingProgressBar
-                  progress={progress.haladasSzazalek}
+                <TetelReaderControls
+                  zoomLevel={zoomLevel}
                   currentPage={currentPage}
                   pageCount={pageCount}
+                  saveState={saveState}
+                  isFullscreen={isFullscreen}
+                  onZoomOut={handleZoomOut}
+                  onZoomReset={handleZoomReset}
+                  onZoomIn={handleZoomIn}
+                  onToggleFullscreen={() => setIsFullscreen((current) => !current)}
                 />
 
                 <div className="tetel-reader-content">
@@ -177,6 +219,8 @@ export default function TetelReaderPage() {
                     pdfPath={tetel.pdfMeta?.pdfPath}
                     initialPage={progress.lastPage}
                     initialScrollProgress={progress.scrollProgress}
+                    zoomLevel={zoomLevel}
+                    isFullscreen={isFullscreen}
                     onProgressChange={handleProgressChange}
                   />
                 </div>
@@ -186,7 +230,7 @@ export default function TetelReaderPage() {
         </section>
       </main>
 
-      <AppFooter />
+      {!isFullscreen && <AppFooter />}
     </div>
   )
 }

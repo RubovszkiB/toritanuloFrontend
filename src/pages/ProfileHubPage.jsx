@@ -1,4 +1,4 @@
-import { Link, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import AppShell from '../components/AppShell'
 import HubCard from '../components/hub/HubCard'
 import HubHero from '../components/hub/HubHero'
@@ -49,7 +49,7 @@ export default function ProfileHubPage() {
                 meta="Gyakorláshoz"
                 tone="rose"
               />
-              {isAdmin ? (
+              {isAdmin && (
                 <HubCard
                   to="/admin"
                   kicker="Admin"
@@ -58,14 +58,18 @@ export default function ProfileHubPage() {
                   meta="Jogosultsághoz kötött"
                   tone="amber"
                 />
-              ) : (
-                <Link to="/" onClick={logout} className="hub-card is-amber">
-                  <span>Fiók</span>
-                  <h3>Kilépés</h3>
-                  <p>Biztonságosan kijelentkezhetsz az alkalmazásból.</p>
-                  <small>Munkamenet lezárása</small>
-                </Link>
               )}
+            </div>
+
+            <div className="profile-logout-panel">
+              <div>
+                <span>Fiók</span>
+                <h2>Kijelentkezés</h2>
+                <p>Ha végeztél a gyakorlással, egy érintéssel biztonságosan lezárhatod a munkamenetet.</p>
+              </div>
+              <button type="button" className="btn btn-outline-danger rounded-pill px-4 fw-semibold" onClick={logout}>
+                Kijelentkezem
+              </button>
             </div>
           </div>
         </section>

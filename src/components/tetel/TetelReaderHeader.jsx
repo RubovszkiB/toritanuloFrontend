@@ -26,9 +26,6 @@ export default function TetelReaderHeader({ tetel, progress, saveState, currentP
               </div>
               <TetelProgressBadge progress={progress} />
             </div>
-            <div className="tetel-reader-mini-line">
-              <span style={{ width: `${Number(progress?.haladasSzazalek || 0)}%` }} />
-            </div>
             <div className="d-flex justify-content-between align-items-center gap-3 mt-3">
               <span className={`tetel-save-state ${saveState === 'Mentési hiba' ? 'is-error' : ''}`}>
                 {saveState || 'Automatikus mentés'}

@@ -4,7 +4,7 @@ import pdfWorkerUrl from 'pdfjs-dist/build/pdf.worker.mjs?url'
 
 pdfjsLib.GlobalWorkerOptions.workerSrc = pdfWorkerUrl
 
-function PdfPage({ pdf, pageNumber, containerWidth, onPageVisible }) {
+function PdfPage({ pdf, pageNumber, containerWidth, zoomLevel, onPageVisible }) {
   const canvasRef = useRef(null)
   const wrapperRef = useRef(null)
   const [rendering, setRendering] = useState(true)
@@ -25,7 +25,8 @@ function PdfPage({ pdf, pageNumber, containerWidth, onPageVisible }) {
       }
 
       const baseViewport = page.getViewport({ scale: 1 })
-      const scale = Math.min(2.25, Math.max(0.6, containerWidth / baseViewport.width))
+      const fitScale = Math.min(2.25, Math.max(0.6, containerWidth / baseViewport.width))
+      const scale = Math.min(4, Math.max(0.5, fitScale * zoomLevel))
       const viewport = page.getViewport({ scale })
       const canvas = canvasRef.current
       const context = canvas.getContext('2d')
@@ -53,7 +54,7 @@ function PdfPage({ pdf, pageNumber, containerWidth, onPageVisible }) {
       cancelled = true
       renderTask?.cancel?.()
     }
-  }, [containerWidth, pageNumber, pdf])
+  }, [containerWidth, pageNumber, pdf, zoomLevel])
 
   useEffect(() => {
     const node = wrapperRef.current
@@ -83,7 +84,14 @@ function PdfPage({ pdf, pageNumber, containerWidth, onPageVisible }) {
   )
 }
 
-export default function TetelPdfViewer({ pdfPath, initialPage = 1, initialScrollProgress = 0, onProgressChange }) {
+export default function TetelPdfViewer({
+  pdfPath,
+  initialPage = 1,
+  initialScrollProgress = 0,
+  zoomLevel = 1,
+  isFullscreen = false,
+  onProgressChange,
+}) {
   const scrollRef = useRef(null)
   const measureRef = useRef(null)
   const restoredRef = useRef(false)
@@ -206,7 +214,7 @@ export default function TetelPdfViewer({ pdfPath, initialPage = 1, initialScroll
   }
 
   return (
-    <div className="tetel-pdf-viewer-shell">
+    <div className={`tetel-pdf-viewer-shell ${isFullscreen ? 'is-fullscreen' : ''}`}>
       <div className="tetel-pdf-viewer-top">
         <span>{pageCount ? `${currentPage}/${pageCount}. oldal` : 'PDF betöltése'}</span>
         <a href={pdfPath} target="_blank" rel="noreferrer" className="btn btn-outline-secondary btn-sm rounded-4">
@@ -234,6 +242,7 @@ export default function TetelPdfViewer({ pdfPath, initialPage = 1, initialScroll
                 pdf={pdf}
                 pageNumber={pageNumber}
                 containerWidth={containerWidth}
+                zoomLevel={zoomLevel}
                 onPageVisible={handlePageVisible}
               />
             ))

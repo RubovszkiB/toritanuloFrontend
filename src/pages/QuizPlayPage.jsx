@@ -2,6 +2,7 @@ import { useEffect, useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import AppNavbar from '../components/AppNavbar'
 import AppFooter from '../components/AppFooter'
+import OrderingQuestion from '../components/quiz/OrderingQuestion'
 import { getQuizBySlug } from '../services/quizService'
 
 const eraOptions = [
@@ -338,56 +339,7 @@ function QuestionRenderer({ question, answer, onAnswerChange, submitted, evaluat
   }
 
   if (isOrderingType(question.type)) {
-    const items = question.items?.length ? question.items : question.options
-    return (
-      <div className="d-grid gap-3">
-        {(answer || []).map((optionId, index) => {
-          const option = items.find((item) => item.id === optionId)
-          if (!option) {
-            return null
-          }
-
-          return (
-            <div key={optionId} className="chronology-item rounded-4 p-3">
-              <div className="d-flex justify-content-between align-items-center gap-3">
-                <div className="d-flex align-items-center gap-3">
-                  <span className="chronology-index">{index + 1}</span>
-                  <span>{option.text}</span>
-                </div>
-                {!submitted && (
-                  <div className="d-flex gap-2">
-                    <button
-                      type="button"
-                      className="btn btn-outline-dark btn-sm rounded-4"
-                      disabled={index === 0}
-                      onClick={() => {
-                        const next = [...answer]
-                        ;[next[index - 1], next[index]] = [next[index], next[index - 1]]
-                        onAnswerChange(next)
-                      }}
-                    >
-                      ↑
-                    </button>
-                    <button
-                      type="button"
-                      className="btn btn-outline-dark btn-sm rounded-4"
-                      disabled={index === answer.length - 1}
-                      onClick={() => {
-                        const next = [...answer]
-                        ;[next[index + 1], next[index]] = [next[index], next[index + 1]]
-                        onAnswerChange(next)
-                      }}
-                    >
-                      ↓
-                    </button>
-                  </div>
-                )}
-              </div>
-            </div>
-          )
-        })}
-      </div>
-    )
+    return <OrderingQuestion question={question} answer={answer} onAnswerChange={onAnswerChange} submitted={submitted} />
   }
 
   if (isMatchingType(question.type)) {
